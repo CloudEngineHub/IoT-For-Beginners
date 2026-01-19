@@ -22,7 +22,7 @@ I²C har en bus bestående af 2 hovedledninger samt 2 strømledninger:
 | VCC | Voltage common collector | Strømforsyningen til enhederne. Denne er forbundet til SDA- og SCL-ledningerne for at levere deres strøm via en pull-up modstand, der slukker signalet, når ingen enhed er controller. |
 | GND | Ground | Dette giver en fælles jordforbindelse for det elektriske kredsløb. |
 
-![I2C-bus med 3 enheder forbundet til SDA- og SCL-ledningerne, der deler en fælles jordledning](../../../../../translated_images/i2c.83da845dde02256bdd462dbe0d5145461416b74930571b89d1ae142841eeb584.da.png)
+![I2C-bus med 3 enheder forbundet til SDA- og SCL-ledningerne, der deler en fælles jordledning](../../../../../translated_images/da/i2c.83da845dde02256bdd462dbe0d5145461416b74930571b89d1ae142841eeb584.png)
 
 For at sende data vil en enhed udsende en startbetingelse for at vise, at den er klar til at sende data. Den vil derefter blive controller. Controlleren sender derefter adressen på den enhed, den ønsker at kommunikere med, sammen med information om, hvorvidt den vil læse eller skrive data. Når dataene er blevet overført, sender controlleren en stopbetingelse for at indikere, at den er færdig. Herefter kan en anden enhed blive controller og sende eller modtage data.
 
@@ -37,7 +37,7 @@ UART involverer fysisk kredsløb, der gør det muligt for to enheder at kommunik
 * Enhed 1 sender data fra sin Tx-pin, som modtages af enhed 2 på dens Rx-pin
 * Enhed 1 modtager data på sin Rx-pin, som sendes af enhed 2 fra dens Tx-pin
 
-![UART med Tx-pinnen på én chip forbundet til Rx-pinnen på en anden og omvendt](../../../../../translated_images/uart.d0dbd3fb9e3728c6.da.png)
+![UART med Tx-pinnen på én chip forbundet til Rx-pinnen på en anden og omvendt](../../../../../translated_images/da/uart.d0dbd3fb9e3728c6.webp)
 
 > 🎓 Data sendes én bit ad gangen, og dette kaldes *seriel* kommunikation. De fleste operativsystemer og mikrocontrollere har *serielle porte*, det vil sige forbindelser, der kan sende og modtage serielle data, som er tilgængelige for din kode.
 
@@ -66,7 +66,7 @@ SPI-controllere bruger 3 ledninger sammen med 1 ekstra ledning per periferienhed
 | SCLK | Seriel Clock | Denne ledning sender et clock-signal med en hastighed, der er indstillet af controlleren. |
 | CS   | Chip Select | Controlleren har flere ledninger, én per periferienhed, og hver ledning forbinder til CS-ledningen på den tilsvarende periferienhed. |
 
-![SPI med én controller og to periferienheder](../../../../../translated_images/spi.297431d6f98b386b.da.png)
+![SPI med én controller og to periferienheder](../../../../../translated_images/da/spi.297431d6f98b386b.webp)
 
 CS-ledningen bruges til at aktivere én periferienhed ad gangen og kommunikere over COPI- og CIPO-ledningerne. Når controlleren skal skifte periferienhed, deaktiverer den CS-ledningen, der er forbundet til den aktuelt aktive periferienhed, og aktiverer derefter ledningen, der er forbundet til den periferienhed, den ønsker at kommunikere med næste gang.
 
@@ -127,13 +127,13 @@ Jordfugtighed måles ved hjælp af gravimetrisk eller volumetrisk vandindhold.
 
 Jordfugtighedssensorer måler elektrisk modstand eller kapacitans - dette varierer ikke kun med jordfugtighed, men også jordtype, da komponenterne i jorden kan ændre dens elektriske egenskaber. Ideelt set bør sensorer kalibreres - det vil sige at tage aflæsninger fra sensoren og sammenligne dem med målinger fundet ved hjælp af en mere videnskabelig tilgang. For eksempel kan et laboratorium beregne den gravimetriske jordfugtighed ved hjælp af prøver fra et specifikt felt taget et par gange om året, og disse tal kan bruges til at kalibrere sensoren, så sensoraflæsningen matcher den gravimetriske jordfugtighed.
 
-![En graf over spænding vs jordfugtighedsindhold](../../../../../translated_images/soil-moisture-to-voltage.df86d80cda158700.da.png)
+![En graf over spænding vs jordfugtighedsindhold](../../../../../translated_images/da/soil-moisture-to-voltage.df86d80cda158700.webp)
 
 Grafen ovenfor viser, hvordan man kalibrerer en sensor. Spændingen registreres for en jordprøve, der derefter måles i et laboratorium ved at sammenligne den fugtige vægt med den tørre vægt (ved at måle vægten våd, derefter tørre i en ovn og måle tør). Når der er taget et par aflæsninger, kan disse plottes på en graf, og en linje kan tilpasses punkterne. Denne linje kan derefter bruges til at konvertere jordfugtighedssensoraflæsninger taget af en IoT-enhed til faktiske jordfugtighedsmålinger.
 
 💁 For resistive jordfugtighedssensorer stiger spændingen, når jordfugtigheden stiger. For kapacitive jordfugtighedssensorer falder spændingen, når jordfugtigheden stiger, så graferne for disse ville hælde nedad, ikke opad.
 
-![En jordfugtighedsværdi interpoleret fra grafen](../../../../../translated_images/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.da.png)
+![En jordfugtighedsværdi interpoleret fra grafen](../../../../../translated_images/da/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.webp)
 
 Grafen ovenfor viser en spændingsaflæsning fra en jordfugtighedssensor, og ved at følge den til linjen på grafen kan den faktiske jordfugtighed beregnes.
 

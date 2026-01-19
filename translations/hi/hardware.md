@@ -21,7 +21,7 @@ IoT में **T** का मतलब **थिंग्स** है, जो �
 
 ## किट खरीदें
 
-![Seeed Studios का लोगो](../../translated_images/seeed-logo.74732b6b482b6e8e.hi.png)
+![Seeed Studios का लोगो](../../translated_images/hi/seeed-logo.74732b6b482b6e8e.webp)
 
 Seeed Studios ने बहुत ही उदारता से सभी हार्डवेयर को आसान खरीदारी किट के रूप में उपलब्ध कराया है:
 
@@ -29,13 +29,13 @@ Seeed Studios ने बहुत ही उदारता से सभी ह
 
 **[Seeed और Microsoft के साथ शुरुआती IoT - Wio टर्मिनल स्टार्टर किट](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)**
 
-[![Wio टर्मिनल हार्डवेयर किट](../../translated_images/wio-hardware-kit.4c70c48b85e4283a.hi.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
+[![Wio टर्मिनल हार्डवेयर किट](../../translated_images/hi/wio-hardware-kit.4c70c48b85e4283a.webp)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
 
 ### Raspberry Pi
 
 **[Seeed और Microsoft के साथ शुरुआती IoT - Raspberry Pi 4 स्टार्टर किट](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)**
 
-[![Raspberry Pi टर्मिनल हार्डवेयर किट](../../translated_images/pi-hardware-kit.26dbadaedb7dd44c73b0131d5d68ea29472ed0a9744f90d5866c6d82f2d16380.hi.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)
+[![Raspberry Pi टर्मिनल हार्डवेयर किट](../../translated_images/hi/pi-hardware-kit.26dbadaedb7dd44c73b0131d5d68ea29472ed0a9744f90d5866c6d82f2d16380.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)
 
 ## Arduino
 

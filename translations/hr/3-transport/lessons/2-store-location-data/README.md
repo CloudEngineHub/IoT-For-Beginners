@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Podaci o lokaciji trgovine
 
-![Sketchnote pregled ove lekcije](../../../../../translated_images/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.hr.jpg)
+![Sketchnote pregled ove lekcije](../../../../../translated_images/hr/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.jpg)
 
 > Sketchnote od [Nitya Narasimhan](https://github.com/nitya). Kliknite na sliku za veću verziju.
 
@@ -66,7 +66,7 @@ Baze podataka su usluge koje omogućuju pohranu i upite podataka. Baze podataka 
 
 Prve baze podataka bile su sustavi za upravljanje relacijskim bazama podataka (RDBMS), ili relacijske baze podataka. Također su poznate kao SQL baze podataka prema jeziku Structured Query Language (SQL) koji se koristi za interakciju s njima radi dodavanja, uklanjanja, ažuriranja ili upita podataka. Ove baze podataka sastoje se od sheme - dobro definiranog skupa tablica podataka, sličnog proračunskoj tablici. Svaka tablica ima više imenovanih stupaca. Kada unosite podatke, dodajete redak u tablicu, stavljajući vrijednosti u svaki od stupaca. To održava podatke u vrlo krutoj strukturi - iako možete ostaviti stupce prazne, ako želite dodati novi stupac, morate to učiniti na bazi podataka, popunjavajući vrijednosti za postojeće retke. Ove baze podataka su relacijske - u smislu da jedna tablica može imati odnos prema drugoj.
 
-![Relacijska baza podataka s ID-om tablice korisnika koji se odnosi na stupac ID korisnika tablice kupovina, i ID-om tablice proizvoda koji se odnosi na ID proizvoda tablice kupovina](../../../../../translated_images/sql-database.be160f12bfccefd3.hr.png)
+![Relacijska baza podataka s ID-om tablice korisnika koji se odnosi na stupac ID korisnika tablice kupovina, i ID-om tablice proizvoda koji se odnosi na ID proizvoda tablice kupovina](../../../../../translated_images/hr/sql-database.be160f12bfccefd3.webp)
 
 Na primjer, ako pohranjujete osobne podatke korisnika u tablicu, imali biste neku vrstu internog jedinstvenog ID-a po korisniku koji se koristi u retku u tablici koja sadrži ime i adresu korisnika. Ako zatim želite pohraniti druge detalje o tom korisniku, poput njegovih kupovina, u drugu tablicu, imali biste jedan stupac u novoj tablici za ID tog korisnika. Kada tražite korisnika, možete koristiti njegov ID za dobivanje osobnih podataka iz jedne tablice i njegovih kupovina iz druge.
 
@@ -84,7 +84,7 @@ NoSQL baze podataka nazivaju se NoSQL jer nemaju istu krutu strukturu kao SQL ba
 
 > 💁 Unatoč njihovom nazivu, neke NoSQL baze podataka omogućuju korištenje SQL-a za upite podataka.
 
-![Dokumenti u mapama u NoSQL bazi podataka](../../../../../translated_images/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.hr.png)
+![Dokumenti u mapama u NoSQL bazi podataka](../../../../../translated_images/hr/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.png)
 
 NoSQL baze podataka nemaju unaprijed definiranu shemu koja ograničava način pohrane podataka, umjesto toga možete umetnuti bilo koje nestrukturirane podatke, obično koristeći JSON dokumente. Ovi dokumenti mogu se organizirati u mape, slično datotekama na vašem računalu. Svaki dokument može imati različita polja od drugih dokumenata - na primjer, ako pohranjujete IoT podatke s vaših poljoprivrednih vozila, neki mogu imati polja za podatke akcelerometra i brzine, drugi mogu imati polja za temperaturu u prikolici. Ako biste dodali novu vrstu kamiona, poput onog s ugrađenim vagama za praćenje težine prevezenih proizvoda, vaš IoT uređaj mogao bi dodati ovo novo polje i ono bi se moglo pohraniti bez ikakvih promjena u bazi podataka.
 
@@ -98,7 +98,7 @@ U ovoj lekciji koristit ćete NoSQL pohranu za pohranu IoT podataka.
 
 U prethodnoj lekciji ste prikupili GPS podatke s GPS senzora povezanog s vašim IoT uređajem. Da biste pohranili ove IoT podatke u oblaku, morate ih poslati IoT usluzi. Ponovno ćete koristiti Azure IoT Hub, istu IoT uslugu u oblaku koju ste koristili u prethodnom projektu.
 
-![Slanje GPS telemetrije s IoT uređaja u IoT Hub](../../../../../translated_images/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.hr.png)
+![Slanje GPS telemetrije s IoT uređaja u IoT Hub](../../../../../translated_images/hr/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.png)
 
 ### Zadatak - slanje GPS podataka u IoT Hub
 
@@ -180,7 +180,7 @@ Podaci hladnog puta pohranjuju se u skladištima podataka - bazama podataka diza
 
 Kada podaci teku u vaš IoT Hub, možete napisati serverless kod za slušanje događaja objavljenih na Event-Hub kompatibilnom endpointu. Ovo je topli put - ovi podaci će se pohraniti i koristiti u sljedećoj lekciji za izvještavanje o putovanju.
 
-![Slanje GPS telemetrije s IoT uređaja u IoT Hub, zatim u Azure Functions putem okidača event hub-a](../../../../../translated_images/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.hr.png)
+![Slanje GPS telemetrije s IoT uređaja u IoT Hub, zatim u Azure Functions putem okidača event hub-a](../../../../../translated_images/hr/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.png)
 
 ### Zadatak - obrada GPS događaja pomoću serverless koda
 
@@ -202,7 +202,7 @@ Kada podaci teku u vaš IoT Hub, možete napisati serverless kod za slušanje do
 
 ## Azure Storage računi
 
-![Logo Azure Storage-a](../../../../../translated_images/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.hr.png)
+![Logo Azure Storage-a](../../../../../translated_images/hr/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.png)
 
 Azure Storage računi su univerzalna usluga za pohranu koja može pohranjivati podatke na različite načine. Možete pohranjivati podatke kao blobove, u redovima, u tablicama ili kao datoteke, i sve to istovremeno.
 
@@ -241,7 +241,7 @@ Vaša funkcijska aplikacija sada treba povezati blob pohranu kako bi pohranjival
 
 U ovoj lekciji koristit ćete Python SDK kako biste vidjeli kako raditi s blob pohranom.
 
-![Slanje GPS telemetrije s IoT uređaja na IoT Hub, zatim na Azure Functions putem okidača Event Hub-a, pa spremanje u blob pohranu](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f1.hr.png)
+![Slanje GPS telemetrije s IoT uređaja na IoT Hub, zatim na Azure Functions putem okidača Event Hub-a, pa spremanje u blob pohranu](../../../../../translated_images/hr/save-telemetry-to-storage-from-functions.ed3b1820980097f1.webp)
 
 Podaci će biti pohranjeni kao JSON blob u sljedećem formatu:
 

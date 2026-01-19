@@ -154,11 +154,11 @@ Python ورچوئل ماحول کو کنفیگر کریں اور CounterFit کے
 
 1. جب VS Code لانچ ہوتا ہے، تو یہ Python ورچوئل ماحول کو ایکٹیویٹ کرے گا۔ منتخب ورچوئل ماحول نیچے اسٹیٹس بار میں ظاہر ہوگا:
 
-    ![VS Code منتخب ورچوئل ماحول دکھا رہا ہے](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.ur.png)
+    ![VS Code منتخب ورچوئل ماحول دکھا رہا ہے](../../../../../translated_images/ur/vscode-virtual-env.8ba42e04c3d533cf.webp)
 
 1. اگر VS Code ٹرمینل پہلے سے چل رہا ہے جب VS Code شروع ہوتا ہے، تو اس میں ورچوئل ماحول ایکٹیویٹ نہیں ہوگا۔ سب سے آسان کام یہ ہے کہ **Kill the active terminal instance** بٹن استعمال کرکے ٹرمینل کو ختم کریں:
 
-    ![VS Code Kill the active terminal instance بٹن](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.ur.png)
+    ![VS Code Kill the active terminal instance بٹن](../../../../../translated_images/ur/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
 
     آپ یہ بتا سکتے ہیں کہ آیا ٹرمینل میں ورچوئل ماحول ایکٹیویٹ ہے کیونکہ ٹرمینل پرامپٹ پر ورچوئل ماحول کا نام ایک پری فکس ہوگا۔ مثال کے طور پر، یہ ہو سکتا ہے:
 
@@ -212,7 +212,7 @@ Python ورچوئل ماحول کو کنفیگر کریں اور CounterFit کے
 
     ایپ چلنا شروع ہو جائے گی اور آپ کے ویب براؤزر میں کھل جائے گی:
 
-    ![Counter Fit ایپ براؤزر میں چل رہی ہے](../../../../../translated_images/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.ur.png)
+    ![Counter Fit ایپ براؤزر میں چل رہی ہے](../../../../../translated_images/ur/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
 
     یہ *Disconnected* کے طور پر نشان زد ہوگی، اور اوپر دائیں کونے میں ایل ای ڈی بند ہوگی۔
 
@@ -229,11 +229,11 @@ Python ورچوئل ماحول کو کنفیگر کریں اور CounterFit کے
 
 1. آپ کو ایک نیا VS Code ٹرمینل لانچ کرنا ہوگا **Create a new integrated terminal** بٹن کو منتخب کرکے۔ اس کی وجہ یہ ہے کہ CounterFit ایپ موجودہ ٹرمینل میں چل رہی ہے۔
 
-    ![VS Code Create a new integrated terminal بٹن](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.ur.png)
+    ![VS Code Create a new integrated terminal بٹن](../../../../../translated_images/ur/vscode-new-terminal.77db8fc0f9cd3182.webp)
 
 1. اس نئے ٹرمینل میں، پہلے کی طرح `app.py` فائل چلائیں۔ CounterFit کی اسٹیٹس **Connected** میں تبدیل ہو جائے گی اور ایل ای ڈی روشن ہو جائے گی۔
 
-    ![Counter Fit کنیکٹڈ دکھا رہا ہے](../../../../../translated_images/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.ur.png)
+    ![Counter Fit کنیکٹڈ دکھا رہا ہے](../../../../../translated_images/ur/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
 
 > 💁 آپ اس کوڈ کو [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device) فولڈر میں تلاش کر سکتے ہیں۔
 

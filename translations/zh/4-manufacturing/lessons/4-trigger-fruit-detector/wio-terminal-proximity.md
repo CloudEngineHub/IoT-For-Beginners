@@ -29,13 +29,13 @@ Grove 飞行时间传感器可以连接到 Wio Terminal。
 
 连接飞行时间传感器。
 
-![一个 Grove 飞行时间传感器](../../../../../translated_images/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.zh.png)
+![一个 Grove 飞行时间传感器](../../../../../translated_images/zh/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
 
 1. 将 Grove 电缆的一端插入飞行时间传感器上的插座。它只能以一种方式插入。
 
 1. 在 Wio Terminal 未连接到您的计算机或其他电源时，将 Grove 电缆的另一端连接到 Wio Terminal 左侧的 Grove 插座（屏幕方向）。这是靠近电源按钮的插座，是一个数字和 I2C 组合插座。
 
-![Grove 飞行时间传感器连接到左侧插座](../../../../../translated_images/wio-time-of-flight-sensor.c4c182131d2ea73d.zh.png)
+![Grove 飞行时间传感器连接到左侧插座](../../../../../translated_images/zh/wio-time-of-flight-sensor.c4c182131d2ea73d.webp)
 
 1. 现在可以将 Wio Terminal 连接到您的计算机。
 
@@ -101,7 +101,7 @@ Grove 飞行时间传感器可以连接到 Wio Terminal。
 
     测距仪位于传感器的背面，因此在测量距离时请确保使用正确的一侧。
 
-    ![飞行时间传感器背面的测距仪对准香蕉](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.zh.png)
+    ![飞行时间传感器背面的测距仪对准香蕉](../../../../../translated_images/zh/time-of-flight-banana.079921ad8b1496e4.webp)
 
 > 💁 您可以在 [code-proximity/wio-terminal](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/wio-terminal) 文件夹中找到此代码。
 

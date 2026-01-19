@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Mélyebb betekintés az IoT világába
 
-![A lecke vázlatos áttekintése](../../../../../translated_images/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.hu.jpg)
+![A lecke vázlatos áttekintése](../../../../../translated_images/hu/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.jpg)
 
 > Vázlatrajz: [Nitya Narasimhan](https://github.com/nitya). Kattints a képre a nagyobb verzióért.
 
@@ -41,13 +41,13 @@ Egy IoT alkalmazás két fő összetevője az *Internet* és a *dolog*. Nézzük
 
 ### A Dolog
 
-![Egy Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.hu.jpg)
+![Egy Raspberry Pi 4](../../../../../translated_images/hu/raspberry-pi-4.fd4590d308c3d456.webp)
 
 Az IoT **Dolog** része egy olyan eszközt jelent, amely képes kölcsönhatásba lépni a fizikai világgal. Ezek az eszközök általában kicsi, alacsony árú számítógépek, amelyek alacsony sebességgel működnek és kevés energiát használnak - például egyszerű mikrokontrollerek, amelyek néhány kilobájt RAM-mal rendelkeznek (szemben a PC-k gigabájtjaival), és csak néhány száz megahertzen működnek (szemben a PC-k gigahertzes sebességével), de olyan kevés energiát fogyasztanak, hogy akár hetekig, hónapokig vagy évekig is működhetnek elemekkel.
 
 Ezek az eszközök érzékelők segítségével adatokat gyűjtenek a környezetükből, vagy kimeneteket és működtetőket vezérelnek, hogy fizikai változásokat idézzenek elő. Egy tipikus példa erre az okos termosztát - egy olyan eszköz, amely hőmérséklet-érzékelővel rendelkezik, egy kívánt hőmérséklet beállítására szolgáló eszközzel, például egy tárcsával vagy érintőképernyővel, valamint egy fűtési vagy hűtési rendszerhez való csatlakozással, amely bekapcsol, ha a mért hőmérséklet kívül esik a kívánt tartományon. A hőmérséklet-érzékelő érzékeli, hogy a szoba túl hideg, és egy működtető bekapcsolja a fűtést.
 
-![Egy diagram, amely bemutatja a hőmérsékletet és egy tárcsát, mint IoT eszköz bemeneteit, valamint egy fűtőberendezés vezérlését, mint kimenetet](../../../../../translated_images/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.hu.png)
+![Egy diagram, amely bemutatja a hőmérsékletet és egy tárcsát, mint IoT eszköz bemeneteit, valamint egy fűtőberendezés vezérlését, mint kimenetet](../../../../../translated_images/hu/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.png)
 
 Számos különböző dolog működhet IoT eszközként, az egyetlen dolgot érzékelő dedikált hardvertől a többcélú eszközökig, például az okostelefonodig! Egy okostelefon érzékelőkkel képes érzékelni a környezetét, és működtetőkkel képes kölcsönhatásba lépni a világgal - például GPS-érzékelőt használva meghatározhatja a helyzetedet, és hangszórót használva navigációs utasításokat adhat egy célállomásra.
 
@@ -63,11 +63,11 @@ Az eszközök nem mindig csatlakoznak közvetlenül az Internethez WiFi-n vagy v
 
 Az okos termosztát példájánál maradva, a termosztát otthoni WiFi-n keresztül csatlakozna egy felhőszolgáltatáshoz. Ez a felhőszolgáltatás fogadná a hőmérsékleti adatokat, amelyeket egy adatbázisba írna, lehetővé téve a háztulajdonos számára, hogy egy telefonos alkalmazáson keresztül ellenőrizze az aktuális és korábbi hőmérsékleteket. Egy másik szolgáltatás a felhőben tudná, hogy a háztulajdonos milyen hőmérsékletet szeretne, és üzeneteket küldene vissza az IoT eszköznek a felhőszolgáltatáson keresztül, hogy a fűtési rendszert be- vagy kikapcsolja.
 
-![Egy diagram, amely bemutatja a hőmérsékletet és egy tárcsát, mint IoT eszköz bemeneteit, az IoT eszköz kétirányú kommunikációját a felhővel, amely szintén kétirányú kommunikációt folytat egy telefonnal, és a fűtőberendezés vezérlését, mint az IoT eszköz kimenetét](../../../../../translated_images/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.hu.png)
+![Egy diagram, amely bemutatja a hőmérsékletet és egy tárcsát, mint IoT eszköz bemeneteit, az IoT eszköz kétirányú kommunikációját a felhővel, amely szintén kétirányú kommunikációt folytat egy telefonnal, és a fűtőberendezés vezérlését, mint az IoT eszköz kimenetét](../../../../../translated_images/hu/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.png)
 
 Egy még okosabb verzió mesterséges intelligenciát használhatna a felhőben, más IoT eszközökhöz csatlakozó érzékelők, például jelenlétérzékelők adataival, valamint időjárási adatokkal és akár a naptáraddal együtt, hogy intelligens módon állítsa be a hőmérsékletet. Például kikapcsolhatná a fűtést, ha a naptárad szerint nyaralni mész, vagy szobánként kapcsolhatná ki a fűtést attól függően, hogy melyik szobákat használod, az adatokból tanulva egyre pontosabbá válva az idő múlásával.
 
-![Egy diagram, amely bemutatja több hőmérséklet-érzékelőt és egy tárcsát, mint IoT eszköz bemeneteit, az IoT eszköz kétirányú kommunikációját a felhővel, amely szintén kétirányú kommunikációt folytat egy telefonnal, egy naptárral és egy időjárási szolgáltatással, valamint a fűtőberendezés vezérlését, mint az IoT eszköz kimenetét](../../../../../translated_images/smarter-thermostat.a75855f15d2d9e63.hu.png)
+![Egy diagram, amely bemutatja több hőmérséklet-érzékelőt és egy tárcsát, mint IoT eszköz bemeneteit, az IoT eszköz kétirányú kommunikációját a felhővel, amely szintén kétirányú kommunikációt folytat egy telefonnal, egy naptárral és egy időjárási szolgáltatással, valamint a fűtőberendezés vezérlését, mint az IoT eszköz kimenetét](../../../../../translated_images/hu/smarter-thermostat.a75855f15d2d9e63.webp)
 
 ✅ Milyen más adatok segíthetnének egy internethez csatlakozó termosztátot még okosabbá tenni?
 
@@ -103,7 +103,7 @@ Minél gyorsabb az óra ciklusa, annál több utasítást lehet másodpercenkén
 
 > 💁 A CPU-k a programokat a [fetch-decode-execute ciklus](https://wikipedia.org/wiki/Instruction_cycle) segítségével hajtják végre. Minden óra ketyegésnél a CPU lekéri a következő utasítást a memóriából, dekódolja, majd végrehajtja, például egy aritmetikai logikai egység (ALU) segítségével két számot ad össze. Néhány végrehajtás több ketyegést is igénybe vehet, így a következő ciklus a következő ketyegésnél fut le, miután az utasítás befejeződött.
 
-![A fetch-decode-execute ciklus, amely bemutatja, hogy a fetch a RAM-ban tárolt programból vesz utasítást, majd dekódolja és végrehajtja azt a CPU-n](../../../../../translated_images/fetch-decode-execute.2fd6f150f6280392807f4475382319abd0cee0b90058e1735444d6baa6f2078c.hu.png)
+![A fetch-decode-execute ciklus, amely bemutatja, hogy a fetch a RAM-ban tárolt programból vesz utasítást, majd dekódolja és végrehajtja azt a CPU-n](../../../../../translated_images/hu/fetch-decode-execute.2fd6f150f6280392807f4475382319abd0cee0b90058e1735444d6baa6f2078c.png)
 
 A mikrokontrollerek órajele sokkal alacsonyabb, mint az asztali vagy laptop számítógépeké, vagy akár a legtöbb okostelefoné. Például a Wio Terminal CPU-ja 120MHz-en, azaz 120 000 000 ciklus másodpercenként működik.
 
@@ -117,7 +117,7 @@ A CPU-hoz hasonlóan a mikrokontrollerek memóriája nagyságrendekkel kisebb, m
 
 Az alábbi diagram szemlélteti a méretkülönbséget a 192KB és 8GB között - a középen lévő kis pont jelképezi a 192KB-ot.
 
-![Összehasonlítás a 192KB és 8GB között - több mint 40 000-szer nagyobb](../../../../../translated_images/ram-comparison.6beb73541b42ac6f.hu.png)
+![Összehasonlítás a 192KB és 8GB között - több mint 40 000-szer nagyobb](../../../../../translated_images/hu/ram-comparison.6beb73541b42ac6f.webp)
 
 A programtároló mérete szintén kisebb, mint egy PC esetében. Egy tipikus PC például 500GB-os merevlemezzel rendelkezik a programok tárolására, míg egy mikrokontroller csak kilobájtokkal vagy esetleg néhány megabájttal (MB) rendelkezik (1MB = 1 000KB, vagy 1 000 000 bájt). A Wio terminál 4MB programtárolóval rendelkezik.
 
@@ -173,7 +173,7 @@ Az Arduino lapokat C vagy C++ nyelven programozzák. A C/C++ használata lehető
 
 A `setup` funkcióban írná meg az inicializáló kódját, például a WiFi-hez és felhőszolgáltatásokhoz való csatlakozást, vagy a bemeneti és kimeneti tűk inicializálását. A `loop` funkcióban pedig a feldolgozó kódot, például egy szenzorból való olvasást és az érték felhőbe küldését. Általában késleltetést adna a ciklus végéhez, például ha csak 10 másodpercenként szeretne szenzoradatokat küldeni, akkor 10 másodperces késleltetést adna a ciklus végéhez, hogy a mikrokontroller aludjon, energiát takarítson meg, majd 10 másodperc múlva újra futtassa a ciklust.
 
-![Egy Arduino vázlat, amely először a setup-ot futtatja, majd folyamatosan a loop-ot](../../../../../translated_images/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.hu.png)
+![Egy Arduino vázlat, amely először a setup-ot futtatja, majd folyamatosan a loop-ot](../../../../../translated_images/hu/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.png)
 
 ✅ Ezt a programarchitektúrát *eseményciklusnak* vagy *üzenetciklusnak* nevezik. Sok alkalmazás használja ezt a háttérben, és ez a szabvány a legtöbb asztali alkalmazás esetében, amelyek olyan operációs rendszereken futnak, mint a Windows, macOS vagy Linux. A `loop` figyeli az üzeneteket a felhasználói felület komponenseitől, például gomboktól, vagy eszközöktől, mint a billentyűzet, és reagál rájuk. Erről többet olvashat ebben a [cikkben az eseményciklusról](https://wikipedia.org/wiki/Event_loop).
 
@@ -193,17 +193,17 @@ Az előző leckében bemutattuk az egylapos számítógépeket. Most nézzük me
 
 ### Raspberry Pi
 
-![A Raspberry Pi logója](../../../../../translated_images/raspberry-pi-logo.4efaa16605cee054.hu.png)
+![A Raspberry Pi logója](../../../../../translated_images/hu/raspberry-pi-logo.4efaa16605cee054.webp)
 
 A [Raspberry Pi Foundation](https://www.raspberrypi.org) egy brit jótékonysági szervezet, amelyet 2009-ben alapítottak az informatika tanulmányozásának előmozdítására, különösen iskolai szinten. Ennek a küldetésnek a részeként kifejlesztettek egy egylapos számítógépet, amelyet Raspberry Pi-nek neveztek el. A Raspberry Pi jelenleg 3 változatban érhető el - egy teljes méretű verzióban, a kisebb Pi Zero-ban, és egy számítási modulban, amely beépíthető a végső IoT eszközbe.
 
-![Egy Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.hu.jpg)
+![Egy Raspberry Pi 4](../../../../../translated_images/hu/raspberry-pi-4.fd4590d308c3d456.webp)
 
 A teljes méretű Raspberry Pi legújabb iterációja a Raspberry Pi 4B. Ez egy négymagos (4 magos) CPU-val rendelkezik, amely 1.5GHz-en fut, 2, 4 vagy 8GB RAM-mal, gigabites ethernettel, WiFi-vel, 2 HDMI porttal, amelyek 4k képernyőket támogatnak, egy audio- és kompozit videó kimeneti porttal, USB portokkal (2 USB 2.0, 2 USB 3.0), 40 GPIO tűvel, egy kamera csatlakozóval a Raspberry Pi kamera modulhoz, és egy SD kártya nyílással. Mindez egy 88mm x 58mm x 19.5mm méretű lapon, amelyet egy 3A USB-C tápegység működtet. Ezek ára 35 USD-tól kezdődik, ami sokkal olcsóbb, mint egy PC vagy Mac.
 
 > 💁 Létezik egy Pi400 all-in-one számítógép, amely egy Pi4-et tartalmaz egy billentyűzetbe építve.
 
-![Egy Raspberry Pi Zero](../../../../../translated_images/raspberry-pi-zero.f7a4133e1e7d54bb.hu.jpg)
+![Egy Raspberry Pi Zero](../../../../../translated_images/hu/raspberry-pi-zero.f7a4133e1e7d54bb.webp)
 
 A Pi Zero sokkal kisebb, alacsonyabb teljesítményű. Egy egymagos 1GHz-es CPU-val, 512MB RAM-mal, WiFi-vel (a Zero W modellben), egyetlen HDMI porttal, egy micro-USB porttal, 40 GPIO tűvel, egy kamera csatlakozóval a Raspberry Pi kamera modulhoz, és egy SD kártya nyílással rendelkezik. Mérete 65mm x 30mm x 5mm, és nagyon kevés energiát fogyaszt. A Zero ára 5 USD, a WiFi-vel rendelkező W verzió pedig 10 USD.
 

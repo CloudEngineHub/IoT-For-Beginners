@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Yhdistä laitteesi Internetiin
 
-![Tämän oppitunnin sketchnote-yhteenveto](../../../../../translated_images/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.fi.jpg)
+![Tämän oppitunnin sketchnote-yhteenveto](../../../../../translated_images/fi/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.jpg)
 
 > Sketchnote: [Nitya Narasimhan](https://github.com/nitya). Klikkaa kuvaa nähdäksesi suuremman version.
 
@@ -46,7 +46,7 @@ Tässä oppitunnissa käsitellään:
 
 IoT-laitteiden ja Internetin väliseen viestintään on useita suosittuja protokollia. Suosituimmat perustuvat julkaisu/tilaus-malliin jonkinlaisen välittäjän kautta. IoT-laitteet yhdistyvät välittäjään ja julkaisevat telemetriaa sekä tilaavat komentoja. Pilvipalvelut yhdistyvät myös välittäjään, tilaavat kaikki telemetriaviestit ja julkaisevat komentoja joko tiettyihin laitteisiin tai laitejoukkoihin.
 
-![IoT-laitteet yhdistyvät välittäjään, julkaisevat telemetriaa ja tilaavat komentoja. Pilvipalvelut yhdistyvät välittäjään, tilaavat kaikki telemetriat ja lähettävät komentoja tiettyihin laitteisiin.](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4.fi.png)
+![IoT-laitteet yhdistyvät välittäjään, julkaisevat telemetriaa ja tilaavat komentoja. Pilvipalvelut yhdistyvät välittäjään, tilaavat kaikki telemetriat ja lähettävät komentoja tiettyihin laitteisiin.](../../../../../translated_images/fi/pub-sub.7c7ed43fe9fd15d4.webp)
 
 MQTT on suosituin viestintäprotokolla IoT-laitteille, ja se käsitellään tässä oppitunnissa. Muita protokollia ovat AMQP ja HTTP/HTTPS.
 
@@ -56,7 +56,7 @@ MQTT on suosituin viestintäprotokolla IoT-laitteille, ja se käsitellään täs
 
 MQTT:ssä on yksi välittäjä ja useita asiakkaita. Kaikki asiakkaat yhdistyvät välittäjään, ja välittäjä ohjaa viestit oikeille asiakkaille. Viestit ohjataan nimettyjen aiheiden avulla, eikä niitä lähetetä suoraan yksittäiselle asiakkaalle. Asiakas voi julkaista aiheeseen, ja kaikki asiakkaat, jotka tilaavat kyseisen aiheen, saavat viestin.
 
-![IoT-laite julkaisee telemetriaa /telemetry-aiheessa, ja pilvipalvelu tilaa kyseisen aiheen](../../../../../translated_images/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.fi.png)
+![IoT-laite julkaisee telemetriaa /telemetry-aiheessa, ja pilvipalvelu tilaa kyseisen aiheen](../../../../../translated_images/fi/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.png)
 
 ✅ Tee tutkimusta. Jos sinulla on paljon IoT-laitteita, miten voit varmistaa, että MQTT-välittäjäsi pystyy käsittelemään kaikki viestit?
 
@@ -78,7 +78,7 @@ Sen sijaan, että käsittelisit MQTT-välittäjän asettamisen monimutkaisuuksia
 
 > 💁 Tämä testivälittäjä on julkinen ja ei-suojattu. Kuka tahansa voi kuunnella, mitä julkaiset, joten sitä ei pitäisi käyttää yksityistä dataa sisältävien viestien kanssa.
 
-![Tehtävän vuokaavio, jossa valotasoja luetaan ja tarkistetaan, ja LEDiä ohjataan](../../../../../translated_images/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.fi.png)
+![Tehtävän vuokaavio, jossa valotasoja luetaan ja tarkistetaan, ja LEDiä ohjataan](../../../../../translated_images/fi/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.png)
 
 Seuraa alla olevaa ohjetta yhdistääksesi laitteesi MQTT-välittäjään:
 
@@ -115,7 +115,7 @@ Sana telemetria tulee kreikan juurista, jotka tarkoittavat etämittausta. Teleme
 
 Palataanpa esimerkkiin älytermostaatista oppitunnista 1.
 
-![Internet-yhteydellä varustettu termostaatti, joka käyttää useita huoneantureita](../../../../../translated_images/telemetry.21e5d8b97649d2eb.fi.png)
+![Internet-yhteydellä varustettu termostaatti, joka käyttää useita huoneantureita](../../../../../translated_images/fi/telemetry.21e5d8b97649d2eb.webp)
 
 Termostaatilla on lämpötila-anturit telemetrian keräämiseen. Sillä olisi todennäköisesti yksi sisäänrakennettu lämpötila-anturi, ja se saattaisi yhdistyä useisiin ulkoisiin lämpötila-antureihin langattoman protokollan, kuten [Bluetooth Low Energy](https://wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE), kautta.
 
@@ -267,11 +267,11 @@ Kirjoita palvelinkoodi.
 
 1. Kun VS Code käynnistyy, se aktivoi Python-virtuaaliympäristön. Tämä näkyy alareunan tilapalkissa:
 
-    ![VS Code näyttää valitun virtuaaliympäristön](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.fi.png)
+    ![VS Code näyttää valitun virtuaaliympäristön](../../../../../translated_images/fi/vscode-virtual-env.8ba42e04c3d533cf.webp)
 
 1. Jos VS Code -terminaali on jo käynnissä, kun VS Code käynnistyy, virtuaaliympäristö ei ole aktivoituna siinä. Helpoin tapa korjata tämä on sulkea terminaali käyttämällä **Sulje aktiivinen terminaali**-painiketta:
 
-    ![VS Code Sulje aktiivinen terminaali -painike](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.fi.png)
+    ![VS Code Sulje aktiivinen terminaali -painike](../../../../../translated_images/fi/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
 
 1. Käynnistä uusi VS Code -terminaali valitsemalla *Terminal -> New Terminal* tai painamalla `` CTRL+` ``. Uusi terminaali lataa virtuaaliympäristön, ja aktivointikutsu näkyy terminaalissa. Virtuaaliympäristön nimi (`.venv`) näkyy myös kehotteessa:
 
@@ -359,7 +359,7 @@ Koneille data kannattaa ehkä säilyttää, erityisesti jos sitä käytetään t
 
 IoT-laitteiden suunnittelijoiden tulisi myös harkita, voiko IoT-laite toimia Internet-katkoksen tai sijainnin aiheuttaman signaalin menetyksen aikana. Älykäs termostaatti pitäisi pystyä tekemään joitakin rajoitettuja päätöksiä lämmityksen ohjaamiseksi, jos se ei voi lähettää telemetriaa pilveen katkoksen vuoksi.
 
-[![Tämä Ferrari meni käyttökelvottomaksi, koska joku yritti päivittää sitä maan alla, missä ei ole matkapuhelinverkkoa](../../../../../translated_images/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.fi.png)](https://twitter.com/internetofshit/status/1315736960082808832)
+[![Tämä Ferrari meni käyttökelvottomaksi, koska joku yritti päivittää sitä maan alla, missä ei ole matkapuhelinverkkoa](../../../../../translated_images/fi/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.png)](https://twitter.com/internetofshit/status/1315736960082808832)
 
 MQTT:n käsitelläkseen yhteyden katkeamista laitteen ja palvelinkoodin täytyy huolehtia viestien toimituksesta, jos se on tarpeen, esimerkiksi vaatimalla, että kaikki lähetetyt viestit saavat vastauksen lisäviesteillä vastausaiheessa, ja jos eivät, ne jonotetaan manuaalisesti toistettavaksi myöhemmin.
 
@@ -367,7 +367,7 @@ MQTT:n käsitelläkseen yhteyden katkeamista laitteen ja palvelinkoodin täytyy 
 
 Komennot ovat viestejä, jotka pilvi lähettää laitteelle, ohjeistaen sitä tekemään jotain. Useimmiten tämä tarkoittaa jonkinlaista ulostuloa aktuaattorin kautta, mutta se voi olla ohje laitteelle itselleen, kuten uudelleenkäynnistys tai lisätelemetrian kerääminen ja palauttaminen vastauksena komentoon.
 
-![Internet-yhteydessä oleva termostaatti vastaanottaa komennon lämmityksen kytkemiseksi päälle](../../../../../translated_images/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.fi.png)
+![Internet-yhteydessä oleva termostaatti vastaanottaa komennon lämmityksen kytkemiseksi päälle](../../../../../translated_images/fi/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.png)
 
 Termostaatti voisi vastaanottaa pilvestä komennon kytkeä lämmitys päälle. Kaikkien antureiden telemetriatietojen perusteella pilvipalvelu on päättänyt, että lämmitys pitäisi olla päällä, joten se lähettää asiaankuuluvan komennon.
 

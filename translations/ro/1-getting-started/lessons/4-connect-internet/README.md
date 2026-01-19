@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Conectează dispozitivul tău la Internet
 
-![O prezentare grafică a lecției](../../../../../translated_images/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.ro.jpg)
+![O prezentare grafică a lecției](../../../../../translated_images/ro/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.jpg)
 
 > Schiță realizată de [Nitya Narasimhan](https://github.com/nitya). Click pe imagine pentru o versiune mai mare.
 
@@ -46,7 +46,7 @@ Această lecție introduce câteva dintre protocoalele de comunicare pe care dis
 
 Există o serie de protocoale de comunicare populare utilizate de dispozitivele IoT pentru a comunica cu Internetul. Cele mai populare sunt bazate pe mesageria de tip publicare/abonare prin intermediul unui broker. Dispozitivele IoT se conectează la broker și publică telemetrie și se abonează la comenzi. Serviciile cloud se conectează, de asemenea, la broker și se abonează la toate mesajele de telemetrie și publică comenzi fie către dispozitive specifice, fie către grupuri de dispozitive.
 
-![Dispozitivele IoT se conectează la un broker și publică telemetrie și se abonează la comenzi. Serviciile cloud se conectează la broker și se abonează la toată telemetria și trimit comenzi către dispozitive specifice.](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4.ro.png)
+![Dispozitivele IoT se conectează la un broker și publică telemetrie și se abonează la comenzi. Serviciile cloud se conectează la broker și se abonează la toată telemetria și trimit comenzi către dispozitive specifice.](../../../../../translated_images/ro/pub-sub.7c7ed43fe9fd15d4.webp)
 
 MQTT este cel mai popular protocol de comunicare pentru dispozitivele IoT și este acoperit în această lecție. Alte protocoale includ AMQP și HTTP/HTTPS.
 
@@ -56,7 +56,7 @@ MQTT este cel mai popular protocol de comunicare pentru dispozitivele IoT și es
 
 MQTT are un singur broker și mai mulți clienți. Toți clienții se conectează la broker, iar brokerul direcționează mesajele către clienții relevanți. Mesajele sunt direcționate folosind subiecte denumite, mai degrabă decât să fie trimise direct unui client individual. Un client poate publica pe un subiect, iar orice client care se abonează la acel subiect va primi mesajul.
 
-![Dispozitiv IoT care publică telemetrie pe subiectul /telemetry, iar serviciul cloud se abonează la acel subiect](../../../../../translated_images/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.ro.png)
+![Dispozitiv IoT care publică telemetrie pe subiectul /telemetry, iar serviciul cloud se abonează la acel subiect](../../../../../translated_images/ro/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.png)
 
 ✅ Fă niște cercetări. Dacă ai multe dispozitive IoT, cum poți asigura că brokerul MQTT poate gestiona toate mesajele?
 
@@ -78,7 +78,7 @@ Un caz de utilizare real pentru o astfel de configurație ar putea fi colectarea
 
 > 💁 Acest broker de test este public și nesecurizat. Oricine ar putea asculta ceea ce publici, așa că nu ar trebui utilizat cu date care trebuie păstrate private.
 
-![Un diagramă de flux a exercițiului care arată nivelurile de lumină fiind citite și verificate, și LED-ul fiind controlat](../../../../../translated_images/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.ro.png)
+![Un diagramă de flux a exercițiului care arată nivelurile de lumină fiind citite și verificate, și LED-ul fiind controlat](../../../../../translated_images/ro/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.png)
 
 Urmează pasul relevant de mai jos pentru a conecta dispozitivul tău la brokerul MQTT:
 
@@ -115,7 +115,7 @@ Cuvântul telemetrie provine din rădăcini grecești care înseamnă a măsura 
 
 Să ne uităm înapoi la exemplul termostatului inteligent din Lecția 1.
 
-![Un termostat conectat la Internet folosind senzori multipli de cameră](../../../../../translated_images/telemetry.21e5d8b97649d2eb.ro.png)
+![Un termostat conectat la Internet folosind senzori multipli de cameră](../../../../../translated_images/ro/telemetry.21e5d8b97649d2eb.webp)
 
 Termostatul are senzori de temperatură pentru a colecta telemetrie. Cel mai probabil ar avea un senzor de temperatură încorporat și s-ar putea conecta la mai mulți senzori de temperatură externi printr-un protocol wireless, cum ar fi [Bluetooth Low Energy](https://wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE).
 
@@ -267,11 +267,11 @@ Scrie codul serverului.
 
 1. Când VS Code pornește, acesta va activa mediul virtual Python. Acest lucru va fi raportat în bara de stare de jos:
 
-    ![VS Code arătând mediul virtual selectat](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.ro.png)
+    ![VS Code arătând mediul virtual selectat](../../../../../translated_images/ro/vscode-virtual-env.8ba42e04c3d533cf.webp)
 
 1. Dacă terminalul VS Code este deja pornit când VS Code se deschide, mediul virtual nu va fi activat în acesta. Cel mai simplu lucru de făcut este să închizi terminalul folosind butonul **Kill the active terminal instance**:
 
-    ![Butonul VS Code Kill the active terminal instance](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.ro.png)
+    ![Butonul VS Code Kill the active terminal instance](../../../../../translated_images/ro/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
 
 1. Lansează un nou terminal VS Code selectând *Terminal -> New Terminal*, sau apăsând `` CTRL+` ``. Noul terminal va încărca mediul virtual, cu apelul de activare apărând în terminal. Numele mediului virtual (`.venv`) va apărea și în prompt:
 
@@ -359,7 +359,7 @@ Pentru mașinării, s-ar putea să vrei să păstrezi datele, mai ales dacă sun
 
 Designerii dispozitivelor IoT ar trebui să ia în considerare, de asemenea, dacă dispozitivul IoT poate fi utilizat în timpul unei întreruperi a Internetului sau a pierderii semnalului cauzate de locație. Un termostat inteligent ar trebui să poată lua unele decizii limitate pentru a controla încălzirea dacă nu poate trimite telemetrie în cloud din cauza unei întreruperi.
 
-[![Această mașină Ferrari a fost blocată pentru că cineva a încercat să o actualizeze sub pământ, unde nu există semnal](../../../../../translated_images/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.ro.png)](https://twitter.com/internetofshit/status/1315736960082808832)
+[![Această mașină Ferrari a fost blocată pentru că cineva a încercat să o actualizeze sub pământ, unde nu există semnal](../../../../../translated_images/ro/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.png)](https://twitter.com/internetofshit/status/1315736960082808832)
 
 Pentru ca MQTT să gestioneze o pierdere de conectivitate, codul dispozitivului și al serverului va trebui să fie responsabil pentru asigurarea livrării mesajelor, dacă este necesar, de exemplu prin cerința ca toate mesajele trimise să fie răspunse prin mesaje suplimentare pe un topic de răspuns, iar dacă nu, acestea să fie puse în coadă manual pentru a fi retrimise mai târziu.
 
@@ -367,7 +367,7 @@ Pentru ca MQTT să gestioneze o pierdere de conectivitate, codul dispozitivului 
 
 Comenzile sunt mesaje trimise de cloud către un dispozitiv, instruindu-l să facă ceva. De cele mai multe ori, acest lucru implică oferirea unui fel de ieșire printr-un actuator, dar poate fi și o instrucțiune pentru dispozitivul în sine, cum ar fi să se repornească sau să colecteze telemetrie suplimentară și să o returneze ca răspuns la comandă.
 
-![Un termostat conectat la Internet care primește o comandă pentru a porni încălzirea](../../../../../translated_images/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.ro.png)
+![Un termostat conectat la Internet care primește o comandă pentru a porni încălzirea](../../../../../translated_images/ro/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.png)
 
 Un termostat ar putea primi o comandă din cloud pentru a porni încălzirea. Pe baza datelor de telemetrie de la toți senzorii, dacă serviciul cloud a decis că încălzirea ar trebui să fie pornită, trimite comanda relevantă.
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Geokerítések
 
-![A lecke vázlatos áttekintése](../../../../../translated_images/lesson-14.63980c5150ae3c153e770fb71d044c1845dce79248d86bed9fc525adf3ede73c.hu.jpg)
+![A lecke vázlatos áttekintése](../../../../../translated_images/hu/lesson-14.63980c5150ae3c153e770fb71d044c1845dce79248d86bed9fc525adf3ede73c.jpg)
 
 > Vázlatrajz: [Nitya Narasimhan](https://github.com/nitya). Kattints a képre a nagyobb verzióért.
 
@@ -44,7 +44,7 @@ Ebben a leckében a következőkről lesz szó:
 
 A geokerítés egy virtuális határ egy valós földrajzi régió körül. A geokerítések lehetnek körök, amelyeket egy pont és egy sugár határoz meg (például egy 100 méter széles kör egy épület körül), vagy poligonok, amelyek egy területet fednek le, például egy iskolaövezetet, városhatárt, egyetemi vagy irodai kampuszt.
 
-![Néhány geokerítés példa, amely egy kör alakú geokerítést mutat a Microsoft vállalati boltja körül, és egy poligon geokerítést a Microsoft nyugati kampusza körül](../../../../../translated_images/geofence-examples.172fbc534665769f6e1a1ddcf75e3b25183cd10354c80cc603ba44b635390e1a.hu.png)
+![Néhány geokerítés példa, amely egy kör alakú geokerítést mutat a Microsoft vállalati boltja körül, és egy poligon geokerítést a Microsoft nyugati kampusza körül](../../../../../translated_images/hu/geofence-examples.172fbc534665769f6e1a1ddcf75e3b25183cd10354c80cc603ba44b635390e1a.png)
 
 > 💁 Lehet, hogy már használtál geokerítéseket anélkül, hogy tudtál volna róla. Ha például az iOS emlékeztetők alkalmazásában vagy a Google Keepben helyalapú emlékeztetőt állítottál be, akkor geokerítést használtál. Ezek az alkalmazások a megadott hely alapján geokerítést állítanak fel, és értesítenek, amikor a telefonod belép a geokerítésbe.
 
@@ -110,7 +110,7 @@ A poligon minden pontját egy hosszúsági és szélességi párként definiálj
 
 A poligon koordináták tömbje mindig egy bejegyzéssel több, mint a poligon pontjainak száma, az utolsó bejegyzés megegyezik az elsővel, lezárva a poligont. Például egy téglalap esetében 5 pont lenne.
 
-![Egy téglalap koordinátákkal](../../../../../translated_images/polygon-points.302193da381cb415.hu.png)
+![Egy téglalap koordinátákkal](../../../../../translated_images/hu/polygon-points.302193da381cb415.webp)
 
 A fenti képen egy téglalap látható. A poligon koordináták a bal felső sarokban kezdődnek 47,-122-nél, majd jobbra haladnak 47,-121-hez, majd lefelé 46,-121-hez, majd balra 46,-122-höz, végül vissza az indulóponthoz 47,-122-nél. Ez 5 pontot ad a poligonnak – bal felső, jobb felső, jobb alsó, bal alsó, majd bal felső a lezáráshoz.
 
@@ -208,7 +208,7 @@ A kérés során megadhatsz egy `searchBuffer` nevű értéket is. Ez azt határ
 
 Az API hívás eredményei között szerepel egy `distance` nevű érték, amely a geokerítés széléhez legközelebbi pont távolságát méri. Ez pozitív érték, ha a pont a geokerítésen kívül van, és negatív, ha a geokerítésen belül van. Ha ez a távolság kisebb, mint a keresési puffer, akkor az aktuális távolság méterben kerül visszaadásra, különben az érték 999 vagy -999. A 999 azt jelenti, hogy a pont a geokerítésen kívül van a keresési pufferen túl, a -999 pedig azt, hogy a pont a geokerítésen belül van a keresési pufferen túl.
 
-![Egy geokerítés 50 méteres keresési pufferrel](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7.hu.png)
+![Egy geokerítés 50 méteres keresési pufferrel](../../../../../translated_images/hu/search-buffer-and-distance.e6a79af3898183c7.webp)
 
 A fenti képen a geokerítésnek 50 méteres keresési puffere van.
 
@@ -291,7 +291,7 @@ Ahogy az előző leckékből emlékezhet, az IoT Hub lehetővé teszi, hogy újr
 
 A válasz az, hogy nem tudja! Ehelyett több különálló kapcsolatot definiálhat az események olvasására, és mindegyik kezelheti az olvasatlan üzenetek újrajátszását. Ezeket *fogyasztói csoportoknak* nevezzük. Amikor csatlakozik az endpointhoz, megadhatja, melyik fogyasztói csoporthoz kíván csatlakozni. Az alkalmazás minden komponense más fogyasztói csoporthoz csatlakozik.
 
-![Egy IoT Hub 3 fogyasztói csoporttal, amelyek ugyanazokat az üzeneteket osztják szét 3 különböző Functions alkalmazásnak](../../../../../translated_images/consumer-groups.a3262e26fc27ba2092863678ad57af15c7223416e388a23f330c058cf4358630.hu.png)
+![Egy IoT Hub 3 fogyasztói csoporttal, amelyek ugyanazokat az üzeneteket osztják szét 3 különböző Functions alkalmazásnak](../../../../../translated_images/hu/consumer-groups.a3262e26fc27ba2092863678ad57af15c7223416e388a23f330c058cf4358630.png)
 
 Elméletileg akár 5 alkalmazás is csatlakozhat minden fogyasztói csoporthoz, és mindegyik üzeneteket kap, amikor azok megérkeznek. A legjobb gyakorlat az, hogy minden fogyasztói csoporthoz csak egy alkalmazás férjen hozzá, hogy elkerülje az üzenetek duplikált feldolgozását, és biztosítsa, hogy újraindításkor minden sorban álló üzenet helyesen legyen feldolgozva. Például, ha a Functions alkalmazását helyben indítja el, miközben a felhőben is fut, mindkettő feldolgozná az üzeneteket, ami duplikált blobokat eredményezne a tárhelyfiókban.
 

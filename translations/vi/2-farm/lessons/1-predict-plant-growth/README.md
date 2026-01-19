@@ -50,7 +50,7 @@ Tệp mã này mở tệp CSV, sau đó thêm một hàng mới vào cuối. Hà
 
     
 > 💁 Nếu bạn đang sử dụng Thiết bị IoT ảo, hãy chọn hộp kiểm ngẫu nhiên và đặt một phạm vi để tránh nhận cùng một giá trị nhiệt độ mỗi lần nhiệt độ được trả về.
-    ![Chọn hộp kiểm ngẫu nhiên và đặt một phạm vi](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.vi.png) 
+    ![Chọn hộp kiểm ngẫu nhiên và đặt một phạm vi](../../../../../translated_images/vi/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.webp) 
 
     > 💁 Nếu bạn muốn chạy đoạn mã này trong cả một ngày, bạn cần đảm bảo rằng máy tính chạy mã máy chủ của bạn sẽ không chuyển sang chế độ ngủ, bằng cách thay đổi cài đặt nguồn hoặc chạy một thứ gì đó như [đoạn mã Python giữ hệ thống hoạt động này](https://github.com/jaqsparow/keep-system-active).
     
@@ -70,7 +70,7 @@ Các bước thực hiện thủ công như sau:
 
 Ví dụ, nếu nhiệt độ cao nhất trong ngày là 25°C và thấp nhất là 12°C:
 
-![GDD = 25 + 12 chia cho 2, sau đó trừ đi 10, kết quả là 8.5](../../../../../translated_images/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.vi.png)
+![GDD = 25 + 12 chia cho 2, sau đó trừ đi 10, kết quả là 8.5](../../../../../translated_images/vi/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
 
 * 25 + 12 = 37
 * 37 / 2 = 18.5

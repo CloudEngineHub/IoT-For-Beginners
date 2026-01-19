@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # זיהוי דיבור עם מכשיר IoT
 
-![סקיצה של השיעור](../../../../../translated_images/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.he.jpg)
+![סקיצה של השיעור](../../../../../translated_images/he/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.jpg)
 
 > סקיצה מאת [ניטיה נאראסימהן](https://github.com/nitya). לחצו על התמונה לגרסה גדולה יותר.
 
@@ -60,19 +60,19 @@ CO_OP_TRANSLATOR_METADATA:
 
     מיקרופונים דינמיים אינם זקוקים לחשמל כדי לפעול; האות החשמלי נוצר כולו מהמיקרופון.
 
-    ![פאטי סמית' שרה לתוך מיקרופון דינמי מסוג Shure SM58](../../../../../translated_images/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.he.jpg)
+    ![פאטי סמית' שרה לתוך מיקרופון דינמי מסוג Shure SM58](../../../../../translated_images/he/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.jpg)
 
 * סרט - מיקרופונים מסוג סרט דומים למיקרופונים דינמיים, אך במקום דיאפרגמה יש בהם סרט מתכת. הסרט נע בשדה מגנטי ויוצר זרם חשמלי. כמו מיקרופונים דינמיים, גם מיקרופונים מסוג סרט אינם זקוקים לחשמל כדי לפעול.
 
-    ![אדמונד לואו, שחקן אמריקאי, עומד ליד מיקרופון רדיו (מסומן כרשת הכחולה של NBC), מחזיק תסריט, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441ca.he.jpg)
+    ![אדמונד לואו, שחקן אמריקאי, עומד ליד מיקרופון רדיו (מסומן כרשת הכחולה של NBC), מחזיק תסריט, 1942](../../../../../translated_images/he/ribbon-mic.eacc8e092c7441ca.webp)
 
 * קונדנסר - מיקרופונים מסוג קונדנסר כוללים דיאפרגמה מתכתית דקה ולוח אחורי מתכתי קבוע. זרם חשמלי מוחל על שניהם, וכאשר הדיאפרגמה רוטטת, המטען הסטטי בין הלוחות משתנה ויוצר אות. מיקרופונים מסוג קונדנסר זקוקים לחשמל כדי לפעול - הנקרא *Phantom power*.
 
-    ![מיקרופון קונדנסר קטן מסוג C451B של AKG Acoustics](../../../../../translated_images/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.he.jpg)
+    ![מיקרופון קונדנסר קטן מסוג C451B של AKG Acoustics](../../../../../translated_images/he/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.jpg)
 
 * MEMS - מיקרופונים מסוג מערכות מיקרואלקטרומכניות, או MEMS, הם מיקרופונים על שבב. יש להם דיאפרגמה רגישה ללחץ המוטבעת על שבב סיליקון, והם פועלים בדומה למיקרופון קונדנסר. מיקרופונים אלו יכולים להיות זעירים ומשולבים במעגלים חשמליים.
 
-    ![מיקרופון MEMS על לוח מעגלים](../../../../../translated_images/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.he.png)
+    ![מיקרופון MEMS על לוח מעגלים](../../../../../translated_images/he/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.png)
 
     בתמונה למעלה, השבב המסומן **LEFT** הוא מיקרופון MEMS, עם דיאפרגמה זעירה ברוחב של פחות ממילימטר.
 
@@ -84,7 +84,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > 🎓 דגימה היא המרה של אות האודיו לערך דיגיטלי המייצג את האות בנקודת זמן מסוימת.
 
-![גרף קווי המציג אות, עם נקודות בדידות במרווחים קבועים](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7.he.png)
+![גרף קווי המציג אות, עם נקודות בדידות במרווחים קבועים](../../../../../translated_images/he/sampling.6f4fadb3f2d9dfe7.webp)
 
 אודיו דיגיטלי נדגם באמצעות שיטת Pulse Code Modulation, או PCM. PCM כוללת קריאת המתח של האות ובחירת הערך הדיסקרטי הקרוב ביותר למתח זה באמצעות גודל מוגדר.
 
@@ -168,7 +168,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## המרת דיבור לטקסט
 
-![לוגו שירותי דיבור](../../../../../translated_images/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.he.png)
+![לוגו שירותי דיבור](../../../../../translated_images/he/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
 
 בדומה לסיווג תמונות בפרויקט קודם, קיימים שירותי בינה מלאכותית מוכנים מראש שיכולים לקחת דיבור כקובץ אודיו ולהמיר אותו לטקסט. אחד משירותים אלו הוא Speech Service, חלק משירותי Cognitive Services, שירותי בינה מלאכותית מוכנים לשימוש באפליקציות שלך.
 

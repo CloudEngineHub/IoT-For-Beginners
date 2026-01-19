@@ -22,7 +22,7 @@ I²C có một bus gồm 2 dây chính, cùng với 2 dây nguồn:
 | VCC | Voltage common collector | Nguồn cung cấp cho các thiết bị. Dây này được kết nối với dây SDA và SCL để cung cấp năng lượng thông qua một điện trở kéo lên, giúp tắt tín hiệu khi không có thiết bị nào là bộ điều khiển. |
 | GND | Ground | Cung cấp một điểm nối đất chung cho mạch điện. |
 
-![Bus I2C với 3 thiết bị được kết nối với dây SDA và SCL, chia sẻ một dây nối đất chung](../../../../../translated_images/i2c.83da845dde02256bdd462dbe0d5145461416b74930571b89d1ae142841eeb584.vi.png)
+![Bus I2C với 3 thiết bị được kết nối với dây SDA và SCL, chia sẻ một dây nối đất chung](../../../../../translated_images/vi/i2c.83da845dde02256bdd462dbe0d5145461416b74930571b89d1ae142841eeb584.png)
 
 Để gửi dữ liệu, một thiết bị sẽ phát ra điều kiện bắt đầu để cho biết nó sẵn sàng gửi dữ liệu. Sau đó, nó sẽ trở thành bộ điều khiển. Bộ điều khiển sau đó gửi địa chỉ của thiết bị mà nó muốn giao tiếp, cùng với việc nó muốn đọc hay ghi dữ liệu. Sau khi dữ liệu đã được truyền, bộ điều khiển gửi điều kiện dừng để chỉ ra rằng nó đã hoàn thành. Sau đó, một thiết bị khác có thể trở thành bộ điều khiển và gửi hoặc nhận dữ liệu.
 
@@ -37,7 +37,7 @@ UART liên quan đến mạch vật lý cho phép hai thiết bị giao tiếp. 
 * Thiết bị 1 truyền dữ liệu từ chân Tx của nó, được nhận bởi thiết bị 2 trên chân Rx của nó
 * Thiết bị 1 nhận dữ liệu trên chân Rx của nó được truyền bởi thiết bị 2 từ chân Tx của nó
 
-![UART với chân Tx trên một chip được kết nối với chân Rx trên chip khác, và ngược lại](../../../../../translated_images/uart.d0dbd3fb9e3728c6.vi.png)
+![UART với chân Tx trên một chip được kết nối với chân Rx trên chip khác, và ngược lại](../../../../../translated_images/vi/uart.d0dbd3fb9e3728c6.webp)
 
 > 🎓 Dữ liệu được gửi từng bit một, và điều này được gọi là giao tiếp *serial*. Hầu hết các hệ điều hành và vi điều khiển đều có *cổng serial*, tức là các kết nối có thể gửi và nhận dữ liệu serial mà mã của bạn có thể sử dụng.
 
@@ -66,7 +66,7 @@ Bộ điều khiển SPI sử dụng 3 dây, cùng với 1 dây bổ sung cho m�
 | SCLK | Serial Clock | Dây này gửi tín hiệu đồng hồ với tốc độ được đặt bởi bộ điều khiển. |
 | CS   | Chip Select | Bộ điều khiển có nhiều dây, mỗi dây cho một phụ kiện, và mỗi dây kết nối với dây CS trên phụ kiện tương ứng. |
 
-![SPI với một bộ điều khiển và hai phụ kiện](../../../../../translated_images/spi.297431d6f98b386b.vi.png)
+![SPI với một bộ điều khiển và hai phụ kiện](../../../../../translated_images/vi/spi.297431d6f98b386b.webp)
 
 Dây CS được sử dụng để kích hoạt một phụ kiện tại một thời điểm, giao tiếp qua các dây COPI và CIPO. Khi bộ điều khiển cần thay đổi phụ kiện, nó sẽ hủy kích hoạt dây CS kết nối với phụ kiện hiện đang hoạt động, sau đó kích hoạt dây kết nối với phụ kiện mà nó muốn giao tiếp tiếp theo.
 
@@ -127,7 +127,7 @@ Một số cảm biến được hiệu chỉnh sẵn. Ví dụ, cảm biến nh
 
 Cảm biến độ ẩm đất đo điện trở hoặc điện dung - điều này không chỉ thay đổi theo độ ẩm đất, mà còn theo loại đất vì các thành phần trong đất có thể thay đổi đặc tính điện của nó. Lý tưởng nhất là các cảm biến nên được hiệu chỉnh - tức là lấy các phép đo từ cảm biến và so sánh chúng với các phép đo được tìm thấy bằng cách tiếp cận khoa học hơn. Ví dụ, một phòng thí nghiệm có thể tính toán độ ẩm đất trọng lượng bằng cách sử dụng các mẫu của một cánh đồng cụ thể được lấy vài lần trong năm, và những con số này được sử dụng để hiệu chỉnh cảm biến, khớp phép đo của cảm biến với độ ẩm đất trọng lượng.
 
-![Biểu đồ điện áp so với hàm lượng độ ẩm đất](../../../../../translated_images/soil-moisture-to-voltage.df86d80cda158700.vi.png)
+![Biểu đồ điện áp so với hàm lượng độ ẩm đất](../../../../../translated_images/vi/soil-moisture-to-voltage.df86d80cda158700.webp)
 
 Biểu đồ trên cho thấy cách hiệu chỉnh một cảm biến. Điện áp được ghi lại cho một mẫu đất sau đó được đo trong phòng thí nghiệm bằng cách so sánh trọng lượng ướt với trọng lượng khô (bằng cách đo trọng lượng khi ướt, sau đó sấy khô trong lò và đo trọng lượng khô). Sau khi lấy một vài phép đo, điều này có thể được vẽ trên biểu đồ và một đường được khớp với các điểm. Đường này sau đó có thể được sử dụng để chuyển đổi các phép đo cảm biến độ ẩm đất được thực hiện bởi thiết bị IoT thành các phép đo độ ẩm đất thực tế.
 

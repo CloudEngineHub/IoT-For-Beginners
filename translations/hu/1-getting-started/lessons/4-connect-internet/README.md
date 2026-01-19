@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Csatlakoztassa eszközét az internethez
 
-![A lecke vázlatos áttekintése](../../../../../translated_images/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.hu.jpg)
+![A lecke vázlatos áttekintése](../../../../../translated_images/hu/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.jpg)
 
 > Vázlatrajz: [Nitya Narasimhan](https://github.com/nitya). Kattintson a képre a nagyobb verzióért.
 
@@ -46,7 +46,7 @@ Ebben a leckében a következő témákat tárgyaljuk:
 
 Számos népszerű kommunikációs protokoll létezik, amelyeket az IoT-eszközök használnak az internetes kommunikációhoz. A legnépszerűbbek a publikálás/feliratkozás üzenetküldésen alapulnak valamilyen közvetítőn keresztül. Az IoT-eszközök csatlakoznak a közvetítőhöz, és telemetriát publikálnak, valamint parancsokra iratkoznak fel. A felhőszolgáltatások szintén csatlakoznak a közvetítőhöz, és feliratkoznak az összes telemetriai üzenetre, valamint parancsokat publikálnak, akár konkrét eszközökre, akár eszközcsoportokra.
 
-![Az IoT-eszközök egy közvetítőhöz csatlakoznak, telemetriát publikálnak és parancsokra iratkoznak fel. A felhőszolgáltatások szintén csatlakoznak a közvetítőhöz, feliratkoznak az összes telemetriára, és parancsokat küldenek konkrét eszközökre.](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4.hu.png)
+![Az IoT-eszközök egy közvetítőhöz csatlakoznak, telemetriát publikálnak és parancsokra iratkoznak fel. A felhőszolgáltatások szintén csatlakoznak a közvetítőhöz, feliratkoznak az összes telemetriára, és parancsokat küldenek konkrét eszközökre.](../../../../../translated_images/hu/pub-sub.7c7ed43fe9fd15d4.webp)
 
 Az MQTT a legnépszerűbb kommunikációs protokoll az IoT-eszközök számára, és ezt a leckében tárgyaljuk. Egyéb protokollok közé tartozik az AMQP és a HTTP/HTTPS.
 
@@ -56,7 +56,7 @@ Az [MQTT](http://mqtt.org) egy könnyű, nyílt szabványú üzenetküldési pro
 
 Az MQTT egyetlen közvetítőt és több klienst használ. Minden kliens csatlakozik a közvetítőhöz, amely az üzeneteket a megfelelő kliensekhez irányítja. Az üzeneteket elnevezett témák segítségével irányítják, nem pedig közvetlenül egy adott klienshez küldik. Egy kliens publikálhat egy témára, és bármelyik kliens, amely feliratkozott erre a témára, megkapja az üzenetet.
 
-![Az IoT-eszköz telemetriát publikál a /telemetry témára, és a felhőszolgáltatás feliratkozik erre a témára](../../../../../translated_images/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.hu.png)
+![Az IoT-eszköz telemetriát publikál a /telemetry témára, és a felhőszolgáltatás feliratkozik erre a témára](../../../../../translated_images/hu/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.png)
 
 ✅ Kutasson egy kicsit! Ha sok IoT-eszköze van, hogyan biztosíthatja, hogy az MQTT közvetítője képes legyen kezelni az összes üzenetet?
 
@@ -78,7 +78,7 @@ Ahelyett, hogy az MQTT közvetítő beállításának bonyolultságával foglalk
 
 > 💁 Ez a teszt közvetítő nyilvános és nem biztonságos. Bárki hallgathatja, amit publikál, ezért nem szabad olyan adatokkal használni, amelyeket titokban kell tartani.
 
-![A feladat folyamatábrája, amely a fényerősség leolvasását és ellenőrzését, valamint az LED vezérlését mutatja](../../../../../translated_images/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.hu.png)
+![A feladat folyamatábrája, amely a fényerősség leolvasását és ellenőrzését, valamint az LED vezérlését mutatja](../../../../../translated_images/hu/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.png)
 
 Kövesse az alábbi lépéseket, hogy csatlakoztassa eszközét az MQTT közvetítőhöz:
 
@@ -115,7 +115,7 @@ A telemetria szó görög gyökerekből származik, jelentése távoli mérés. 
 
 Nézzük vissza az 1. leckében bemutatott okos termosztát példáját.
 
-![Egy internethez csatlakoztatott termosztát több szobai érzékelővel](../../../../../translated_images/telemetry.21e5d8b97649d2eb.hu.png)
+![Egy internethez csatlakoztatott termosztát több szobai érzékelővel](../../../../../translated_images/hu/telemetry.21e5d8b97649d2eb.webp)
 
 A termosztát hőmérséklet-érzékelőkkel gyűjti a telemetriát. Valószínűleg egy beépített hőmérséklet-érzékelővel rendelkezik, és több külső hőmérséklet-érzékelőhöz is csatlakozhat egy vezeték nélküli protokoll, például [Bluetooth Low Energy](https://wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE) segítségével.
 
@@ -253,11 +253,11 @@ Most már megírhatja a szerver kódját Pythonban.
 
 1. Amikor a VS Code elindul, aktiválni fogja a Python virtuális környezetet. Ezt az alsó állapotsorban fogja jelezni:
 
-    ![A VS Code a kiválasztott virtuális környezetet mutatja](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.hu.png)
+    ![A VS Code a kiválasztott virtuális környezetet mutatja](../../../../../translated_images/hu/vscode-virtual-env.8ba42e04c3d533cf.webp)
 
 1. Ha a VS Code Terminál már fut, amikor a VS Code elindul, akkor nem lesz aktiválva benne a virtuális környezet. A legegyszerűbb megoldás az, ha bezárja a terminált az **Aktív terminálpéldány bezárása** gombbal:
 
-    ![A VS Code Aktív terminálpéldány bezárása gomb](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.hu.png)
+    ![A VS Code Aktív terminálpéldány bezárása gomb](../../../../../translated_images/hu/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
 
 1. Indítson egy új VS Code Terminált a *Terminál -> Új terminál* menüpont kiválasztásával, vagy a `` CTRL+` `` billentyűkombináció megnyomásával. Az új terminál betölti a virtuális környezetet, és az aktiválás parancsa megjelenik a terminálban. A virtuális környezet neve (`.venv`) szintén megjelenik a promptban:
 
@@ -345,7 +345,7 @@ Gépek esetében érdemes lehet megtartani az adatokat, különösen, ha azokat 
 
 Az IoT eszköz tervezőinek azt is figyelembe kell venniük, hogy az eszköz használható-e internetkimaradás vagy helyszíni jelvesztés esetén. Egy okos termosztátnak képesnek kell lennie arra, hogy korlátozott döntéseket hozzon a fűtés vezérlésére, ha nem tud telemetriát küldeni a felhőbe egy kimaradás miatt.
 
-[![Ez a Ferrari használhatatlanná vált, mert valaki föld alatt próbálta frissíteni, ahol nincs mobiljel](../../../../../translated_images/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.hu.png)](https://twitter.com/internetofshit/status/1315736960082808832)
+[![Ez a Ferrari használhatatlanná vált, mert valaki föld alatt próbálta frissíteni, ahol nincs mobiljel](../../../../../translated_images/hu/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.png)](https://twitter.com/internetofshit/status/1315736960082808832)
 
 Az MQTT kezeléséhez kapcsolatvesztés esetén az eszköz- és szerverkódnak felelősséget kell vállalnia az üzenetek kézbesítésének biztosításáért, ha szükséges, például azáltal, hogy megköveteli, hogy minden elküldött üzenetre válasz érkezzen egy válasz témán, és ha nem, akkor manuálisan sorba állítják őket későbbi újrajátszásra.
 
@@ -353,7 +353,7 @@ Az MQTT kezeléséhez kapcsolatvesztés esetén az eszköz- és szerverkódnak f
 
 A parancsok olyan üzenetek, amelyeket a felhő küld egy eszköznek, hogy utasítsa valamilyen művelet végrehajtására. Ez legtöbbször valamilyen kimenet generálását jelenti egy aktuátor segítségével, de lehet az eszközre vonatkozó utasítás is, például újraindítás vagy további telemetria gyűjtése és válaszként való visszaküldése.
 
-![Egy internetkapcsolattal rendelkező termosztát, amely parancsot kap a fűtés bekapcsolására](../../../../../translated_images/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.hu.png)
+![Egy internetkapcsolattal rendelkező termosztát, amely parancsot kap a fűtés bekapcsolására](../../../../../translated_images/hu/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.png)
 
 Egy termosztát például parancsot kaphat a felhőtől a fűtés bekapcsolására. Az összes érzékelő telemetriai adatai alapján a felhőszolgáltatás úgy döntött, hogy a fűtésnek be kell kapcsolnia, ezért elküldi a megfelelő parancsot.
 

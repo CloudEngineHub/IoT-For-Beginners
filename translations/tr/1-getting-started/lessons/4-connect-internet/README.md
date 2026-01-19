@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Cihazınızı İnternete Bağlayın
 
-![Bu dersin bir sketchnote özeti](../../../../../translated_images/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.tr.jpg)
+![Bu dersin bir sketchnote özeti](../../../../../translated_images/tr/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.jpg)
 
 > Sketchnote: [Nitya Narasimhan](https://github.com/nitya). Daha büyük bir versiyon için görsele tıklayın.
 
@@ -46,7 +46,7 @@ Bu derste şunları ele alacağız:
 
 IoT cihazlarının İnternet ile iletişim kurmak için kullandığı birçok popüler iletişim protokolü vardır. En popüler olanlar, bir tür aracı üzerinden yayınla/abone ol mesajlaşmasına dayanır. IoT cihazları aracıya bağlanır, telemetri yayınlar ve komutlara abone olur. Bulut hizmetleri de aracıya bağlanır, tüm telemetri mesajlarına abone olur ve belirli cihazlara veya cihaz gruplarına komutlar yayınlar.
 
-![IoT cihazları bir aracıya bağlanır, telemetri yayınlar ve komutlara abone olur. Bulut hizmetleri aracıya bağlanır, tüm telemetri mesajlarına abone olur ve belirli cihazlara komut gönderir.](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4.tr.png)
+![IoT cihazları bir aracıya bağlanır, telemetri yayınlar ve komutlara abone olur. Bulut hizmetleri aracıya bağlanır, tüm telemetri mesajlarına abone olur ve belirli cihazlara komut gönderir.](../../../../../translated_images/tr/pub-sub.7c7ed43fe9fd15d4.webp)
 
 MQTT, IoT cihazları için en popüler iletişim protokolüdür ve bu derste ele alınacaktır. Diğer protokoller arasında AMQP ve HTTP/HTTPS bulunur.
 
@@ -56,7 +56,7 @@ MQTT, IoT cihazları için en popüler iletişim protokolüdür ve bu derste ele
 
 MQTT, tek bir aracı ve birden fazla istemciye sahiptir. Tüm istemciler aracıya bağlanır ve aracı, mesajları ilgili istemcilere yönlendirir. Mesajlar, bireysel bir istemciye doğrudan gönderilmek yerine adlandırılmış konular kullanılarak yönlendirilir. Bir istemci bir konuya yayın yapabilir ve o konuya abone olan tüm istemciler mesajı alır.
 
-![IoT cihazı, /telemetry konusunda telemetri yayınlıyor ve bulut hizmeti bu konuya abone oluyor](../../../../../translated_images/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.tr.png)
+![IoT cihazı, /telemetry konusunda telemetri yayınlıyor ve bulut hizmeti bu konuya abone oluyor](../../../../../translated_images/tr/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.png)
 
 ✅ Araştırma yapın. Çok sayıda IoT cihazınız varsa, MQTT aracınızın tüm mesajları işleyebilmesini nasıl sağlayabilirsiniz?
 
@@ -78,7 +78,7 @@ Bu ödevin bir parçası olarak bir MQTT aracı kurmanın karmaşıklıklarıyla
 
 > 💁 Bu test aracı herkese açıktır ve güvenli değildir. Yayınladığınız şeyleri başkaları dinleyebilir, bu nedenle özel tutulması gereken verilerle kullanılmamalıdır.
 
-![Görev akış şeması: ışık seviyeleri okunur ve kontrol edilir, LED kontrol edilir](../../../../../translated_images/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.tr.png)
+![Görev akış şeması: ışık seviyeleri okunur ve kontrol edilir, LED kontrol edilir](../../../../../translated_images/tr/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.png)
 
 Cihazınızı MQTT aracısına bağlamak için aşağıdaki ilgili adımı izleyin:
 
@@ -115,7 +115,7 @@ Telemetri kelimesi, uzaktan ölçüm anlamına gelen Yunanca köklerden türetil
 
 1. Dersteki akıllı termostat örneğine geri dönelim.
 
-![Birden fazla oda sensörü kullanan internet bağlantılı bir termostat](../../../../../translated_images/telemetry.21e5d8b97649d2eb.tr.png)
+![Birden fazla oda sensörü kullanan internet bağlantılı bir termostat](../../../../../translated_images/tr/telemetry.21e5d8b97649d2eb.webp)
 
 Termostat, telemetri toplamak için sıcaklık sensörlerine sahiptir. Muhtemelen bir sıcaklık sensörü yerleşik olarak bulunur ve birden fazla harici sıcaklık sensörüne [Bluetooth Low Energy](https://wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE) gibi bir kablosuz protokol üzerinden bağlanabilir.
 
@@ -267,11 +267,11 @@ Sunucu kodunu yazın.
 
 1. VS Code başlatıldığında, Python sanal ortamını etkinleştirecektir. Bu, alt durum çubuğunda rapor edilecektir:
 
-    ![VS Code seçilen sanal ortamı gösteriyor](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.tr.png)
+    ![VS Code seçilen sanal ortamı gösteriyor](../../../../../translated_images/tr/vscode-virtual-env.8ba42e04c3d533cf.webp)
 
 1. VS Code Terminali, VS Code başlatıldığında zaten çalışıyorsa, sanal ortam terminalde etkinleştirilmez. En kolay çözüm, **Aktif terminal örneğini sonlandır** düğmesini kullanarak terminali kapatmaktır:
 
-    ![VS Code Aktif terminal örneğini sonlandır düğmesi](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.tr.png)
+    ![VS Code Aktif terminal örneğini sonlandır düğmesi](../../../../../translated_images/tr/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
 
 1. *Terminal -> Yeni Terminal* seçeneğini seçerek veya `` CTRL+` `` tuşlarına basarak yeni bir VS Code Terminali başlatın. Yeni terminal sanal ortamı yükleyecek ve bu, terminalde görünecektir. Sanal ortamın adı (`.venv`) istemde de görünecektir:
 
@@ -359,7 +359,7 @@ Bir makine için verileri saklamak isteyebilirsiniz, özellikle de eğilimleri i
 
 IoT cihaz tasarımcıları ayrıca, IoT cihazının bir internet kesintisi veya konum nedeniyle sinyal kaybı sırasında kullanılabilir olup olmadığını da düşünmelidir. Akıllı bir termostat, bir kesinti nedeniyle telemetriyi buluta gönderemiyorsa, ısıtmayı kontrol etmek için bazı sınırlı kararlar alabilmelidir.
 
-[![Bu Ferrari, yeraltında hücresel sinyal olmadığı bir yerde güncellenmeye çalışıldığı için kullanılamaz hale geldi](../../../../../translated_images/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.tr.png)](https://twitter.com/internetofshit/status/1315736960082808832)
+[![Bu Ferrari, yeraltında hücresel sinyal olmadığı bir yerde güncellenmeye çalışıldığı için kullanılamaz hale geldi](../../../../../translated_images/tr/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.png)](https://twitter.com/internetofshit/status/1315736960082808832)
 
 MQTT'nin bağlantı kaybını ele alabilmesi için, cihaz ve sunucu kodu, mesaj tesliminin gerektiğinde sağlanmasından sorumlu olmalıdır. Örneğin, gönderilen tüm mesajların bir yanıt konusu üzerinde ek mesajlarla yanıtlanmasını gerektirerek ve yanıtlanmazsa, bunları manuel olarak sıraya alarak daha sonra yeniden oynatılmasını sağlayabilir.
 
@@ -367,7 +367,7 @@ MQTT'nin bağlantı kaybını ele alabilmesi için, cihaz ve sunucu kodu, mesaj 
 
 Komutlar, buluttan bir cihaza gönderilen ve bir şey yapmasını talep eden mesajlardır. Çoğu zaman bu, bir aktüatör aracılığıyla bir tür çıktı vermeyi içerir, ancak cihazın kendisi için bir talimat da olabilir, örneğin yeniden başlatmak veya ek telemetri toplamak ve bunu komuta yanıt olarak geri göndermek.
 
-![Bir internet bağlantılı termostatın ısıtmayı açma komutunu alması](../../../../../translated_images/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.tr.png)
+![Bir internet bağlantılı termostatın ısıtmayı açma komutunu alması](../../../../../translated_images/tr/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.png)
 
 Bir termostat, buluttan ısıtmayı açma komutunu alabilir. Tüm sensörlerden gelen telemetri verilerine dayanarak, bulut hizmeti ısıtmanın açık olması gerektiğine karar verdiyse, ilgili komutu gönderir.
 

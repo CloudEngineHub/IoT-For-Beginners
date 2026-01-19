@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Tunnista puhe IoT-laitteella
 
-![Tämän oppitunnin yleiskuvaus sketchnotena](../../../../../translated_images/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.fi.jpg)
+![Tämän oppitunnin yleiskuvaus sketchnotena](../../../../../translated_images/fi/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.jpg)
 
 > Sketchnote: [Nitya Narasimhan](https://github.com/nitya). Klikkaa kuvaa nähdäksesi suuremman version.
 
@@ -60,19 +60,19 @@ Mikrofoneja on monenlaisia:
 
     Dynaamiset mikrofonit eivät tarvitse virtaa toimiakseen, sillä sähköinen signaali syntyy täysin mikrofonin toiminnasta.
 
-    ![Patti Smith laulamassa Shure SM58 (dynaaminen kardioidimikrofoni) -mikrofoniin](../../../../../translated_images/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.fi.jpg)
+    ![Patti Smith laulamassa Shure SM58 (dynaaminen kardioidimikrofoni) -mikrofoniin](../../../../../translated_images/fi/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.jpg)
 
 * Nauhamikrofonit - Nauhamikrofonit ovat samankaltaisia kuin dynaamiset mikrofonit, mutta niissä on metallinauha kalvon sijasta. Tämä nauha liikkuu magneettikentässä ja tuottaa sähkövirran. Kuten dynaamiset mikrofonit, nauhamikrofonit eivät tarvitse virtaa toimiakseen.
 
-    ![Edmund Lowe, amerikkalainen näyttelijä, seisoo radiomikrofonin (merkitty (NBC) Blue Network) edessä, käsikirjoitus kädessään, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441ca.fi.jpg)
+    ![Edmund Lowe, amerikkalainen näyttelijä, seisoo radiomikrofonin (merkitty (NBC) Blue Network) edessä, käsikirjoitus kädessään, 1942](../../../../../translated_images/fi/ribbon-mic.eacc8e092c7441ca.webp)
 
 * Kondensaattorimikrofonit - Kondensaattorimikrofoneissa on ohut metallikalvo ja kiinteä metallinen takalevy. Molempiin johdetaan sähköä, ja kun kalvo värähtelee, staattinen varaus levyjen välillä muuttuu ja tuottaa signaalin. Kondensaattorimikrofonit tarvitsevat virtaa toimiakseen – tätä kutsutaan *phantom-virraksi*.
 
-    ![C451B pienikalvoinen kondensaattorimikrofoni AKG Acousticsilta](../../../../../translated_images/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.fi.jpg)
+    ![C451B pienikalvoinen kondensaattorimikrofoni AKG Acousticsilta](../../../../../translated_images/fi/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.jpg)
 
 * MEMS - Mikroelektromekaaniset järjestelmät (MEMS) ovat sirulle rakennettuja mikrofoneja. Niissä on paineherkkä kalvo, joka on kaiverrettu piisiruun, ja ne toimivat samankaltaisesti kuin kondensaattorimikrofonit. Nämä mikrofonit voivat olla erittäin pieniä ja integroitavissa piireihin.
 
-    ![MEMS-mikrofoni piirilevyllä](../../../../../translated_images/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.fi.png)
+    ![MEMS-mikrofoni piirilevyllä](../../../../../translated_images/fi/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.png)
 
     Yllä olevassa kuvassa siru, jossa lukee **LEFT**, on MEMS-mikrofoni, jossa on alle millimetrin levyinen kalvo.
 
@@ -84,7 +84,7 @@ Mikrofoneja on monenlaisia:
 
 > 🎓 Näytteenotto tarkoittaa äänen signaalin muuntamista digitaaliseksi arvoksi, joka edustaa signaalia tietyllä ajanhetkellä.
 
-![Viivakaavio, joka näyttää signaalin ja kiintein välein otetut pisteet](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7.fi.png)
+![Viivakaavio, joka näyttää signaalin ja kiintein välein otetut pisteet](../../../../../translated_images/fi/sampling.6f4fadb3f2d9dfe7.webp)
 
 Digitaalinen ääni näytteistetään käyttämällä pulssikoodimodulaatiota (Pulse Code Modulation, PCM). PCM:ssä signaalin jännite luetaan ja valitaan lähin diskreetti arvo tälle jännitteelle määritellyn koon perusteella.
 
@@ -168,7 +168,7 @@ Välttääkseen herätyssanamallin kouluttamisen ja käytön monimutkaisuuden, t
 
 ## Muunna puhe tekstiksi
 
-![Puhepalveluiden logo](../../../../../translated_images/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.fi.png)
+![Puhepalveluiden logo](../../../../../translated_images/fi/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
 
 Aivan kuten kuvien luokittelussa aiemmassa projektissa, on olemassa valmiita tekoälypalveluita, jotka voivat ottaa puheen äänitiedostona ja muuntaa sen tekstiksi. Yksi tällainen palvelu on Puhepalvelu, joka on osa Cognitive Services -palveluita, valmiita tekoälypalveluita, joita voit käyttää sovelluksissasi.
 

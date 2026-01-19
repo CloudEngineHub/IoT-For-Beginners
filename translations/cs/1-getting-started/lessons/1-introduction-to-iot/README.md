@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Úvod do IoT
 
-![Přehled této lekce ve formě sketchnote](../../../../../translated_images/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.cs.jpg)
+![Přehled této lekce ve formě sketchnote](../../../../../translated_images/cs/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.jpg)
 
 > Sketchnote vytvořil [Nitya Narasimhan](https://github.com/nitya). Klikněte na obrázek pro větší verzi.
 
@@ -79,7 +79,7 @@ Mikrokontrolér (také označovaný jako MCU, což je zkratka pro microcontrolle
 
 Mikrokontroléry jsou obvykle nízkonákladová výpočetní zařízení, přičemž průměrné ceny těch, které se používají v zakázkovém hardwaru, klesají na přibližně 0,50 USD, a některá zařízení jsou tak levná jako 0,03 USD. Vývojářské sady mohou začínat na ceně 4 USD, přičemž náklady rostou s přidáváním dalších funkcí. [Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html), vývojářská sada mikrokontroléru od [Seeed studios](https://www.seeedstudio.com), která má senzory, aktuátory, WiFi a obrazovku, stojí přibližně 30 USD.
 
-![Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9a.cs.png)
+![Wio Terminal](../../../../../translated_images/cs/wio-terminal.b8299ee16587db9a.webp)
 
 > 💁 Při hledání mikrokontrolérů na internetu buďte opatrní při hledání termínu **MCU**, protože vám to může přinést mnoho výsledků týkajících se Marvel Cinematic Universe, nikoliv mikrokontrolérů.
 
@@ -93,7 +93,7 @@ Vývojářské sady mikrokontrolérů obvykle přicházejí s dalšími vestavě
 
 Jednodeskový počítač je malé výpočetní zařízení, které má všechny prvky kompletního počítače obsažené na jedné malé desce. Tato zařízení mají specifikace blízké stolnímu nebo přenosnému PC nebo Macu, běží na plnohodnotném operačním systému, ale jsou malá, spotřebovávají méně energie a jsou podstatně levnější.
 
-![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.cs.jpg)
+![Raspberry Pi 4](../../../../../translated_images/cs/raspberry-pi-4.fd4590d308c3d456.webp)
 
 Raspberry Pi je jedním z nejoblíbenějších jednodeskových počítačů.
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Antrenează un detector de calitate a fructelor
 
-![O prezentare grafică a lecției](../../../../../translated_images/lesson-15.843d21afdc6fb2bba70cd9db7b7d2f91598859fafda2078b0bdc44954194b6c0.ro.jpg)
+![O prezentare grafică a lecției](../../../../../translated_images/ro/lesson-15.843d21afdc6fb2bba70cd9db7b7d2f91598859fafda2078b0bdc44954194b6c0.jpg)
 
 > Prezentare grafică de [Nitya Narasimhan](https://github.com/nitya). Click pe imagine pentru o versiune mai mare.
 
@@ -47,7 +47,7 @@ Nu toate culturile se coc uniform. Roșiile, de exemplu, pot avea încă fructe 
 
 Creșterea recoltării automatizate a mutat sortarea produselor din timpul recoltării în fabrici. Alimentele circulau pe benzi transportoare lungi, cu echipe de oameni care verificau produsele și eliminau orice nu corespundea standardelor de calitate necesare. Recoltarea era mai ieftină datorită mașinilor, dar exista încă un cost pentru sortarea manuală a alimentelor.
 
-![Dacă o roșie roșie este detectată, își continuă drumul neîntrerupt. Dacă o roșie verde este detectată, este aruncată într-un coș de deșeuri de un levier](../../../../../translated_images/optical-tomato-sorting.61aa134bdda4e5b1bfb16a212c1e35a6ef0c426cbb8b1c975f79d7bfbf48d068.ro.png)
+![Dacă o roșie roșie este detectată, își continuă drumul neîntrerupt. Dacă o roșie verde este detectată, este aruncată într-un coș de deșeuri de un levier](../../../../../translated_images/ro/optical-tomato-sorting.61aa134bdda4e5b1bfb16a212c1e35a6ef0c426cbb8b1c975f79d7bfbf48d068.png)
 
 Evoluția următoare a fost utilizarea mașinilor pentru sortare, fie integrate în combinele de recoltare, fie în fabricile de procesare. Prima generație a acestor mașini folosea senzori optici pentru a detecta culorile, controlând actuatoare care împingeau roșiile verzi într-un coș de deșeuri folosind pârghii sau jeturi de aer, lăsând roșiile roșii să continue pe o rețea de benzi transportoare.
 
@@ -61,7 +61,7 @@ Cele mai recente evoluții ale acestor mașini de sortare profită de AI și ML,
 
 Programarea tradițională presupune să iei date, să aplici un algoritm asupra lor și să obții un rezultat. De exemplu, în proiectul anterior ai luat coordonate GPS și o geofence, ai aplicat un algoritm furnizat de Azure Maps și ai obținut un rezultat care indica dacă punctul era în interiorul sau în afara geofence-ului. Introduci mai multe date, obții mai multe rezultate.
 
-![Dezvoltarea tradițională ia datele de intrare și un algoritm și oferă un rezultat. Învățarea automată folosește datele de intrare și rezultatele cunoscute pentru a antrena un model, iar acest model poate lua noi date de intrare pentru a genera noi rezultate](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539.ro.png)
+![Dezvoltarea tradițională ia datele de intrare și un algoritm și oferă un rezultat. Învățarea automată folosește datele de intrare și rezultatele cunoscute pentru a antrena un model, iar acest model poate lua noi date de intrare pentru a genera noi rezultate](../../../../../translated_images/ro/traditional-vs-ml.5c20c169621fa539.webp)
 
 Învățarea automată schimbă acest proces - începi cu date și rezultate cunoscute, iar algoritmul de învățare automată învață din date. Poți apoi să iei acest algoritm antrenat, numit *model de învățare automată* sau *model*, și să introduci date noi pentru a obține rezultate noi.
 
@@ -71,7 +71,7 @@ De exemplu, ai putea oferi unui model milioane de imagini cu banane necoapte ca 
 
 > 🎓 Rezultatele modelelor ML se numesc *predicții*
 
-![2 banane, una coaptă cu o predicție de 99.7% coaptă, 0.3% necoaptă, și una necoaptă cu o predicție de 1.4% coaptă, 98.6% necoaptă](../../../../../translated_images/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50ece4e4589e724b142da0681f35470fe3db3f7d51240f69c85.ro.png)
+![2 banane, una coaptă cu o predicție de 99.7% coaptă, 0.3% necoaptă, și una necoaptă cu o predicție de 1.4% coaptă, 98.6% necoaptă](../../../../../translated_images/ro/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50ece4e4589e724b142da0681f35470fe3db3f7d51240f69c85.png)
 
 Modelele ML nu oferă un răspuns binar, ci oferă probabilități. De exemplu, un model poate primi o imagine cu o banană și poate prezice `coaptă` cu 99.7% și `necoaptă` cu 0.3%. Codul tău ar alege apoi cea mai bună predicție și ar decide că banana este coaptă.
 
@@ -87,7 +87,7 @@ Pentru a antrena cu succes un clasificator de imagini, ai nevoie de milioane de 
 
 Odată ce un clasificator de imagini a fost antrenat pentru o gamă largă de imagini, structura sa internă este excelentă la recunoașterea formelor, culorilor și modelelor. Transferul de învățare permite modelului să folosească ceea ce a învățat deja despre recunoașterea părților unei imagini și să folosească acest lucru pentru a recunoaște imagini noi.
 
-![Odată ce poți recunoaște forme, acestea pot fi configurate diferit pentru a forma o barcă sau o pisică](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66f.ro.png)
+![Odată ce poți recunoaște forme, acestea pot fi configurate diferit pentru a forma o barcă sau o pisică](../../../../../translated_images/ro/shapes-to-images.1a309f0ea88dd66f.webp)
 
 Poți considera acest lucru ca fiind similar cu cărțile pentru copii despre forme, unde odată ce poți recunoaște un semicerc, un dreptunghi și un triunghi, poți recunoaște o barcă cu pânze sau o pisică, în funcție de configurația acestor forme. Clasificatorul de imagini poate recunoaște formele, iar transferul de învățare îl învață ce combinație formează o barcă sau o pisică - sau o banană coaptă.
 
@@ -99,7 +99,7 @@ Există o gamă largă de instrumente care te pot ajuta să faci acest lucru, in
 
 Custom Vision este un instrument bazat pe cloud pentru antrenarea clasificatorilor de imagini. Acesta îți permite să antrenezi un clasificator folosind doar un număr mic de imagini. Poți încărca imagini printr-un portal web, API web sau un SDK, oferind fiecărei imagini o *etichetă* care reprezintă clasificarea acelei imagini. Apoi antrenezi modelul și îl testezi pentru a vedea cât de bine funcționează. Odată ce ești mulțumit de model, poți publica versiuni ale acestuia care pot fi accesate printr-un API web sau un SDK.
 
-![Logo-ul Azure Custom Vision](../../../../../translated_images/custom-vision-logo.d3d4e7c8a87ec9daf825e72e210576c3cbf60312577be7a139e22dd97ab7f1e6.ro.png)
+![Logo-ul Azure Custom Vision](../../../../../translated_images/ro/custom-vision-logo.d3d4e7c8a87ec9daf825e72e210576c3cbf60312577be7a139e22dd97ab7f1e6.png)
 
 > 💁 Poți antrena un model Custom Vision cu doar 5 imagini pe clasificare, dar mai multe imagini sunt mai bune. Poți obține rezultate mai bune cu cel puțin 30 de imagini.
 
@@ -155,7 +155,7 @@ Pentru a utiliza Custom Vision, mai întâi trebuie să creezi două resurse Cog
 
     Când creezi proiectul, asigură-te că utilizezi resursa `fruit-quality-detector-training` pe care ai creat-o anterior. Folosește un tip de proiect *Classification*, un tip de clasificare *Multiclass* și domeniul *Food*.
 
-    ![Setările proiectului Custom Vision cu numele setat la fruit-quality-detector, fără descriere, resursa setată la fruit-quality-detector-training, tipul proiectului setat la classification, tipul clasificării setat la multi class și domeniul setat la food](../../../../../translated_images/custom-vision-create-project.cf46325b92d8b131089f6647cf5e07b664cb77850e106d66e3c057b6b69756c6.ro.png)
+    ![Setările proiectului Custom Vision cu numele setat la fruit-quality-detector, fără descriere, resursa setată la fruit-quality-detector-training, tipul proiectului setat la classification, tipul clasificării setat la multi class și domeniul setat la food](../../../../../translated_images/ro/custom-vision-create-project.cf46325b92d8b131089f6647cf5e07b664cb77850e106d66e3c057b6b69756c6.png)
 
 ✅ Acordă-ți timp pentru a explora interfața utilizatorului Custom Vision pentru clasificatorul tău de imagini.
 
@@ -173,7 +173,7 @@ Clasificatoarele de imagini funcționează la o rezoluție foarte mică. De exem
 
     * Folosind 2 banane coapte, faceți câteva poze cu fiecare din unghiuri diferite, realizând cel puțin 7 poze (5 pentru antrenament, 2 pentru testare), dar ideal mai multe.
 
-        ![Fotografii cu 2 banane diferite](../../../../../translated_images/banana-training-images.530eb203346d73bc23b8b990fb4609470bf4ff7c942ccc13d4cfffeed9be1ad4.ro.png)
+        ![Fotografii cu 2 banane diferite](../../../../../translated_images/ro/banana-training-images.530eb203346d73bc23b8b990fb4609470bf4ff7c942ccc13d4cfffeed9be1ad4.png)
 
     * Repetați același proces folosind 2 banane necoapte.
 
@@ -183,7 +183,7 @@ Clasificatoarele de imagini funcționează la o rezoluție foarte mică. De exem
 
 1. Urmați secțiunea [upload and tag images din ghidul rapid pentru construirea unui clasificator din documentația Microsoft](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#upload-and-tag-images) pentru a încărca imaginile de antrenament. Etichetați fructele coapte ca `ripe` și cele necoapte ca `unripe`.
 
-    ![Dialogurile de încărcare care arată încărcarea imaginilor cu banane coapte și necoapte](../../../../../translated_images/image-upload-bananas.0751639f3815e0ec42bdbc6254d1e4357a185834d1ae10c9948a0e7d6d336695.ro.png)
+    ![Dialogurile de încărcare care arată încărcarea imaginilor cu banane coapte și necoapte](../../../../../translated_images/ro/image-upload-bananas.0751639f3815e0ec42bdbc6254d1e4357a185834d1ae10c9948a0e7d6d336695.png)
 
 1. Urmați secțiunea [train the classifier din ghidul rapid pentru construirea unui clasificator din documentația Microsoft](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#train-the-classifier) pentru a antrena clasificatorul de imagini pe imaginile încărcate.
 
@@ -201,7 +201,7 @@ După ce clasificatorul este antrenat, îl puteți testa oferindu-i o imagine no
 
 1. Urmați secțiunea [test your model din documentația Microsoft](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/test-your-model?WT.mc_id=academic-17441-jabenn#test-your-model) pentru a testa clasificatorul de imagini. Utilizați imaginile de testare create anterior, nu pe cele utilizate pentru antrenament.
 
-    ![O banană necoptă prezisă ca necoptă cu o probabilitate de 98.9%, coaptă cu o probabilitate de 1.1%](../../../../../translated_images/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64886422438850ea14f0be6ac918c217ea3b255c685abfabe7.ro.png)
+    ![O banană necoptă prezisă ca necoptă cu o probabilitate de 98.9%, coaptă cu o probabilitate de 1.1%](../../../../../translated_images/ro/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64886422438850ea14f0be6ac918c217ea3b255c685abfabe7.png)
 
 1. Încercați toate imaginile de testare pe care le aveți și observați probabilitățile.
 

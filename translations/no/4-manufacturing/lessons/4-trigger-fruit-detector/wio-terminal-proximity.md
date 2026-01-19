@@ -29,13 +29,13 @@ Grove Time of Flight-sensoren kan kobles til Wio Terminal.
 
 Koble til Time of Flight-sensoren.
 
-![En Grove Time of Flight-sensor](../../../../../translated_images/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.no.png)
+![En Grove Time of Flight-sensor](../../../../../translated_images/no/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
 
 1. Sett den ene enden av en Grove-kabel inn i kontakten på Time of Flight-sensoren. Den kan bare settes inn på én måte.
 
 1. Med Wio Terminal frakoblet fra datamaskinen eller annen strømkilde, koble den andre enden av Grove-kabelen til den venstre Grove-kontakten på Wio Terminal når du ser på skjermen. Dette er kontakten nærmest strømknappen. Dette er en kombinert digital og I2C-kontakt.
 
-![Grove Time of Flight-sensor koblet til venstre kontakt](../../../../../translated_images/wio-time-of-flight-sensor.c4c182131d2ea73d.no.png)
+![Grove Time of Flight-sensor koblet til venstre kontakt](../../../../../translated_images/no/wio-time-of-flight-sensor.c4c182131d2ea73d.webp)
 
 1. Du kan nå koble Wio Terminal til datamaskinen din.
 
@@ -101,7 +101,7 @@ Wio Terminal kan nå programmeres til å bruke den tilkoblede Time of Flight-sen
 
     Avstandsmåleren er på baksiden av sensoren, så sørg for at du bruker riktig side når du måler avstand.
 
-    ![Avstandsmåleren på baksiden av Time of Flight-sensoren peker på en banan](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.no.png)
+    ![Avstandsmåleren på baksiden av Time of Flight-sensoren peker på en banan](../../../../../translated_images/no/time-of-flight-banana.079921ad8b1496e4.webp)
 
 > 💁 Du finner denne koden i [code-proximity/wio-terminal](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/wio-terminal)-mappen.
 

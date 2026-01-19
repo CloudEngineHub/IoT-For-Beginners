@@ -154,11 +154,11 @@ Console တွင် `"Hello World"` ကို print လုပ်သော Pytho
 
 1. VS Code ကို launch လုပ်သောအခါ Python virtual environment ကို activate လုပ်ပါမည်။ Virtual environment ကို select လုပ်ထားသည်ကို အောက်ခြေ status bar တွင် တွေ့နိုင်ပါမည်:
 
-    ![VS Code showing the selected virtual environment](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.my.png)
+    ![VS Code showing the selected virtual environment](../../../../../translated_images/my/vscode-virtual-env.8ba42e04c3d533cf.webp)
 
 1. VS Code Terminal သည် VS Code စတင်လုပ်ဆောင်သောအခါ run လုပ်နေပါက virtual environment ကို activate လုပ်ထားမည်မဟုတ်ပါ။ Terminal ကို **Kill the active terminal instance** button ဖြင့် ပိတ်လိုက်ပါ:
 
-    ![VS Code Kill the active terminal instance button](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.my.png)
+    ![VS Code Kill the active terminal instance button](../../../../../translated_images/my/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
 
     Terminal prompt တွင် virtual environment ၏နာမည် `.venv` ဟု prefix အနေဖြင့်ပါဝင်ပါမည်။ ဥပမာ - prompt သည် အောက်ပါအတိုင်းဖြစ်နိုင်သည်:
 
@@ -212,7 +212,7 @@ Console တွင် `"Hello World"` ကို print လုပ်သော Pytho
 
     App သည် run လုပ်ပြီး သင်၏ web browser တွင် open လုပ်ပါမည်:
 
-    ![The Counter Fit app running in a browser](../../../../../translated_images/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.my.png)
+    ![The Counter Fit app running in a browser](../../../../../translated_images/my/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
 
     App သည် *Disconnected* ဟုပြထားပြီး LED သည် အပိတ်ထားသည်။
 
@@ -229,11 +229,11 @@ Console တွင် `"Hello World"` ကို print လုပ်သော Pytho
 
 1. VS Code terminal အသစ်ကို **Create a new integrated terminal** button ကို select လုပ်ခြင်းဖြင့် launch လုပ်ပါ။ ဒါဟာ လက်ရှိ terminal တွင် CounterFit app run လုပ်နေသောကြောင့်ဖြစ်သည်။
 
-    ![VS Code Create a new integrated terminal button](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.my.png)
+    ![VS Code Create a new integrated terminal button](../../../../../translated_images/my/vscode-new-terminal.77db8fc0f9cd3182.webp)
 
 1. Terminal အသစ်တွင် `app.py` file ကို အရင်ကအတိုင်း run လုပ်ပါ။ CounterFit ၏ status သည် **Connected** ဟုပြောင်းပြီး LED သည် အလင်းပေးပါမည်။
 
-    ![Counter Fit showing as connected](../../../../../translated_images/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.my.png)
+    ![Counter Fit showing as connected](../../../../../translated_images/my/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
 
 > 💁 ဒီ code ကို [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device) folder တွင် ရှာနိုင်ပါသည်။
 

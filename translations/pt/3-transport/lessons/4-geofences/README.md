@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Geofences
 
-![Uma visão geral ilustrada desta lição](../../../../../translated_images/lesson-14.63980c5150ae3c153e770fb71d044c1845dce79248d86bed9fc525adf3ede73c.pt.jpg)
+![Uma visão geral ilustrada desta lição](../../../../../translated_images/pt/lesson-14.63980c5150ae3c153e770fb71d044c1845dce79248d86bed9fc525adf3ede73c.jpg)
 
 > Ilustração por [Nitya Narasimhan](https://github.com/nitya). Clique na imagem para uma versão maior.
 
@@ -44,7 +44,7 @@ Nesta lição, abordaremos:
 
 Uma geofence é um perímetro virtual para uma região geográfica do mundo real. Geofences podem ser círculos definidos como um ponto e um raio (por exemplo, um círculo de 100m de diâmetro em torno de um edifício) ou um polígono cobrindo uma área, como uma zona escolar, limites de uma cidade ou um campus universitário ou empresarial.
 
-![Alguns exemplos de geofences mostrando uma geofence circular em torno da loja da Microsoft e uma geofence poligonal em torno do campus oeste da Microsoft](../../../../../translated_images/geofence-examples.172fbc534665769f6e1a1ddcf75e3b25183cd10354c80cc603ba44b635390e1a.pt.png)
+![Alguns exemplos de geofences mostrando uma geofence circular em torno da loja da Microsoft e uma geofence poligonal em torno do campus oeste da Microsoft](../../../../../translated_images/pt/geofence-examples.172fbc534665769f6e1a1ddcf75e3b25183cd10354c80cc603ba44b635390e1a.png)
 
 > 💁 Pode ser que já tenha usado geofences sem saber. Se já definiu um lembrete usando a aplicação de lembretes do iOS ou o Google Keep baseado numa localização, já utilizou uma geofence. Estas aplicações configuram uma geofence com base na localização fornecida e alertam-no quando o seu telemóvel entra na geofence.
 
@@ -110,7 +110,7 @@ Cada ponto no polígono é definido como um par de longitude e latitude num arra
 
 O array de coordenadas do polígono sempre tem 1 entrada a mais do que o número de pontos no polígono, sendo a última entrada igual à primeira, fechando o polígono. Por exemplo, para um retângulo, haveria 5 pontos.
 
-![Um retângulo com coordenadas](../../../../../translated_images/polygon-points.302193da381cb415.pt.png)
+![Um retângulo com coordenadas](../../../../../translated_images/pt/polygon-points.302193da381cb415.webp)
 
 Na imagem acima, há um retângulo. As coordenadas do polígono começam no canto superior esquerdo em 47,-122, depois movem-se para a direita até 47,-121, depois para baixo até 46,-121, depois para a esquerda até 46,-122, e finalmente de volta ao ponto inicial em 47,-122. Isso dá ao polígono 5 pontos - canto superior esquerdo, canto superior direito, canto inferior direito, canto inferior esquerdo e, por fim, o canto superior esquerdo para fechá-lo.
 
@@ -208,7 +208,7 @@ Quando faz este pedido, também pode passar um valor chamado `searchBuffer`. Est
 
 Quando os resultados são retornados da chamada à API, uma das partes do resultado é a `distance`, medida até o ponto mais próximo na borda da geofence, com um valor positivo se o ponto estiver fora da geofence e negativo se estiver dentro. Se esta distância for menor que o search buffer, a distância real é retornada em metros; caso contrário, o valor será 999 ou -999. 999 significa que o ponto está fora da geofence por mais do que o search buffer, -999 significa que está dentro da geofence por mais do que o search buffer.
 
-![Uma geofence com um search buffer de 50m ao redor](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7.pt.png)
+![Uma geofence com um search buffer de 50m ao redor](../../../../../translated_images/pt/search-buffer-and-distance.e6a79af3898183c7.webp)
 
 Na imagem acima, a geofence tem um search buffer de 50m.
 
@@ -221,7 +221,7 @@ Na imagem acima, a geofence tem um search buffer de 50m.
 
 Por exemplo, imagine leituras GPS mostrando que um veículo estava a conduzir numa estrada que passa ao lado de uma geofence. Se um único valor GPS for impreciso e colocar o veículo dentro da geofence, apesar de não haver acesso veicular, então este valor pode ser ignorado.
 
-![Um rastro GPS mostrando um veículo a passar pelo campus da Microsoft na 520, com leituras GPS ao longo da estrada, exceto uma no campus, dentro de uma geofence](../../../../../translated_images/geofence-crossing-inaccurate-gps.6a3ed911202ad9cabb66d3964888cec03a42c61d5b8f536ad5bdc99716b370f5.pt.png)
+![Um rastro GPS mostrando um veículo a passar pelo campus da Microsoft na 520, com leituras GPS ao longo da estrada, exceto uma no campus, dentro de uma geofence](../../../../../translated_images/pt/geofence-crossing-inaccurate-gps.6a3ed911202ad9cabb66d3964888cec03a42c61d5b8f536ad5bdc99716b370f5.png)
 Na imagem acima, há uma geofence sobre parte do campus da Microsoft. A linha vermelha mostra um camião a conduzir ao longo da 520, com círculos a indicar as leituras de GPS. A maioria destas leituras são precisas e estão ao longo da 520, com uma leitura imprecisa dentro da geofence. Não há como essa leitura ser correta - não existem estradas para o camião desviar-se subitamente da 520 para o campus e depois voltar para a 520. O código que verifica esta geofence precisará de considerar as leituras anteriores antes de agir com base nos resultados do teste da geofence.
 
 ✅ Que dados adicionais seriam necessários para verificar se uma leitura de GPS pode ser considerada correta?
@@ -293,7 +293,7 @@ Como se lembrará de lições anteriores, o IoT Hub permite reproduzir eventos q
 
 A resposta é que não consegue! Em vez disso, pode definir múltiplas conexões separadas para ler eventos, e cada uma pode gerir a reprodução de mensagens não lidas. Estes são chamados de *grupos de consumidores*. Quando se conecta ao endpoint, pode especificar qual grupo de consumidores deseja usar. Cada componente da sua aplicação conectará a um grupo de consumidores diferente.
 
-![Um IoT Hub com 3 grupos de consumidores a distribuir as mesmas mensagens para 3 diferentes aplicações Functions](../../../../../translated_images/consumer-groups.a3262e26fc27ba2092863678ad57af15c7223416e388a23f330c058cf4358630.pt.png)
+![Um IoT Hub com 3 grupos de consumidores a distribuir as mesmas mensagens para 3 diferentes aplicações Functions](../../../../../translated_images/pt/consumer-groups.a3262e26fc27ba2092863678ad57af15c7223416e388a23f330c058cf4358630.png)
 
 Em teoria, até 5 aplicações podem conectar-se a cada grupo de consumidores, e todas receberão mensagens quando estas chegarem. É uma boa prática ter apenas uma aplicação a aceder a cada grupo de consumidores para evitar processamento duplicado de mensagens e garantir que, ao reiniciar, todas as mensagens em fila sejam processadas corretamente. Por exemplo, se lançar a sua aplicação Functions localmente, bem como executá-la na cloud, ambas processariam mensagens, levando a blobs duplicados armazenados na conta de armazenamento.
 

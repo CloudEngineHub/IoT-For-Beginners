@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # IoT Cihazıyla Konuşmayı Tanıma
 
-![Bu dersin genel bir sketchnote özeti](../../../../../translated_images/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.tr.jpg)
+![Bu dersin genel bir sketchnote özeti](../../../../../translated_images/tr/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.jpg)
 
 > Sketchnote: [Nitya Narasimhan](https://github.com/nitya). Daha büyük bir versiyon için görsele tıklayın.
 
@@ -60,19 +60,19 @@ Mikrofonlar çeşitli türlerde gelir:
 
     Dinamik mikrofonların çalışması için güce ihtiyaç yoktur, elektrik sinyali tamamen mikrofon tarafından üretilir.
 
-    ![Patti Smith, bir Shure SM58 (dinamik kardioid türü) mikrofona şarkı söylüyor](../../../../../translated_images/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.tr.jpg)
+    ![Patti Smith, bir Shure SM58 (dinamik kardioid türü) mikrofona şarkı söylüyor](../../../../../translated_images/tr/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.jpg)
 
 * Şerit - Şerit mikrofonlar, dinamik mikrofonlara benzer, ancak bir diyafram yerine metal bir şerit kullanır. Bu şerit, bir manyetik alan içinde hareket ederek bir elektrik akımı üretir. Dinamik mikrofonlar gibi, şerit mikrofonların çalışması için güce ihtiyaç yoktur.
 
-    ![Edmund Lowe, Amerikan aktör, bir radyo mikrofonunun (NBC Blue Network olarak etiketlenmiş) önünde, elinde senaryo ile, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441ca.tr.jpg)
+    ![Edmund Lowe, Amerikan aktör, bir radyo mikrofonunun (NBC Blue Network olarak etiketlenmiş) önünde, elinde senaryo ile, 1942](../../../../../translated_images/tr/ribbon-mic.eacc8e092c7441ca.webp)
 
 * Kondansatör - Kondansatör mikrofonlarda ince bir metal diyafram ve sabit bir metal arka plaka bulunur. Her ikisine de elektrik uygulanır ve diyafram titreştikçe plakalar arasındaki statik yük değişerek bir sinyal oluşturur. Kondansatör mikrofonların çalışması için güce ihtiyaç vardır - buna *Phantom power* denir.
 
-    ![AKG Acoustics tarafından üretilen C451B küçük diyaframlı kondansatör mikrofon](../../../../../translated_images/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.tr.jpg)
+    ![AKG Acoustics tarafından üretilen C451B küçük diyaframlı kondansatör mikrofon](../../../../../translated_images/tr/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.jpg)
 
 * MEMS - Mikroelektromekanik sistem mikrofonları veya MEMS, bir çip üzerindeki mikrofonlardır. Silikon bir çip üzerine kazınmış bir basınca duyarlı diyaframa sahiptirler ve bir kondansatör mikrofonuna benzer şekilde çalışırlar. Bu mikrofonlar çok küçük olabilir ve devrelere entegre edilebilir.
 
-    ![Bir devre kartı üzerinde bir MEMS mikrofon](../../../../../translated_images/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.tr.png)
+    ![Bir devre kartı üzerinde bir MEMS mikrofon](../../../../../translated_images/tr/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.png)
 
     Yukarıdaki görselde, **LEFT** olarak etiketlenmiş çip bir MEMS mikrofondur ve bir milimetreden daha küçük bir diyaframa sahiptir.
 
@@ -84,7 +84,7 @@ Ses, çok ince ayrıntılı bilgileri taşıyan bir analog sinyaldir. Bu sinyali
 
 > 🎓 Örnekleme, ses sinyalini belirli bir anda temsil eden dijital bir değere dönüştürmektir.
 
-![Bir sinyali gösteren bir çizgi grafiği, sabit aralıklarla ayrık noktalar](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7.tr.png)
+![Bir sinyali gösteren bir çizgi grafiği, sabit aralıklarla ayrık noktalar](../../../../../translated_images/tr/sampling.6f4fadb3f2d9dfe7.webp)
 
 Dijital ses, Darbe Kod Modülasyonu (Pulse Code Modulation - PCM) kullanılarak örneklenir. PCM, sinyalin voltajını okuyup, bu voltaja en yakın ayrık değeri tanımlı bir boyut kullanarak seçmeyi içerir.
 
@@ -168,7 +168,7 @@ Bir uyandırma kelimesi modeli eğitme ve kullanma karmaşıklığından kaçın
 
 ## Konuşmayı Metne Dönüştürme
 
-![Konuşma hizmetleri logosu](../../../../../translated_images/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.tr.png)
+![Konuşma hizmetleri logosu](../../../../../translated_images/tr/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
 
 Daha önceki bir projede görüntü sınıflandırmada olduğu gibi, konuşmayı bir ses dosyası olarak alıp metne dönüştürebilen önceden oluşturulmuş AI hizmetleri vardır. Bu hizmetlerden biri, uygulamalarınızda kullanabileceğiniz önceden oluşturulmuş AI hizmetleri olan Cognitive Services'ın bir parçası olan Konuşma Hizmeti'dir.
 

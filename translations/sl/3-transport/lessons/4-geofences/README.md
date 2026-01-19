@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Geografske ograje
 
-![Sketchnote pregled te lekcije](../../../../../translated_images/lesson-14.63980c5150ae3c153e770fb71d044c1845dce79248d86bed9fc525adf3ede73c.sl.jpg)
+![Sketchnote pregled te lekcije](../../../../../translated_images/sl/lesson-14.63980c5150ae3c153e770fb71d044c1845dce79248d86bed9fc525adf3ede73c.jpg)
 
 > Sketchnote avtorja [Nitya Narasimhan](https://github.com/nitya). Kliknite na sliko za večjo različico.
 
@@ -44,7 +44,7 @@ V tej lekciji bomo obravnavali:
 
 Geografska ograja je virtualni obod za resnično geografsko območje. Geografske ograje so lahko krogi, določeni kot točka in radij (na primer krog s premerom 100 m okoli stavbe), ali poligon, ki pokriva območje, kot je šolska cona, mestne meje ali univerzitetni ali pisarniški kampus.
 
-![Primeri geografskih ograj, ki prikazujejo krožno ograjo okoli Microsoftove trgovine in poligonsko ograjo okoli zahodnega kampusa Microsofta](../../../../../translated_images/geofence-examples.172fbc534665769f6e1a1ddcf75e3b25183cd10354c80cc603ba44b635390e1a.sl.png)
+![Primeri geografskih ograj, ki prikazujejo krožno ograjo okoli Microsoftove trgovine in poligonsko ograjo okoli zahodnega kampusa Microsofta](../../../../../translated_images/sl/geofence-examples.172fbc534665769f6e1a1ddcf75e3b25183cd10354c80cc603ba44b635390e1a.png)
 
 > 💁 Morda ste že uporabljali geografske ograje, ne da bi to vedeli. Če ste nastavili opomnik z aplikacijo za opomnike iOS ali Google Keep na podlagi lokacije, ste uporabili geografsko ograjo. Te aplikacije nastavijo geografsko ograjo na podlagi podane lokacije in vas opozorijo, ko vaš telefon vstopi v geografsko ograjo.
 
@@ -110,7 +110,7 @@ Vsaka točka na poligonu je določena kot par dolžine in širine v polju, te to
 
 Poligonovo polje koordinat vedno vsebuje 1 vnos več kot število točk na poligonu, pri čemer je zadnji vnos enak prvemu, kar zapre poligon. Na primer, za pravokotnik bi bilo 5 točk.
 
-![Pravokotnik s koordinatami](../../../../../translated_images/polygon-points.302193da381cb415.sl.png)
+![Pravokotnik s koordinatami](../../../../../translated_images/sl/polygon-points.302193da381cb415.webp)
 
 Na zgornji sliki je pravokotnik. Koordinate poligona se začnejo zgoraj levo pri 47,-122, nato se premaknejo desno na 47,-121, nato navzdol na 46,-121, nato desno na 46, -122, nato nazaj gor na začetno točko pri 47, -122. To daje poligonu 5 točk - zgoraj levo, zgoraj desno, spodaj desno, spodaj levo, nato zgoraj levo, da ga zapre.
 
@@ -208,7 +208,7 @@ Pri izvedbi te zahteve lahko posredujete tudi vrednost, imenovano `searchBuffer`
 
 Ko so rezultati vrnjeni iz klica API-ja, je eden od delov rezultata `distance`, izmerjen do najbližje točke na robu geografske ograje, s pozitivno vrednostjo, če je točka zunaj geografske ograje, negativno, če je znotraj geografske ograje. Če je ta razdalja manjša od iskalnega bufferja, se vrne dejanska razdalja v metrih, sicer je vrednost 999 ali -999. 999 pomeni, da je točka zunaj geografske ograje za več kot iskalni buffer, -999 pomeni, da je znotraj geografske ograje za več kot iskalni buffer.
 
-![Geografska ograja z iskalnim bufferjem 50 m okoli nje](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7.sl.png)
+![Geografska ograja z iskalnim bufferjem 50 m okoli nje](../../../../../translated_images/sl/search-buffer-and-distance.e6a79af3898183c7.webp)
 
 Na zgornji sliki ima geografska ograja iskalni buffer 50 m.
 
@@ -221,7 +221,7 @@ Pomembno je poznati razdaljo do roba geografske ograje in to kombinirati z drugi
 
 Na primer, predstavljajte si GPS odčitke, ki kažejo, da je vozilo vozilo po cesti, ki poteka ob geografski ograji. Če je en sam GPS odčitek nenatančen in postavi vozilo znotraj geografske ograje, kljub temu da ni dostopa za vozila, ga je mogoče prezreti.
 
-![GPS sled, ki prikazuje vozilo, ki prečka kampus Microsofta na 520, z GPS odčitki vzdolž ceste, razen enega na kampusu, znotraj geografske ograje](../../../../../translated_images/geofence-crossing-inaccurate-gps.6a3ed911202ad9cabb66d3964888cec03a42c61d5b8f536ad5bdc99716b370f5.sl.png)
+![GPS sled, ki prikazuje vozilo, ki prečka kampus Microsofta na 520, z GPS odčitki vzdolž ceste, razen enega na kampusu, znotraj geografske ograje](../../../../../translated_images/sl/geofence-crossing-inaccurate-gps.6a3ed911202ad9cabb66d3964888cec03a42c61d5b8f536ad5bdc99716b370f5.png)
 Na zgornji sliki je geografska ograja nad delom kampusa Microsoft. Rdeča črta prikazuje tovornjak, ki vozi po cesti 520, s krogi, ki označujejo GPS odčitke. Večina teh odčitkov je natančnih in se nahaja ob cesti 520, z enim nenatančnim odčitkom znotraj geografske ograje. Ta odčitek ne more biti pravilen – ni cest, po katerih bi se tovornjak nenadoma odmaknil od ceste 520 na kampus, nato pa se vrnil na cesto 520. Koda, ki preverja to geografsko ograjo, bo morala upoštevati prejšnje odčitke, preden ukrepa na podlagi rezultatov testa geografske ograje.
 
 ✅ Katere dodatne podatke bi potrebovali za preverjanje, ali je GPS odčitek lahko veljaven?
@@ -293,7 +293,7 @@ Kot se spomnite iz prejšnjih lekcij, IoT Hub omogoča ponovno predvajanje dogod
 
 Odgovor je, da ne more! Namesto tega lahko definirate več ločenih povezav za branje dogodkov, pri čemer vsaka upravlja ponovno predvajanje neprebranih sporočil. Te se imenujejo *potrošniške skupine*. Ko se povežete z endpointom, lahko določite, katero potrošniško skupino želite uporabiti. Vsaka komponenta vaše aplikacije se bo povezala z drugo potrošniško skupino.
 
-![En IoT Hub s 3 potrošniškimi skupinami, ki razdeljujejo ista sporočila na 3 različne funkcijske aplikacije](../../../../../translated_images/consumer-groups.a3262e26fc27ba2092863678ad57af15c7223416e388a23f330c058cf4358630.sl.png)
+![En IoT Hub s 3 potrošniškimi skupinami, ki razdeljujejo ista sporočila na 3 različne funkcijske aplikacije](../../../../../translated_images/sl/consumer-groups.a3262e26fc27ba2092863678ad57af15c7223416e388a23f330c058cf4358630.png)
 
 Teoretično se lahko do 5 aplikacij poveže z vsako potrošniško skupino, in vse bodo prejele sporočila, ko prispejo. Najboljša praksa je, da vsaka aplikacija dostopa do ene potrošniške skupine, da se izognete podvajanju obdelave sporočil in zagotovite, da so ob ponovnem zagonu vsa sporočila v čakalni vrsti pravilno obdelana. Na primer, če bi zagnali svojo aplikacijo Functions lokalno, hkrati pa jo izvajali v oblaku, bi obe obdelovali sporočila, kar bi vodilo do podvojenih blobov, shranjenih v računu za shranjevanje.
 

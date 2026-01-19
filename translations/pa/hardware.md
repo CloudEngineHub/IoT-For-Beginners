@@ -21,7 +21,7 @@ IoT ਵਿੱਚ **T** ਦਾ ਮਤਲਬ **ਚੀਜ਼ਾਂ** ਹੈ, ਜੋ
 
 ## ਕਿੱਟਾਂ ਖਰੀਦੋ
 
-![Seeed Studios ਦਾ ਲੋਗੋ](../../translated_images/seeed-logo.74732b6b482b6e8e.pa.png)
+![Seeed Studios ਦਾ ਲੋਗੋ](../../translated_images/pa/seeed-logo.74732b6b482b6e8e.webp)
 
 Seeed Studios ਨੇ ਬਹੁਤ ਹੀ ਮਿਹਰਬਾਨੀ ਨਾਲ ਸਾਰਾ ਹਾਰਡਵੇਅਰ ਆਸਾਨੀ ਨਾਲ ਖਰੀਦਣ ਯੋਗ ਕਿੱਟਾਂ ਵਜੋਂ ਉਪਲਬਧ ਕਰਵਾਇਆ ਹੈ:
 
@@ -29,13 +29,13 @@ Seeed Studios ਨੇ ਬਹੁਤ ਹੀ ਮਿਹਰਬਾਨੀ ਨਾਲ ਸ�
 
 **[Seeed ਅਤੇ Microsoft ਨਾਲ ਸ਼ੁਰੂਆਤੀ IoT - Wio ਟਰਮੀਨਲ ਸਟਾਰਟਰ ਕਿੱਟ](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)**
 
-[![Wio ਟਰਮੀਨਲ ਹਾਰਡਵੇਅਰ ਕਿੱਟ](../../translated_images/wio-hardware-kit.4c70c48b85e4283a.pa.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
+[![Wio ਟਰਮੀਨਲ ਹਾਰਡਵੇਅਰ ਕਿੱਟ](../../translated_images/pa/wio-hardware-kit.4c70c48b85e4283a.webp)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
 
 ### Raspberry Pi
 
 **[Seeed ਅਤੇ Microsoft ਨਾਲ ਸ਼ੁਰੂਆਤੀ IoT - Raspberry Pi 4 ਸਟਾਰਟਰ ਕਿੱਟ](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)**
 
-[![Raspberry Pi ਟਰਮੀਨਲ ਹਾਰਡਵੇਅਰ ਕਿੱਟ](../../translated_images/pi-hardware-kit.26dbadaedb7dd44c73b0131d5d68ea29472ed0a9744f90d5866c6d82f2d16380.pa.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)
+[![Raspberry Pi ਟਰਮੀਨਲ ਹਾਰਡਵੇਅਰ ਕਿੱਟ](../../translated_images/pa/pi-hardware-kit.26dbadaedb7dd44c73b0131d5d68ea29472ed0a9744f90d5866c6d82f2d16380.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)
 
 ## Arduino
 

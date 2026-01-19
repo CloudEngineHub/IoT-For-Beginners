@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # אחסן נתוני מיקום
 
-![סקיצה של סקירה כללית של השיעור](../../../../../translated_images/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.he.jpg)
+![סקיצה של סקירה כללית של השיעור](../../../../../translated_images/he/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.jpg)
 
 > סקיצה מאת [ניטיה נאראסימהן](https://github.com/nitya). לחצו על התמונה לגרסה גדולה יותר.
 
@@ -66,7 +66,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 בסיסי הנתונים הראשונים היו מערכות ניהול בסיסי נתונים יחסיים (RDBMS), או בסיסי נתונים יחסיים. הם ידועים גם כבסיסי נתונים SQL על שם שפת השאילתות המבנית (SQL) המשמשת לאינטראקציה איתם להוספה, הסרה, עדכון או שאילת נתונים. בסיסי נתונים אלו מורכבים מסכימה - סט מוגדר היטב של טבלאות נתונים, בדומה לגיליון אלקטרוני. כל טבלה מכילה עמודות עם שמות. כאשר מוסיפים נתונים, מוסיפים שורה לטבלה, ומכניסים ערכים לכל אחת מהעמודות. זה שומר על מבנה נוקשה מאוד - למרות שניתן להשאיר עמודות ריקות, אם רוצים להוסיף עמודה חדשה יש לעשות זאת בבסיס הנתונים, ולמלא ערכים עבור השורות הקיימות. בסיסי נתונים אלו הם יחסיים - כלומר טבלה אחת יכולה להיות בקשר עם טבלה אחרת.
 
-![בסיס נתונים יחסי עם מזהה טבלת המשתמשים המקושר לעמודת מזהה המשתמש בטבלת הרכישות, ומזהה טבלת המוצרים המקושר לעמודת מזהה המוצר בטבלת הרכישות](../../../../../translated_images/sql-database.be160f12bfccefd3.he.png)
+![בסיס נתונים יחסי עם מזהה טבלת המשתמשים המקושר לעמודת מזהה המשתמש בטבלת הרכישות, ומזהה טבלת המוצרים המקושר לעמודת מזהה המוצר בטבלת הרכישות](../../../../../translated_images/he/sql-database.be160f12bfccefd3.webp)
 
 לדוגמה, אם תאחסנו פרטים אישיים של משתמשים בטבלה, יהיה לכם מזהה ייחודי פנימי לכל משתמש המשמש בשורה בטבלה שמכילה את שם המשתמש וכתובתו. אם תרצו לאחסן פרטים נוספים על אותו משתמש, כמו הרכישות שלו, בטבלה אחרת, תהיה עמודה אחת בטבלה החדשה עבור מזהה המשתמש. כאשר תחפשו משתמש, תוכלו להשתמש במזהה שלו כדי לקבל את פרטיו האישיים מטבלה אחת, ואת הרכישות שלו מטבלה אחרת.
 
@@ -84,7 +84,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > 💁 למרות שמם, חלק מבסיסי נתונים NoSQL מאפשרים להשתמש ב-SQL כדי לשאול את הנתונים.
 
-![מסמכים בתיקיות בבסיס נתונים NoSQL](../../../../../translated_images/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.he.png)
+![מסמכים בתיקיות בבסיס נתונים NoSQL](../../../../../translated_images/he/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.png)
 
 בסיסי נתונים NoSQL אינם כוללים סכימה מוגדרת מראש שמגבילה כיצד הנתונים מאוחסנים, במקום זאת ניתן להכניס כל נתון לא מובנה, בדרך כלל באמצעות מסמכי JSON. מסמכים אלו יכולים להיות מאורגנים בתיקיות, בדומה לקבצים במחשב שלכם. כל מסמך יכול לכלול שדות שונים ממסמכים אחרים - לדוגמה, אם תאחסנו נתוני IoT מרכבי החווה שלכם, חלקם עשויים לכלול שדות עבור נתוני תאוצה ומהירות, אחרים עשויים לכלול שדות עבור הטמפרטורה בקרון. אם תוסיפו סוג משאית חדש, כמו אחת עם מאזניים מובנים למעקב אחר משקל התוצרת, מכשיר ה-IoT שלכם יוכל להוסיף שדה חדש זה והוא יוכל להישמר ללא שינויים בבסיס הנתונים.
 
@@ -98,7 +98,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 בשיעור הקודם לכדתם נתוני GPS מחיישן GPS המחובר למכשיר ה-IoT שלכם. כדי לאחסן נתוני IoT אלו בענן, עליכם לשלוח אותם לשירות IoT. שוב, תשתמשו ב-Azure IoT Hub, אותו שירות IoT בענן שבו השתמשתם בפרויקט הקודם.
 
-![שליחת טלמטריית GPS ממכשיר IoT ל-IoT Hub](../../../../../translated_images/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.he.png)
+![שליחת טלמטריית GPS ממכשיר IoT ל-IoT Hub](../../../../../translated_images/he/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.png)
 
 ### משימה - שליחת נתוני GPS ל-IoT Hub
 
@@ -180,7 +180,7 @@ message = Message(json.dumps(message_json))
 
 ברגע שנתונים זורמים ל-IoT Hub, תוכלו לכתוב קוד ללא שרת שיקשיב לאירועים שמתפרסמים לנקודת הקצה התואמת ל-Event Hub. זהו הנתיב הפושר - נתונים אלו יאוחסנו וישמשו בשיעור הבא לצורך דיווח על המסלול.
 
-![שליחת טלמטריית GPS ממכשיר IoT ל-IoT Hub, ואז ל-Azure Functions דרך טריגר Event Hub](../../../../../translated_images/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.he.png)
+![שליחת טלמטריית GPS ממכשיר IoT ל-IoT Hub, ואז ל-Azure Functions דרך טריגר Event Hub](../../../../../translated_images/he/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.png)
 
 ### משימה - טיפול באירועי GPS באמצעות קוד ללא שרת
 
@@ -202,7 +202,7 @@ message = Message(json.dumps(message_json))
 
 ## חשבונות אחסון של Azure
 
-![לוגו אחסון Azure](../../../../../translated_images/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.he.png)
+![לוגו אחסון Azure](../../../../../translated_images/he/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.png)
 
 חשבונות אחסון של Azure הם שירות אחסון רב-תכליתי שיכול לאחסן נתונים במגוון דרכים שונות. ניתן לאחסן נתונים כבלובים, בתורים, בטבלאות או כקבצים, והכול בו-זמנית.
 
@@ -241,7 +241,7 @@ message = Message(json.dumps(message_json))
 
 בשיעור זה, תשתמש ב-SDK של Python כדי לראות כיצד לעבוד עם אחסון בלובים.
 
-![שליחת טלמטריית GPS ממכשיר IoT ל-IoT Hub, ואז ל-Azure Functions דרך טריגר Event Hub, ואז שמירתה באחסון בלובים](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f1.he.png)
+![שליחת טלמטריית GPS ממכשיר IoT ל-IoT Hub, ואז ל-Azure Functions דרך טריגר Event Hub, ואז שמירתה באחסון בלובים](../../../../../translated_images/he/save-telemetry-to-storage-from-functions.ed3b1820980097f1.webp)
 
 הנתונים יישמרו כבלוב JSON בפורמט הבא:
 

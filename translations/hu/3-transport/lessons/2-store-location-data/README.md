@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Tárolja a helyadatokat
 
-![A leckéről készült vázlatrajz](../../../../../translated_images/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.hu.jpg)
+![A leckéről készült vázlatrajz](../../../../../translated_images/hu/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.jpg)
 
 > Vázlatrajz: [Nitya Narasimhan](https://github.com/nitya). Kattintson a képre a nagyobb verzióért.
 
@@ -66,7 +66,7 @@ Az adatbázisok olyan szolgáltatások, amelyek lehetővé teszik az adatok tár
 
 Az első adatbázisok Relációs Adatbázis-kezelő Rendszerek (RDBMS) voltak, vagy relációs adatbázisok. Ezeket SQL adatbázisoknak is nevezik, az általuk használt Structured Query Language (SQL) után, amelyet az adatok hozzáadására, eltávolítására, frissítésére vagy lekérdezésére használnak. Ezek az adatbázisok egy sémából állnak - egy jól definiált táblázatkészletből, hasonlóan egy táblázathoz. Minden táblázatnak több elnevezett oszlopa van. Amikor adatokat ad hozzá, egy sort ad a táblázathoz, értékeket helyezve az oszlopokba. Ez az adatokat nagyon merev szerkezetben tartja - bár az oszlopokat üresen hagyhatja, ha új oszlopot szeretne hozzáadni, azt az adatbázisban kell megtennie, az értékeket kitöltve a meglévő sorokhoz. Ezek az adatbázisok relációsak - azaz egy táblázat kapcsolatban állhat egy másikkal.
 
-![Egy relációs adatbázis, ahol a Felhasználó táblázat ID-ja kapcsolódik a vásárlások táblázat felhasználói ID oszlopához, és a termékek táblázat ID-ja kapcsolódik a vásárlások táblázat termék ID oszlopához](../../../../../translated_images/sql-database.be160f12bfccefd3.hu.png)
+![Egy relációs adatbázis, ahol a Felhasználó táblázat ID-ja kapcsolódik a vásárlások táblázat felhasználói ID oszlopához, és a termékek táblázat ID-ja kapcsolódik a vásárlások táblázat termék ID oszlopához](../../../../../translated_images/hu/sql-database.be160f12bfccefd3.webp)
 
 Például, ha egy felhasználó személyes adatait tárolja egy táblázatban, akkor valamilyen belső egyedi ID-t használna felhasználónként, amelyet egy sorban tárolna egy táblázatban, amely tartalmazza a felhasználó nevét és címét. Ha további adatokat szeretne tárolni a felhasználóról, például a vásárlásait, egy másik táblázatban, akkor az új táblázatban lenne egy oszlop a felhasználó ID-jéhez. Amikor egy felhasználót keres, az ID-jét használhatja, hogy megszerezze személyes adatait az egyik táblázatból, és vásárlásait egy másikból.
 
@@ -84,7 +84,7 @@ A NoSQL adatbázisokat azért nevezik NoSQL-nek, mert nem rendelkeznek az SQL ad
 
 > 💁 A nevük ellenére néhány NoSQL adatbázis lehetővé teszi az SQL használatát az adatok lekérdezésére.
 
-![Dokumentumok mappákban egy NoSQL adatbázisban](../../../../../translated_images/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.hu.png)
+![Dokumentumok mappákban egy NoSQL adatbázisban](../../../../../translated_images/hu/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.png)
 
 A NoSQL adatbázisoknak nincs előre definiált sémája, amely korlátozná az adatok tárolását, ehelyett bármilyen strukturálatlan adatot beilleszthet, általában JSON dokumentumok formájában. Ezek a dokumentumok mappákba szervezhetők, hasonlóan a számítógépen lévő fájlokhoz. Minden dokumentum különböző mezőkkel rendelkezhet, mint más dokumentumok - például, ha a farmjárművekből származó IoT-adatokat tárolná, néhány dokumentum tartalmazhat gyorsulásmérő és sebességadatokat, mások pedig a pótkocsi hőmérsékletét. Ha új teherautótípust adna hozzá, például olyat, amely beépített mérlegekkel rendelkezik a szállított termékek súlyának nyomon követésére, akkor az IoT-eszköz hozzáadhatná ezt az új mezőt, és azt tárolhatná anélkül, hogy változtatásokat kellene végezni az adatbázison.
 
@@ -98,7 +98,7 @@ Ebben a leckében NoSQL tárolást fog használni IoT-adatok tárolására.
 
 Az előző leckében GPS-adatokat rögzített egy IoT-eszközhöz csatlakoztatott GPS-érzékelőből. Ahhoz, hogy ezeket az IoT-adatokat a felhőben tárolhassa, el kell küldenie őket egy IoT-szolgáltatásba. Ismét az Azure IoT Hubot fogja használni, ugyanazt az IoT-felhőszolgáltatást, amelyet az előző projektben használt.
 
-![GPS telemetria küldése egy IoT-eszközről az IoT Hubba](../../../../../translated_images/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.hu.png)
+![GPS telemetria küldése egy IoT-eszközről az IoT Hubba](../../../../../translated_images/hu/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.png)
 
 ### Feladat - GPS-adatok küldése egy IoT Hubba
 
@@ -192,7 +192,7 @@ A hideg útvonal adatok adatközpontokban kerülnek tárolásra - olyan adatbáz
 
 ## Azure Storage-fiókok
 
-![Az Azure Storage logója](../../../../../translated_images/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.hu.png)
+![Az Azure Storage logója](../../../../../translated_images/hu/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.png)
 
 Az Azure Storage-fiókok egy általános célú tárolási szolgáltatás, amely különböző módokon képes adatokat tárolni. Tárolhatsz adatokat blobokként, sorokban, táblákban vagy fájlokként, akár egyszerre is.
 
@@ -231,7 +231,7 @@ A Functions alkalmazásodnak most csatlakoznia kell a blob tároláshoz, hogy t�
 
 Ebben a leckében a Python SDK-t fogod használni, hogy megtanuld, hogyan lehet interakcióba lépni a blob tárolással.
 
-![GPS telemetria küldése egy IoT eszközről az IoT Hubba, majd Azure Functions-be egy eseményindító segítségével, végül mentés blob tárolásba](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f1.hu.png)
+![GPS telemetria küldése egy IoT eszközről az IoT Hubba, majd Azure Functions-be egy eseményindító segítségével, végül mentés blob tárolásba](../../../../../translated_images/hu/save-telemetry-to-storage-from-functions.ed3b1820980097f1.webp)
 
 Az adatok JSON blobként lesznek mentve a következő formátumban:
 

@@ -29,13 +29,13 @@ Grove Time of Flight jutiklis gali būti prijungtas prie Raspberry Pi.
 
 Prijunkite Time of Flight jutiklį.
 
-![Grove Time of Flight jutiklis](../../../../../translated_images/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.lt.png)
+![Grove Time of Flight jutiklis](../../../../../translated_images/lt/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
 
 1. Įstatykite vieną Grove kabelio galą į Time of Flight jutiklio jungtį. Jis įsistatys tik viena kryptimi.
 
 1. Išjungus Raspberry Pi, prijunkite kitą Grove kabelio galą prie vienos iš I²C jungčių, pažymėtų **I²C**, esančių Grove Base hat, prijungto prie Pi. Šios jungtys yra apatinėje eilėje, priešingoje GPIO pinams ir šalia kameros kabelio lizdo.
 
-![Grove Time of Flight jutiklis prijungtas prie I²C jungties](../../../../../translated_images/pi-time-of-flight-sensor.58c8dc04eb3bfb57.lt.png)
+![Grove Time of Flight jutiklis prijungtas prie I²C jungties](../../../../../translated_images/lt/pi-time-of-flight-sensor.58c8dc04eb3bfb57.webp)
 
 ## Programuokite Time of Flight jutiklį
 
@@ -106,7 +106,7 @@ Programuokite įrenginį.
 
     Atstumo matuoklis yra jutiklio gale, todėl matuodami atstumą naudokite tinkamą pusę.
 
-    ![Atstumo matuoklis Time of Flight jutiklio gale, nukreiptas į bananą](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.lt.png)
+    ![Atstumo matuoklis Time of Flight jutiklio gale, nukreiptas į bananą](../../../../../translated_images/lt/time-of-flight-banana.079921ad8b1496e4.webp)
 
 > 💁 Šį kodą galite rasti [code-proximity/pi](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/pi) aplanke.
 

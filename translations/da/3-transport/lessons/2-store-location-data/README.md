@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Gem lokationsdata
 
-![En sketchnote-oversigt over denne lektion](../../../../../translated_images/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.da.jpg)
+![En sketchnote-oversigt over denne lektion](../../../../../translated_images/da/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.jpg)
 
 > Sketchnote af [Nitya Narasimhan](https://github.com/nitya). Klik på billedet for en større version.
 
@@ -66,7 +66,7 @@ Databaser er tjenester, der giver dig mulighed for at gemme og forespørge data.
 
 De første databaser var Relationelle Database Management Systemer (RDBMS), eller relationelle databaser. Disse er også kendt som SQL-databaser efter Structured Query Language (SQL), der bruges til at interagere med dem for at tilføje, fjerne, opdatere eller forespørge data. Disse databaser består af et skema - et veldefineret sæt tabeller, der minder om et regneark. Hver tabel har flere navngivne kolonner. Når du indsætter data, tilføjer du en række til tabellen og placerer værdier i hver af kolonnerne. Dette holder dataene i en meget fast struktur - selvom du kan lade kolonner stå tomme, skal du tilføje en ny kolonne til databasen og udfylde værdier for de eksisterende rækker, hvis du vil tilføje en ny kolonne. Disse databaser er relationelle - en tabel kan have en relation til en anden.
 
-![En relationel database med ID'et fra User-tabellen, der relaterer til user ID-kolonnen i purchases-tabellen, og ID'et fra products-tabellen, der relaterer til product ID i purchases-tabellen](../../../../../translated_images/sql-database.be160f12bfccefd3.da.png)
+![En relationel database med ID'et fra User-tabellen, der relaterer til user ID-kolonnen i purchases-tabellen, og ID'et fra products-tabellen, der relaterer til product ID i purchases-tabellen](../../../../../translated_images/da/sql-database.be160f12bfccefd3.webp)
 
 For eksempel, hvis du gemte en brugers personlige oplysninger i en tabel, ville du have en slags intern unik ID pr. bruger, der bruges i en række i en tabel, der indeholder brugerens navn og adresse. Hvis du derefter ville gemme andre detaljer om den bruger, såsom deres køb, i en anden tabel, ville du have en kolonne i den nye tabel for den brugers ID. Når du slår en bruger op, kan du bruge deres ID til at få deres personlige oplysninger fra én tabel og deres køb fra en anden.
 
@@ -84,7 +84,7 @@ NoSQL-databaser kaldes NoSQL, fordi de ikke har den samme faste struktur som SQL
 
 > 💁 På trods af deres navn tillader nogle NoSQL-databaser, at du bruger SQL til at forespørge data.
 
-![Dokumenter i mapper i en NoSQL-database](../../../../../translated_images/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.da.png)
+![Dokumenter i mapper i en NoSQL-database](../../../../../translated_images/da/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.png)
 
 NoSQL-databaser har ikke et foruddefineret skema, der begrænser, hvordan data gemmes. I stedet kan du indsætte enhver form for ustrukturerede data, normalt ved hjælp af JSON-dokumenter. Disse dokumenter kan organiseres i mapper, ligesom filer på din computer. Hvert dokument kan have forskellige felter fra andre dokumenter - for eksempel, hvis du gemte IoT-data fra dine landbrugskøretøjer, kunne nogle have felter for accelerometer- og hastighedsdata, mens andre kunne have felter for temperaturen i traileren. Hvis du tilføjede en ny lastbiltype, såsom en med indbyggede vægte til at spore vægten af den transporterede last, kunne din IoT-enhed tilføje dette nye felt, og det kunne gemmes uden ændringer i databasen.
 
@@ -98,7 +98,7 @@ I denne lektion vil du bruge NoSQL-lagring til at gemme IoT-data.
 
 I den sidste lektion indfangede du GPS-data fra en GPS-sensor, der var forbundet til din IoT-enhed. For at gemme disse IoT-data i skyen skal du sende dem til en IoT-tjeneste. Igen vil du bruge Azure IoT Hub, den samme IoT-skytjeneste, som du brugte i det forrige projekt.
 
-![Afsendelse af GPS-telemetri fra en IoT-enhed til IoT Hub](../../../../../translated_images/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.da.png)
+![Afsendelse af GPS-telemetri fra en IoT-enhed til IoT Hub](../../../../../translated_images/da/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.png)
 
 ### Opgave - send GPS-data til en IoT Hub
 
@@ -180,7 +180,7 @@ Cold path-data gemmes i datalagre - databaser designet til at gemme store mængd
 
 Når data flyder ind i din IoT Hub, kan du skrive noget serverløs kode til at lytte efter hændelser, der offentliggøres til den Event-Hub-kompatible endpoint. Dette er warm path - disse data vil blive gemt og brugt i den næste lektion til rapportering om rejsen.
 
-![Afsendelse af GPS-telemetri fra en IoT-enhed til IoT Hub og derefter til Azure Functions via en event hub-trigger](../../../../../translated_images/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.da.png)
+![Afsendelse af GPS-telemetri fra en IoT-enhed til IoT Hub og derefter til Azure Functions via en event hub-trigger](../../../../../translated_images/da/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.png)
 
 ### Opgave - håndter GPS-hændelser med serverløs kode
 
@@ -202,7 +202,7 @@ Når data flyder ind i din IoT Hub, kan du skrive noget serverløs kode til at l
 
 ## Azure Storage-konti
 
-![Azure Storage-logoet](../../../../../translated_images/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.da.png)
+![Azure Storage-logoet](../../../../../translated_images/da/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.png)
 
 Azure Storage-konti er en alsidig lagringstjeneste, der kan gemme data på forskellige måder. Du kan gemme data som blobs, i køer, i tabeller eller som filer – og alt dette på samme tid.
 
@@ -241,7 +241,7 @@ Din Functions-app skal nu forbindes til blob-lagring for at gemme beskederne fra
 
 I denne lektion vil du bruge Python SDK til at se, hvordan man interagerer med blob-lagring.
 
-![Sender GPS-telemetri fra en IoT-enhed til IoT Hub, derefter til Azure Functions via en Event Hub-trigger, og gemmer det i blob-lagring](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f1.da.png)
+![Sender GPS-telemetri fra en IoT-enhed til IoT Hub, derefter til Azure Functions via en Event Hub-trigger, og gemmer det i blob-lagring](../../../../../translated_images/da/save-telemetry-to-storage-from-functions.ed3b1820980097f1.webp)
 
 Dataene vil blive gemt som en JSON-blob med følgende format:
 

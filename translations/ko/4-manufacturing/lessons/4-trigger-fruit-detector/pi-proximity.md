@@ -29,13 +29,13 @@ Grove Time of Flight 센서를 Raspberry Pi에 연결할 수 있습니다.
 
 Time of Flight 센서를 연결하세요.
 
-![Grove Time of Flight 센서](../../../../../translated_images/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.ko.png)
+![Grove Time of Flight 센서](../../../../../translated_images/ko/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
 
 1. Grove 케이블의 한쪽 끝을 Time of Flight 센서의 소켓에 삽입합니다. 케이블은 한 방향으로만 삽입됩니다.
 
 1. Raspberry Pi의 전원을 끈 상태에서 Grove 케이블의 다른 끝을 Pi에 부착된 Grove Base Hat의 **I²C**로 표시된 소켓 중 하나에 연결합니다. 이 소켓은 하단 행에 있으며, GPIO 핀의 반대쪽 끝과 카메라 케이블 슬롯 옆에 위치합니다.
 
-![I²C 소켓에 연결된 Grove Time of Flight 센서](../../../../../translated_images/pi-time-of-flight-sensor.58c8dc04eb3bfb57.ko.png)
+![I²C 소켓에 연결된 Grove Time of Flight 센서](../../../../../translated_images/ko/pi-time-of-flight-sensor.58c8dc04eb3bfb57.webp)
 
 ## Time of Flight 센서 프로그래밍하기
 
@@ -106,7 +106,7 @@ Time of Flight 센서를 연결하세요.
 
     거리 측정기는 센서의 뒷면에 있으므로 거리를 측정할 때 올바른 쪽을 사용해야 합니다.
 
-    ![Time of Flight 센서의 뒷면에서 바나나를 측정하는 모습](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.ko.png)
+    ![Time of Flight 센서의 뒷면에서 바나나를 측정하는 모습](../../../../../translated_images/ko/time-of-flight-banana.079921ad8b1496e4.webp)
 
 > 💁 이 코드는 [code-proximity/pi](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/pi) 폴더에서 찾을 수 있습니다.
 

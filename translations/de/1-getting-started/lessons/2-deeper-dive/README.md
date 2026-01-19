@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Ein tieferer Einblick in IoT
 
-![Eine Sketchnote-Übersicht dieser Lektion](../../../../../translated_images/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.de.jpg)
+![Eine Sketchnote-Übersicht dieser Lektion](../../../../../translated_images/de/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.jpg)
 
 > Sketchnote von [Nitya Narasimhan](https://github.com/nitya). Klicken Sie auf das Bild für eine größere Version.
 
@@ -41,13 +41,13 @@ Die zwei Hauptkomponenten einer IoT-Anwendung sind das *Internet* und das *Ding*
 
 ### Das Ding
 
-![Ein Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.de.jpg)
+![Ein Raspberry Pi 4](../../../../../translated_images/de/raspberry-pi-4.fd4590d308c3d456.webp)
 
 Der **Ding**-Teil von IoT bezieht sich auf ein Gerät, das mit der physischen Welt interagieren kann. Diese Geräte sind normalerweise kleine, kostengünstige Computer, die mit niedrigen Geschwindigkeiten und geringem Stromverbrauch arbeiten – zum Beispiel einfache Mikrocontroller mit Kilobyte RAM (im Gegensatz zu Gigabyte bei einem PC), die nur mit wenigen hundert Megahertz laufen (im Gegensatz zu Gigahertz bei einem PC), aber manchmal so wenig Strom verbrauchen, dass sie wochen-, monate- oder sogar jahrelang mit Batterien betrieben werden können.
 
 Diese Geräte interagieren mit der physischen Welt, entweder durch Sensoren, die Daten aus ihrer Umgebung sammeln, oder durch Steuerung von Ausgängen oder Aktoren, um physische Änderungen vorzunehmen. Ein typisches Beispiel hierfür ist ein intelligenter Thermostat – ein Gerät, das über einen Temperatursensor, eine Möglichkeit zur Einstellung einer gewünschten Temperatur wie ein Drehregler oder Touchscreen und eine Verbindung zu einem Heiz- oder Kühlsystem verfügt, das eingeschaltet wird, wenn die gemessene Temperatur außerhalb des gewünschten Bereichs liegt. Der Temperatursensor erkennt, dass der Raum zu kalt ist, und ein Aktor schaltet die Heizung ein.
 
-![Ein Diagramm, das Temperatur und einen Drehregler als Eingaben für ein IoT-Gerät sowie die Steuerung einer Heizung als Ausgabe zeigt](../../../../../translated_images/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.de.png)
+![Ein Diagramm, das Temperatur und einen Drehregler als Eingaben für ein IoT-Gerät sowie die Steuerung einer Heizung als Ausgabe zeigt](../../../../../translated_images/de/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.png)
 
 Es gibt eine riesige Bandbreite an verschiedenen Dingen, die als IoT-Geräte fungieren können, von spezieller Hardware, die eine Sache erfasst, bis hin zu universellen Geräten, sogar Ihrem Smartphone! Ein Smartphone kann Sensoren verwenden, um die Welt um sich herum zu erkennen, und Aktoren, um mit der Welt zu interagieren – zum Beispiel mit einem GPS-Sensor, um Ihren Standort zu bestimmen, und einem Lautsprecher, um Ihnen Navigationsanweisungen zu einem Ziel zu geben.
 
@@ -63,11 +63,11 @@ Geräte verbinden sich auch nicht immer direkt über WLAN oder kabelgebundene Ve
 
 Im Beispiel eines intelligenten Thermostats würde sich der Thermostat über das Heim-WLAN mit einem Cloud-Dienst verbinden. Er würde die Temperaturdaten an diesen Cloud-Dienst senden, und von dort aus würden sie in einer Art Datenbank gespeichert, sodass der Hausbesitzer die aktuellen und vergangenen Temperaturen über eine Telefon-App überprüfen kann. Ein anderer Dienst in der Cloud würde wissen, welche Temperatur der Hausbesitzer wünscht, und Nachrichten über den Cloud-Dienst zurück an das IoT-Gerät senden, um dem Heizsystem mitzuteilen, ob es ein- oder ausgeschaltet werden soll.
 
-![Ein Diagramm, das Temperatur und einen Drehregler als Eingaben für ein IoT-Gerät zeigt, das IoT-Gerät mit bidirektionaler Kommunikation zur Cloud, die wiederum bidirektionale Kommunikation zu einem Telefon hat, und die Steuerung einer Heizung als Ausgabe des IoT-Geräts](../../../../../translated_images/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.de.png)
+![Ein Diagramm, das Temperatur und einen Drehregler als Eingaben für ein IoT-Gerät zeigt, das IoT-Gerät mit bidirektionaler Kommunikation zur Cloud, die wiederum bidirektionale Kommunikation zu einem Telefon hat, und die Steuerung einer Heizung als Ausgabe des IoT-Geräts](../../../../../translated_images/de/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.png)
 
 Eine noch intelligentere Version könnte KI in der Cloud verwenden, die Daten von anderen Sensoren, die mit anderen IoT-Geräten verbunden sind, wie Belegungssensoren, die erkennen, welche Räume genutzt werden, sowie Daten wie Wetter und sogar Ihren Kalender, um Entscheidungen darüber zu treffen, wie die Temperatur intelligent eingestellt werden kann. Zum Beispiel könnte sie Ihre Heizung ausschalten, wenn sie aus Ihrem Kalender liest, dass Sie im Urlaub sind, oder die Heizung raumweise ausschalten, je nachdem, welche Räume Sie nutzen, und aus den Daten lernen, um mit der Zeit immer genauer zu werden.
 
-![Ein Diagramm, das mehrere Temperatursensoren und einen Drehregler als Eingaben für ein IoT-Gerät zeigt, das IoT-Gerät mit bidirektionaler Kommunikation zur Cloud, die wiederum bidirektionale Kommunikation zu einem Telefon, einem Kalender und einem Wetterdienst hat, und die Steuerung einer Heizung als Ausgabe des IoT-Geräts](../../../../../translated_images/smarter-thermostat.a75855f15d2d9e63.de.png)
+![Ein Diagramm, das mehrere Temperatursensoren und einen Drehregler als Eingaben für ein IoT-Gerät zeigt, das IoT-Gerät mit bidirektionaler Kommunikation zur Cloud, die wiederum bidirektionale Kommunikation zu einem Telefon, einem Kalender und einem Wetterdienst hat, und die Steuerung einer Heizung als Ausgabe des IoT-Geräts](../../../../../translated_images/de/smarter-thermostat.a75855f15d2d9e63.webp)
 
 ✅ Welche anderen Daten könnten helfen, einen mit dem Internet verbundenen Thermostat intelligenter zu machen?
 
@@ -103,7 +103,7 @@ Je schneller der Taktzyklus, desto mehr Anweisungen können pro Sekunde verarbei
 
 > 💁 CPUs führen Programme mit dem [Fetch-Decode-Execute-Zyklus](https://wikipedia.org/wiki/Instruction_cycle) aus. Bei jedem Taktzyklus holt die CPU die nächste Anweisung aus dem Speicher, dekodiert sie und führt sie aus, z. B. mit einer arithmetisch-logischen Einheit (ALU), um zwei Zahlen zu addieren. Einige Ausführungen benötigen mehrere Ticks, sodass der nächste Zyklus beim nächsten Tick nach Abschluss der Anweisung ausgeführt wird.
 
-![Der Fetch-Decode-Execute-Zyklus zeigt, wie die Anweisung aus dem Programm im RAM abgerufen, dekodiert und auf einer CPU ausgeführt wird](../../../../../translated_images/fetch-decode-execute.2fd6f150f6280392807f4475382319abd0cee0b90058e1735444d6baa6f2078c.de.png)
+![Der Fetch-Decode-Execute-Zyklus zeigt, wie die Anweisung aus dem Programm im RAM abgerufen, dekodiert und auf einer CPU ausgeführt wird](../../../../../translated_images/de/fetch-decode-execute.2fd6f150f6280392807f4475382319abd0cee0b90058e1735444d6baa6f2078c.png)
 
 Mikrocontroller haben viel niedrigere Taktgeschwindigkeiten als Desktop- oder Laptop-Computer oder sogar die meisten Smartphones. Das Wio Terminal hat beispielsweise eine CPU, die mit 120MHz oder 120.000.000 Zyklen pro Sekunde läuft.
 
@@ -135,7 +135,7 @@ Wie bei der CPU ist der Speicher eines Mikrocontrollers um Größenordnungen kle
 
 Das folgende Diagramm zeigt den relativen Größenunterschied zwischen 192KB und 8GB – der kleine Punkt in der Mitte repräsentiert 192KB.
 
-![Ein Vergleich zwischen 192KB und 8GB – mehr als 40.000-mal größer](../../../../../translated_images/ram-comparison.6beb73541b42ac6f.de.png)
+![Ein Vergleich zwischen 192KB und 8GB – mehr als 40.000-mal größer](../../../../../translated_images/de/ram-comparison.6beb73541b42ac6f.webp)
 
 Auch der Programmspeicher ist kleiner als bei einem PC. Ein typischer PC hat möglicherweise eine 500GB-Festplatte für Programmspeicher, während ein Mikrocontroller oft nur Kilobytes oder vielleicht ein paar Megabytes (MB) Speicherplatz hat (1MB entspricht 1.000KB oder 1.000.000 Bytes). Das Wio Terminal verfügt über 4MB Programmspeicher.
 
@@ -191,7 +191,7 @@ Arduino-Boards werden in C oder C++ programmiert. Die Verwendung von C/C++ ermö
 
 In der `setup`-Funktion schreiben Sie Ihren Initialisierungscode, wie z. B. die Verbindung mit WiFi und Cloud-Diensten oder die Initialisierung von Pins für Eingabe und Ausgabe. Ihr Code in der `loop`-Funktion enthält dann die Verarbeitung, wie das Lesen von Sensorwerten und das Senden dieser Werte in die Cloud. Normalerweise fügen Sie am Ende jeder Schleife eine Verzögerung ein, z. B. wenn Sie Sensordaten nur alle 10 Sekunden senden möchten. Dadurch kann der Mikrocontroller Energie sparen, indem er schläft, und die Schleife wird erst nach 10 Sekunden erneut ausgeführt.
 
-![Ein Arduino-Sketch, der zuerst setup ausführt und dann loop wiederholt](../../../../../translated_images/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.de.png)
+![Ein Arduino-Sketch, der zuerst setup ausführt und dann loop wiederholt](../../../../../translated_images/de/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.png)
 
 ✅ Diese Programmarchitektur wird als *Ereignisschleife* oder *Nachrichtenschleife* bezeichnet. Viele Anwendungen verwenden dies im Hintergrund, und es ist der Standard für die meisten Desktop-Anwendungen, die auf Betriebssystemen wie Windows, macOS oder Linux laufen. Die `loop`-Funktion lauscht auf Nachrichten von Benutzeroberflächenkomponenten wie Tasten oder Geräten wie der Tastatur und reagiert darauf. Mehr dazu können Sie in diesem [Artikel über die Ereignisschleife](https://wikipedia.org/wiki/Event_loop) lesen.
 
@@ -211,17 +211,17 @@ In der letzten Lektion haben wir Einplatinencomputer eingeführt. Schauen wir un
 
 ### Raspberry Pi
 
-![Das Raspberry Pi-Logo](../../../../../translated_images/raspberry-pi-logo.4efaa16605cee054.de.png)
+![Das Raspberry Pi-Logo](../../../../../translated_images/de/raspberry-pi-logo.4efaa16605cee054.webp)
 
 Die [Raspberry Pi Foundation](https://www.raspberrypi.org) ist eine Wohltätigkeitsorganisation aus Großbritannien, die 2009 gegründet wurde, um das Studium der Informatik, insbesondere auf Schulebene, zu fördern. Im Rahmen dieser Mission entwickelten sie einen Einplatinencomputer, den Raspberry Pi. Raspberry Pis sind derzeit in drei Varianten erhältlich – einer Vollversion, der kleineren Pi Zero und einem Compute-Modul, das in Ihr finales IoT-Gerät eingebaut werden kann.
 
-![Ein Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.de.jpg)
+![Ein Raspberry Pi 4](../../../../../translated_images/de/raspberry-pi-4.fd4590d308c3d456.webp)
 
 Die neueste Version des vollwertigen Raspberry Pi ist der Raspberry Pi 4B. Dieser verfügt über eine Quad-Core-CPU (4 Kerne) mit 1,5GHz, 2, 4 oder 8GB RAM, Gigabit-Ethernet, WiFi, 2 HDMI-Ports mit Unterstützung für 4k-Bildschirme, einen Audio- und Composite-Videoausgang, USB-Ports (2 USB 2.0, 2 USB 3.0), 40 GPIO-Pins, einen Kamerasteckplatz für ein Raspberry Pi Kameramodul und einen SD-Kartensteckplatz. All das auf einer Platine, die 88mm x 58mm x 19,5mm misst und mit einem 3A USB-C-Netzteil betrieben wird. Diese beginnen bei 35 US-Dollar, deutlich günstiger als ein PC oder Mac.
 
 > 💁 Es gibt auch einen Pi400, einen All-in-One-Computer mit einem Pi4, der in eine Tastatur integriert ist.
 
-![Ein Raspberry Pi Zero](../../../../../translated_images/raspberry-pi-zero.f7a4133e1e7d54bb.de.jpg)
+![Ein Raspberry Pi Zero](../../../../../translated_images/de/raspberry-pi-zero.f7a4133e1e7d54bb.webp)
 
 Der Pi Zero ist viel kleiner und energieeffizienter. Er hat eine Single-Core-CPU mit 1GHz, 512MB RAM, WiFi (im Zero W-Modell), einen einzigen HDMI-Port, einen Micro-USB-Port, 40 GPIO-Pins, einen Kamerasteckplatz für ein Raspberry Pi Kameramodul und einen SD-Kartensteckplatz. Er misst 65mm x 30mm x 5mm und verbraucht sehr wenig Energie. Der Zero kostet 5 US-Dollar, die W-Version mit WiFi 10 US-Dollar.
 

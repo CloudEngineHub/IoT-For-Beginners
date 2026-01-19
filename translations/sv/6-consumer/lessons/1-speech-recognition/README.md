@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Känna igen tal med en IoT-enhet
 
-![En sketchnote-översikt av denna lektion](../../../../../translated_images/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.sv.jpg)
+![En sketchnote-översikt av denna lektion](../../../../../translated_images/sv/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.jpg)
 
 > Sketchnote av [Nitya Narasimhan](https://github.com/nitya). Klicka på bilden för en större version.
 
@@ -60,19 +60,19 @@ Mikrofoner finns i olika typer:
 
     Dynamiska mikrofoner behöver ingen ström för att fungera, den elektriska signalen skapas helt av mikrofonen.
 
-    ![Patti Smith sjunger i en Shure SM58 (dynamisk kardioidtyp) mikrofon](../../../../../translated_images/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.sv.jpg)
+    ![Patti Smith sjunger i en Shure SM58 (dynamisk kardioidtyp) mikrofon](../../../../../translated_images/sv/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.jpg)
 
 * Band - Bandmikrofoner liknar dynamiska mikrofoner, förutom att de har ett metallband istället för ett membran. Detta band rör sig i ett magnetfält och genererar en elektrisk ström. Precis som dynamiska mikrofoner behöver bandmikrofoner ingen ström för att fungera.
 
-    ![Edmund Lowe, amerikansk skådespelare, står vid radiomikrofon (märkt för (NBC) Blue Network), håller manus, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441ca.sv.jpg)
+    ![Edmund Lowe, amerikansk skådespelare, står vid radiomikrofon (märkt för (NBC) Blue Network), håller manus, 1942](../../../../../translated_images/sv/ribbon-mic.eacc8e092c7441ca.webp)
 
 * Kondensator - Kondensatormikrofoner har ett tunt metallmembran och en fast metallbakplatta. Elektricitet appliceras på båda dessa och när membranet vibrerar ändras den statiska laddningen mellan plattorna och genererar en signal. Kondensatormikrofoner behöver ström för att fungera - kallad *Phantom power*.
 
-    ![C451B småmembran kondensatormikrofon av AKG Acoustics](../../../../../translated_images/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.sv.jpg)
+    ![C451B småmembran kondensatormikrofon av AKG Acoustics](../../../../../translated_images/sv/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.jpg)
 
 * MEMS - Mikroelektromekaniska systemmikrofoner, eller MEMS, är mikrofoner på ett chip. De har ett tryckkänsligt membran etsad på ett kiselchip och fungerar liknande en kondensatormikrofon. Dessa mikrofoner kan vara mycket små och integreras i kretsar.
 
-    ![En MEMS-mikrofon på ett kretskort](../../../../../translated_images/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.sv.png)
+    ![En MEMS-mikrofon på ett kretskort](../../../../../translated_images/sv/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.png)
 
     På bilden ovan är chipet märkt **LEFT** en MEMS-mikrofon, med ett litet membran mindre än en millimeter brett.
 
@@ -84,7 +84,7 @@ Ljud är en analog signal som bär mycket finfördelad information. För att kon
 
 > 🎓 Sampling innebär att konvertera ljudsignalen till ett digitalt värde som representerar signalen vid den tidpunkten.
 
-![Ett linjediagram som visar en signal, med diskreta punkter vid fasta intervaller](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7.sv.png)
+![Ett linjediagram som visar en signal, med diskreta punkter vid fasta intervaller](../../../../../translated_images/sv/sampling.6f4fadb3f2d9dfe7.webp)
 
 Digitalt ljud samplas med hjälp av Pulse Code Modulation, eller PCM. PCM innebär att läsa spänningen i signalen och välja det närmaste diskreta värdet till den spänningen med en definierad storlek.
 
@@ -168,7 +168,7 @@ För att undvika komplexiteten i att träna och använda en väckningsordsmodell
 
 ## Konvertera tal till text
 
-![Logotyp för tal-tjänster](../../../../../translated_images/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.sv.png)
+![Logotyp för tal-tjänster](../../../../../translated_images/sv/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
 
 Precis som med bildklassificering i ett tidigare projekt finns det förbyggda AI-tjänster som kan ta tal som en ljudfil och konvertera det till text. En sådan tjänst är Speech Service, en del av Cognitive Services, förbyggda AI-tjänster som du kan använda i dina appar.
 

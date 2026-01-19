@@ -154,11 +154,11 @@ Konsola `"Merhaba Dünya"` yazdıran bir Python uygulaması oluşturun.
 
 1. VS Code başlatıldığında, Python sanal ortamını etkinleştirecektir. Seçilen sanal ortam alt durum çubuğunda görünecektir:
 
-    ![VS Code seçilen sanal ortamı gösteriyor](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.tr.png)
+    ![VS Code seçilen sanal ortamı gösteriyor](../../../../../translated_images/tr/vscode-virtual-env.8ba42e04c3d533cf.webp)
 
 1. VS Code Terminali, VS Code başlatıldığında zaten çalışıyorsa, sanal ortam terminalde etkinleştirilmemiş olacaktır. En kolay şey, **Aktif terminal örneğini kapat** düğmesini kullanarak terminali kapatmaktır:
 
-    ![VS Code Aktif terminal örneğini kapat düğmesi](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.tr.png)
+    ![VS Code Aktif terminal örneğini kapat düğmesi](../../../../../translated_images/tr/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
 
     Terminalin sanal ortamı etkinleştirdiğini, terminal isteminde sanal ortamın adının bir ön ek olarak görünmesiyle anlayabilirsiniz. Örneğin, şu şekilde olabilir:
 
@@ -212,7 +212,7 @@ Konsola `"Merhaba Dünya"` yazdıran bir Python uygulaması oluşturun.
 
     Uygulama çalışmaya başlayacak ve web tarayıcınızda açılacaktır:
 
-    ![Counter Fit uygulaması bir tarayıcıda çalışıyor](../../../../../translated_images/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.tr.png)
+    ![Counter Fit uygulaması bir tarayıcıda çalışıyor](../../../../../translated_images/tr/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
 
     *Bağlantısız* olarak işaretlenecek ve sağ üst köşedeki LED kapalı olacaktır.
 
@@ -229,11 +229,11 @@ Konsola `"Merhaba Dünya"` yazdıran bir Python uygulaması oluşturun.
 
 1. CounterFit uygulaması mevcut terminalde çalıştığı için yeni bir VS Code terminali başlatmanız gerekecek. **Yeni bir entegre terminal oluştur** düğmesini seçerek bunu yapabilirsiniz.
 
-    ![VS Code Yeni bir entegre terminal oluştur düğmesi](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.tr.png)
+    ![VS Code Yeni bir entegre terminal oluştur düğmesi](../../../../../translated_images/tr/vscode-new-terminal.77db8fc0f9cd3182.webp)
 
 1. Bu yeni terminalde, daha önce olduğu gibi `app.py` dosyasını çalıştırın. CounterFit'in durumu **Bağlı** olarak değişecek ve LED yanacaktır.
 
-    ![Counter Fit bağlı olarak gösteriliyor](../../../../../translated_images/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.tr.png)
+    ![Counter Fit bağlı olarak gösteriliyor](../../../../../translated_images/tr/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
 
 > 💁 Bu kodu [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device) klasöründe bulabilirsiniz.
 

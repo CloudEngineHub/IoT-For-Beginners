@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Geoaidat
 
-![Tämän oppitunnin yleiskatsaus sketchnotena](../../../../../translated_images/lesson-14.63980c5150ae3c153e770fb71d044c1845dce79248d86bed9fc525adf3ede73c.fi.jpg)
+![Tämän oppitunnin yleiskatsaus sketchnotena](../../../../../translated_images/fi/lesson-14.63980c5150ae3c153e770fb71d044c1845dce79248d86bed9fc525adf3ede73c.jpg)
 
 > Sketchnote: [Nitya Narasimhan](https://github.com/nitya). Klikkaa kuvaa nähdäksesi suuremman version.
 
@@ -44,7 +44,7 @@ Tässä oppitunnissa käsitellään:
 
 Geoaidat ovat virtuaalisia rajoja todellisille maantieteellisille alueille. Geoaidat voivat olla ympyröitä, jotka määritellään pisteenä ja säteenä (esimerkiksi 100 m leveä ympyrä rakennuksen ympärillä), tai monikulmioita, jotka kattavat alueen, kuten koulun alueen, kaupungin rajat tai yliopiston tai toimiston kampuksen.
 
-![Esimerkkejä geoaidoista: ympyrä Microsoftin yrityskaupan ympärillä ja monikulmio Microsoftin länsikampuksen ympärillä](../../../../../translated_images/geofence-examples.172fbc534665769f6e1a1ddcf75e3b25183cd10354c80cc603ba44b635390e1a.fi.png)
+![Esimerkkejä geoaidoista: ympyrä Microsoftin yrityskaupan ympärillä ja monikulmio Microsoftin länsikampuksen ympärillä](../../../../../translated_images/fi/geofence-examples.172fbc534665769f6e1a1ddcf75e3b25183cd10354c80cc603ba44b635390e1a.png)
 
 > 💁 Olet ehkä jo käyttänyt geoaidoja tietämättäsi. Jos olet asettanut muistutuksen iOS-muistutussovelluksessa tai Google Keepissä sijainnin perusteella, olet käyttänyt geoaitaa. Nämä sovellukset luovat geoaidan annetun sijainnin perusteella ja ilmoittavat sinulle, kun puhelimesi saapuu geoaidan sisälle.
 
@@ -110,7 +110,7 @@ Jokainen monikulmion piste määritellään pituus- ja leveysasteparina taulukos
 
 Monikulmion koordinaattitaulukossa on aina yksi merkintä enemmän kuin monikulmion pisteiden lukumäärä, ja viimeinen merkintä on sama kuin ensimmäinen, sulkien monikulmion. Esimerkiksi suorakulmiossa olisi viisi pistettä.
 
-![Suorakulmio koordinaatteineen](../../../../../translated_images/polygon-points.302193da381cb415.fi.png)
+![Suorakulmio koordinaatteineen](../../../../../translated_images/fi/polygon-points.302193da381cb415.webp)
 
 Yllä olevassa kuvassa on suorakulmio. Monikulmion koordinaatit alkavat vasemmasta yläkulmasta kohdasta 47,-122, sitten siirtyvät oikealle kohtaan 47,-121, sitten alas kohtaan 46,-121, sitten vasemmalle kohtaan 46,-122 ja lopuksi takaisin alkuun kohtaan 47,-122. Tämä antaa monikulmiolle viisi pistettä – vasen yläkulma, oikea yläkulma, oikea alakulma, vasen alakulma ja vasen yläkulma sulkemaan sen.
 
@@ -208,7 +208,7 @@ Kun teet tämän pyynnön, voit myös välittää arvon nimeltä `searchBuffer`.
 
 Kun tulokset palautetaan sovellusliittymäpyynnöstä, yksi tuloksen osista on `distance`, joka mitataan lähimpään pisteeseen geoaidan reunalla. Positiivinen arvo tarkoittaa, että piste on geoaidan ulkopuolella, negatiivinen arvo tarkoittaa, että se on geoaidan sisällä. Jos tämä etäisyys on pienempi kuin hakupuskuri, todellinen etäisyys palautetaan metreinä, muuten arvo on 999 tai -999. 999 tarkoittaa, että piste on geoaidan ulkopuolella enemmän kuin hakupuskuri, -999 tarkoittaa, että se on geoaidan sisällä enemmän kuin hakupuskuri.
 
-![Geoaidan ympärillä 50 m hakupuskuri](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7.fi.png)
+![Geoaidan ympärillä 50 m hakupuskuri](../../../../../translated_images/fi/search-buffer-and-distance.e6a79af3898183c7.webp)
 
 Yllä olevassa kuvassa geoaidalla on 50 m hakupuskuri.
 
@@ -221,7 +221,7 @@ On tärkeää tietää etäisyys geoaidan reunaan ja yhdistää tämä tieto mui
 
 Esimerkiksi, kuvittele GPS-lukemia, jotka osoittavat ajoneuvon ajavan tietä pitkin, joka kulkee geoaidan vieressä. Jos yksi GPS-arvo on epätarkka ja sijoittaa ajoneuvon geoaidan sisälle, vaikka sinne ei ole ajoneuvoyhteyttä, se voidaan jättää huomiotta.
 
-![GPS-jälki, joka näyttää ajoneuvon kulkevan Microsoftin kampuksen ohi 520-tietä pitkin, GPS-lukemat tien varrella paitsi yksi kampuksella, geoaidan sisällä](../../../../../translated_images/geofence-crossing-inaccurate-gps.6a3ed911202ad9cabb66d3964888cec03a42c61d5b8f536ad5bdc99716b370f5.fi.png)
+![GPS-jälki, joka näyttää ajoneuvon kulkevan Microsoftin kampuksen ohi 520-tietä pitkin, GPS-lukemat tien varrella paitsi yksi kampuksella, geoaidan sisällä](../../../../../translated_images/fi/geofence-crossing-inaccurate-gps.6a3ed911202ad9cabb66d3964888cec03a42c61d5b8f536ad5bdc99716b370f5.png)
 Yllä olevassa kuvassa on geofence Microsoftin kampuksen osan päällä. Punainen viiva näyttää rekan ajavan pitkin 520-tietä, ja ympyrät osoittavat GPS-lukemat. Suurin osa näistä lukemista on tarkkoja ja sijaitsee 520-tien varrella, mutta yksi epätarkka lukema on geofencen sisällä. Tämä lukema ei voi olla oikea – ei ole teitä, joiden kautta rekka voisi yhtäkkiä poiketa 520-tieltä kampukselle ja palata sitten takaisin 520-tielle. Geofencen tarkistava koodi tarvitsee ottaa huomioon aiemmat lukemat ennen kuin se toimii geofencen testitulosten perusteella.
 
 ✅ Mitä lisätietoja tarvitsisit tarkistaaksesi, voiko GPS-lukema olla oikea?
@@ -293,7 +293,7 @@ Kuten muistat aiemmista oppitunneista, IoT Hub mahdollistaa tapahtumien uudellee
 
 Vastaus on, että se ei tiedä! Sen sijaan voit määritellä useita erillisiä yhteyksiä tapahtumien lukemiseen, ja jokainen niistä voi hallita lukemattomien viestien uudelleen toistoa. Näitä kutsutaan *kuluttajaryhmiksi*. Kun yhdistät päätepisteeseen, voit määrittää, mihin kuluttajaryhmään haluat yhdistää. Sovelluksesi jokainen komponentti yhdistyy eri kuluttajaryhmään.
 
-![Yksi IoT Hub, jossa 3 kuluttajaryhmää jakaa samat viestit 3 eri Functions-sovellukseen](../../../../../translated_images/consumer-groups.a3262e26fc27ba2092863678ad57af15c7223416e388a23f330c058cf4358630.fi.png)
+![Yksi IoT Hub, jossa 3 kuluttajaryhmää jakaa samat viestit 3 eri Functions-sovellukseen](../../../../../translated_images/fi/consumer-groups.a3262e26fc27ba2092863678ad57af15c7223416e388a23f330c058cf4358630.png)
 
 Teoriassa jopa 5 sovellusta voi yhdistyä jokaiseen kuluttajaryhmään, ja ne kaikki vastaanottavat viestejä niiden saapuessa. Paras käytäntö on, että vain yksi sovellus käyttää kutakin kuluttajaryhmää välttääkseen viestien kaksoiskäsittelyn ja varmistaakseen, että kaikki jonossa olevat viestit käsitellään oikein uudelleenkäynnistyksen yhteydessä. Esimerkiksi, jos käynnistäisit Functions-sovelluksesi paikallisesti sekä pilvessä, ne molemmat käsittelisivät viestejä, mikä johtaisi kaksoiskopioihin tallennustilin blob-tallennuksessa.
 

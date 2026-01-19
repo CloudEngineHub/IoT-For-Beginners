@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Migrieren Sie Ihre Anwendungslogik in die Cloud
 
-![Eine Sketchnote-Übersicht dieser Lektion](../../../../../translated_images/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.de.jpg)
+![Eine Sketchnote-Übersicht dieser Lektion](../../../../../translated_images/de/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.jpg)
 
 > Sketchnote von [Nitya Narasimhan](https://github.com/nitya). Klicken Sie auf das Bild für eine größere Version.
 
@@ -37,11 +37,11 @@ In dieser Lektion behandeln wir:
 
 Serverless, oder serverloses Computing, bedeutet, kleine Codeblöcke zu erstellen, die in der Cloud als Reaktion auf verschiedene Arten von Ereignissen ausgeführt werden. Wenn das Ereignis eintritt, wird Ihr Code ausgeführt und erhält Daten über das Ereignis. Diese Ereignisse können von vielen verschiedenen Quellen stammen, einschließlich Webanfragen, Nachrichten in einer Warteschlange, Änderungen an Daten in einer Datenbank oder Nachrichten, die von IoT-Geräten an einen IoT-Dienst gesendet werden.
 
-![Ereignisse, die von einem IoT-Dienst an einen serverlosen Dienst gesendet werden, alle gleichzeitig von mehreren Funktionen verarbeitet](../../../../../translated_images/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.de.png)
+![Ereignisse, die von einem IoT-Dienst an einen serverlosen Dienst gesendet werden, alle gleichzeitig von mehreren Funktionen verarbeitet](../../../../../translated_images/de/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.png)
 
 > 💁 Wenn Sie zuvor Datenbank-Trigger verwendet haben, können Sie sich dies ähnlich vorstellen: Code wird durch ein Ereignis wie das Einfügen einer Zeile ausgelöst.
 
-![Wenn viele Ereignisse gleichzeitig gesendet werden, skaliert der serverlose Dienst, um sie alle gleichzeitig auszuführen](../../../../../translated_images/serverless-scaling.f8c769adf0413fd1.de.png)
+![Wenn viele Ereignisse gleichzeitig gesendet werden, skaliert der serverlose Dienst, um sie alle gleichzeitig auszuführen](../../../../../translated_images/de/serverless-scaling.f8c769adf0413fd1.webp)
 
 Ihr Code wird nur ausgeführt, wenn das Ereignis eintritt; zu anderen Zeiten bleibt er inaktiv. Das Ereignis tritt ein, Ihr Code wird geladen und ausgeführt. Dies macht Serverless sehr skalierbar – wenn viele Ereignisse gleichzeitig auftreten, kann der Cloud-Anbieter Ihre Funktion so oft wie nötig gleichzeitig auf beliebigen verfügbaren Servern ausführen. Der Nachteil ist, dass Sie, wenn Sie Informationen zwischen Ereignissen teilen müssen, diese irgendwo speichern müssen, z. B. in einer Datenbank, anstatt sie im Speicher zu halten.
 
@@ -63,7 +63,7 @@ Für IoT-Entwickler ist das serverlose Modell ideal. Sie können eine Funktion s
 
 Der serverlose Computing-Dienst von Microsoft heißt Azure Functions.
 
-![Das Azure Functions-Logo](../../../../../translated_images/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.de.png)
+![Das Azure Functions-Logo](../../../../../translated_images/de/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.png)
 
 Das kurze Video unten bietet eine Übersicht über Azure Functions.
 
@@ -244,7 +244,7 @@ Die Azure Functions CLI kann verwendet werden, um eine neue Functions-App zu ers
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-    ![Die Benachrichtigung](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb.de.png)
+    ![Die Benachrichtigung](../../../../../translated_images/de/vscode-azure-functions-init-notification.bd19b49229963edb.webp)
 
     Wählen Sie **Ja** in dieser Benachrichtigung aus.
 

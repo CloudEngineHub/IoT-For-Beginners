@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Vuorovaikutus fyysisen maailman kanssa antureiden ja toimilaitteiden avulla
 
-![Tämän oppitunnin sketchnote-yhteenveto](../../../../../translated_images/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.fi.jpg)
+![Tämän oppitunnin sketchnote-yhteenveto](../../../../../translated_images/fi/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.jpg)
 
 > Sketchnote: [Nitya Narasimhan](https://github.com/nitya). Klikkaa kuvaa nähdäksesi suuremman version.
 
@@ -75,7 +75,7 @@ Yksinkertaisimmat anturit ovat analogisia antureita. Nämä anturit vastaanottav
 
 Yksi esimerkki on potentiometri. Tämä on säädin, jota voi kiertää kahden asennon välillä, ja anturi mittaa kiertokulman.
 
-![Potentiometri asetettuna keskiasentoon, vastaanottaa 5 volttia ja palauttaa 3,8 volttia](../../../../../translated_images/potentiometer.35a348b9ce22f6ec.fi.png)
+![Potentiometri asetettuna keskiasentoon, vastaanottaa 5 volttia ja palauttaa 3,8 volttia](../../../../../translated_images/fi/potentiometer.35a348b9ce22f6ec.webp)
 
 IoT-laite lähettää sähköisen signaalin potentiometrille tietyllä jännitteellä, kuten 5 volttia (5V). Kun potentiometriä säädetään, se muuttaa ulostulevaa jännitettä. Kuvittele, että sinulla on potentiometri, joka on merkitty asteikolla 0–[11](https://wikipedia.org/wiki/Up_to_eleven), kuten vahvistimen äänenvoimakkuuden säädin. Kun potentiometri on täysin pois päältä (0), ulos tulee 0V (0 volttia). Kun se on täysin päällä (11), ulos tulee 5V (5 volttia).
 
@@ -101,7 +101,7 @@ Digitaaliset anturit, kuten analogiset anturit, havaitsevat ympäröivän maailm
 
 Yksinkertaisin digitaalinen anturi on painike tai kytkin. Tämä on anturi, jolla on kaksi tilaa: päällä tai pois päältä.
 
-![Painike vastaanottaa 5 volttia. Kun sitä ei paineta, se palauttaa 0 volttia, kun sitä painetaan, se palauttaa 5 volttia](../../../../../translated_images/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.fi.png)
+![Painike vastaanottaa 5 volttia. Kun sitä ei paineta, se palauttaa 0 volttia, kun sitä painetaan, se palauttaa 5 volttia](../../../../../translated_images/fi/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.png)
 
 IoT-laitteiden pinnit, kuten GPIO-pinnit, voivat mitata tämän signaalin suoraan 0:na tai 1:nä. Jos lähetetty jännite on sama kuin palautettu jännite, luettu arvo on 1, muuten luettu arvo on 0. Signaalia ei tarvitse muuntaa, sillä se voi olla vain 1 tai 0.
 
@@ -112,7 +112,7 @@ IoT-laitteiden pinnit, kuten GPIO-pinnit, voivat mitata tämän signaalin suoraa
 
 Kehittyneemmät digitaaliset anturit lukevat analogisia arvoja ja muuntavat ne sisäänrakennetuilla ADC:illä digitaalisiksi signaaleiksi. Esimerkiksi digitaalinen lämpötila-anturi käyttää edelleen termoelementtiä samalla tavalla kuin analoginen anturi ja mittaa edelleen jännitteen muutosta, joka johtuu termoelementin vastuksesta nykyisessä lämpötilassa. Sen sijaan, että se palauttaisi analogisen arvon ja luottaisi laitteen tai liitäntälevyn muuntavan sen digitaaliseksi signaaliksi, anturiin sisäänrakennettu ADC muuntaa arvon ja lähettää sen sarjana 0:ia ja 1:iä IoT-laitteelle. Nämä 0:t ja 1:t lähetetään samalla tavalla kuin painikkeen digitaalinen signaali, jossa 1 on täysi jännite ja 0 on 0V.
 
-![Digitaalinen lämpötila-anturi muuntaa analogisen lukeman binääridataksi, jossa 0 on 0 volttia ja 1 on 5 volttia ennen sen lähettämistä IoT-laitteelle](../../../../../translated_images/temperature-as-digital.85004491b977bae1.fi.png)
+![Digitaalinen lämpötila-anturi muuntaa analogisen lukeman binääridataksi, jossa 0 on 0 volttia ja 1 on 5 volttia ennen sen lähettämistä IoT-laitteelle](../../../../../translated_images/fi/temperature-as-digital.85004491b977bae1.webp)
 
 Digitaalisen datan lähettäminen mahdollistaa antureiden monimutkaistumisen ja yksityiskohtaisemman datan lähettämisen, jopa salatun datan turvallisille antureille. Yksi esimerkki on kamera. Tämä on anturi, joka tallentaa kuvan ja lähettää sen digitaalisena datana, joka sisältää kuvan, yleensä pakatussa muodossa, kuten JPEG, IoT-laitteen luettavaksi. Se voi jopa suoratoistaa videota tallentamalla kuvia ja lähettämällä joko täydellisen kuvan kehys kerrallaan tai pakatun videovirran.
 
@@ -134,7 +134,7 @@ Joidenkin yleisten toimilaitteiden esimerkkejä:
 
 Seuraa alla olevia ohjeita lisätäksesi toimilaitteen IoT-laitteeseesi, jota ohjataan anturilla, rakentaaksesi IoT-yövalon. Se kerää valon määrän valoanturista ja käyttää toimilaitetta, kuten LED-valoa, tuottamaan valoa, kun havaittu valon määrä on liian alhainen.
 
-![Tehtävän vuokaavio, joka näyttää valon määrän lukemisen ja tarkistamisen sekä LED-valon ohjaamisen](../../../../../translated_images/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.fi.png)
+![Tehtävän vuokaavio, joka näyttää valon määrän lukemisen ja tarkistamisen sekä LED-valon ohjaamisen](../../../../../translated_images/fi/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.png)
 
 * [Arduino - Wio Terminal](wio-terminal-actuator.md)
 * [Yksikorttitietokone - Raspberry Pi](pi-actuator.md)
@@ -149,7 +149,7 @@ Kuten anturit, toimilaitteet ovat joko analogisia tai digitaalisia.
 Analogiset toimilaitteet ottavat analogisen signaalin ja muuntavat sen jonkinlaiseksi vuorovaikutukseksi, jossa vuorovaikutus muuttuu syötetyn jännitteen mukaan.
 
 Yksi esimerkki on himmennettävä valo, kuten ne, joita saatat käyttää kotonasi. Valon kirkkaus määräytyy syötetyn jännitteen mukaan.
-![Valo himmennetty matalalla jännitteellä ja kirkkaampi korkeammalla jännitteellä](../../../../../translated_images/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.fi.png)
+![Valo himmennetty matalalla jännitteellä ja kirkkaampi korkeammalla jännitteellä](../../../../../translated_images/fi/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.png)
 
 Kuten antureiden kanssa, varsinainen IoT-laite toimii digitaalisilla signaaleilla, ei analogisilla. Tämä tarkoittaa, että analogisen signaalin lähettämiseksi IoT-laitteessa täytyy olla digitaalista analogiseksi muuntava laite (DAC), joko suoraan IoT-laitteessa tai liitäntälevyssä. Tämä muuntaa IoT-laitteen 0:t ja 1:t analogiseksi jännitteeksi, jota toimilaite voi käyttää.
 
@@ -164,7 +164,7 @@ Esimerkiksi PWM:ää voidaan käyttää moottorin nopeuden säätämiseen.
 
 Kuvittele, että ohjaat moottoria 5V:n virtalähteellä. Lähetät lyhyen pulssin moottorillesi, jolloin jännite nousee korkeaksi (5V) kahden sadasosan sekunnin ajaksi (0,02s). Tänä aikana moottori voi pyöriä yhden kymmenesosan kierroksesta eli 36°. Signaali sitten taukoaa kahden sadasosan sekunnin ajaksi (0,02s), jolloin lähetetään matala signaali (0V). Jokainen sykli, jossa jännite on ensin päällä ja sitten pois, kestää 0,04s. Sykli toistuu.
 
-![Pulssinleveysmodulaatio moottorin pyörimisessä 150 RPM](../../../../../translated_images/pwm-motor-150rpm.83347ac04ca38482.fi.png)
+![Pulssinleveysmodulaatio moottorin pyörimisessä 150 RPM](../../../../../translated_images/fi/pwm-motor-150rpm.83347ac04ca38482.webp)
 
 Tämä tarkoittaa, että yhdessä sekunnissa lähetetään 25 5V:n pulssia, jotka kestävät 0,02s ja pyörittävät moottoria, ja jokaisen pulssin jälkeen on 0,02s tauko, jolloin moottori ei pyöri. Jokainen pulssi pyörittää moottoria yhden kymmenesosan kierroksesta, mikä tarkoittaa, että moottori tekee 2,5 kierrosta sekunnissa. Olet käyttänyt digitaalista signaalia pyörittämään moottoria 2,5 kierrosta sekunnissa eli 150 [kierrosta minuutissa](https://wikipedia.org/wiki/Revolutions_per_minute) (RPM, epästandardi pyörimisnopeuden mitta).
 
@@ -175,7 +175,7 @@ Tämä tarkoittaa, että yhdessä sekunnissa lähetetään 25 5V:n pulssia, jotk
 
 > 🎓 Kun PWM-signaali on päällä puolet ajasta ja pois päältä puolet ajasta, sitä kutsutaan [50% työsykliksi](https://wikipedia.org/wiki/Duty_cycle). Työsyklit mitataan prosenttiosuutena ajasta, jolloin signaali on päällä verrattuna aikaan, jolloin se on pois päältä.
 
-![Pulssinleveysmodulaatio moottorin pyörimisessä 75 RPM](../../../../../translated_images/pwm-motor-75rpm.a5e4c939934b6e14.fi.png)
+![Pulssinleveysmodulaatio moottorin pyörimisessä 75 RPM](../../../../../translated_images/fi/pwm-motor-75rpm.a5e4c939934b6e14.webp)
 
 Voit muuttaa moottorin nopeutta muuttamalla pulssien kokoa. Esimerkiksi saman moottorin kanssa voit pitää syklin ajan samana, 0,04s, mutta puolittaa päällä olevan pulssin ajan 0,01s:iin ja lisätä pois päältä olevan pulssin ajan 0,03s:iin. Pulssien määrä sekunnissa pysyy samana (25), mutta jokainen päällä oleva pulssi on puolet lyhyempi. Puolikas pulssi pyörittää moottoria vain yhden kahdeskymmenesosan kierroksesta, ja 25 pulssilla sekunnissa moottori tekee 1,25 kierrosta sekunnissa eli 75 RPM. Muuttamalla digitaalisen signaalin pulssin nopeutta olet puolittanut analogisen moottorin nopeuden.
 
@@ -196,7 +196,7 @@ Digitaaliset toimilaitteet, kuten digitaaliset anturit, ovat joko kahdessa tilas
 
 Yksi yksinkertainen digitaalinen toimilaite on LED. Kun laite lähettää digitaalisen signaalin 1, lähetetään korkea jännite, joka sytyttää LEDin. Kun lähetetään digitaalinen signaali 0, jännite laskee 0V:iin ja LED sammuu.
 
-![LED on pois päältä 0 voltilla ja päällä 5V:lla](../../../../../translated_images/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.fi.png)
+![LED on pois päältä 0 voltilla ja päällä 5V:lla](../../../../../translated_images/fi/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.png)
 
 ✅ Mitä muita yksinkertaisia kaksitilaisia toimilaitteita keksit? Yksi esimerkki on solenoidi, joka on sähkömagneetti, jota voidaan aktivoida tekemään asioita, kuten siirtämään oven salpaa lukitsemalla/avaamalla oven.
 

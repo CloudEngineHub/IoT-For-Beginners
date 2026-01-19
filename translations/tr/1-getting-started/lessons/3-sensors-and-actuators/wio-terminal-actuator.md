@@ -35,7 +35,7 @@ Grove LED, farklı renklerde LED'ler içeren bir modül olarak gelir, böylece i
 
 LED'i bağlayın.
 
-![Bir Grove LED](../../../../../translated_images/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.tr.png)
+![Bir Grove LED](../../../../../translated_images/tr/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
 
 1. En sevdiğiniz LED'i seçin ve bacaklarını LED modülündeki iki deliğe yerleştirin.
 
@@ -51,7 +51,7 @@ LED'i bağlayın.
 
     > 💁 Sağ taraftaki Grove soketi, analog veya dijital sensörler ve aktüatörlerle kullanılabilir. Sol taraftaki soket yalnızca I2C ve dijital sensörler ve aktüatörler içindir. Bu konu daha sonraki bir derste ele alınacaktır.
 
-![Sağ taraftaki sokete bağlanmış Grove LED](../../../../../translated_images/wio-led.265a1897e72d7f21.tr.png)
+![Sağ taraftaki sokete bağlanmış Grove LED](../../../../../translated_images/tr/wio-led.265a1897e72d7f21.webp)
 
 ## Gece Lambasını Programlayın
 

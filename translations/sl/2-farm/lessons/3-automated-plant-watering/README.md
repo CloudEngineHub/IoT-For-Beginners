@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Samodejno zalivanje rastlin
 
-![Sketchnote pregled te lekcije](../../../../../translated_images/lesson-7.30b5f577d3cb8e031238751475cb519c7d6dbaea261b5df4643d086ffb2a03bb.sl.jpg)
+![Sketchnote pregled te lekcije](../../../../../translated_images/sl/lesson-7.30b5f577d3cb8e031238751475cb519c7d6dbaea261b5df4643d086ffb2a03bb.jpg)
 
 > Sketchnote avtorja [Nitya Narasimhan](https://github.com/nitya). Kliknite na sliko za večjo različico.
 
@@ -41,7 +41,7 @@ IoT naprave uporabljajo nizko napetost. Čeprav je to dovolj za senzorje in aktu
 
 Rešitev za to je, da črpalko povežete z zunanjim napajalnikom in uporabite aktuator za vklop črpalke, podobno kot bi prižgali luč. Za premik stikala je potrebna majhna količina energije (v obliki energije v vašem telesu), kar poveže luč z električnim omrežjem, ki deluje pri 110V/240V.
 
-![Stikalo za luč vklopi napajanje luči](../../../../../translated_images/light-switch.760317ad6ab8bd6d611da5352dfe9c73a94a0822ccec7df3c8bae35da18e1658.sl.png)
+![Stikalo za luč vklopi napajanje luči](../../../../../translated_images/sl/light-switch.760317ad6ab8bd6d611da5352dfe9c73a94a0822ccec7df3c8bae35da18e1658.png)
 
 > 🎓 [Električno omrežje](https://wikipedia.org/wiki/Mains_electricity) se nanaša na elektriko, ki se dostavlja domovom in podjetjem prek nacionalne infrastrukture v mnogih delih sveta.
 
@@ -55,11 +55,11 @@ Rele je elektromehansko stikalo, ki pretvori električni signal v mehansko giban
 
 > 🎓 [Elektromagneti](https://wikipedia.org/wiki/Electromagnet) so magneti, ki nastanejo s prehodom elektrike skozi tuljavo žice. Ko je elektrika vklopljena, tuljava postane magnetizirana. Ko je elektrika izklopljena, tuljava izgubi magnetizem.
 
-![Ko je vklopljen, elektromagnet ustvari magnetno polje, ki vklopi stikalo za izhodno vezje](../../../../../translated_images/relay-on.4db16a0fd6b66926.sl.png)
+![Ko je vklopljen, elektromagnet ustvari magnetno polje, ki vklopi stikalo za izhodno vezje](../../../../../translated_images/sl/relay-on.4db16a0fd6b66926.webp)
 
 V releju napaja elektromagnet kontrolno vezje. Ko je elektromagnet vklopljen, potegne ročico, ki premakne stikalo, zapre par kontaktov in dokonča izhodno vezje.
 
-![Ko je izklopljen, elektromagnet ne ustvari magnetnega polja, ki izklopi stikalo za izhodno vezje](../../../../../translated_images/relay-off.c34a178a2960fecd.sl.png)
+![Ko je izklopljen, elektromagnet ne ustvari magnetnega polja, ki izklopi stikalo za izhodno vezje](../../../../../translated_images/sl/relay-off.c34a178a2960fecd.webp)
 
 Ko je kontrolno vezje izklopljeno, se elektromagnet izklopi, sprosti ročico in odpre kontakte, kar izklopi izhodno vezje. Releji so digitalni aktuatorji – visok signal na releju ga vklopi, nizek signal ga izklopi.
 
@@ -81,11 +81,11 @@ Ko se ročica premakne, običajno slišite, kako se poveže z elektromagnetom z 
 
 Elektromagnet ne potrebuje veliko energije za aktivacijo in premik ročice, lahko ga upravljate z izhodom 3.3V ali 5V iz IoT razvojnega kompleta. Izhodno vezje lahko prenese veliko več energije, odvisno od releja, vključno z napetostjo električnega omrežja ali celo višjimi nivoji moči za industrijsko uporabo. Na ta način lahko IoT razvojni komplet upravlja namakalni sistem, od majhne črpalke za eno rastlino do velikega industrijskega sistema za celotno komercialno kmetijo.
 
-![Grove rele z označenim kontrolnim vezjem, izhodnim vezjem in relejem](../../../../../translated_images/grove-relay-labelled.293e068f5c3c2a199bd7892f2661fdc9e10c920b535cfed317fbd6d1d4ae1168.sl.png)
+![Grove rele z označenim kontrolnim vezjem, izhodnim vezjem in relejem](../../../../../translated_images/sl/grove-relay-labelled.293e068f5c3c2a199bd7892f2661fdc9e10c920b535cfed317fbd6d1d4ae1168.png)
 
 Zgornja slika prikazuje Grove rele. Kontrolno vezje se poveže z IoT napravo in vklopi ali izklopi rele z uporabo 3.3V ali 5V. Izhodno vezje ima dva terminala, od katerih je lahko eden napajanje ali ozemljitev. Izhodno vezje lahko prenese do 250V pri 10A, kar je dovolj za vrsto naprav, ki jih napaja električno omrežje. Na voljo so releji, ki lahko prenesejo še višje nivoje moči.
 
-![Črpalka povezana prek releja](../../../../../translated_images/pump-wired-to-relay.66c5cfc0d8918990.sl.png)
+![Črpalka povezana prek releja](../../../../../translated_images/sl/pump-wired-to-relay.66c5cfc0d8918990.webp)
 
 Na zgornji sliki je črpalka napajana prek releja. Rdeča žica povezuje terminal +5V USB napajalnika z enim terminalom izhodnega vezja releja, druga rdeča žica pa povezuje drugi terminal izhodnega vezja s črpalko. Črna žica povezuje črpalko z ozemljitvijo USB napajalnika. Ko se rele vklopi, dokonča vezje, pošlje 5V črpalki in jo vklopi.
 
@@ -135,7 +135,7 @@ V lekciji 3 ste zgradili nočno lučko – LED diodo, ki se prižge takoj, ko se
 
 Če ste prejšnjo lekcijo o vlažnosti zemlje izvedli z uporabo fizičnega senzorja, ste verjetno opazili, da je trajalo nekaj sekund, da se je odčitek vlažnosti zemlje znižal po tem, ko ste zalili rastlino. To ni zato, ker bi bil senzor počasen, ampak ker voda potrebuje čas, da se vpije v zemljo.
 💁 Če ste zalivali preblizu senzorja, ste morda opazili, da je odčitek hitro padel, nato pa se spet dvignil – to je posledica tega, da se voda v bližini senzorja razširi po preostali zemlji, kar zmanjša vlažnost zemlje pri senzorju.
-![Meritev vlažnosti tal 658 se med zalivanjem ne spremeni, pade na 320 šele po zalivanju, ko voda prepoji zemljo](../../../../../translated_images/soil-moisture-travel.a0e31af222cf1438.sl.png)
+![Meritev vlažnosti tal 658 se med zalivanjem ne spremeni, pade na 320 šele po zalivanju, ko voda prepoji zemljo](../../../../../translated_images/sl/soil-moisture-travel.a0e31af222cf1438.webp)
 
 Na zgornjem diagramu meritev vlažnosti tal pokaže vrednost 658. Rastlina je zalita, vendar se ta vrednost ne spremeni takoj, saj voda še ni dosegla senzorja. Zalivanje se lahko celo konča, preden voda doseže senzor, in šele takrat vrednost pade, da odraža novo raven vlažnosti.
 
@@ -157,11 +157,11 @@ Kako dolgo naj bo rele vklopljen vsakič? Bolje je biti previden in rele vklopit
 
 > 💁 Takšna časovna kontrola je zelo specifična za IoT napravo, ki jo gradite, lastnost, ki jo merite, ter uporabljene senzorje in aktuatorje.
 
-![Jagoda povezana z vodo prek črpalke, črpalka povezana z relejem. Rele in senzor vlažnosti tal sta povezana z Raspberry Pi](../../../../../translated_images/strawberry-with-pump.b410fc72ac6aabad.sl.png)
+![Jagoda povezana z vodo prek črpalke, črpalka povezana z relejem. Rele in senzor vlažnosti tal sta povezana z Raspberry Pi](../../../../../translated_images/sl/strawberry-with-pump.b410fc72ac6aabad.webp)
 
 Na primer, imam jagodno rastlino s senzorjem vlažnosti tal in črpalko, ki jo nadzoruje rele. Opazil sem, da ko dodam vodo, traja približno 20 sekund, da se vrednost vlažnosti tal stabilizira. To pomeni, da moram rele izklopiti in počakati 20 sekund, preden preverim raven vlažnosti. Raje imam premalo vode kot preveč – črpalko lahko vedno znova vklopim, vode pa ne morem odstraniti iz rastline.
 
-![1. korak: izmerite vrednost. 2. korak: dodajte vodo. 3. korak: počakajte, da se voda vpije v zemljo. 4. korak: ponovno izmerite vrednost](../../../../../translated_images/soil-moisture-delay.865f3fae206db01d.sl.png)
+![1. korak: izmerite vrednost. 2. korak: dodajte vodo. 3. korak: počakajte, da se voda vpije v zemljo. 4. korak: ponovno izmerite vrednost](../../../../../translated_images/sl/soil-moisture-delay.865f3fae206db01d.webp)
 
 To pomeni, da bi bil najboljši proces zalivanja nekaj takega:
 

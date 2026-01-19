@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Beszédfelismerés IoT eszközzel
 
-![A leckéről készült vázlatrajz](../../../../../translated_images/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.hu.jpg)
+![A leckéről készült vázlatrajz](../../../../../translated_images/hu/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.jpg)
 
 > Vázlatrajz: [Nitya Narasimhan](https://github.com/nitya). Kattints a képre a nagyobb verzióért.
 
@@ -60,19 +60,19 @@ A mikrofonok különböző típusokban érhetők el:
 
     A dinamikus mikrofonoknak nincs szükségük áramra a működéshez, az elektromos jelet teljes egészében a mikrofon hozza létre.
 
-    ![Patti Smith énekel egy Shure SM58 (dinamikus kardioid típusú) mikrofonba](../../../../../translated_images/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.hu.jpg)
+    ![Patti Smith énekel egy Shure SM58 (dinamikus kardioid típusú) mikrofonba](../../../../../translated_images/hu/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.jpg)
 
 * Szalag - A szalagos mikrofonok hasonlóak a dinamikus mikrofonokhoz, de membrán helyett fém szalagot használnak. Ez a szalag egy mágneses mezőben mozogva elektromos áramot generál. A dinamikus mikrofonokhoz hasonlóan a szalagos mikrofonoknak sincs szükségük áramra a működéshez.
 
-    ![Edmund Lowe, amerikai színész, rádiómikrofon előtt áll (NBC Blue Network), kezében forgatókönyv, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441ca.hu.jpg)
+    ![Edmund Lowe, amerikai színész, rádiómikrofon előtt áll (NBC Blue Network), kezében forgatókönyv, 1942](../../../../../translated_images/hu/ribbon-mic.eacc8e092c7441ca.webp)
 
 * Kondenzátor - A kondenzátoros mikrofonoknak vékony fém membránjuk és rögzített fém hátlapjuk van. Mindkettőre elektromosságot alkalmaznak, és ahogy a membrán rezeg, a lemezek közötti statikus töltés változik, jelet generálva. A kondenzátoros mikrofonoknak áramra van szükségük a működéshez – ezt *fantomtáplálásnak* nevezik.
 
-    ![C451B kis membrános kondenzátoros mikrofon az AKG Acoustics-tól](../../../../../translated_images/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.hu.jpg)
+    ![C451B kis membrános kondenzátoros mikrofon az AKG Acoustics-tól](../../../../../translated_images/hu/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.jpg)
 
 * MEMS - A mikroelektromechanikai rendszerek mikrofonjai, vagy MEMS, egy chipen található mikrofonok. Nyomásérzékeny membránjuk van, amelyet szilícium chipre véstek, és hasonlóan működnek, mint a kondenzátoros mikrofonok. Ezek a mikrofonok rendkívül kicsik lehetnek, és integrálhatók az áramkörökbe.
 
-    ![Egy MEMS mikrofon egy áramköri lapon](../../../../../translated_images/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.hu.png)
+    ![Egy MEMS mikrofon egy áramköri lapon](../../../../../translated_images/hu/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.png)
 
     A fenti képen a **LEFT** feliratú chip egy MEMS mikrofon, amelynek apró membránja kevesebb mint egy milliméter széles.
 
@@ -84,7 +84,7 @@ A hang analóg jel, amely rendkívül finom részleteket hordoz. Ahhoz, hogy ezt
 
 > 🎓 A mintavételezés a hangjel digitális értékké alakítása, amely az adott időpontban a jelet képviseli.
 
-![Egy vonaldiagram, amely egy jelet mutat, diszkrét pontokkal rögzített időközönként](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7.hu.png)
+![Egy vonaldiagram, amely egy jelet mutat, diszkrét pontokkal rögzített időközönként](../../../../../translated_images/hu/sampling.6f4fadb3f2d9dfe7.webp)
 
 A digitális hangot impulzuskód-modulációval (Pulse Code Modulation, PCM) mintavételezik. A PCM során a jel feszültségét olvassák le, és kiválasztják a legközelebbi diszkrét értéket az adott feszültséghez egy meghatározott méret alapján.
 
@@ -168,7 +168,7 @@ Az ébresztőszó modell betanításának és használatának bonyolultságának
 
 ## Beszéd szöveggé alakítása
 
-![Beszéd szolgáltatások logója](../../../../../translated_images/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.hu.png)
+![Beszéd szolgáltatások logója](../../../../../translated_images/hu/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
 
 Csakúgy, mint a képosztályozásnál egy korábbi projektben, vannak előre elkészített AI szolgáltatások, amelyek képesek a beszédet hangfájlként szöveggé alakítani. Az egyik ilyen szolgáltatás a Speech Service, amely a Cognitive Services része, előre elkészített AI szolgáltatások, amelyeket az alkalmazásaidban használhatsz.
 

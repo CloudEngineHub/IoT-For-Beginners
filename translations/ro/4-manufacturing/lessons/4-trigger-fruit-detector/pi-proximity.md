@@ -29,13 +29,13 @@ Senzorul Grove Time of Flight poate fi conectat la Raspberry Pi.
 
 Conectează senzorul Time of Flight.
 
-![Un senzor Grove Time of Flight](../../../../../translated_images/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.ro.png)
+![Un senzor Grove Time of Flight](../../../../../translated_images/ro/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
 
 1. Introdu un capăt al unui cablu Grove în soclul senzorului Time of Flight. Acesta va intra doar într-un singur mod.
 
 1. Cu Raspberry Pi oprit, conectează celălalt capăt al cablului Grove la unul dintre soclurile I²C marcate **I²C** pe Grove Base Hat atașat la Pi. Aceste socluri se află pe rândul de jos, la capătul opus pinilor GPIO și lângă slotul pentru cablul camerei.
 
-![Senzorul Grove Time of Flight conectat la soclul I²C](../../../../../translated_images/pi-time-of-flight-sensor.58c8dc04eb3bfb57.ro.png)
+![Senzorul Grove Time of Flight conectat la soclul I²C](../../../../../translated_images/ro/pi-time-of-flight-sensor.58c8dc04eb3bfb57.webp)
 
 ## Programează senzorul Time of Flight
 
@@ -106,7 +106,7 @@ Programează dispozitivul.
 
     Telemetrul se află pe partea din spate a senzorului, așa că asigură-te că folosești partea corectă atunci când măsori distanța.
 
-    ![Telemetrul de pe partea din spate a senzorului Time of Flight îndreptat spre o banană](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.ro.png)
+    ![Telemetrul de pe partea din spate a senzorului Time of Flight îndreptat spre o banană](../../../../../translated_images/ro/time-of-flight-banana.079921ad8b1496e4.webp)
 
 > 💁 Poți găsi acest cod în folderul [code-proximity/pi](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/pi).
 

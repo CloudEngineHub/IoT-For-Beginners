@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Bevezetés az IoT világába
 
-![A leckéről készült sketchnote áttekintése](../../../../../translated_images/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.hu.jpg)
+![A leckéről készült sketchnote áttekintése](../../../../../translated_images/hu/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.jpg)
 
 > Sketchnote készítette: [Nitya Narasimhan](https://github.com/nitya). Kattints a képre a nagyobb verzióért.
 
@@ -79,7 +79,7 @@ A mikrokontroller (MCU, azaz microcontroller unit) egy kis számítógép, amely
 
 A mikrokontrollerek általában alacsony költségű számítástechnikai eszközök, az egyedi hardverekben használtak átlagos ára körülbelül 0,50 USD, és néhány eszköz ára akár 0,03 USD is lehet. A fejlesztői készletek ára már 4 USD-tól kezdődik, és a funkciók bővítésével növekszik. A [Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html), egy mikrokontroller fejlesztői készlet a [Seeed Studios](https://www.seeedstudio.com) kínálatából, amely érzékelőkkel, aktuátorokkal, WiFi-vel és képernyővel rendelkezik, körülbelül 30 USD-ba kerül.
 
-![Egy Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9a.hu.png)
+![Egy Wio Terminal](../../../../../translated_images/hu/wio-terminal.b8299ee16587db9a.webp)
 
 > 💁 Az interneten mikrokontrollereket keresve légy óvatos az **MCU** kifejezés keresésével, mivel ez rengeteg találatot hoz a Marvel Cinematic Universe-re, nem pedig mikrokontrollerekre.
 
@@ -93,7 +93,7 @@ A mikrokontroller fejlesztői készletek általában további érzékelőkkel é
 
 Az egykártyás számítógép egy kis számítástechnikai eszköz, amely egy teljes számítógép minden elemét tartalmazza egyetlen kis lapon. Ezek olyan eszközök, amelyek specifikációi közel állnak egy asztali vagy laptop PC-hez vagy Mac-hez, teljes operációs rendszert futtatnak, de kicsik, kevesebb energiát használnak, és lényegesen olcsóbbak.
 
-![Egy Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.hu.jpg)
+![Egy Raspberry Pi 4](../../../../../translated_images/hu/raspberry-pi-4.fd4590d308c3d456.webp)
 
 A Raspberry Pi az egyik legnépszerűbb egykártyás számítógép.
 

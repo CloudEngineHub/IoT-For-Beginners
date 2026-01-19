@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Kết nối thiết bị của bạn với Internet
 
-![Tổng quan bài học dưới dạng sketchnote](../../../../../translated_images/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.vi.jpg)
+![Tổng quan bài học dưới dạng sketchnote](../../../../../translated_images/vi/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.jpg)
 
 > Sketchnote bởi [Nitya Narasimhan](https://github.com/nitya). Nhấp vào hình ảnh để xem phiên bản lớn hơn.
 
@@ -46,7 +46,7 @@ Trong bài học này, chúng ta sẽ tìm hiểu:
 
 Có một số giao thức truyền thông phổ biến được sử dụng bởi các thiết bị IoT để giao tiếp với Internet. Phổ biến nhất là dựa trên mô hình xuất bản/đăng ký thông qua một loại broker nào đó. Các thiết bị IoT kết nối với broker và xuất bản dữ liệu đo từ xa, đồng thời đăng ký nhận lệnh. Các dịch vụ đám mây cũng kết nối với broker, đăng ký nhận tất cả các tin nhắn đo từ xa và xuất bản lệnh đến các thiết bị cụ thể hoặc nhóm thiết bị.
 
-![Các thiết bị IoT kết nối với broker, xuất bản dữ liệu đo từ xa và đăng ký nhận lệnh. Các dịch vụ đám mây kết nối với broker, đăng ký nhận tất cả dữ liệu đo từ xa và gửi lệnh đến các thiết bị cụ thể.](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4.vi.png)
+![Các thiết bị IoT kết nối với broker, xuất bản dữ liệu đo từ xa và đăng ký nhận lệnh. Các dịch vụ đám mây kết nối với broker, đăng ký nhận tất cả dữ liệu đo từ xa và gửi lệnh đến các thiết bị cụ thể.](../../../../../translated_images/vi/pub-sub.7c7ed43fe9fd15d4.webp)
 
 MQTT là giao thức truyền thông phổ biến nhất cho các thiết bị IoT và được đề cập trong bài học này. Các giao thức khác bao gồm AMQP và HTTP/HTTPS.
 
@@ -56,7 +56,7 @@ MQTT là giao thức truyền thông phổ biến nhất cho các thiết bị I
 
 MQTT có một broker duy nhất và nhiều client. Tất cả các client kết nối với broker, và broker định tuyến tin nhắn đến các client liên quan. Tin nhắn được định tuyến bằng cách sử dụng các chủ đề được đặt tên, thay vì gửi trực tiếp đến một client cụ thể. Một client có thể xuất bản lên một chủ đề, và bất kỳ client nào đăng ký chủ đề đó sẽ nhận được tin nhắn.
 
-![Thiết bị IoT xuất bản dữ liệu đo từ xa trên chủ đề /telemetry, và dịch vụ đám mây đăng ký chủ đề đó](../../../../../translated_images/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.vi.png)
+![Thiết bị IoT xuất bản dữ liệu đo từ xa trên chủ đề /telemetry, và dịch vụ đám mây đăng ký chủ đề đó](../../../../../translated_images/vi/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.png)
 
 ✅ Nghiên cứu thêm. Nếu bạn có nhiều thiết bị IoT, làm thế nào để đảm bảo broker MQTT của bạn có thể xử lý tất cả các tin nhắn?
 
@@ -78,7 +78,7 @@ Thay vì xử lý các phức tạp của việc thiết lập một broker MQTT
 
 > 💁 Broker thử nghiệm này là công cộng và không an toàn. Bất kỳ ai cũng có thể nghe những gì bạn xuất bản, vì vậy nó không nên được sử dụng với bất kỳ dữ liệu nào cần được giữ bí mật.
 
-![Sơ đồ luồng của bài tập cho thấy mức độ ánh sáng được đọc và kiểm tra, và LED được điều khiển](../../../../../translated_images/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.vi.png)
+![Sơ đồ luồng của bài tập cho thấy mức độ ánh sáng được đọc và kiểm tra, và LED được điều khiển](../../../../../translated_images/vi/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.png)
 
 Thực hiện bước phù hợp dưới đây để kết nối thiết bị của bạn với broker MQTT:
 
@@ -115,7 +115,7 @@ Từ "telemetry" bắt nguồn từ gốc Hy Lạp có nghĩa là đo lường t
 
 Hãy nhìn lại ví dụ về bộ điều nhiệt thông minh từ Bài học 1.
 
-![Bộ điều nhiệt kết nối Internet sử dụng nhiều cảm biến trong phòng](../../../../../translated_images/telemetry.21e5d8b97649d2eb.vi.png)
+![Bộ điều nhiệt kết nối Internet sử dụng nhiều cảm biến trong phòng](../../../../../translated_images/vi/telemetry.21e5d8b97649d2eb.webp)
 
 Bộ điều nhiệt có các cảm biến nhiệt độ để thu thập dữ liệu đo từ xa. Nó có thể có một cảm biến nhiệt độ tích hợp, và nó có thể kết nối với nhiều cảm biến nhiệt độ bên ngoài qua một giao thức không dây như [Bluetooth Low Energy](https://wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE).
 
@@ -267,11 +267,11 @@ Viết mã máy chủ.
 
 1. Khi VS Code khởi chạy, nó sẽ kích hoạt môi trường ảo Python. Điều này sẽ được hiển thị ở thanh trạng thái dưới cùng:
 
-    ![VS Code hiển thị môi trường ảo đã chọn](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.vi.png)
+    ![VS Code hiển thị môi trường ảo đã chọn](../../../../../translated_images/vi/vscode-virtual-env.8ba42e04c3d533cf.webp)
 
 1. Nếu Terminal của VS Code đã chạy khi VS Code khởi động, nó sẽ không có môi trường ảo được kích hoạt trong đó. Cách dễ nhất là tắt terminal bằng nút **Kill the active terminal instance**:
 
-    ![Nút Kill the active terminal instance của VS Code](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.vi.png)
+    ![Nút Kill the active terminal instance của VS Code](../../../../../translated_images/vi/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
 
 1. Khởi chạy một Terminal mới của VS Code bằng cách chọn *Terminal -> New Terminal*, hoặc nhấn `` CTRL+` ``. Terminal mới sẽ tải môi trường ảo, với lệnh kích hoạt xuất hiện trong terminal. Tên của môi trường ảo (`.venv`) cũng sẽ xuất hiện trong prompt:
 
@@ -359,7 +359,7 @@ Kết nối Internet có thể không ổn định, với các sự cố thườ
 
 Các nhà thiết kế thiết bị IoT cũng nên cân nhắc liệu thiết bị IoT có thể được sử dụng trong thời gian mất kết nối Internet hoặc mất tín hiệu do vị trí hay không. Một bộ điều nhiệt thông minh nên có khả năng đưa ra một số quyết định hạn chế để kiểm soát hệ thống sưởi nếu nó không thể gửi telemetry lên đám mây do sự cố.
 
-[![Chiếc Ferrari này bị hỏng vì ai đó cố gắng nâng cấp nó dưới lòng đất nơi không có tín hiệu di động](../../../../../translated_images/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.vi.png)](https://twitter.com/internetofshit/status/1315736960082808832)
+[![Chiếc Ferrari này bị hỏng vì ai đó cố gắng nâng cấp nó dưới lòng đất nơi không có tín hiệu di động](../../../../../translated_images/vi/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.png)](https://twitter.com/internetofshit/status/1315736960082808832)
 
 Để MQTT xử lý mất kết nối, mã thiết bị và máy chủ sẽ cần chịu trách nhiệm đảm bảo việc gửi tin nhắn nếu cần thiết, ví dụ bằng cách yêu cầu tất cả các tin nhắn gửi đi phải được trả lời bằng các tin nhắn bổ sung trên một chủ đề trả lời, và nếu không thì chúng được xếp hàng thủ công để phát lại sau.
 
@@ -367,7 +367,7 @@ Các nhà thiết kế thiết bị IoT cũng nên cân nhắc liệu thiết b�
 
 Lệnh là các tin nhắn được gửi từ đám mây đến thiết bị, yêu cầu nó thực hiện một hành động nào đó. Hầu hết thời gian điều này liên quan đến việc cung cấp một số loại đầu ra thông qua bộ truyền động, nhưng nó cũng có thể là một yêu cầu cho chính thiết bị, chẳng hạn như khởi động lại hoặc thu thập thêm telemetry và trả lại nó như một phản hồi cho lệnh.
 
-![Một bộ điều nhiệt kết nối Internet nhận lệnh bật hệ thống sưởi](../../../../../translated_images/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.vi.png)
+![Một bộ điều nhiệt kết nối Internet nhận lệnh bật hệ thống sưởi](../../../../../translated_images/vi/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.png)
 
 Một bộ điều nhiệt có thể nhận lệnh từ đám mây để bật hệ thống sưởi. Dựa trên dữ liệu telemetry từ tất cả các cảm biến, nếu dịch vụ đám mây đã quyết định rằng hệ thống sưởi nên bật, thì nó sẽ gửi lệnh tương ứng.
 

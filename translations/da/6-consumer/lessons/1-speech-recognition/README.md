@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Genkend tale med en IoT-enhed
 
-![En sketchnote-oversigt over denne lektion](../../../../../translated_images/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.da.jpg)
+![En sketchnote-oversigt over denne lektion](../../../../../translated_images/da/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.jpg)
 
 > Sketchnote af [Nitya Narasimhan](https://github.com/nitya). Klik på billedet for en større version.
 
@@ -60,19 +60,19 @@ Mikrofoner findes i forskellige typer:
 
     Dynamiske mikrofoner behøver ikke strøm for at fungere; det elektriske signal skabes udelukkende af mikrofonen.
 
-    ![Patti Smith synger i en Shure SM58 (dynamisk cardioid-type) mikrofon](../../../../../translated_images/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.da.jpg)
+    ![Patti Smith synger i en Shure SM58 (dynamisk cardioid-type) mikrofon](../../../../../translated_images/da/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.jpg)
 
 * Bånd - Båndmikrofoner ligner dynamiske mikrofoner, men de har et metalbånd i stedet for en membran. Dette bånd bevæger sig i et magnetfelt og genererer en elektrisk strøm. Ligesom dynamiske mikrofoner behøver båndmikrofoner ikke strøm for at fungere.
 
-    ![Edmund Lowe, amerikansk skuespiller, står ved en radiomikrofon (mærket for (NBC) Blue Network), holder manuskript, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441ca.da.jpg)
+    ![Edmund Lowe, amerikansk skuespiller, står ved en radiomikrofon (mærket for (NBC) Blue Network), holder manuskript, 1942](../../../../../translated_images/da/ribbon-mic.eacc8e092c7441ca.webp)
 
 * Kondensator - Kondensatormikrofoner har en tynd metalmembran og en fast metalbagplade. Elektricitet påføres begge dele, og når membranen vibrerer, ændres den statiske ladning mellem pladerne og genererer et signal. Kondensatormikrofoner kræver strøm for at fungere - kaldet *Phantom power*.
 
-    ![C451B små-membran kondensatormikrofon fra AKG Acoustics](../../../../../translated_images/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.da.jpg)
+    ![C451B små-membran kondensatormikrofon fra AKG Acoustics](../../../../../translated_images/da/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.jpg)
 
 * MEMS - Mikroelektromekaniske systemmikrofoner, eller MEMS, er mikrofoner på en chip. De har en trykfølsom membran ætset på en siliciumchip og fungerer på samme måde som en kondensatormikrofon. Disse mikrofoner kan være meget små og integreret i kredsløb.
 
-    ![En MEMS-mikrofon på et kredsløb](../../../../../translated_images/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.da.png)
+    ![En MEMS-mikrofon på et kredsløb](../../../../../translated_images/da/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.png)
 
     På billedet ovenfor er chippen mærket **LEFT** en MEMS-mikrofon med en lille membran mindre end en millimeter bred.
 
@@ -84,7 +84,7 @@ Lyd er et analogt signal, der bærer meget detaljeret information. For at konver
 
 > 🎓 Sampling er processen med at konvertere lydsignalet til en digital værdi, der repræsenterer signalet på det pågældende tidspunkt.
 
-![Et linjediagram, der viser et signal med diskrete punkter på faste intervaller](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7.da.png)
+![Et linjediagram, der viser et signal med diskrete punkter på faste intervaller](../../../../../translated_images/da/sampling.6f4fadb3f2d9dfe7.webp)
 
 Digital lyd samples ved hjælp af Pulse Code Modulation, eller PCM. PCM indebærer at aflæse spændingen af signalet og vælge den nærmeste diskrete værdi til den spænding ved hjælp af en defineret størrelse.
 
@@ -168,7 +168,7 @@ For at undgå kompleksiteten ved at træne og bruge en vågningsordsmodel vil de
 
 ## Konverter tale til tekst
 
-![Logo for taletjenester](../../../../../translated_images/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.da.png)
+![Logo for taletjenester](../../../../../translated_images/da/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
 
 Ligesom med billedklassifikation i et tidligere projekt findes der forudbyggede AI-tjenester, der kan tage tale som en lydfil og konvertere det til tekst. En sådan tjeneste er Speech Service, en del af Cognitive Services, forudbyggede AI-tjenester, du kan bruge i dine apps.
 

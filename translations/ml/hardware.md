@@ -21,7 +21,7 @@ IoTയിലെ **T** യഥാർത്ഥത്തിൽ **Things** (വസ്
 
 ## കിറ്റുകൾ വാങ്ങുക
 
-![The Seeed studios logo](../../translated_images/seeed-logo.74732b6b482b6e8e.ml.png)
+![The Seeed studios logo](../../translated_images/ml/seeed-logo.74732b6b482b6e8e.webp)
 
 Seeed Studios എല്ലാവരും എളുപ്പത്തിൽ വാങ്ങാനുള്ള കിറ്റുകളായി എല്ലാ ഹാർഡ്‌വെയറുകളും kindly ആയി ഒരുക്കിയിട്ടുണ്ട്:
 
@@ -29,13 +29,13 @@ Seeed Studios എല്ലാവരും എളുപ്പത്തിൽ വ�
 
 **[Seeed-ഉം Microsoft-ഉം ചേർന്ന് തുടങ്ങുന്നവർക്കുള്ള IoT - Wio Terminal സ്റ്റാർട്ടർ കിറ്റ്](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)**
 
-[![The Wio Terminal hardware kit](../../translated_images/wio-hardware-kit.4c70c48b85e4283a.ml.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
+[![The Wio Terminal hardware kit](../../translated_images/ml/wio-hardware-kit.4c70c48b85e4283a.webp)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
 
 ### Raspberry Pi
 
 **[Seeed-ഉം Microsoft-ഉം ചേർന്ന് തുടങ്ങുന്നവർക്കുള്ള IoT - Raspberry Pi 4 സ്റ്റാർട്ടർ കിറ്റ്](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)**
 
-[![The Raspberry Pi Terminal hardware kit](../../translated_images/pi-hardware-kit.26dbadaedb7dd44c.ml.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)
+[![The Raspberry Pi Terminal hardware kit](../../translated_images/ml/pi-hardware-kit.26dbadaedb7dd44c.webp)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)
 
 ## Arduino
 

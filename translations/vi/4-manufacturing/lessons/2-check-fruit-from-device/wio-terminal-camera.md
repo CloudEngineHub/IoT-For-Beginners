@@ -25,11 +25,11 @@ ArduCam không có cổng Grove, thay vào đó nó kết nối với cả bus S
 
 Kết nối camera.
 
-![Một cảm biến ArduCam](../../../../../translated_images/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.vi.png)
+![Một cảm biến ArduCam](../../../../../translated_images/vi/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.png)
 
 1. Các chân ở đáy của ArduCam cần được kết nối với các chân GPIO trên Wio Terminal. Để dễ dàng tìm đúng chân, hãy gắn nhãn dán chân GPIO đi kèm với Wio Terminal xung quanh các chân:
 
-    ![Wio Terminal với nhãn dán chân GPIO](../../../../../translated_images/wio-terminal-pin-sticker.b90b1535937b84bd.vi.png)
+    ![Wio Terminal với nhãn dán chân GPIO](../../../../../translated_images/vi/wio-terminal-pin-sticker.b90b1535937b84bd.webp)
 
 1. Sử dụng dây nhảy, thực hiện các kết nối sau:
 
@@ -44,7 +44,7 @@ Kết nối camera.
     | SDA          | 3 (I2C1_SDA)      | I2C Serial Data                         |
     | SCL          | 5 (I2C1_SCL)      | I2C Serial Clock                        |
 
-    ![Wio Terminal được kết nối với ArduCam bằng dây nhảy](../../../../../translated_images/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.vi.png)
+    ![Wio Terminal được kết nối với ArduCam bằng dây nhảy](../../../../../translated_images/vi/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.png)
 
     Kết nối GND và VCC cung cấp nguồn điện 5V cho ArduCam. Nó hoạt động ở 5V, không giống như các cảm biến Grove hoạt động ở 3V. Nguồn điện này được cung cấp trực tiếp từ kết nối USB-C cấp nguồn cho thiết bị.
 
@@ -297,7 +297,7 @@ Wio Terminal bây giờ có thể được lập trình để chụp ảnh khi m
 
 1. Các vi điều khiển chạy mã của bạn liên tục, vì vậy không dễ dàng để kích hoạt một hành động như chụp ảnh mà không phản ứng với một cảm biến. Wio Terminal có các nút, vì vậy camera có thể được thiết lập để kích hoạt bởi một trong các nút. Thêm đoạn mã sau vào cuối hàm `setup` để cấu hình nút C (một trong ba nút ở trên cùng, nút gần công tắc nguồn nhất).
 
-    ![Nút C ở trên cùng gần công tắc nguồn](../../../../../translated_images/wio-terminal-c-button.73df3cb1c1445ea0.vi.png)
+    ![Nút C ở trên cùng gần công tắc nguồn](../../../../../translated_images/vi/wio-terminal-c-button.73df3cb1c1445ea0.webp)
 
     ```cpp
     pinMode(WIO_KEY_C, INPUT_PULLUP);
@@ -465,7 +465,7 @@ Wio Terminal chỉ hỗ trợ thẻ microSD có dung lượng tối đa 16GB. N�
 
 1. Tắt nguồn Wio Terminal và tháo thẻ microSD bằng cách đẩy nhẹ vào và thả ra, thẻ sẽ bật ra. Bạn có thể cần sử dụng một công cụ mỏng để làm điều này. Cắm thẻ microSD vào máy tính của bạn để xem các hình ảnh.
 
-    ![Hình ảnh một quả chuối được chụp bằng ArduCam](../../../../../translated_images/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.vi.jpg)
+    ![Hình ảnh một quả chuối được chụp bằng ArduCam](../../../../../translated_images/vi/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.jpg)
 > 💁 Có thể mất vài hình ảnh để cân bằng trắng của máy ảnh tự điều chỉnh. Bạn sẽ nhận thấy điều này dựa trên màu sắc của các hình ảnh được chụp, vài hình đầu tiên có thể trông không đúng màu. Bạn luôn có thể khắc phục điều này bằng cách thay đổi mã để chụp vài hình ảnh bị bỏ qua trong hàm `setup`.
 
 

@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Seeed Studios నుండి Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) అనేది Arduino-తో అనుకూలంగా ఉన్న మైక్రో కంట్రోలర్, WiFi మరియు కొన్ని సెన్సార్లు మరియు యాక్యూటేటర్లను అంతర్గతంగా కలిగి ఉంది, అలాగే మరిన్ని సెన్సార్లు మరియు యాక్యూటేటర్లను జోడించడానికి పోర్ట్‌లు ఉన్నాయి, దీనికోసం హార్డ్‌వేర్ ఎకోసిస్టమ్‌ను [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html) అంటారు।
 
-![A Seeed studios Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9a.te.png)
+![A Seeed studios Wio Terminal](../../../../../translated_images/te/wio-terminal.b8299ee16587db9a.webp)
 
 ## సెటప్
 
@@ -51,15 +51,15 @@ PlatformIO ప్రాజెక్ట్ సృష్టించండి.
 
 1. PlatformIO ఐకాన్ సైడ్ మెనూ బార్‌లో ఉంటుంది:
 
-    ![The Platform IO menu option](../../../../../translated_images/vscode-platformio-menu.297be26b9733e5c4.te.png)
+    ![The Platform IO menu option](../../../../../translated_images/te/vscode-platformio-menu.297be26b9733e5c4.webp)
 
     ఈ మెనూ ఐటమ్ ఎంచుకుని, *PIO Home -> Open* ఎంచుకోండి
 
-    ![The Platform IO open option](../../../../../translated_images/vscode-platformio-home-open.3f9a41bfd3f4da1c.te.png)
+    ![The Platform IO open option](../../../../../translated_images/te/vscode-platformio-home-open.3f9a41bfd3f4da1c.webp)
 
 1. వెల్కమ్ స్క్రీన్ నుంచి **+ New Project** బటన్ ఎంచుకోండి
 
-    ![The new project button](../../../../../translated_images/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc8.te.png)
+    ![The new project button](../../../../../translated_images/te/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc8.webp)
 
 1. *Project Wizard*లో ప్రాజెక్ట్ కాన్ఫిగర్ చేయండి:
 
@@ -73,7 +73,7 @@ PlatformIO ప్రాజెక్ట్ సృష్టించండి.
 
     1. **Finish** బటన్ నొక్కండి
 
-    ![The completed project wizard](../../../../../translated_images/vscode-platformio-nightlight-project-wizard.5c64db4da6037420.te.png)
+    ![The completed project wizard](../../../../../translated_images/te/vscode-platformio-nightlight-project-wizard.5c64db4da6037420.webp)
 
     PlatformIO కోడ్ కంపైల్ చేసుకోవడానికి అవసరమైన కంపోనెంట్లు డౌన్లోడ్ చేసి ప్రాజెక్ట్ సృష్టిస్తుంది. ఇది కొన్ని నిమిషాలు పడవచ్చు.
 
@@ -179,7 +179,7 @@ VS Code ఎక్స్‌ప్లోర్ లో PlatformIO విజార�
 
     1. `PlatformIO Upload` టైప్ చేసి అప్లోడ్ ఆప్షన్ కోసం శోధించండి, ఆ తరువాత *PlatformIO: Upload* ఎంచుకోండి
 
-        ![The PlatformIO upload option in the command palette](../../../../../translated_images/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3.te.png)
+        ![The PlatformIO upload option in the command palette](../../../../../translated_images/te/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3.webp)
 
         అవసరమైనంతవరకు PlatformIO ఆటోమేటిక్‌గా కోడ్ బిల్డ్ చేసి అప్లోడ్ చేస్తుంది.
 
@@ -195,7 +195,7 @@ PlatformIOకి సీరియల్ మానిటర్ ఉంది, ఇ�
 
 1. `PlatformIO Serial` టైప్ చేసి సీరియల్ మానిటర్ ఆప్షన్ కోసం శోధించి *PlatformIO: Serial Monitor* ఎంచుకోండి
 
-    ![The PlatformIO Serial Monitor option in the command palette](../../../../../translated_images/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14.te.png)
+    ![The PlatformIO Serial Monitor option in the command palette](../../../../../translated_images/te/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14.webp)
 
     కొత్త టెర్మినల్ ఓపెన్ అవుతుంది, మరియు సీరియల్ పోర్ట్ ద్వారా పంపబడిన డేటా అందులో స్ట్రీమ్ అవుతుంది:
 

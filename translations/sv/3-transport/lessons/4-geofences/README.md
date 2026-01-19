@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Geofences
 
-![En sketchnote-översikt av denna lektion](../../../../../translated_images/lesson-14.63980c5150ae3c153e770fb71d044c1845dce79248d86bed9fc525adf3ede73c.sv.jpg)
+![En sketchnote-översikt av denna lektion](../../../../../translated_images/sv/lesson-14.63980c5150ae3c153e770fb71d044c1845dce79248d86bed9fc525adf3ede73c.jpg)
 
 > Sketchnote av [Nitya Narasimhan](https://github.com/nitya). Klicka på bilden för en större version.
 
@@ -44,7 +44,7 @@ I denna lektion kommer vi att behandla:
 
 En geofence är en virtuell avgränsning för ett verkligt geografiskt område. Geofences kan vara cirklar definierade som en punkt och en radie (till exempel en cirkel med en diameter på 100 m runt en byggnad), eller en polygon som täcker ett område som en skolzon, stadsgräns eller universitets- eller kontorscampus.
 
-![Exempel på geofences som visar en cirkulär geofence runt Microsofts företagsbutik och en polygon-geofence runt Microsofts västra campus](../../../../../translated_images/geofence-examples.172fbc534665769f6e1a1ddcf75e3b25183cd10354c80cc603ba44b635390e1a.sv.png)
+![Exempel på geofences som visar en cirkulär geofence runt Microsofts företagsbutik och en polygon-geofence runt Microsofts västra campus](../../../../../translated_images/sv/geofence-examples.172fbc534665769f6e1a1ddcf75e3b25183cd10354c80cc603ba44b635390e1a.png)
 
 > 💁 Du kanske redan har använt geofences utan att veta om det. Om du har ställt in en påminnelse med hjälp av iOS-påminnelseappen eller Google Keep baserat på en plats, har du använt en geofence. Dessa appar ställer in en geofence baserat på den angivna platsen och varnar dig när din telefon går in i geofencen.
 
@@ -110,7 +110,7 @@ Varje punkt på polygonen definieras som ett longitud-, latitudpar i en array, o
 
 Polygonens koordinat-array har alltid 1 mer post än antalet punkter på polygonen, där den sista posten är densamma som den första, vilket stänger polygonen. Till exempel, för en rektangel skulle det finnas 5 punkter.
 
-![En rektangel med koordinater](../../../../../translated_images/polygon-points.302193da381cb415.sv.png)
+![En rektangel med koordinater](../../../../../translated_images/sv/polygon-points.302193da381cb415.webp)
 
 I bilden ovan finns en rektangel. Polygonens koordinater börjar i det övre vänstra hörnet vid 47,-122, sedan rör sig till höger till 47,-121, sedan ner till 46,-121, sedan till vänster till 46,-122, och sedan tillbaka upp till startpunkten vid 47,-122. Detta ger polygonen 5 punkter - övre vänster, övre höger, nedre höger, nedre vänster och sedan övre vänster för att stänga den.
 
@@ -208,7 +208,7 @@ När du gör denna förfrågan kan du också skicka ett värde som kallas `searc
 
 När resultaten returneras från API-anropet är en av delarna i resultatet ett `distance`-värde som mäts till den närmaste punkten på kanten av geofencen, med ett positivt värde om punkten är utanför geofencen och ett negativt värde om den är innanför. Om detta avstånd är mindre än sökbufferten returneras det faktiska avståndet i meter, annars är värdet 999 eller -999. 999 betyder att punkten är utanför geofencen med mer än sökbufferten, -999 betyder att den är innanför geofencen med mer än sökbufferten.
 
-![En geofence med en 50 m sökbuffer runt den](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7.sv.png)
+![En geofence med en 50 m sökbuffer runt den](../../../../../translated_images/sv/search-buffer-and-distance.e6a79af3898183c7.webp)
 
 I bilden ovan har geofencen en 50 m sökbuffer.
 
@@ -221,7 +221,7 @@ Det är viktigt att känna till avståndet till kanten av geofencen och kombiner
 
 Till exempel, föreställ dig GPS-avläsningar som visar att ett fordon kör längs en väg som går bredvid en geofence. Om en enskild GPS-avläsning är felaktig och placerar fordonet innanför geofencen, trots att det inte finns någon fordonsåtkomst, kan detta ignoreras.
 
-![Ett GPS-spår som visar ett fordon som passerar Microsofts campus på 520, med GPS-avläsningar längs vägen förutom en på campus, innanför en geofence](../../../../../translated_images/geofence-crossing-inaccurate-gps.6a3ed911202ad9cabb66d3964888cec03a42c61d5b8f536ad5bdc99716b370f5.sv.png)
+![Ett GPS-spår som visar ett fordon som passerar Microsofts campus på 520, med GPS-avläsningar längs vägen förutom en på campus, innanför en geofence](../../../../../translated_images/sv/geofence-crossing-inaccurate-gps.6a3ed911202ad9cabb66d3964888cec03a42c61d5b8f536ad5bdc99716b370f5.png)
 I bilden ovan finns en geofence över en del av Microsofts campus. Den röda linjen visar en lastbil som kör längs 520, med cirklar som representerar GPS-avläsningar. De flesta av dessa är korrekta och ligger längs 520, men en avläsning är felaktig och befinner sig inom geofencen. Det är omöjligt att den avläsningen är korrekt – det finns inga vägar som gör det möjligt för lastbilen att plötsligt svänga av från 520 in på campus och sedan tillbaka till 520. Koden som kontrollerar denna geofence måste ta hänsyn till tidigare avläsningar innan den agerar på resultaten från geofence-testet.
 
 ✅ Vilka ytterligare data skulle du behöva för att kontrollera om en GPS-avläsning kan anses vara korrekt?
@@ -293,7 +293,7 @@ Som du kanske minns från tidigare lektioner, tillåter IoT Hub dig att spela up
 
 Svaret är att den inte kan! Istället kan du definiera flera separata anslutningar för att läsa av händelser, och varje anslutning kan hantera uppspelningen av olästa meddelanden. Dessa kallas *konsumentgrupper*. När du ansluter till slutpunkten kan du specificera vilken konsumentgrupp du vill ansluta till. Varje komponent i din applikation kommer att ansluta till en annan konsumentgrupp.
 
-![En IoT Hub med 3 konsumentgrupper som distribuerar samma meddelanden till 3 olika Functions-appar](../../../../../translated_images/consumer-groups.a3262e26fc27ba2092863678ad57af15c7223416e388a23f330c058cf4358630.sv.png)
+![En IoT Hub med 3 konsumentgrupper som distribuerar samma meddelanden till 3 olika Functions-appar](../../../../../translated_images/sv/consumer-groups.a3262e26fc27ba2092863678ad57af15c7223416e388a23f330c058cf4358630.png)
 
 I teorin kan upp till 5 applikationer ansluta till varje konsumentgrupp, och de kommer alla att ta emot meddelanden när de anländer. Det är bäst att endast ha en applikation som får åtkomst till varje konsumentgrupp för att undvika duplicerad meddelandebearbetning och säkerställa att alla köade meddelanden bearbetas korrekt vid omstart. Till exempel, om du startade din Functions-app lokalt samtidigt som den körs i molnet, skulle båda bearbeta meddelanden, vilket leder till duplicerade blobbar som lagras i lagringskontot.
 

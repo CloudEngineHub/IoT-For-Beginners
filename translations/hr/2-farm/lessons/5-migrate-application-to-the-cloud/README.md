@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Premjestite logiku svoje aplikacije u oblak
 
-![Sketchnote pregled ove lekcije](../../../../../translated_images/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.hr.jpg)
+![Sketchnote pregled ove lekcije](../../../../../translated_images/hr/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.jpg)
 
 > Sketchnote autorice [Nitya Narasimhan](https://github.com/nitya). Kliknite na sliku za veću verziju.
 
@@ -37,11 +37,11 @@ U ovoj lekciji obradit ćemo:
 
 Serverless, ili serverless računarstvo, uključuje kreiranje malih blokova koda koji se izvršavaju u oblaku kao odgovor na različite vrste događaja. Kada se dogodi događaj, vaš kod se pokreće i dobiva podatke o tom događaju. Ti događaji mogu dolaziti iz različitih izvora, uključujući web zahtjeve, poruke stavljene u red, promjene podataka u bazi podataka ili poruke koje IoT uređaji šalju IoT usluzi.
 
-![Događaji koji se šalju iz IoT usluge u serverless uslugu, svi se obrađuju istovremeno pomoću više funkcija koje se pokreću](../../../../../translated_images/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.hr.png)
+![Događaji koji se šalju iz IoT usluge u serverless uslugu, svi se obrađuju istovremeno pomoću više funkcija koje se pokreću](../../../../../translated_images/hr/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.png)
 
 > 💁 Ako ste prije koristili okidače u bazama podataka, ovo možete zamisliti kao sličan koncept - kod koji se pokreće događajem, poput umetanja retka.
 
-![Kada se više događaja pošalje istovremeno, serverless usluga se skalira kako bi ih sve obradila u isto vrijeme](../../../../../translated_images/serverless-scaling.f8c769adf0413fd1.hr.png)
+![Kada se više događaja pošalje istovremeno, serverless usluga se skalira kako bi ih sve obradila u isto vrijeme](../../../../../translated_images/hr/serverless-scaling.f8c769adf0413fd1.webp)
 
 Vaš kod se pokreće samo kada se dogodi događaj, a u drugim trenucima nije aktivan. Događaj se dogodi, vaš kod se učita i izvrši. Ovo čini serverless vrlo skalabilnim - ako se mnogo događaja dogodi istovremeno, pružatelj oblaka može pokrenuti vašu funkciju onoliko puta koliko je potrebno, koristeći dostupne resurse. Nedostatak ovog pristupa je što, ako trebate dijeliti informacije između događaja, morate ih pohraniti negdje, poput baze podataka, umjesto da ih držite u memoriji.
 
@@ -63,7 +63,7 @@ Kao IoT programer, serverless model je idealan. Možete napisati funkciju koja s
 
 Microsoftova usluga za serverless računarstvo zove se Azure Functions.
 
-![Logo Azure Functions](../../../../../translated_images/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.hr.png)
+![Logo Azure Functions](../../../../../translated_images/hr/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.png)
 
 Kratki video ispod daje pregled Azure Functions.
 
@@ -244,7 +244,7 @@ CLI za Azure Functions može se koristiti za kreiranje nove aplikacije funkcija.
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-    ![Obavijest](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb.hr.png)
+    ![Obavijest](../../../../../translated_images/hr/vscode-azure-functions-init-notification.bd19b49229963edb.webp)
 
     Odaberite **Yes** u ovoj obavijesti.
 

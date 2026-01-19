@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Ohranite svojo rastlino varno
 
-![Sketchnote pregled te lekcije](../../../../../translated_images/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.sl.jpg)
+![Sketchnote pregled te lekcije](../../../../../translated_images/sl/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)
 
 > Sketchnote avtorja [Nitya Narasimhan](https://github.com/nitya). Kliknite sliko za večjo različico.
 
@@ -61,11 +61,11 @@ To so resnični scenariji, ki se dogajajo ves čas. Nekaj primerov je bilo preds
 
 Ko se naprava poveže z IoT storitvijo, uporablja ID za identifikacijo. Težava je v tem, da je ta ID mogoče klonirati - heker bi lahko nastavil zlonamerno napravo, ki uporablja isti ID kot prava naprava, vendar pošilja lažne podatke.
 
-![Tako veljavne kot zlonamerne naprave lahko uporabljajo isti ID za pošiljanje telemetrije](../../../../../translated_images/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.sl.png)
+![Tako veljavne kot zlonamerne naprave lahko uporabljajo isti ID za pošiljanje telemetrije](../../../../../translated_images/sl/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.png)
 
 Rešitev tega problema je pretvorba podatkov, ki se pošiljajo, v zakodirano obliko, pri čemer se uporabi vrednost, ki jo poznata le naprava in oblak. Ta postopek se imenuje *šifriranje*, vrednost, uporabljena za šifriranje podatkov, pa se imenuje *ključ za šifriranje*.
 
-![Če se uporablja šifriranje, bodo sprejeta le šifrirana sporočila, druga bodo zavrnjena](../../../../../translated_images/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.sl.png)
+![Če se uporablja šifriranje, bodo sprejeta le šifrirana sporočila, druga bodo zavrnjena](../../../../../translated_images/sl/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.png)
 
 Oblačna storitev lahko nato podatke pretvori nazaj v berljivo obliko s postopkom, imenovanim *dešifriranje*, pri čemer uporabi isti ključ za šifriranje ali *ključ za dešifriranje*. Če šifriranega sporočila ni mogoče dešifrirati s ključem, je bila naprava vdrta in sporočilo zavrnjeno.
 
@@ -97,15 +97,15 @@ Na žalost ni vse varno. Nekatere naprave nimajo nobene varnosti, druge so zaš�
 
 **Simetrično** šifriranje uporablja isti ključ za šifriranje in dešifriranje podatkov. Tako pošiljatelj kot prejemnik morata poznati isti ključ. To je najmanj varna vrsta, saj je treba ključ nekako deliti. Da bi pošiljatelj poslal šifrirano sporočilo prejemniku, bi moral pošiljatelj najprej poslati ključ prejemniku.
 
-![Simetrično šifriranje uporablja isti ključ za šifriranje in dešifriranje sporočila](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ff.sl.png)
+![Simetrično šifriranje uporablja isti ključ za šifriranje in dešifriranje sporočila](../../../../../translated_images/sl/send-message-symmetric-key.a2e8ad0d495896ff.webp)
 
 Če je ključ ukraden med prenosom ali če je pošiljatelj ali prejemnik vdrt in je ključ najden, je šifriranje razbito.
 
-![Simetrično šifriranje je varno le, če heker ne pridobi ključa - če ga pridobi, lahko prestreže in dešifrira sporočilo](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb.sl.png)
+![Simetrično šifriranje je varno le, če heker ne pridobi ključa - če ga pridobi, lahko prestreže in dešifrira sporočilo](../../../../../translated_images/sl/send-message-symmetric-key-hacker.e7cb53db1707adfb.webp)
 
 **Asimetrično** šifriranje uporablja 2 ključa - ključ za šifriranje in ključ za dešifriranje, imenovana javni/zasebni par ključev. Javni ključ se uporablja za šifriranje sporočila, vendar ga ni mogoče uporabiti za dešifriranje, zasebni ključ pa se uporablja za dešifriranje sporočila, vendar ga ni mogoče uporabiti za šifriranje.
 
-![Asimetrično šifriranje uporablja različna ključa za šifriranje in dešifriranje. Ključ za šifriranje se pošlje pošiljateljem sporočil, da lahko šifrirajo sporočilo, preden ga pošljejo prejemniku, ki je lastnik ključev](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c.sl.png)
+![Asimetrično šifriranje uporablja različna ključa za šifriranje in dešifriranje. Ključ za šifriranje se pošlje pošiljateljem sporočil, da lahko šifrirajo sporočilo, preden ga pošljejo prejemniku, ki je lastnik ključev](../../../../../translated_images/sl/send-message-asymmetric.7abe327c62615b8c.webp)
 
 Prejemnik deli svoj javni ključ, pošiljatelj pa ga uporabi za šifriranje sporočila. Ko je sporočilo poslano, ga prejemnik dešifrira s svojim zasebnim ključem. Asimetrično šifriranje je bolj varno, saj prejemnik zasebni ključ hrani zasebno in ga nikoli ne deli. Javni ključ lahko ima kdorkoli, saj se lahko uporablja le za šifriranje sporočil.
 
@@ -165,7 +165,7 @@ Ti certifikati vsebujejo številna polja, vključno s tem, od koga je javni klju
 
 Pri uporabi X.509 certifikatov imata tako pošiljatelj kot prejemnik svoje javne in zasebne ključe ter oba imata X.509 certifikate, ki vsebujejo javni ključ. Nato si nekako izmenjata X.509 certifikate, pri čemer uporabljata javne ključe drug drugega za šifriranje podatkov, ki jih pošiljata, in svoje zasebne ključe za dešifriranje podatkov, ki jih prejemata.
 
-![Namesto deljenja javnega ključa lahko delite certifikat. Uporabnik certifikata lahko preveri, da prihaja od vas, tako da preveri pri certifikacijskem organu, ki ga je podpisal.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76e.sl.png)
+![Namesto deljenja javnega ključa lahko delite certifikat. Uporabnik certifikata lahko preveri, da prihaja od vas, tako da preveri pri certifikacijskem organu, ki ga je podpisal.](../../../../../translated_images/sl/send-message-certificate.9cc576ac1e46b76e.webp)
 
 Ena velika prednost uporabe X.509 certifikatov je, da jih je mogoče deliti med napravami. Lahko ustvarite en certifikat, ga naložite v IoT Hub in ga uporabite za vse svoje naprave. Vsaka naprava mora nato poznati le zasebni ključ za dešifriranje sporočil, ki jih prejme od IoT Hub.
 

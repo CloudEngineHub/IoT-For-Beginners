@@ -29,13 +29,13 @@ Czujnik Grove Time of Flight można podłączyć do Raspberry Pi.
 
 Podłącz czujnik Time of Flight.
 
-![Czujnik Grove Time of Flight](../../../../../translated_images/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.pl.png)
+![Czujnik Grove Time of Flight](../../../../../translated_images/pl/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
 
 1. Włóż jeden koniec kabla Grove do gniazda na czujniku Time of Flight. Kabel wejdzie tylko w jednym kierunku.
 
 1. Przy wyłączonym Raspberry Pi podłącz drugi koniec kabla Grove do jednego z gniazd I²C oznaczonych **I²C** na Grove Base Hat zamontowanym na Pi. Te gniazda znajdują się w dolnym rzędzie, po przeciwnej stronie do pinów GPIO i obok gniazda kabla kamery.
 
-![Czujnik Grove Time of Flight podłączony do gniazda I²C](../../../../../translated_images/pi-time-of-flight-sensor.58c8dc04eb3bfb57.pl.png)
+![Czujnik Grove Time of Flight podłączony do gniazda I²C](../../../../../translated_images/pl/pi-time-of-flight-sensor.58c8dc04eb3bfb57.webp)
 
 ## Programowanie czujnika Time of Flight
 
@@ -106,7 +106,7 @@ Zaprogramuj urządzenie.
 
     Dalmierz znajduje się na tylnej stronie czujnika, więc upewnij się, że używasz właściwej strony podczas pomiaru odległości.
 
-    ![Dalmierz na tylnej stronie czujnika Time of Flight skierowany na banana](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.pl.png)
+    ![Dalmierz na tylnej stronie czujnika Time of Flight skierowany na banana](../../../../../translated_images/pl/time-of-flight-banana.079921ad8b1496e4.webp)
 
 > 💁 Ten kod znajdziesz w folderze [code-proximity/pi](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/pi).
 

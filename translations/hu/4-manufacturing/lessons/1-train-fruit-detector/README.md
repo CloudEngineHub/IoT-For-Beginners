@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Gyümölcsminőség-ellenőrző betanítása
 
-![A lecke áttekintése sketchnote formájában](../../../../../translated_images/lesson-15.843d21afdc6fb2bba70cd9db7b7d2f91598859fafda2078b0bdc44954194b6c0.hu.jpg)
+![A lecke áttekintése sketchnote formájában](../../../../../translated_images/hu/lesson-15.843d21afdc6fb2bba70cd9db7b7d2f91598859fafda2078b0bdc44954194b6c0.jpg)
 
 > Sketchnote készítette: [Nitya Narasimhan](https://github.com/nitya). Kattints a képre a nagyobb verzióért.
 
@@ -47,7 +47,7 @@ Nem minden termény érik egyenletesen. Például a paradicsom esetében előfor
 
 Az automatizált betakarítás elterjedésével a termény válogatása a betakarítás helyett a gyárakba került. Az élelmiszerek hosszú szállítószalagokon haladtak, ahol emberek csoportjai válogatták ki a nem megfelelő minőségű terményeket. Bár a gépi betakarítás olcsóbbá tette a folyamatot, az élelmiszerek kézi válogatása továbbra is költséges volt.
 
-![Ha egy piros paradicsomot észlelnek, az zavartalanul folytatja útját. Ha egy zöld paradicsomot észlelnek, egy kar vagy levegőfúvóka egy hulladéktartályba löki.](../../../../../translated_images/optical-tomato-sorting.61aa134bdda4e5b1bfb16a212c1e35a6ef0c426cbb8b1c975f79d7bfbf48d068.hu.png)
+![Ha egy piros paradicsomot észlelnek, az zavartalanul folytatja útját. Ha egy zöld paradicsomot észlelnek, egy kar vagy levegőfúvóka egy hulladéktartályba löki.](../../../../../translated_images/hu/optical-tomato-sorting.61aa134bdda4e5b1bfb16a212c1e35a6ef0c426cbb8b1c975f79d7bfbf48d068.png)
 
 A következő fejlődési lépés az volt, hogy gépeket használtak a válogatásra, akár a betakarítógépbe építve, akár a feldolgozóüzemekben. Az első generációs gépek optikai érzékelőket használtak a színek felismerésére, és karok vagy levegőfúvókák segítségével a zöld paradicsomokat egy hulladéktartályba lökték, míg a piros paradicsomok zavartalanul folytatták útjukat a szállítószalagokon.
 
@@ -61,7 +61,7 @@ A legújabb válogatógépek az AI és az ML előnyeit használják ki, olyan mo
 
 A hagyományos programozás során adatokat adsz meg, alkalmazol egy algoritmust, és eredményt kapsz. Például az előző projektben GPS koordinátákat és egy geokerítést adtál meg, alkalmaztál egy algoritmust, amelyet az Azure Maps biztosított, és eredményként megkaptad, hogy a pont a geokerítésen belül vagy kívül van. Több adatot adsz meg, több eredményt kapsz.
 
-![A hagyományos fejlesztés bemenetet és algoritmust használ, hogy eredményt adjon. A gépi tanulás bemenetet és ismert eredményeket használ egy modell betanításához, amely új bemenetekből új eredményeket generál.](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539.hu.png)
+![A hagyományos fejlesztés bemenetet és algoritmust használ, hogy eredményt adjon. A gépi tanulás bemenetet és ismert eredményeket használ egy modell betanításához, amely új bemenetekből új eredményeket generál.](../../../../../translated_images/hu/traditional-vs-ml.5c20c169621fa539.webp)
 
 A gépi tanulás ezt megfordítja – az adatokkal és az ismert eredményekkel kezded, és a gépi tanulási algoritmus az adatokból tanul. Ezután a betanított algoritmust, amelyet *gépi tanulási modellnek* vagy egyszerűen *modellnek* nevezünk, új adatokkal használhatod, hogy új eredményeket kapj.
 
@@ -71,7 +71,7 @@ Például adhatsz egy modellnek milliónyi képet éretlen banánokról bemeneti
 
 > 🎓 Az ML modellek eredményeit *előrejelzéseknek* nevezzük.
 
-![2 banán: egy érett, amelyre az előrejelzés 99,7% érett és 0,3% éretlen, és egy éretlen, amelyre az előrejelzés 1,4% érett és 98,6% éretlen.](../../../../../translated_images/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50ece4e4589e724b142da0681f35470fe3db3f7d51240f69c85.hu.png)
+![2 banán: egy érett, amelyre az előrejelzés 99,7% érett és 0,3% éretlen, és egy éretlen, amelyre az előrejelzés 1,4% érett és 98,6% éretlen.](../../../../../translated_images/hu/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50ece4e4589e724b142da0681f35470fe3db3f7d51240f69c85.png)
 
 Az ML modellek nem adnak bináris választ, hanem valószínűségeket. Például egy modell kaphat egy képet egy banánról, és előrejelzést adhat `érett` 99,7%-kal és `éretlen` 0,3%-kal. A kódod ezután kiválasztja a legjobb előrejelzést, és eldönti, hogy a banán érett.
 
@@ -87,7 +87,7 @@ Egy képosztályozó sikeres betanításához milliónyi képre van szükség. A
 
 Ha egy képosztályozót már betanítottak különféle képek széles skáláján, a belső mechanizmusai kiválóan felismerik az alakzatokat, színeket és mintázatokat. A transzfer tanulás lehetővé teszi, hogy a modell az eddig megtanultakat felhasználja új képek felismerésére.
 
-![Ha egyszer felismered az alakzatokat, különböző konfigurációkban felismerheted például egy hajót vagy egy macskát.](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66f.hu.png)
+![Ha egyszer felismered az alakzatokat, különböző konfigurációkban felismerheted például egy hajót vagy egy macskát.](../../../../../translated_images/hu/shapes-to-images.1a309f0ea88dd66f.webp)
 
 Ezt úgy képzelheted el, mint a gyerekek alakzatokat tanító könyveit, ahol ha egyszer felismered a félkört, a téglalapot és a háromszöget, felismerheted egy vitorlás hajót vagy egy macskát az alakzatok elrendezése alapján. A képosztályozó felismeri az alakzatokat, a transzfer tanulás pedig megtanítja, hogy melyik kombináció mit jelent – például egy érett banánt.
 
@@ -99,7 +99,7 @@ Számos eszköz áll rendelkezésre, amelyek segítenek ebben, beleértve a felh
 
 A Custom Vision egy felhőalapú eszköz képosztályozók betanítására. Lehetővé teszi, hogy egy osztályozót kis számú képpel betaníts. A képeket egy webes portálon, webes API-n vagy SDK-n keresztül töltheted fel, és minden képhez egy *címkét* adhatsz, amely az adott kép osztályozását jelöli. Ezután betaníthatod a modellt, és tesztelheted, hogy mennyire jól teljesít. Ha elégedett vagy a modellel, közzéteheted annak verzióit, amelyeket webes API-n vagy SDK-n keresztül érhetsz el.
 
-![Az Azure Custom Vision logója](../../../../../translated_images/custom-vision-logo.d3d4e7c8a87ec9daf825e72e210576c3cbf60312577be7a139e22dd97ab7f1e6.hu.png)
+![Az Azure Custom Vision logója](../../../../../translated_images/hu/custom-vision-logo.d3d4e7c8a87ec9daf825e72e210576c3cbf60312577be7a139e22dd97ab7f1e6.png)
 
 > 💁 Egy Custom Vision modellt akár 5 kép osztályonkénti használatával is betaníthatsz, de a több jobb. Legalább 30 képpel jobb eredményeket érhetsz el.
 
@@ -165,7 +165,7 @@ Az osztályozók nagyon alacsony felbontáson futnak. Például a Custom Vision 
 
     * Használj 2 érett banánt, és készíts róluk néhány képet különböző szögekből, legalább 7 képet (5 a tanításhoz, 2 a teszteléshez), de ideális esetben többet.
 
-        ![Képek 2 különböző banánról](../../../../../translated_images/banana-training-images.530eb203346d73bc23b8b990fb4609470bf4ff7c942ccc13d4cfffeed9be1ad4.hu.png)
+        ![Képek 2 különböző banánról](../../../../../translated_images/hu/banana-training-images.530eb203346d73bc23b8b990fb4609470bf4ff7c942ccc13d4cfffeed9be1ad4.png)
 
     * Ismételd meg ugyanezt a folyamatot 2 éretlen banánnal.
 
@@ -175,7 +175,7 @@ Az osztályozók nagyon alacsony felbontáson futnak. Például a Custom Vision 
 
 1. Kövesd a [képek feltöltése és címkézése szakaszt a Microsoft dokumentációjában az osztályozó gyorsindítójában](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#upload-and-tag-images), hogy feltöltsd a tanítóképeidet. Címkézd az érett gyümölcsöt `ripe`-ként, az éretlent pedig `unripe`-ként.
 
-    ![A feltöltési párbeszédablakok, amelyek érett és éretlen banánképek feltöltését mutatják](../../../../../translated_images/image-upload-bananas.0751639f3815e0ec42bdbc6254d1e4357a185834d1ae10c9948a0e7d6d336695.hu.png)
+    ![A feltöltési párbeszédablakok, amelyek érett és éretlen banánképek feltöltését mutatják](../../../../../translated_images/hu/image-upload-bananas.0751639f3815e0ec42bdbc6254d1e4357a185834d1ae10c9948a0e7d6d336695.png)
 
 1. Kövesd a [osztályozó betanítása szakaszt a Microsoft dokumentációjában az osztályozó gyorsindítójában](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#train-the-classifier), hogy betanítsd az osztályozót a feltöltött képekkel.
 
@@ -193,7 +193,7 @@ Miután az osztályozó betanult, tesztelheted egy új képpel, hogy osztályozz
 
 1. Kövesd a [modell tesztelése szakaszt a Microsoft dokumentációjában](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/test-your-model?WT.mc_id=academic-17441-jabenn#test-your-model), hogy teszteld az osztályozódat. Használd azokat a tesztképeket, amelyeket korábban készítettél, ne azokat, amelyeket a tanításhoz használtál.
 
-    ![Egy éretlen banán, amelyet 98,9%-os valószínűséggel éretlennek, és 1,1%-os valószínűséggel érettnek osztályozott](../../../../../translated_images/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64886422438850ea14f0be6ac918c217ea3b255c685abfabe7.hu.png)
+    ![Egy éretlen banán, amelyet 98,9%-os valószínűséggel éretlennek, és 1,1%-os valószínűséggel érettnek osztályozott](../../../../../translated_images/hu/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64886422438850ea14f0be6ac918c217ea3b255c685abfabe7.png)
 
 1. Próbáld ki az összes tesztképet, amelyhez hozzáférsz, és figyeld meg a valószínűségeket.
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Sissejuhatus asjade internetti
 
-![Selle õppetunni visandmärkmed](../../../../../translated_images/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.et.jpg)
+![Selle õppetunni visandmärkmed](../../../../../translated_images/et/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.jpg)
 
 > Visandmärkmed: [Nitya Narasimhan](https://github.com/nitya). Suurema versiooni vaatamiseks klõpsake pildil.
 
@@ -79,7 +79,7 @@ Mikrokontroller (tuntud ka kui MCU, mis on lühend sõnadest microcontroller uni
 
 Mikrokontrollerid on tavaliselt madala hinnaga arvutiseadmed, mille keskmine hind on umbes 0,50 USA dollarit, mõned seadmed maksavad isegi vaid 0,03 dollarit. Arenduskomplektid algavad umbes 4 dollarist, kuid hind tõuseb, kui lisada rohkem funktsioone. [Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html), mikrokontrolleri arenduskomplekt [Seeed Studiosilt](https://www.seeedstudio.com), millel on andurid, aktuaatorid, WiFi ja ekraan, maksab umbes 30 dollarit.
 
-![Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9a.et.png)
+![Wio Terminal](../../../../../translated_images/et/wio-terminal.b8299ee16587db9a.webp)
 
 > 💁 Kui otsid internetist mikrokontrollereid, ole ettevaatlik otsingutermini **MCU** kasutamisel, kuna see võib tuua palju tulemusi Marveli Kinemaatilise Universumi kohta, mitte mikrokontrollerite kohta.
 
@@ -93,7 +93,7 @@ Mikrokontrolleri arenduskomplektidel on tavaliselt lisatud andurid ja aktuaatori
 
 Üheplaadiarvuti on väike arvutiseade, millel on kõik täisväärtusliku arvuti elemendid ühel väikesel plaadil. Need on seadmed, mille spetsifikatsioonid on sarnased lauaarvuti või sülearvutiga, töötavad täisväärtusliku operatsioonisüsteemiga, kuid on väiksemad, tarbivad vähem energiat ja on oluliselt odavamad.
 
-![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.et.jpg)
+![Raspberry Pi 4](../../../../../translated_images/et/raspberry-pi-4.fd4590d308c3d456.webp)
 
 Raspberry Pi on üks populaarsemaid üheplaadiarvuteid.
 

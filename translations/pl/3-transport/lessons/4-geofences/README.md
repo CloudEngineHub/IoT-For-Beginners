@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Geofences
 
-![Szkicowy przegląd tej lekcji](../../../../../translated_images/lesson-14.63980c5150ae3c153e770fb71d044c1845dce79248d86bed9fc525adf3ede73c.pl.jpg)
+![Szkicowy przegląd tej lekcji](../../../../../translated_images/pl/lesson-14.63980c5150ae3c153e770fb71d044c1845dce79248d86bed9fc525adf3ede73c.jpg)
 
 > Szkic autorstwa [Nitya Narasimhan](https://github.com/nitya). Kliknij obraz, aby zobaczyć większą wersję.
 
@@ -44,7 +44,7 @@ W tej lekcji omówimy:
 
 Geofence to wirtualny obwód dla rzeczywistego obszaru geograficznego. Geofencing mogą być okręgami zdefiniowanymi jako punkt i promień (na przykład okrąg o średnicy 100 m wokół budynku) lub wielokątami obejmującymi obszar, taki jak strefa szkolna, granice miasta, kampus uniwersytecki lub biurowy.
 
-![Przykłady geofence pokazujące okrągły geofence wokół sklepu Microsoft oraz wielokąt wokół zachodniego kampusu Microsoft](../../../../../translated_images/geofence-examples.172fbc534665769f6e1a1ddcf75e3b25183cd10354c80cc603ba44b635390e1a.pl.png)
+![Przykłady geofence pokazujące okrągły geofence wokół sklepu Microsoft oraz wielokąt wokół zachodniego kampusu Microsoft](../../../../../translated_images/pl/geofence-examples.172fbc534665769f6e1a1ddcf75e3b25183cd10354c80cc603ba44b635390e1a.png)
 
 > 💁 Mogłeś już korzystać z geofence, nie zdając sobie z tego sprawy. Jeśli ustawiłeś przypomnienie w aplikacji przypomnień iOS lub Google Keep na podstawie lokalizacji, użyłeś geofence. Te aplikacje ustawiają geofence na podstawie podanej lokalizacji i powiadamiają Cię, gdy Twój telefon wejdzie w obszar geofence.
 
@@ -110,7 +110,7 @@ Każdy punkt na wielokącie jest definiowany jako para długości i szerokości 
 
 Tablica współrzędnych wielokąta zawsze ma o 1 więcej wpis niż liczba punktów na wielokącie, z ostatnim wpisem będącym takim samym jak pierwszy, zamykającym wielokąt. Na przykład dla prostokąta byłoby 5 punktów.
 
-![Prostokąt z współrzędnymi](../../../../../translated_images/polygon-points.302193da381cb415.pl.png)
+![Prostokąt z współrzędnymi](../../../../../translated_images/pl/polygon-points.302193da381cb415.webp)
 
 Na powyższym obrazku znajduje się prostokąt. Współrzędne wielokąta zaczynają się w lewym górnym rogu na 47,-122, następnie przesuwają się w prawo do 47,-121, potem w dół do 46,-121, następnie w lewo do 46, -122, a potem z powrotem do punktu początkowego na 47, -122. Daje to wielokąt o 5 punktach - lewy górny, prawy górny, prawy dolny, lewy dolny, a następnie lewy górny, aby go zamknąć.
 
@@ -208,7 +208,7 @@ Podczas wykonywania tego żądania możesz również przekazać wartość zwaną
 
 Gdy wyniki zostaną zwrócone z wywołania API, jedna z części wyniku to `distance` mierzona do najbliższego punktu na krawędzi geofence, z wartością dodatnią, jeśli punkt znajduje się na zewnątrz geofence, ujemną, jeśli znajduje się wewnątrz geofence. Jeśli ta odległość jest mniejsza niż search buffer, rzeczywista odległość jest zwracana w metrach, w przeciwnym razie wartość wynosi 999 lub -999. 999 oznacza, że punkt znajduje się na zewnątrz geofence o więcej niż search buffer, -999 oznacza, że znajduje się wewnątrz geofence o więcej niż search buffer.
 
-![Geofence z buforem wyszukiwania 50 m wokół niego](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7.pl.png)
+![Geofence z buforem wyszukiwania 50 m wokół niego](../../../../../translated_images/pl/search-buffer-and-distance.e6a79af3898183c7.webp)
 
 Na powyższym obrazku geofence ma bufor wyszukiwania 50 m.
 
@@ -221,7 +221,7 @@ Ważne jest, aby znać odległość do krawędzi geofence i łączyć ją z inny
 
 Na przykład, wyobraź sobie odczyty GPS pokazujące, że pojazd jechał drogą, która kończy się obok geofence. Jeśli pojedyncza wartość GPS jest niedokładna i umieszcza pojazd wewnątrz geofence, mimo że nie ma tam dostępu dla pojazdów, można ją zignorować.
 
-![Ślad GPS pokazujący pojazd przejeżdżający obok kampusu Microsoft na 520, z odczytami GPS wzdłuż drogi, z wyjątkiem jednego na kampusie, wewnątrz geofence](../../../../../translated_images/geofence-crossing-inaccurate-gps.6a3ed911202ad9cabb66d3964888cec03a42c61d5b8f536ad5bdc99716b370f5.pl.png)
+![Ślad GPS pokazujący pojazd przejeżdżający obok kampusu Microsoft na 520, z odczytami GPS wzdłuż drogi, z wyjątkiem jednego na kampusie, wewnątrz geofence](../../../../../translated_images/pl/geofence-crossing-inaccurate-gps.6a3ed911202ad9cabb66d3964888cec03a42c61d5b8f536ad5bdc99716b370f5.png)
 Na powyższym obrazku widoczny jest geofence obejmujący część kampusu Microsoft. Czerwona linia pokazuje trasę ciężarówki jadącej wzdłuż drogi 520, z okręgami oznaczającymi odczyty GPS. Większość z nich jest dokładna i znajduje się wzdłuż drogi 520, ale jeden niedokładny odczyt znajduje się wewnątrz geofence. Nie ma możliwości, aby ten odczyt był poprawny - nie ma dróg, które pozwoliłyby ciężarówce nagle zjechać z drogi 520 na kampus, a potem wrócić na drogę 520. Kod sprawdzający ten geofence będzie musiał uwzględnić poprzednie odczyty przed podjęciem działań na podstawie wyników testu geofence.
 
 ✅ Jakie dodatkowe dane byłyby potrzebne, aby sprawdzić, czy odczyt GPS można uznać za poprawny?
@@ -293,7 +293,7 @@ Jak pamiętasz z poprzednich lekcji, IoT Hub pozwala na odtwarzanie zdarzeń, kt
 
 Odpowiedź brzmi: nie będzie wiedział! Zamiast tego możesz zdefiniować wiele oddzielnych połączeń do odczytu zdarzeń, a każde z nich może zarządzać odtwarzaniem nieprzeczytanych wiadomości. Są one nazywane *grupami konsumenckimi*. Podczas łączenia się z punktem końcowym możesz określić, z którą grupą konsumencką chcesz się połączyć. Każdy komponent Twojej aplikacji będzie łączył się z inną grupą konsumencką.
 
-![Jeden IoT Hub z 3 grupami konsumenckimi rozdzielającymi te same wiadomości do 3 różnych aplikacji Functions](../../../../../translated_images/consumer-groups.a3262e26fc27ba2092863678ad57af15c7223416e388a23f330c058cf4358630.pl.png)
+![Jeden IoT Hub z 3 grupami konsumenckimi rozdzielającymi te same wiadomości do 3 różnych aplikacji Functions](../../../../../translated_images/pl/consumer-groups.a3262e26fc27ba2092863678ad57af15c7223416e388a23f330c058cf4358630.png)
 
 Teoretycznie do każdej grupy konsumenckiej może podłączyć się do 5 aplikacji, a wszystkie będą otrzymywać wiadomości, gdy tylko się pojawią. Najlepszą praktyką jest, aby tylko jedna aplikacja miała dostęp do każdej grupy konsumenckiej, aby uniknąć duplikacji przetwarzania wiadomości i zapewnić, że po ponownym uruchomieniu wszystkie zakolejkowane wiadomości zostaną poprawnie przetworzone. Na przykład, jeśli uruchomisz swoją aplikację Functions lokalnie, a także w chmurze, obie będą przetwarzać wiadomości, co doprowadzi do duplikacji blobów przechowywanych w koncie magazynu.
 

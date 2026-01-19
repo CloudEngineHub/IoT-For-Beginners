@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Rozpoznawanie mowy za pomocą urządzenia IoT
 
-![Szkicowy przegląd tej lekcji](../../../../../translated_images/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.pl.jpg)
+![Szkicowy przegląd tej lekcji](../../../../../translated_images/pl/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.jpg)
 
 > Szkic autorstwa [Nitya Narasimhan](https://github.com/nitya). Kliknij obraz, aby zobaczyć większą wersję.
 
@@ -60,19 +60,19 @@ Mikrofony występują w różnych typach:
 
     Mikrofony dynamiczne nie potrzebują zasilania, aby działać – sygnał elektryczny jest generowany wyłącznie przez mikrofon.
 
-    ![Patti Smith śpiewająca do mikrofonu dynamicznego typu kardioidalnego Shure SM58](../../../../../translated_images/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.pl.jpg)
+    ![Patti Smith śpiewająca do mikrofonu dynamicznego typu kardioidalnego Shure SM58](../../../../../translated_images/pl/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.jpg)
 
 * Wstęgowe – Mikrofony wstęgowe są podobne do dynamicznych, ale zamiast membrany mają metalową wstęgę. Ta wstęga porusza się w polu magnetycznym, generując prąd elektryczny. Podobnie jak mikrofony dynamiczne, mikrofony wstęgowe nie potrzebują zasilania, aby działać.
 
-    ![Edmund Lowe, amerykański aktor, stojący przy mikrofonie radiowym (oznaczonym jako (NBC) Blue Network), trzymający scenariusz, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441ca.pl.jpg)
+    ![Edmund Lowe, amerykański aktor, stojący przy mikrofonie radiowym (oznaczonym jako (NBC) Blue Network), trzymający scenariusz, 1942](../../../../../translated_images/pl/ribbon-mic.eacc8e092c7441ca.webp)
 
 * Pojemnościowe – Mikrofony pojemnościowe mają cienką metalową membranę i stałą metalową płytkę tylną. Do obu tych elementów przykładane jest napięcie, a gdy membrana wibruje, zmienia się ładunek elektrostatyczny między płytkami, generując sygnał. Mikrofony pojemnościowe potrzebują zasilania, aby działać – nazywanego *zasilaniem fantomowym*.
 
-    ![Mikrofon pojemnościowy o małej membranie C451B firmy AKG Acoustics](../../../../../translated_images/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.pl.jpg)
+    ![Mikrofon pojemnościowy o małej membranie C451B firmy AKG Acoustics](../../../../../translated_images/pl/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.jpg)
 
 * MEMS – Mikrofony systemów mikroelektromechanicznych, czyli MEMS, to mikrofony na chipie. Mają one czułą na ciśnienie membranę wytrawioną na krzemowym chipie i działają podobnie do mikrofonu pojemnościowego. Te mikrofony mogą być bardzo małe i zintegrowane z układami elektronicznymi.
 
-    ![Mikrofon MEMS na płytce drukowanej](../../../../../translated_images/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.pl.png)
+    ![Mikrofon MEMS na płytce drukowanej](../../../../../translated_images/pl/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.png)
 
     Na powyższym obrazie chip oznaczony jako **LEFT** to mikrofon MEMS z membraną o szerokości mniejszej niż milimetr.
 
@@ -84,7 +84,7 @@ Dźwięk to sygnał analogowy niosący bardzo szczegółowe informacje. Aby prze
 
 > 🎓 Próbkowanie to proces konwersji sygnału dźwiękowego na wartość cyfrową, która reprezentuje sygnał w danym momencie.
 
-![Wykres liniowy przedstawiający sygnał z dyskretnymi punktami w stałych odstępach](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7.pl.png)
+![Wykres liniowy przedstawiający sygnał z dyskretnymi punktami w stałych odstępach](../../../../../translated_images/pl/sampling.6f4fadb3f2d9dfe7.webp)
 
 Cyfrowy dźwięk jest próbkowany za pomocą modulacji kodu impulsowego (PCM). PCM polega na odczytywaniu napięcia sygnału i wybieraniu najbliższej wartości dyskretnej odpowiadającej temu napięciu, zgodnie z określoną rozdzielczością.
 
@@ -168,7 +168,7 @@ Aby uniknąć złożoności związanej z trenowaniem i używaniem modelu wykrywa
 
 ## Konwersja mowy na tekst
 
-![Logo usług mowy](../../../../../translated_images/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.pl.png)
+![Logo usług mowy](../../../../../translated_images/pl/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
 
 Podobnie jak w przypadku klasyfikacji obrazów w wcześniejszym projekcie, istnieją gotowe usługi AI, które mogą przekształcić mowę z pliku audio na tekst. Jedną z takich usług jest Speech Service, część Cognitive Services, gotowych usług AI, które możesz wykorzystać w swoich aplikacjach.
 

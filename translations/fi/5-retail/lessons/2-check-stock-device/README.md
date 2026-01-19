@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Tarkista varasto IoT-laitteella
 
-![Tämän oppitunnin yleiskuvaus sketchnotena](../../../../../translated_images/lesson-20.0211df9551a8abb300fc8fcf7dc2789468dea2eabe9202273ac077b0ba37f15e.fi.jpg)
+![Tämän oppitunnin yleiskuvaus sketchnotena](../../../../../translated_images/fi/lesson-20.0211df9551a8abb300fc8fcf7dc2789468dea2eabe9202273ac077b0ba37f15e.jpg)
 
 > Sketchnote: [Nitya Narasimhan](https://github.com/nitya). Klikkaa kuvaa nähdäksesi suuremman version.
 
@@ -39,7 +39,7 @@ Objektintunnistimia voidaan käyttää varaston tarkistamiseen, joko laskemalla 
 
 Esimerkiksi, jos kamera osoittaa hyllyyn, joka voi pitää 8 tomaattipyreen purkkia, ja objektintunnistin havaitsee vain 7 purkkia, yksi puuttuu ja se täytyy täydentää.
 
-![7 tomaattipyreen purkkia hyllyllä, 4 ylhäällä ja 3 alhaalla](../../../../../translated_images/stock-7-cans-tomato-paste.f86059cc573d7bec.fi.png)
+![7 tomaattipyreen purkkia hyllyllä, 4 ylhäällä ja 3 alhaalla](../../../../../translated_images/fi/stock-7-cans-tomato-paste.f86059cc573d7bec.webp)
 
 Yllä olevassa kuvassa objektintunnistin on havainnut 7 tomaattipyreen purkkia hyllyllä, joka voi pitää 8 purkkia. IoT-laite ei ainoastaan voi lähettää ilmoitusta täydennystarpeesta, vaan se voi myös antaa tiedon puuttuvan tuotteen sijainnista, mikä on tärkeää, jos käytät robotteja hyllyjen täydennykseen.
 
@@ -51,7 +51,7 @@ Joskus hyllyillä voi olla väärää varastoa. Tämä voi johtua inhimillisest�
 
 Objektintunnistusta voidaan käyttää havaitsemaan odottamattomia tuotteita, ja taas IoT-laite voi ilmoittaa ihmiselle tai robotille tuotteen palauttamisesta heti, kun se havaitaan.
 
-![Väärä maissipurkki tomaattipyreen hyllyllä](../../../../../translated_images/stock-rogue-corn.be1f3ada8c457854.fi.png)
+![Väärä maissipurkki tomaattipyreen hyllyllä](../../../../../translated_images/fi/stock-rogue-corn.be1f3ada8c457854.webp)
 
 Yllä olevassa kuvassa maissipurkki on laitettu hyllylle tomaattipyreen viereen. Objektintunnistin on havainnut tämän, jolloin IoT-laite voi ilmoittaa ihmiselle tai robotille purkin palauttamisesta oikeaan paikkaan.
 
@@ -71,7 +71,7 @@ Iteroinnit julkaistaan Custom Vision -portaalista.
 
 1. Valitse iteroinnin **Publish**-painike.
 
-    ![Julkaisupainike](../../../../../translated_images/custom-vision-object-detector-publish-button.34ee379fc650ccb9856c3868d0003f413b9529f102fc73c37168c98d721cc293.fi.png)
+    ![Julkaisupainike](../../../../../translated_images/fi/custom-vision-object-detector-publish-button.34ee379fc650ccb9856c3868d0003f413b9529f102fc73c37168c98d721cc293.png)
 
 1. *Publish Model* -valintaikkunassa aseta *Prediction resource* viime oppitunnissa luomaasi `stock-detector-prediction`-resurssiin. Jätä nimi `Iteration2`:ksi ja valitse **Publish**-painike.
 
@@ -85,7 +85,7 @@ Iteroinnit julkaistaan Custom Vision -portaalista.
 
     Kopioi myös *Prediction-Key*-arvo. Tämä on turvallinen avain, joka täytyy välittää mallia kutsuttaessa. Vain sovellukset, jotka välittävät tämän avaimen, voivat käyttää mallia, muut sovellukset hylätään.
 
-    ![Ennustuksen API-valintaikkuna, joka näyttää URL:n ja avaimen](../../../../../translated_images/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.fi.png)
+    ![Ennustuksen API-valintaikkuna, joka näyttää URL:n ja avaimen](../../../../../translated_images/fi/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
 
 ✅ Kun uusi iterointi julkaistaan, sillä on eri nimi. Miten luulet, että IoT-laitteen käyttämä iterointi vaihdetaan?
 
@@ -104,7 +104,7 @@ Kun käytät objektintunnistinta, saat takaisin paitsi havaitut objektit niiden 
 
 Ennustuksen tulokset **Predictions**-välilehdellä Custom Visionissa sisältävät rajauslaatikot, jotka on piirretty kuvan päälle, joka lähetettiin ennustettavaksi.
 
-![4 tomaattipyreen purkkia hyllyllä, ennustukset 35.8%, 33.5%, 25.7% ja 16.6%](../../../../../translated_images/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.fi.png)
+![4 tomaattipyreen purkkia hyllyllä, ennustukset 35.8%, 33.5%, 25.7% ja 16.6%](../../../../../translated_images/fi/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
 
 Yllä olevassa kuvassa havaittiin 4 tomaattipyreen purkkia. Tuloksissa punainen neliö on lisätty jokaisen havaitun objektin päälle, mikä osoittaa kuvan rajauslaatikon.
 
@@ -112,7 +112,7 @@ Yllä olevassa kuvassa havaittiin 4 tomaattipyreen purkkia. Tuloksissa punainen 
 
 Rajauslaatikot määritetään neljällä arvolla - yläreuna, vasen reuna, korkeus ja leveys. Nämä arvot ovat asteikolla 0-1, mikä edustaa sijainteja prosentteina kuvan koosta. Alkuperä (0,0-sijainti) on kuvan vasen yläkulma, joten yläreunan arvo on etäisyys yläreunasta, ja rajauslaatikon alareuna on yläreuna plus korkeus.
 
-![Rajauslaatikko tomaattipyreen purkin ympärillä](../../../../../translated_images/bounding-box.1420a7ea0d3d15f71e1ffb5cf4b2271d184fac051f990abc541975168d163684.fi.png)
+![Rajauslaatikko tomaattipyreen purkin ympärillä](../../../../../translated_images/fi/bounding-box.1420a7ea0d3d15f71e1ffb5cf4b2271d184fac051f990abc541975168d163684.png)
 
 Yllä oleva kuva on 600 pikseliä leveä ja 800 pikseliä korkea. Rajauslaatikko alkaa 320 pikseliä alaspäin, mikä antaa yläreunan arvoksi 0.4 (800 x 0.4 = 320). Vasemmalta raja alkaa 240 pikseliä sivulle, mikä antaa vasemman reunan arvoksi 0.4 (600 x 0.4 = 240). Rajauslaatikon korkeus on 240 pikseliä, mikä antaa korkeuden arvoksi 0.3 (800 x 0.3 = 240). Rajauslaatikon leveys on 120 pikseliä, mikä antaa leveyden arvoksi 0.2 (600 x 0.2 = 120).
 
@@ -127,7 +127,7 @@ Prosenttiarvojen käyttö asteikolla 0-1 tarkoittaa, että riippumatta kuvan koo
 
 Voit käyttää rajauslaatikoita yhdessä todennäköisyyksien kanssa arvioidaksesi, kuinka tarkka havainto on. Esimerkiksi objektintunnistin voi havaita useita objekteja, jotka menevät päällekkäin, esimerkiksi havaitsemalla yhden purkin toisen sisällä. Koodisi voisi tarkistaa rajauslaatikot, ymmärtää, että tämä on mahdotonta, ja jättää huomiotta kaikki objektit, joilla on merkittävä päällekkäisyys muiden objektien kanssa.
 
-![Kaksi rajauslaatikkoa päällekkäin tomaattipyreen purkin ympärillä](../../../../../translated_images/overlap-object-detection.d431e03cae75072a2760430eca7f2c5fdd43045bfd72dadcbf12711f7cd6c2ae.fi.png)
+![Kaksi rajauslaatikkoa päällekkäin tomaattipyreen purkin ympärillä](../../../../../translated_images/fi/overlap-object-detection.d431e03cae75072a2760430eca7f2c5fdd43045bfd72dadcbf12711f7cd6c2ae.png)
 
 Yllä olevassa esimerkissä yksi rajauslaatikko osoittaa ennustetun tomaattipyreen purkin 78.3% todennäköisyydellä. Toinen rajauslaatikko on hieman pienempi ja sisällä ensimmäisessä laatikossa 64.3% todennäköisyydellä. Koodisi voi tarkistaa rajauslaatikot, nähdä niiden olevan täysin päällekkäisiä, ja jättää huomiotta alemman todennäköisyyden, koska ei ole mahdollista, että yksi purkki olisi toisen sisällä.
 

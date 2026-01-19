@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Treeni puuviljade kvaliteedi tuvastajat
 
-![Selle õppetunni visuaalne ülevaade](../../../../../translated_images/lesson-15.843d21afdc6fb2bba70cd9db7b7d2f91598859fafda2078b0bdc44954194b6c0.et.jpg)
+![Selle õppetunni visuaalne ülevaade](../../../../../translated_images/et/lesson-15.843d21afdc6fb2bba70cd9db7b7d2f91598859fafda2078b0bdc44954194b6c0.jpg)
 
 > Visuaalne ülevaade: [Nitya Narasimhan](https://github.com/nitya). Klõpsa pildil, et näha suuremat versiooni.
 
@@ -47,7 +47,7 @@ Kõik saagid ei küpse ühtlaselt. Näiteks tomatitel võib viinapuul olla veel 
 
 Automatiseeritud koristamise tõus viis toodangu sorteerimise koristamisest tehasesse. Toit liikus pikkadel konveierlintidel, kus meeskonnad korjasid toodangust välja kõik, mis ei vastanud kvaliteedistandarditele. Kuigi koristamine oli masinate abil odavam, oli toidu käsitsi sorteerimine endiselt kulukas.
 
-![Kui tuvastatakse punane tomat, jätkab see oma teekonda. Kui tuvastatakse roheline tomat, lükatakse see kangi abil jäätmekasti.](../../../../../translated_images/optical-tomato-sorting.61aa134bdda4e5b1bfb16a212c1e35a6ef0c426cbb8b1c975f79d7bfbf48d068.et.png)
+![Kui tuvastatakse punane tomat, jätkab see oma teekonda. Kui tuvastatakse roheline tomat, lükatakse see kangi abil jäätmekasti.](../../../../../translated_images/et/optical-tomato-sorting.61aa134bdda4e5b1bfb16a212c1e35a6ef0c426cbb8b1c975f79d7bfbf48d068.png)
 
 Järgmine arenguetapp oli masinate kasutamine sorteerimiseks, kas koristusmasinates või töötlemisettevõtetes. Esimese põlvkonna masinad kasutasid optilisi sensoreid värvide tuvastamiseks, juhtides aktuaatoreid, mis lükkasid rohelised tomatid kangide või õhupuhangutega jäätmekasti, jättes punased tomatid konveierlintide võrgustikul edasi liikuma.
 
@@ -61,7 +61,7 @@ Viimased arengud sorteerimismasinate valdkonnas kasutavad AI-d ja ML-i, kasutade
 
 Traditsiooniline programmeerimine seisneb andmete võtmises, algoritmi rakendamises ja väljundi saamisel. Näiteks eelmises projektis kasutasid sa GPS-koordinaate ja geopiiret, rakendasid Azure Mapsi pakutud algoritmi ja said tulemuseks, kas punkt oli geopiire sees või väljas. Sisestad rohkem andmeid, saad rohkem väljundeid.
 
-![Traditsiooniline arendus võtab sisendi ja algoritmi ning annab väljundi. Masinõpe kasutab sisend- ja väljundandmeid mudeli treenimiseks, ning see mudel saab kasutada uusi sisendandmeid uue väljundi genereerimiseks.](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539.et.png)
+![Traditsiooniline arendus võtab sisendi ja algoritmi ning annab väljundi. Masinõpe kasutab sisend- ja väljundandmeid mudeli treenimiseks, ning see mudel saab kasutada uusi sisendandmeid uue väljundi genereerimiseks.](../../../../../translated_images/et/traditional-vs-ml.5c20c169621fa539.webp)
 
 Masinõpe pöörab selle ümber - alustad andmetest ja teadaolevatest väljunditest ning masinõppe algoritm õpib andmetest. Seejärel saad kasutada treenitud algoritmi, mida nimetatakse *masinõppe mudeliks* või *mudeliks*, sisestada uusi andmeid ja saada uusi väljundeid.
 
@@ -71,7 +71,7 @@ Näiteks võid anda mudelile miljoneid pilte toorestest banaanidest sisendtreeni
 
 > 🎓 ML-mudelite tulemusi nimetatakse *ennustusteks*.
 
-![2 banaani, küps banaan ennustusega 99.7% küps, 0.3% toore, ja toore banaan ennustusega 1.4% küps, 98.6% toore.](../../../../../translated_images/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50ece4e4589e724b142da0681f35470fe3db3f7d51240f69c85.et.png)
+![2 banaani, küps banaan ennustusega 99.7% küps, 0.3% toore, ja toore banaan ennustusega 1.4% küps, 98.6% toore.](../../../../../translated_images/et/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50ece4e4589e724b142da0681f35470fe3db3f7d51240f69c85.png)
 
 ML-mudelid ei anna binaarset vastust, vaid tõenäosusi. Näiteks võib mudelile anda pildi banaanist ja see ennustab `küps` 99.7% ja `toore` 0.3%. Sinu kood valib parima ennustuse ja otsustab, et banaan on küps.
 
@@ -87,7 +87,7 @@ Eduka pildiklassifikaatori treenimiseks on vaja miljoneid pilte. Selgub, et kui 
 
 Kui pildiklassifikaator on treenitud laia valiku piltide jaoks, on selle sisemised mehhanismid suurepärased kujundite, värvide ja mustrite tuvastamisel. Ülekandeõpe võimaldab mudelil kasutada juba õpitud kujundite tuvastamist ja rakendada seda uute piltide tuvastamiseks.
 
-![Kui suudad tuvastada kujundeid, saab neid paigutada erinevatesse konfiguratsioonidesse, et moodustada paat või kass.](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66f.et.png)
+![Kui suudad tuvastada kujundeid, saab neid paigutada erinevatesse konfiguratsioonidesse, et moodustada paat või kass.](../../../../../translated_images/et/shapes-to-images.1a309f0ea88dd66f.webp)
 
 Seda võib võrrelda laste kujundiraamatutega, kus kui suudad tuvastada poolringi, ristküliku ja kolmnurga, suudad tuvastada purjepaadi või kassi sõltuvalt nende kujundite konfiguratsioonist. Pildiklassifikaator suudab tuvastada kujundeid ja ülekandeõpe õpetab sellele, milline kombinatsioon moodustab paadi või kassi - või küpse banaani.
 
@@ -99,7 +99,7 @@ Selleks on olemas lai valik tööriistu, sealhulgas pilvepõhised teenused, mis 
 
 Custom Vision on pilvepõhine tööriist pildiklassifikaatorite treenimiseks. See võimaldab treenida klassifikaatorit, kasutades ainult väikest hulka pilte. Sa saad pilte üles laadida veebipõhise portaali, veebipõhise API või SDK kaudu, andes igale pildile *märgise*, mis klassifitseerib selle pildi. Seejärel treenid mudelit ja testid seda, et näha, kui hästi see toimib. Kui oled mudeliga rahul, saad avaldada selle versioone, mida saab kasutada veebipõhise API või SDK kaudu.
 
-![Azure Custom Vision logo](../../../../../translated_images/custom-vision-logo.d3d4e7c8a87ec9daf825e72e210576c3cbf60312577be7a139e22dd97ab7f1e6.et.png)
+![Azure Custom Vision logo](../../../../../translated_images/et/custom-vision-logo.d3d4e7c8a87ec9daf825e72e210576c3cbf60312577be7a139e22dd97ab7f1e6.png)
 
 > 💁 Custom Vision mudelit saab treenida vaid 5 pildiga klassifikatsiooni kohta, kuid rohkem on parem. Saad paremaid tulemusi vähemalt 30 pildiga.
 
@@ -155,7 +155,7 @@ Custom Visioni kasutamiseks pead esmalt looma Azure'is kaks Cognitive Services r
 
     Projekti loomisel kasuta kindlasti varem loodud `fruit-quality-detector-training` ressurssi. Kasuta *Classification* projekti tüüpi, *Multiclass* klassifikatsiooni tüüpi ja *Food* domeeni.
 
-    ![Custom Vision projekti seaded, kus nimi on fruit-quality-detector, kirjeldust pole, ressurss on fruit-quality-detector-training, projekti tüüp on classification, klassifikatsiooni tüüp on multi class ja domeen on food.](../../../../../translated_images/custom-vision-create-project.cf46325b92d8b131089f6647cf5e07b664cb77850e106d66e3c057b6b69756c6.et.png)
+    ![Custom Vision projekti seaded, kus nimi on fruit-quality-detector, kirjeldust pole, ressurss on fruit-quality-detector-training, projekti tüüp on classification, klassifikatsiooni tüüp on multi class ja domeen on food.](../../../../../translated_images/et/custom-vision-create-project.cf46325b92d8b131089f6647cf5e07b664cb77850e106d66e3c057b6b69756c6.png)
 
 ✅ Võta aega, et uurida Custom Vision kasutajaliidest oma pildiklassifikaatori jaoks.
 
@@ -174,7 +174,7 @@ Pildiklassifikaatorid töötavad väga madala resolutsiooniga. Näiteks Custom V
 
     * Kasutades 2 küpset banaani, tee mõlemast mõned pildid erinevate nurkade alt, tehes vähemalt 7 pilti (5 treenimiseks, 2 testimiseks), kuid ideaalis rohkem.
 
-        ![Fotod kahest erinevast banaanist](../../../../../translated_images/banana-training-images.530eb203346d73bc23b8b990fb4609470bf4ff7c942ccc13d4cfffeed9be1ad4.et.png)
+        ![Fotod kahest erinevast banaanist](../../../../../translated_images/et/banana-training-images.530eb203346d73bc23b8b990fb4609470bf4ff7c942ccc13d4cfffeed9be1ad4.png)
 
     * Korda sama protsessi 2 toore banaaniga.
 
@@ -184,7 +184,7 @@ Pildiklassifikaatorid töötavad väga madala resolutsiooniga. Näiteks Custom V
 
 1. Järgi [piltide üleslaadimise ja sildistamise juhiseid Microsofti dokumentatsioonis](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#upload-and-tag-images), et laadida üles oma treeningpildid. Sildista küpsed viljad kui `ripe` ja toored viljad kui `unripe`.
 
-    ![Üleslaadimise dialoogid, mis näitavad küpsete ja toorete banaanipiltide üleslaadimist](../../../../../translated_images/image-upload-bananas.0751639f3815e0ec42bdbc6254d1e4357a185834d1ae10c9948a0e7d6d336695.et.png)
+    ![Üleslaadimise dialoogid, mis näitavad küpsete ja toorete banaanipiltide üleslaadimist](../../../../../translated_images/et/image-upload-bananas.0751639f3815e0ec42bdbc6254d1e4357a185834d1ae10c9948a0e7d6d336695.png)
 
 1. Järgi [klassifikaatori treenimise juhiseid Microsofti dokumentatsioonis](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#train-the-classifier), et treenida pildiklassifikaatorit oma üleslaaditud piltidega.
 
@@ -202,7 +202,7 @@ Kui klassifikaator on treenitud, saad seda testida, andes sellele uue pildi klas
 
 1. Järgi [oma mudeli testimise juhiseid Microsofti dokumentatsioonis](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/test-your-model?WT.mc_id=academic-17441-jabenn#test-your-model), et testida oma pildiklassifikaatorit. Kasuta testimispilte, mille varem tegid, mitte treeningpilte.
 
-    ![Toore banaani ennustus: tõenäosus 98.9% toore, 1.1% küpse](../../../../../translated_images/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64886422438850ea14f0be6ac918c217ea3b255c685abfabe7.et.png)
+    ![Toore banaani ennustus: tõenäosus 98.9% toore, 1.1% küpse](../../../../../translated_images/et/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64886422438850ea14f0be6ac918c217ea3b255c685abfabe7.png)
 
 1. Proovi kõiki testimispilte, mis sul on, ja jälgi tõenäosusi.
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Vorhersage des Pflanzenwachstums mit IoT
 
-![Eine Sketchnote-Übersicht dieser Lektion](../../../../../translated_images/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.de.jpg)
+![Eine Sketchnote-Übersicht dieser Lektion](../../../../../translated_images/de/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.jpg)
 
 > Sketchnote von [Nitya Narasimhan](https://github.com/nitya). Klicken Sie auf das Bild für eine größere Version.
 
@@ -65,7 +65,7 @@ Jede Pflanzenart hat unterschiedliche Werte für ihre Basis-, optimale und maxim
 
 ✅ Machen Sie etwas Recherche. Für Pflanzen in Ihrem Garten, Ihrer Schule oder Ihrem lokalen Park – können Sie die Basistemperatur herausfinden?
 
-![Ein Diagramm, das zeigt, wie die Wachstumsrate mit steigender Temperatur zunimmt und dann abnimmt, wenn die Temperatur zu hoch wird](../../../../../translated_images/plant-growth-temp-graph.c6d69c9478e6ca83.de.png)
+![Ein Diagramm, das zeigt, wie die Wachstumsrate mit steigender Temperatur zunimmt und dann abnimmt, wenn die Temperatur zu hoch wird](../../../../../translated_images/de/plant-growth-temp-graph.c6d69c9478e6ca83.webp)
 
 Das obige Diagramm zeigt ein Beispiel für ein Wachstumsraten-Temperatur-Diagramm. Bis zur Basistemperatur gibt es kein Wachstum. Die Wachstumsrate steigt bis zur optimalen Temperatur und fällt dann nach Erreichen dieses Höhepunkts ab. Bei der maximalen Temperatur stoppt das Wachstum.
 
@@ -91,7 +91,7 @@ Dieser Code öffnet die CSV-Datei und fügt am Ende eine neue Zeile hinzu. Die Z
 
     
 > 💁 Wenn Sie ein virtuelles IoT-Gerät verwenden, aktivieren Sie das Kontrollkästchen "Zufällig" und legen Sie einen Bereich fest, um zu vermeiden, dass bei jeder Rückgabe des Temperaturwerts immer die gleiche Temperatur angezeigt wird.
-    ![Aktivieren Sie das Kontrollkästchen "Zufällig" und legen Sie einen Bereich fest](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.de.png) 
+    ![Aktivieren Sie das Kontrollkästchen "Zufällig" und legen Sie einen Bereich fest](../../../../../translated_images/de/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.webp) 
 
     > 💁 Wenn Sie dies einen ganzen Tag lang ausführen möchten, müssen Sie sicherstellen, dass der Computer, auf dem Ihr Servercode läuft, nicht in den Energiesparmodus wechselt. Ändern Sie dazu entweder Ihre Energieeinstellungen oder führen Sie etwas wie [dieses Python-Skript zum Aktivhalten des Systems](https://github.com/jaqsparow/keep-system-active) aus.
     
@@ -111,7 +111,7 @@ Die Schritte, um dies manuell zu tun, sind:
 
 Zum Beispiel, wenn die höchste Temperatur des Tages 25°C und die niedrigste 12°C beträgt:
 
-![GDD = 25 + 12 geteilt durch 2, dann 10 vom Ergebnis abziehen, ergibt 8.5](../../../../../translated_images/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.de.png)
+![GDD = 25 + 12 geteilt durch 2, dann 10 vom Ergebnis abziehen, ergibt 8.5](../../../../../translated_images/de/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
 
 * 25 + 12 = 37
 * 37 / 2 = 18.5

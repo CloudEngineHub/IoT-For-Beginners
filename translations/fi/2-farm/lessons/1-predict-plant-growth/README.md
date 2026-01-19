@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 ## Ennusta kasvien kasvua IoT:n avulla
 
-![Yleiskuva tämän oppitunnin sisällöstä](../../../../../translated_images/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.fi.jpg)
+![Yleiskuva tämän oppitunnin sisällöstä](../../../../../translated_images/fi/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.jpg)
 
 > Sketchnote: [Nitya Narasimhan](https://github.com/nitya). Klikkaa kuvaa nähdäksesi suuremman version.
 
@@ -65,7 +65,7 @@ Jokaisella kasvilajilla on erilaiset arvot perus-, optimaalisen ja maksimilämp�
 
 ✅ Tee tutkimusta. Selvitä, mikä on peruslämpötila puutarhassasi, koulussasi tai paikallisessa puistossa oleville kasveille.
 
-![Kaavio, joka näyttää kasvunopeuden nousevan lämpötilan noustessa ja laskevan, kun lämpötila nousee liian korkeaksi](../../../../../translated_images/plant-growth-temp-graph.c6d69c9478e6ca83.fi.png)
+![Kaavio, joka näyttää kasvunopeuden nousevan lämpötilan noustessa ja laskevan, kun lämpötila nousee liian korkeaksi](../../../../../translated_images/fi/plant-growth-temp-graph.c6d69c9478e6ca83.webp)
 
 Yllä oleva kaavio näyttää esimerkin kasvunopeuden ja lämpötilan välisestä suhteesta. Peruslämpötilaan asti ei ole kasvua. Kasvunopeus kasvaa optimaaliseen lämpötilaan asti ja laskee sen jälkeen. Maksimilämpötilassa kasvu pysähtyy.
 
@@ -99,7 +99,7 @@ Kasvupäivien asteet, eli GDD, lasketaan päivittäin päivän keskilämpötilan
 
 Täydellinen GDD-kaava on hieman monimutkainen, mutta yksinkertaistettu yhtälö on usein hyvä arvio:
 
-![GDD = T max + T min jaettuna kahdella, kaikki miinus T base](../../../../../translated_images/gdd-calculation.79b3660f9c5757aa92dc2dd2cdde75344e2d2c1565c4b3151640f7887edc0275.fi.png)
+![GDD = T max + T min jaettuna kahdella, kaikki miinus T base](../../../../../translated_images/fi/gdd-calculation.79b3660f9c5757aa92dc2dd2cdde75344e2d2c1565c4b3151640f7887edc0275.png)
 
 * **GDD** - tämä on kasvupäivien asteiden määrä
 * **T max** - tämä on päivän maksimilämpötila Celsius-asteina
@@ -127,7 +127,7 @@ Kun nämä luvut syötetään laskentaan:
 
 Tämä antaa laskennan:
 
-![GDD = 16 + 12 jaettuna kahdella, kaikki miinus 10, tuloksena 4](../../../../../translated_images/gdd-calculation-corn.64a58b7a7afcd0dfd46ff733996d939f17f4f3feac9f0d1c632be3523e51ebd9.fi.png)
+![GDD = 16 + 12 jaettuna kahdella, kaikki miinus 10, tuloksena 4](../../../../../translated_images/fi/gdd-calculation-corn.64a58b7a7afcd0dfd46ff733996d939f17f4f3feac9f0d1c632be3523e51ebd9.png)
 
 Maissi sai 4 GDD:tä sinä päivänä. Oletetaan, että maissilajike tarvitsee kypsyäkseen 800 GDD:tä, jolloin se tarvitsee vielä 796 GDD:tä saavuttaakseen kypsyyden.
 
@@ -141,7 +141,7 @@ Tällä on suuri työvoimavaikutus suurella tilalla, ja viljelijä voi missata s
 
 Keräämällä lämpötiladataa IoT-laitteella viljelijä voi saada automaattisen ilmoituksen, kun kasvit ovat lähellä kypsyyttä. Tyypillinen arkkitehtuuri tähän on, että IoT-laitteet mittaavat lämpötilaa ja lähettävät tämän telemetriadatan Internetin kautta esimerkiksi MQTT:n avulla. Palvelinkoodi kuuntelee tätä dataa ja tallentaa sen jonnekin, kuten tietokantaan. Näin dataa voidaan analysoida myöhemmin, esimerkiksi yöllä tehtävässä työssä, jossa lasketaan päivän GDD:t, summataan kunkin sadon tähän mennessä saadut GDD:t ja ilmoitetaan, jos kasvi on lähellä kypsyyttä.
 
-![Telemetriadata lähetetään palvelimelle ja tallennetaan tietokantaan](../../../../../translated_images/save-telemetry-database.ddc9c6bea0c5ba39.fi.png)
+![Telemetriadata lähetetään palvelimelle ja tallennetaan tietokantaan](../../../../../translated_images/fi/save-telemetry-database.ddc9c6bea0c5ba39.webp)
 
 Palvelinkoodi voi myös täydentää dataa lisäämällä lisätietoja. Esimerkiksi IoT-laite voi lähettää tunnisteen, joka kertoo, mikä laite on kyseessä, ja palvelinkoodi voi käyttää tätä tunnistetta laitteen sijainnin ja valvottavien kasvien selvittämiseen. Se voi myös lisätä perustietoja, kuten nykyisen ajan, koska jotkut IoT-laitteet eivät sisällä tarvittavaa laitteistoa tarkan ajan seuraamiseen tai vaativat lisäkoodia nykyisen ajan lukemiseen Internetistä.
 
@@ -228,7 +228,7 @@ Tämä koodi avaa CSV-tiedoston ja lisää uuden rivin sen loppuun. Rivi sisält
 
     
 > 💁 Jos käytät virtuaalista IoT-laitetta, valitse satunnaisuus-valintaruutu ja aseta vaihteluväli välttääksesi saman lämpötilan saamisen joka kerta, kun lämpötila-arvo palautetaan.
-    ![Valitse satunnaisuus-valintaruutu ja aseta vaihteluväli](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.fi.png) 
+    ![Valitse satunnaisuus-valintaruutu ja aseta vaihteluväli](../../../../../translated_images/fi/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.webp) 
 
     > 💁 Jos haluat ajaa tätä koko päivän ajan, sinun täytyy varmistaa, että tietokone, jossa palvelinkoodisi pyörii, ei mene lepotilaan. Voit tehdä tämän muuttamalla virta-asetuksia tai käyttämällä esimerkiksi [tätä Python-skriptiä, joka pitää järjestelmän aktiivisena](https://github.com/jaqsparow/keep-system-active).
     
@@ -248,7 +248,7 @@ Manuaaliset vaiheet tähän ovat:
 
 Esimerkiksi, jos päivän korkein lämpötila on 25°C ja matalin 12°C:
 
-![GDD = 25 + 12 jaettuna kahdella, vähennä tuloksesta 10, jolloin saadaan 8.5](../../../../../translated_images/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.fi.png)
+![GDD = 25 + 12 jaettuna kahdella, vähennä tuloksesta 10, jolloin saadaan 8.5](../../../../../translated_images/fi/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
 
 * 25 + 12 = 37
 * 37 / 2 = 18.5

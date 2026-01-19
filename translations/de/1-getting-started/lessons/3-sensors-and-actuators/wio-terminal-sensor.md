@@ -17,7 +17,7 @@ Der Sensor für diese Lektion ist ein **Lichtsensor**, der eine [Photodiode](htt
 
 Der Lichtsensor ist im Wio Terminal integriert und durch das klare Kunststofffenster auf der Rückseite sichtbar.
 
-![Der Lichtsensor auf der Rückseite des Wio Terminals](../../../../../translated_images/wio-light-sensor.b1f529f3c95f5165.de.png)
+![Der Lichtsensor auf der Rückseite des Wio Terminals](../../../../../translated_images/de/wio-light-sensor.b1f529f3c95f5165.webp)
 
 ## Den Lichtsensor programmieren
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Sąveika su fiziniu pasauliu naudojant jutiklius ir pavaras
 
-![Šios pamokos apžvalga pieštuku](../../../../../translated_images/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.lt.jpg)
+![Šios pamokos apžvalga pieštuku](../../../../../translated_images/lt/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.jpg)
 
 > Piešinys sukurtas [Nitya Narasimhan](https://github.com/nitya). Spustelėkite paveikslėlį, kad pamatytumėte didesnę versiją.
 
@@ -75,7 +75,7 @@ Kai kurie paprasčiausi jutikliai yra analoginiai. Šie jutikliai gauna įtampą
 
 Vienas pavyzdys yra potenciometras. Tai yra ratukas, kurį galima pasukti tarp dviejų padėčių, o jutiklis matuoja pasukimo kampą.
 
-![Potenciometras, nustatytas į vidurinę padėtį, gauna 5 voltus ir grąžina 3,8 voltus](../../../../../translated_images/potentiometer.35a348b9ce22f6ec.lt.png)
+![Potenciometras, nustatytas į vidurinę padėtį, gauna 5 voltus ir grąžina 3,8 voltus](../../../../../translated_images/lt/potentiometer.35a348b9ce22f6ec.webp)
 
 IoT įrenginys siunčia elektrinį signalą į potenciometrą tam tikra įtampa, pavyzdžiui, 5 voltų (5V). Kai potenciometras reguliuojamas, jis keičia išėjimo įtampą. Įsivaizduokite, kad turite potenciometrą, pažymėtą kaip ratuką, kuris eina nuo 0 iki [11](https://wikipedia.org/wiki/Up_to_eleven), pavyzdžiui, stiprintuvo garsumo reguliatorių. Kai potenciometras yra visiškai išjungtas (0), išėjimo įtampa bus 0V (0 voltų). Kai jis yra visiškai įjungtas (11), išėjimo įtampa bus 5V (5 voltai).
 
@@ -101,7 +101,7 @@ Skaitmeniniai jutikliai, kaip ir analoginiai, fiksuoja aplinką naudodami elektr
 
 Paprasčiausias skaitmeninis jutiklis yra mygtukas arba jungiklis. Tai jutiklis su dviem būsenomis – įjungta arba išjungta.
 
-![Mygtukas gauna 5 voltus. Kai nepaspaustas, grąžina 0 voltų, kai paspaustas, grąžina 5 voltus](../../../../../translated_images/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.lt.png)
+![Mygtukas gauna 5 voltus. Kai nepaspaustas, grąžina 0 voltų, kai paspaustas, grąžina 5 voltus](../../../../../translated_images/lt/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.png)
 
 IoT įrenginio kaiščiai, tokie kaip GPIO, gali tiesiogiai matuoti šį signalą kaip 0 arba 1. Jei siunčiama įtampa yra tokia pati kaip grąžinama, reikšmė yra 1, kitaip – 0. Nereikia konvertuoti signalo, jis gali būti tik 1 arba 0.
 
@@ -112,7 +112,7 @@ IoT įrenginio kaiščiai, tokie kaip GPIO, gali tiesiogiai matuoti šį signal�
 
 Sudėtingesni skaitmeniniai jutikliai skaito analogines reikšmes, tada jas konvertuoja naudodami įmontuotus ADC į skaitmeninius signalus. Pavyzdžiui, skaitmeninis temperatūros jutiklis vis tiek naudos termoporą taip pat, kaip analoginis jutiklis, ir vis tiek matuos įtampos pokytį, kurį sukelia termoporos varža esant dabartinei temperatūrai. Vietoj to, kad grąžintų analoginę reikšmę ir pasikliautų įrenginiu ar jungčių plokšte, kad konvertuotų į skaitmeninį signalą, įmontuotas ADC konvertuos reikšmę ir išsiųs ją kaip 0 ir 1 seriją į IoT įrenginį. Šie 0 ir 1 siunčiami taip pat, kaip skaitmeninis signalas mygtukui, kur 1 yra pilna įtampa, o 0 yra 0V.
 
-![Skaitmeninis temperatūros jutiklis konvertuoja analoginį matavimą į dvejetainius duomenis, kur 0 yra 0 voltų, o 1 yra 5 voltai, prieš siunčiant juos į IoT įrenginį](../../../../../translated_images/temperature-as-digital.85004491b977bae1.lt.png)
+![Skaitmeninis temperatūros jutiklis konvertuoja analoginį matavimą į dvejetainius duomenis, kur 0 yra 0 voltų, o 1 yra 5 voltai, prieš siunčiant juos į IoT įrenginį](../../../../../translated_images/lt/temperature-as-digital.85004491b977bae1.webp)
 
 Skaitmeninių duomenų siuntimas leidžia jutikliams tapti sudėtingesniems ir siųsti detalesnius duomenis, net užšifruotus duomenis saugiems jutikliams. Vienas pavyzdys yra kamera. Tai yra jutiklis, kuris fiksuoja vaizdą ir siunčia jį kaip skaitmeninius duomenis, kuriuose yra tas vaizdas, dažniausiai suspaustu formatu, pavyzdžiui, JPEG, kad būtų galima skaityti IoT įrenginyje. Ji netgi gali transliuoti vaizdo įrašą, fiksuodama vaizdus ir siųsdama arba visą vaizdo kadrą po kadro, arba suspaustą vaizdo srautą.
 
@@ -135,7 +135,7 @@ Kai kurios dažnos pavaros:
 Vadovaukitės atitinkamu vadovu, kad pridėtumėte pavarą prie savo IoT įrenginio, kurią valdys jutiklis, kad sukurtumėte IoT naktinę lemputę. Ji rinks šviesos lygius iš šviesos jutiklio ir naudos pavarą – LED lemputę, kuri skleis šviesą, kai aptiktas šviesos lygis bus per žemas.
 
 ![Užduoties schema, rodanti šviesos lygių nuskaitym
-![Šviesa, pritemdyta esant mažai įtampai ir ryškesnė esant didesnei įtampai](../../../../../translated_images/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.lt.png)
+![Šviesa, pritemdyta esant mažai įtampai ir ryškesnė esant didesnei įtampai](../../../../../translated_images/lt/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.png)
 
 Kaip ir su jutikliais, tikrasis IoT įrenginys veikia su skaitmeniniais signalais, o ne analoginiais. Tai reiškia, kad norint siųsti analoginį signalą, IoT įrenginiui reikia skaitmeninio-analoginio keitiklio (DAC), kuris gali būti tiesiogiai įrenginyje arba jungties plokštėje. Šis keitiklis paverčia 0 ir 1 iš IoT įrenginio į analoginę įtampą, kurią gali naudoti aktuatorius.
 
@@ -150,7 +150,7 @@ Pavyzdžiui, PWM galima naudoti variklio greičiui reguliuoti.
 
 Įsivaizduokite, kad kontroliuojate variklį su 5V maitinimu. Jūs siunčiate trumpą impulsą į variklį, įjungdami aukštą įtampą (5V) dviem šimtosioms sekundės (0,02s). Per tą laiką variklis gali pasisukti vieną dešimtąją apsisukimo arba 36°. Signalas tada sustoja dviem šimtosioms sekundės (0,02s), siunčiant žemą signalą (0V). Kiekvienas įjungimo ir išjungimo ciklas trunka 0,04s. Ciklas kartojasi.
 
-![Impulsų pločio moduliacija: variklio sukimas 150 RPM](../../../../../translated_images/pwm-motor-150rpm.83347ac04ca38482.lt.png)
+![Impulsų pločio moduliacija: variklio sukimas 150 RPM](../../../../../translated_images/lt/pwm-motor-150rpm.83347ac04ca38482.webp)
 
 Tai reiškia, kad per vieną sekundę siunčiate 25 5V impulsus po 0,02s, kurie suka variklį, po kurių eina 0,02s pauzė su 0V, kai variklis nesisuka. Kiekvienas impulsas suka variklį vieną dešimtąją apsisukimo, o tai reiškia, kad variklis per sekundę atlieka 2,5 apsisukimo. Naudodami skaitmeninį signalą pasiekėte, kad variklis suktųsi 2,5 apsisukimo per sekundę arba 150 [apsisukimų per minutę](https://wikipedia.org/wiki/Revolutions_per_minute) (ne standartinis sukimosi greičio matas).
 
@@ -161,7 +161,7 @@ Tai reiškia, kad per vieną sekundę siunčiate 25 5V impulsus po 0,02s, kurie 
 
 > 🎓 Kai PWM signalas yra įjungtas pusę laiko ir išjungtas kitą pusę, tai vadinama [50% darbo ciklu](https://wikipedia.org/wiki/Duty_cycle). Darbo ciklai matuojami kaip procentas laiko, kai signalas yra įjungtas, palyginti su išjungtu.
 
-![Impulsų pločio moduliacija: variklio sukimas 75 RPM](../../../../../translated_images/pwm-motor-75rpm.a5e4c939934b6e14.lt.png)
+![Impulsų pločio moduliacija: variklio sukimas 75 RPM](../../../../../translated_images/lt/pwm-motor-75rpm.a5e4c939934b6e14.webp)
 
 Variklio greitį galite keisti keisdami impulsų dydį. Pavyzdžiui, su tuo pačiu varikliu galite išlaikyti tą patį ciklo laiką 0,04s, tačiau įjungimo impulsą sumažinti perpus iki 0,01s, o išjungimo impulsą padidinti iki 0,03s. Turite tą patį impulsų skaičių per sekundę (25), tačiau kiekvienas įjungimo impulsas yra perpus trumpesnis. Pusės ilgio impulsas suka variklį vieną dvidešimtąją apsisukimo, o esant 25 impulsams per sekundę variklis atliks 1,25 apsisukimo per sekundę arba 75 RPM. Keisdami skaitmeninio signalo impulsų greitį, perpus sumažinote analoginio variklio greitį.
 
@@ -182,7 +182,7 @@ Skaitmeniniai aktuatoriai, kaip ir skaitmeniniai jutikliai, turi dvi būsenas, k
 
 Vienas paprastas skaitmeninis aktuatorius yra LED. Kai įrenginys siunčia skaitmeninį signalą „1“, siunčiama aukšta įtampa, kuri įjungia LED. Kai siunčiamas skaitmeninis signalas „0“, įtampa sumažėja iki 0V, ir LED išsijungia.
 
-![LED išjungtas esant 0 voltų ir įjungtas esant 5V](../../../../../translated_images/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.lt.png)
+![LED išjungtas esant 0 voltų ir įjungtas esant 5V](../../../../../translated_images/lt/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.png)
 
 ✅ Kokius kitus paprastus dviejų būsenų aktuatorius galite sugalvoti? Vienas pavyzdys yra solenoidas – elektromagnetas, kurį galima aktyvuoti, kad atliktų veiksmus, pavyzdžiui, perstumtų durų skląstį, užrakindamas/atrakindamas duris.
 

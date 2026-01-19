@@ -29,13 +29,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 חבר את חיישן ה-Time of Flight.
 
-![חיישן Time of Flight מסוג Grove](../../../../../translated_images/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.he.png)
+![חיישן Time of Flight מסוג Grove](../../../../../translated_images/he/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
 
 1. הכנס קצה אחד של כבל Grove לשקע בחיישן ה-Time of Flight. הוא ייכנס רק בכיוון אחד.
 
 1. כשה-Raspberry Pi כבוי, חבר את הקצה השני של כבל ה-Grove לאחד משקעי ה-I²C המסומנים **I²C** על ה-Grove Base Hat המחובר ל-Pi. שקעי ה-I²C נמצאים בשורה התחתונה, בצד הנגדי לפינים של ה-GPI וליד חריץ כבל המצלמה.
 
-![חיישן Time of Flight מסוג Grove מחובר לשקע I²C](../../../../../translated_images/pi-time-of-flight-sensor.58c8dc04eb3bfb57.he.png)
+![חיישן Time of Flight מסוג Grove מחובר לשקע I²C](../../../../../translated_images/he/pi-time-of-flight-sensor.58c8dc04eb3bfb57.webp)
 
 ## תכנות חיישן ה-Time of Flight
 
@@ -106,7 +106,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     מד המרחק נמצא בצד האחורי של החיישן, אז ודא שאתה משתמש בצד הנכון בעת מדידת מרחק.
 
-    ![מד המרחק בצד האחורי של חיישן ה-Time of Flight מכוון לעבר בננה](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.he.png)
+    ![מד המרחק בצד האחורי של חיישן ה-Time of Flight מכוון לעבר בננה](../../../../../translated_images/he/time-of-flight-banana.079921ad8b1496e4.webp)
 
 > 💁 תוכל למצוא את הקוד הזה בתיקיית [code-proximity/pi](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/pi).
 

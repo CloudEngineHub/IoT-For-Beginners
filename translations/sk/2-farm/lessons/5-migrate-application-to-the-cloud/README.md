@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Migrujte logiku svojej aplikácie do cloudu
 
-![Prehľad tejto lekcie v sketchnote](../../../../../translated_images/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.sk.jpg)
+![Prehľad tejto lekcie v sketchnote](../../../../../translated_images/sk/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.jpg)
 
 > Sketchnote od [Nitya Narasimhan](https://github.com/nitya). Kliknite na obrázok pre väčšiu verziu.
 
@@ -37,11 +37,11 @@ V tejto lekcii sa budeme venovať:
 
 Serverless, alebo serverless computing, zahŕňa vytváranie malých blokov kódu, ktoré sa spúšťajú v cloude ako reakcia na rôzne typy udalostí. Keď sa udalosť stane, váš kód sa spustí a dostane údaje o udalosti. Tieto udalosti môžu pochádzať z rôznych zdrojov, vrátane webových požiadaviek, správ v rade, zmien údajov v databáze alebo správ odoslaných IoT zariadeniami do IoT služby.
 
-![Udalosti odosielané z IoT služby do serverless služby, všetky spracované naraz viacerými funkciami](../../../../../translated_images/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.sk.png)
+![Udalosti odosielané z IoT služby do serverless služby, všetky spracované naraz viacerými funkciami](../../../../../translated_images/sk/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.png)
 
 > 💁 Ak ste už používali databázové triggery, môžete si to predstaviť ako podobný koncept, kód spúšťaný udalosťou, ako je napríklad vloženie riadku.
 
-![Keď sa naraz odošle veľa udalostí, serverless služba sa škáluje tak, aby ich všetky spracovala naraz](../../../../../translated_images/serverless-scaling.f8c769adf0413fd1.sk.png)
+![Keď sa naraz odošle veľa udalostí, serverless služba sa škáluje tak, aby ich všetky spracovala naraz](../../../../../translated_images/sk/serverless-scaling.f8c769adf0413fd1.webp)
 
 Váš kód sa spúšťa iba vtedy, keď sa udalosť stane, inak nie je aktívny. Udalosť sa stane, váš kód sa načíta a spustí. To robí serverless veľmi škálovateľným - ak sa naraz stane veľa udalostí, poskytovateľ cloudu môže spustiť vašu funkciu toľkokrát, koľko je potrebné, na dostupných serveroch. Nevýhodou je, že ak potrebujete zdieľať informácie medzi udalosťami, musíte ich uložiť niekde, napríklad do databázy, namiesto ukladania do pamäte.
 
@@ -63,7 +63,7 @@ Ako IoT vývojár je serverless model ideálny. Môžete napísať funkciu, ktor
 
 Serverless computing služba od Microsoftu sa nazýva Azure Functions.
 
-![Logo Azure Functions](../../../../../translated_images/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.sk.png)
+![Logo Azure Functions](../../../../../translated_images/sk/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.png)
 
 Krátke video nižšie poskytuje prehľad Azure Functions.
 
@@ -244,7 +244,7 @@ CLI Azure Functions môže byť použité na vytvorenie novej aplikácie funkci�
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-    ![Upozornenie](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb.sk.png)
+    ![Upozornenie](../../../../../translated_images/sk/vscode-azure-functions-init-notification.bd19b49229963edb.webp)
 
     V tomto upozornení vyberte **Áno**.
 

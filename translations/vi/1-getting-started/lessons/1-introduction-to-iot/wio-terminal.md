@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Wio Terminal từ Seeed Studios](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) là một vi điều khiển tương thích với Arduino, được tích hợp WiFi cùng một số cảm biến và bộ truyền động, cũng như các cổng để thêm cảm biến và bộ truyền động khác, sử dụng hệ sinh thái phần cứng gọi là [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html).
 
-![Hình ảnh Wio Terminal từ Seeed Studios](../../../../../translated_images/wio-terminal.b8299ee16587db9a.vi.png)
+![Hình ảnh Wio Terminal từ Seeed Studios](../../../../../translated_images/vi/wio-terminal.b8299ee16587db9a.webp)
 
 ## Cài đặt
 
@@ -51,15 +51,15 @@ Tạo dự án PlatformIO.
 
 1. Biểu tượng PlatformIO sẽ xuất hiện trên thanh menu bên cạnh:
 
-    ![Tùy chọn menu PlatformIO](../../../../../translated_images/vscode-platformio-menu.297be26b9733e5c4.vi.png)
+    ![Tùy chọn menu PlatformIO](../../../../../translated_images/vi/vscode-platformio-menu.297be26b9733e5c4.webp)
 
     Chọn mục menu này, sau đó chọn *PIO Home -> Open*.
 
-    ![Tùy chọn mở PlatformIO](../../../../../translated_images/vscode-platformio-home-open.3f9a41bfd3f4da1c.vi.png)
+    ![Tùy chọn mở PlatformIO](../../../../../translated_images/vi/vscode-platformio-home-open.3f9a41bfd3f4da1c.webp)
 
 1. Từ màn hình chào mừng, chọn nút **+ New Project**.
 
-    ![Nút tạo dự án mới](../../../../../translated_images/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc8.vi.png)
+    ![Nút tạo dự án mới](../../../../../translated_images/vi/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc8.webp)
 
 1. Cấu hình dự án trong *Project Wizard*:
 
@@ -73,7 +73,7 @@ Tạo dự án PlatformIO.
 
     1. Chọn nút **Finish**.
 
-    ![Trình hướng dẫn dự án đã hoàn tất](../../../../../translated_images/vscode-platformio-nightlight-project-wizard.5c64db4da6037420.vi.png)
+    ![Trình hướng dẫn dự án đã hoàn tất](../../../../../translated_images/vi/vscode-platformio-nightlight-project-wizard.5c64db4da6037420.webp)
 
     PlatformIO sẽ tải xuống các thành phần cần thiết để biên dịch mã cho Wio Terminal và tạo dự án của bạn. Quá trình này có thể mất vài phút.
 
@@ -179,7 +179,7 @@ Viết ứng dụng Hello World.
 
     1. Nhập `PlatformIO Upload` để tìm tùy chọn tải lên, và chọn *PlatformIO: Upload*.
 
-        ![Tùy chọn tải lên PlatformIO trong bảng lệnh](../../../../../translated_images/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3.vi.png)
+        ![Tùy chọn tải lên PlatformIO trong bảng lệnh](../../../../../translated_images/vi/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3.webp)
 
         PlatformIO sẽ tự động biên dịch mã nếu cần trước khi tải lên.
 
@@ -195,7 +195,7 @@ PlatformIO có một Serial Monitor cho phép theo dõi dữ liệu được g�
 
 1. Nhập `PlatformIO Serial` để tìm tùy chọn Serial Monitor, và chọn *PlatformIO: Serial Monitor*.
 
-    ![Tùy chọn Serial Monitor của PlatformIO trong bảng lệnh](../../../../../translated_images/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14.vi.png)
+    ![Tùy chọn Serial Monitor của PlatformIO trong bảng lệnh](../../../../../translated_images/vi/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14.webp)
 
     Một terminal mới sẽ mở ra, và dữ liệu được gửi qua cổng nối tiếp sẽ được hiển thị trong terminal này:
 

@@ -22,7 +22,7 @@ I²C ma magistralę składającą się z 2 głównych przewodów, wraz z 2 przew
 | VCC | Voltage common collector (Wspólny kolektor napięcia) | Zasilanie dla urządzeń. Jest podłączone do przewodów SDA i SCL, aby dostarczać im zasilanie za pośrednictwem rezystora podciągającego, który wyłącza sygnał, gdy żadne urządzenie nie jest kontrolerem. |
 | GND | Ground (Masa) | Zapewnia wspólną masę dla obwodu elektrycznego. |
 
-![Magistrala I2C z 3 urządzeniami podłączonymi do przewodów SDA i SCL, współdzieląca wspólny przewód masy](../../../../../translated_images/i2c.83da845dde02256bdd462dbe0d5145461416b74930571b89d1ae142841eeb584.pl.png)
+![Magistrala I2C z 3 urządzeniami podłączonymi do przewodów SDA i SCL, współdzieląca wspólny przewód masy](../../../../../translated_images/pl/i2c.83da845dde02256bdd462dbe0d5145461416b74930571b89d1ae142841eeb584.png)
 
 Aby przesłać dane, jedno urządzenie wydaje warunek startu, aby pokazać, że jest gotowe do przesyłania danych. Następnie staje się kontrolerem. Kontroler wysyła adres urządzenia, z którym chce się komunikować, wraz z informacją, czy chce odczytać, czy zapisać dane. Po przesłaniu danych kontroler wysyła warunek stopu, aby wskazać, że zakończył. Po tym inne urządzenie może stać się kontrolerem i przesyłać lub odbierać dane.
 
@@ -37,7 +37,7 @@ UART obejmuje fizyczny układ, który pozwala dwóm urządzeniom komunikować si
 * Urządzenie 1 przesyła dane ze swojego pinu Tx, które są odbierane przez urządzenie 2 na jego pinie Rx
 * Urządzenie 1 odbiera dane na swoim pinie Rx, które są przesyłane przez urządzenie 2 z jego pinu Tx
 
-![UART z pinem Tx jednego układu połączonym z pinem Rx innego i vice versa](../../../../../translated_images/uart.d0dbd3fb9e3728c6.pl.png)
+![UART z pinem Tx jednego układu połączonym z pinem Rx innego i vice versa](../../../../../translated_images/pl/uart.d0dbd3fb9e3728c6.webp)
 
 > 🎓 Dane są przesyłane po jednym bicie na raz, co nazywa się komunikacją *szeregową*. Większość systemów operacyjnych i mikrokontrolerów ma *porty szeregowe*, czyli połączenia umożliwiające przesyłanie i odbieranie danych szeregowych, które są dostępne dla twojego kodu.
 
@@ -66,7 +66,7 @@ Kontrolery SPI używają 3 przewodów, wraz z 1 dodatkowym przewodem na każde p
 | SCLK | Zegar szeregowy | Ten przewód przesyła sygnał zegarowy z prędkością ustawioną przez kontroler. |
 | CS   | Wybór układu | Kontroler ma wiele przewodów, po jednym na każde peryferium, a każdy przewód łączy się z przewodem CS odpowiedniego peryferium. |
 
-![SPI z jednym kontrolerem i dwoma peryferiami](../../../../../translated_images/spi.297431d6f98b386b.pl.png)
+![SPI z jednym kontrolerem i dwoma peryferiami](../../../../../translated_images/pl/spi.297431d6f98b386b.webp)
 
 Przewód CS jest używany do aktywacji jednego peryferium naraz, komunikując się przez przewody COPI i CIPO. Gdy kontroler musi zmienić peryferium, dezaktywuje przewód CS połączony z obecnie aktywnym peryferium, a następnie aktywuje przewód połączony z peryferium, z którym chce się komunikować.
 
@@ -127,13 +127,13 @@ Wilgotność gleby jest mierzona za pomocą zawartości wody grawimetrycznej lub
 
 Czujniki wilgotności gleby mierzą rezystancję lub pojemność elektryczną - to zależy nie tylko od wilgotności gleby, ale także od jej rodzaju, ponieważ składniki gleby mogą zmieniać jej właściwości elektryczne. Idealnie czujniki powinny być skalibrowane - czyli odczyty z czujnika powinny być porównywane z pomiarami uzyskanymi bardziej naukową metodą. Na przykład laboratorium może obliczyć grawimetryczną wilgotność gleby, używając próbek z konkretnego pola pobranych kilka razy w roku, a te dane mogą być użyte do kalibracji czujnika, dopasowując odczyty czujnika do grawimetrycznej wilgotności gleby.
 
-![Wykres napięcia w zależności od zawartości wilgoci w glebie](../../../../../translated_images/soil-moisture-to-voltage.df86d80cda158700.pl.png)
+![Wykres napięcia w zależności od zawartości wilgoci w glebie](../../../../../translated_images/pl/soil-moisture-to-voltage.df86d80cda158700.webp)
 
 Powyższy wykres pokazuje, jak skalibrować czujnik. Napięcie jest rejestrowane dla próbki gleby, która następnie jest mierzona w laboratorium przez porównanie wilgotnej wagi z suchą wagą (mierząc wagę wilgotną, a następnie susząc w piecu i mierząc wagę suchą). Po wykonaniu kilku pomiarów można je nanieść na wykres i dopasować linię do punktów. Ta linia może być następnie użyta do przekształcenia odczytów czujnika wilgotności gleby wykonanych przez urządzenie IoT na rzeczywiste pomiary wilgotności gleby.
 
 💁 W przypadku rezystancyjnych czujników wilgotności gleby napięcie wzrasta wraz ze wzrostem wilgotności gleby. W przypadku pojemnościowych czujników wilgotności gleby napięcie maleje wraz ze wzrostem wilgotności gleby, więc wykresy dla tych czujników będą opadać, a nie wznosić się.
 
-![Wartość wilgotności gleby interpolowana z wykresu](../../../../../translated_images/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.pl.png)
+![Wartość wilgotności gleby interpolowana z wykresu](../../../../../translated_images/pl/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.webp)
 
 Powyższy wykres pokazuje odczyt napięcia z czujnika wilgotności gleby, a poprzez śledzenie tego do linii na wykresie można obliczyć rzeczywistą wilgotność gleby.
 

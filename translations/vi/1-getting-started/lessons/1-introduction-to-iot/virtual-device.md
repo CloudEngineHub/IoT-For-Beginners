@@ -154,11 +154,11 @@ Tạo một ứng dụng Python để in `"Hello World"` ra console.
 
 1. Khi VS Code khởi chạy, nó sẽ kích hoạt môi trường ảo Python. Môi trường ảo được chọn sẽ xuất hiện trong thanh trạng thái dưới cùng:
 
-    ![VS Code hiển thị môi trường ảo được chọn](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.vi.png)
+    ![VS Code hiển thị môi trường ảo được chọn](../../../../../translated_images/vi/vscode-virtual-env.8ba42e04c3d533cf.webp)
 
 1. Nếu Terminal của VS Code đã chạy khi VS Code khởi động, nó sẽ không có môi trường ảo được kích hoạt. Cách dễ nhất là tắt terminal bằng nút **Kill the active terminal instance**:
 
-    ![Nút Kill the active terminal instance của VS Code](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.vi.png)
+    ![Nút Kill the active terminal instance của VS Code](../../../../../translated_images/vi/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
 
     Bạn có thể biết terminal đã kích hoạt môi trường ảo hay chưa bằng cách kiểm tra tên của môi trường ảo có xuất hiện làm tiền tố trên prompt của terminal hay không. Ví dụ, nó có thể là:
 
@@ -212,7 +212,7 @@ Như một bước 'Hello World' thứ hai, bạn sẽ chạy ứng dụng Count
 
     Ứng dụng sẽ bắt đầu chạy và mở trong trình duyệt web của bạn:
 
-    ![Ứng dụng Counter Fit chạy trong trình duyệt](../../../../../translated_images/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.vi.png)
+    ![Ứng dụng Counter Fit chạy trong trình duyệt](../../../../../translated_images/vi/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
 
     Nó sẽ được đánh dấu là *Disconnected*, với đèn LED ở góc trên bên phải tắt.
 
@@ -229,11 +229,11 @@ Như một bước 'Hello World' thứ hai, bạn sẽ chạy ứng dụng Count
 
 1. Bạn sẽ cần khởi chạy một terminal mới trong VS Code bằng cách chọn nút **Create a new integrated terminal**. Điều này là do ứng dụng CounterFit đang chạy trong terminal hiện tại.
 
-    ![Nút Create a new integrated terminal của VS Code](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.vi.png)
+    ![Nút Create a new integrated terminal của VS Code](../../../../../translated_images/vi/vscode-new-terminal.77db8fc0f9cd3182.webp)
 
 1. Trong terminal mới này, chạy tệp `app.py` như trước. Trạng thái của CounterFit sẽ thay đổi thành **Connected** và đèn LED sẽ sáng lên.
 
-    ![Counter Fit hiển thị trạng thái đã kết nối](../../../../../translated_images/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.vi.png)
+    ![Counter Fit hiển thị trạng thái đã kết nối](../../../../../translated_images/vi/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
 
 > 💁 Bạn có thể tìm thấy mã này trong thư mục [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device).
 

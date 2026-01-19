@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Parduotuvės vietos duomenys
 
-![Šios pamokos eskizų apžvalga](../../../../../translated_images/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.lt.jpg)
+![Šios pamokos eskizų apžvalga](../../../../../translated_images/lt/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.jpg)
 
 > Eskizą sukūrė [Nitya Narasimhan](https://github.com/nitya). Spustelėkite paveikslėlį, kad pamatytumėte didesnę versiją.
 
@@ -66,7 +66,7 @@ Duomenų bazės yra paslaugos, leidžiančios saugoti ir užklausinėti duomenis
 
 Pirmosios duomenų bazės buvo reliacinės duomenų bazių valdymo sistemos (RDBMS), dar vadinamos SQL duomenų bazėmis dėl struktūrizuotos užklausų kalbos (SQL), naudojamos duomenims pridėti, pašalinti, atnaujinti ar užklausinėti. Šios duomenų bazės turi schemą – aiškiai apibrėžtą duomenų lentelių rinkinį, panašų į skaičiuoklę. Kiekviena lentelė turi kelis pavadintus stulpelius. Kai įterpiate duomenis, pridedate eilutę į lentelę, įrašydami reikšmes į kiekvieną stulpelį. Tai užtikrina labai griežtą duomenų struktūrą – nors galite palikti stulpelius tuščius, jei norite pridėti naują stulpelį, turite tai padaryti duomenų bazėje, užpildydami reikšmes esamoms eilutėms. Šios duomenų bazės yra reliacinės – viena lentelė gali turėti ryšį su kita.
 
-![Reliacinė duomenų bazė su vartotojo lentelės ID, susijusiu su pirkimų lentelės vartotojo ID stulpeliu, ir produktų lentelės ID, susijusiu su pirkimų lentelės produkto ID](../../../../../translated_images/sql-database.be160f12bfccefd3.lt.png)
+![Reliacinė duomenų bazė su vartotojo lentelės ID, susijusiu su pirkimų lentelės vartotojo ID stulpeliu, ir produktų lentelės ID, susijusiu su pirkimų lentelės produkto ID](../../../../../translated_images/lt/sql-database.be160f12bfccefd3.webp)
 
 Pavyzdžiui, jei saugote vartotojo asmeninius duomenis lentelėje, turėtumėte tam tikrą unikalų ID kiekvienam vartotojui, kuris naudojamas eilutėje lentelėje, kurioje yra vartotojo vardas ir adresas. Jei norėtumėte saugoti kitus duomenis apie tą vartotoją, pavyzdžiui, jo pirkimus, kitoje lentelėje turėtumėte vieną stulpelį tam vartotojo ID. Kai ieškote vartotojo, galite naudoti jo ID, kad gautumėte asmeninius duomenis iš vienos lentelės ir pirkimus iš kitos.
 
@@ -84,7 +84,7 @@ NoSQL duomenų bazės vadinamos NoSQL, nes jos neturi tokios griežtos struktūr
 
 > 💁 Nepaisant jų pavadinimo, kai kurios NoSQL duomenų bazės leidžia naudoti SQL užklausoms vykdyti.
 
-![Dokumentai aplankuose NoSQL duomenų bazėje](../../../../../translated_images/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.lt.png)
+![Dokumentai aplankuose NoSQL duomenų bazėje](../../../../../translated_images/lt/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.png)
 
 NoSQL duomenų bazės neturi iš anksto apibrėžtos schemos, kuri ribotų, kaip duomenys saugomi. Vietoj to, galite įterpti bet kokius nestruktūrizuotus duomenis, paprastai naudojant JSON dokumentus. Šie dokumentai gali būti organizuojami į aplankus, panašiai kaip failai jūsų kompiuteryje. Kiekvienas dokumentas gali turėti skirtingus laukus nei kiti dokumentai – pavyzdžiui, jei saugote IoT duomenis iš savo ūkio transporto priemonių, kai kurie gali turėti laukus akselerometro ir greičio duomenims, kiti – priekabos temperatūros duomenims. Jei pridėtumėte naujo tipo sunkvežimį, pavyzdžiui, su įmontuotomis svarstyklėmis, skirtomis stebėti vežamo krovinio svorį, jūsų IoT įrenginys galėtų pridėti šį naują lauką, ir jis būtų saugomas be jokių pakeitimų duomenų bazėje.
 
@@ -98,7 +98,7 @@ Kai kurios gerai žinomos NoSQL duomenų bazės yra Azure CosmosDB, MongoDB ir C
 
 Praėjusioje pamokoje fiksavote GPS duomenis iš GPS jutiklio, prijungto prie jūsų IoT įrenginio. Norėdami saugoti šiuos IoT duomenis debesyje, turite juos siųsti į IoT paslaugą. Vėl naudosite Azure IoT Hub – tą pačią IoT debesijos paslaugą, kurią naudojote ankstesniame projekte.
 
-![GPS telemetrijos siuntimas iš IoT įrenginio į IoT Hub](../../../../../translated_images/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.lt.png)
+![GPS telemetrijos siuntimas iš IoT įrenginio į IoT Hub](../../../../../translated_images/lt/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.png)
 
 ### Užduotis – GPS duomenų siuntimas į IoT Hub
 
@@ -196,7 +196,7 @@ Kai duomenys pasiekia jūsų IoT Hub, galite parašyti serverless kodą, kuris k
 
 ## Azure saugyklos paskyros
 
-![Azure saugyklos logotipas](../../../../../translated_images/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.lt.png)
+![Azure saugyklos logotipas](../../../../../translated_images/lt/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.png)
 
 Azure saugyklos paskyros yra universali saugyklos paslauga, kuri gali saugoti duomenis įvairiais būdais. Duomenis galite saugoti kaip blobus, eilėse, lentelėse arba failuose, ir visa tai vienu metu.
 
@@ -235,7 +235,7 @@ Dabar jūsų funkcijų programa turi prisijungti prie blob saugyklos, kad galėt
 
 Šioje pamokoje naudosite Python SDK, kad pamatytumėte, kaip sąveikauti su blob saugykla.
 
-![GPS telemetrijos siuntimas iš IoT įrenginio į IoT Hub, tada į Azure Functions per Event Hub trigerį, o vėliau išsaugojimas blob saugykloje](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f1.lt.png)
+![GPS telemetrijos siuntimas iš IoT įrenginio į IoT Hub, tada į Azure Functions per Event Hub trigerį, o vėliau išsaugojimas blob saugykloje](../../../../../translated_images/lt/save-telemetry-to-storage-from-functions.ed3b1820980097f1.webp)
 
 Duomenys bus išsaugoti kaip JSON blobas su šiuo formatu:
 

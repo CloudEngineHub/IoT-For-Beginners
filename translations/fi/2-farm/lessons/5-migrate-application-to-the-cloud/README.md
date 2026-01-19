@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Siirrä sovelluslogiikkasi pilveen
 
-![Tämän oppitunnin luonnoskuva](../../../../../translated_images/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.fi.jpg)
+![Tämän oppitunnin luonnoskuva](../../../../../translated_images/fi/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.jpg)
 
 > Luonnoskuva: [Nitya Narasimhan](https://github.com/nitya). Klikkaa kuvaa nähdäksesi suuremman version.
 
@@ -37,11 +37,11 @@ Tässä oppitunnissa käsitellään:
 
 Serveritön, tai serveritön laskenta, tarkoittaa pienten koodilohkojen luomista, jotka suoritetaan pilvessä vastauksena erilaisiin tapahtumiin. Kun tapahtuma tapahtuu, koodisi suoritetaan ja sille välitetään tietoja tapahtumasta. Näitä tapahtumia voi tulla monista eri lähteistä, kuten verkkopyynnöistä, jonoon lisätyistä viesteistä, tietokannan muutoksista tai IoT-laitteiden lähettämistä viesteistä IoT-palveluun.
 
-![Tapahtumia lähetetään IoT-palvelusta serverittömään palveluun, ja niitä käsitellään samanaikaisesti useilla funktioilla](../../../../../translated_images/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.fi.png)
+![Tapahtumia lähetetään IoT-palvelusta serverittömään palveluun, ja niitä käsitellään samanaikaisesti useilla funktioilla](../../../../../translated_images/fi/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.png)
 
 > 💁 Jos olet käyttänyt tietokantatriggereitä aiemmin, voit ajatella tätä samalla tavalla: koodi käynnistyy tapahtumasta, kuten rivin lisäämisestä.
 
-![Kun useita tapahtumia lähetetään samanaikaisesti, serveritön palvelu skaalautuu suorittamaan ne kaikki yhtä aikaa](../../../../../translated_images/serverless-scaling.f8c769adf0413fd1.fi.png)
+![Kun useita tapahtumia lähetetään samanaikaisesti, serveritön palvelu skaalautuu suorittamaan ne kaikki yhtä aikaa](../../../../../translated_images/fi/serverless-scaling.f8c769adf0413fd1.webp)
 
 Koodisi suoritetaan vain, kun tapahtuma tapahtuu, eikä sitä pidetä aktiivisena muina aikoina. Tapahtuma tapahtuu, koodisi ladataan ja suoritetaan. Tämä tekee serverittömästä mallista erittäin skaalautuvan – jos useita tapahtumia tapahtuu samanaikaisesti, pilvipalveluntarjoaja voi suorittaa funktiosi niin monta kertaa kuin tarvitaan samanaikaisesti käytettävissä olevilla palvelimilla. Haittapuolena on, että jos sinun täytyy jakaa tietoa tapahtumien välillä, sinun täytyy tallentaa se esimerkiksi tietokantaan sen sijaan, että säilyttäisit sen muistissa.
 
@@ -63,7 +63,7 @@ IoT-kehittäjänä serveritön malli on ihanteellinen. Voit kirjoittaa funktion,
 
 Microsoftin serveritön laskentapalvelu tunnetaan nimellä Azure Functions.
 
-![Azure Functions -logo](../../../../../translated_images/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.fi.png)
+![Azure Functions -logo](../../../../../translated_images/fi/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.png)
 
 Alla oleva lyhyt video tarjoaa yleiskatsauksen Azure Functionsista.
 
@@ -244,7 +244,7 @@ Azure Functions CLI:llä voidaan luoda uusi Functions-sovellus.
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-    ![Ilmoitus](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb.fi.png)
+    ![Ilmoitus](../../../../../translated_images/fi/vscode-azure-functions-init-notification.bd19b49229963edb.webp)
 
     Valitse **Yes** tästä ilmoituksesta.
 

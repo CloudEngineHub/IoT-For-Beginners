@@ -25,11 +25,11 @@ ArduCam 沒有 Grove 插座，而是通過 Wio Terminal 的 GPIO 引腳連接到
 
 連接相機。
 
-![ArduCam 感測器](../../../../../translated_images/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.tw.png)
+![ArduCam 感測器](../../../../../translated_images/tw/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.png)
 
 1. ArduCam 底部的引腳需要連接到 Wio Terminal 的 GPIO 引腳。為了更容易找到正確的引腳，將 Wio Terminal 附帶的 GPIO 引腳貼紙貼在引腳周圍：
 
-    ![帶有 GPIO 引腳貼紙的 Wio Terminal](../../../../../translated_images/wio-terminal-pin-sticker.b90b1535937b84bd.tw.png)
+    ![帶有 GPIO 引腳貼紙的 Wio Terminal](../../../../../translated_images/tw/wio-terminal-pin-sticker.b90b1535937b84bd.webp)
 
 1. 使用跳線，進行以下連接：
 
@@ -44,7 +44,7 @@ ArduCam 沒有 Grove 插座，而是通過 Wio Terminal 的 GPIO 引腳連接到
     | SDA          | 3 (I2C1_SDA)      | I2C 串行數據                          |
     | SCL          | 5 (I2C1_SCL)      | I2C 串行時鐘                          |
 
-    ![使用跳線連接的 Wio Terminal 和 ArduCam](../../../../../translated_images/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.tw.png)
+    ![使用跳線連接的 Wio Terminal 和 ArduCam](../../../../../translated_images/tw/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.png)
 
     GND 和 VCC 連接為 ArduCam 提供 5V 電源。它以 5V 運行，不同於以 3V 運行的 Grove 感測器。此電源直接來自為設備供電的 USB-C 連接。
 
@@ -297,7 +297,7 @@ ArduCam 沒有 Grove 插座，而是通過 Wio Terminal 的 GPIO 引腳連接到
 
 1. 微控制器會不斷運行您的代碼，因此很難在不響應感測器的情況下觸發某些操作，例如拍照。Wio Terminal 有按鈕，因此可以設置相機以由其中一個按鈕觸發。將以下代碼添加到 `setup` 函數的末尾，以配置 C 按鈕（頂部的三個按鈕之一，最靠近電源開關的按鈕）。
 
-    ![最靠近電源開關的 C 按鈕](../../../../../translated_images/wio-terminal-c-button.73df3cb1c1445ea0.tw.png)
+    ![最靠近電源開關的 C 按鈕](../../../../../translated_images/tw/wio-terminal-c-button.73df3cb1c1445ea0.webp)
 
     ```cpp
     pinMode(WIO_KEY_C, INPUT_PULLUP);
@@ -465,7 +465,7 @@ Wio Terminal 僅支持最大 16GB 的 microSD 卡。如果您有更大的 SD 卡
 
 1. 關閉 microSD 卡並通過稍微推入並釋放來彈出，卡片會彈出。您可能需要使用細工具執行此操作。將 microSD 卡插入您的電腦以查看影像。
 
-    ![使用 ArduCam 捕捉的香蕉照片](../../../../../translated_images/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.tw.jpg)
+    ![使用 ArduCam 捕捉的香蕉照片](../../../../../translated_images/tw/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.jpg)
 💁 相機的白平衡可能需要幾張圖片來進行自我調整。您會根據拍攝的圖片顏色注意到這一點，前幾張可能會顯得顏色不準。您可以通過修改程式碼，在 `setup` 函數中拍攝幾張被忽略的圖片來解決這個問題。
 
 

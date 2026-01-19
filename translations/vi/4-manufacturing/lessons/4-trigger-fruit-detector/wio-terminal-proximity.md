@@ -29,13 +29,13 @@ Cảm biến Grove Time of Flight có thể được kết nối với Wio Termi
 
 Kết nối cảm biến Time of Flight.
 
-![Một cảm biến Grove Time of Flight](../../../../../translated_images/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.vi.png)
+![Một cảm biến Grove Time of Flight](../../../../../translated_images/vi/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
 
 1. Cắm một đầu của cáp Grove vào cổng trên cảm biến Time of Flight. Nó chỉ có thể cắm theo một chiều.
 
 1. Khi Wio Terminal chưa được kết nối với máy tính hoặc nguồn điện khác, cắm đầu còn lại của cáp Grove vào cổng Grove bên trái trên Wio Terminal khi bạn nhìn vào màn hình. Đây là cổng gần nút nguồn nhất. Đây là một cổng kết hợp kỹ thuật số và I2C.
 
-![Cảm biến Grove Time of Flight được kết nối với cổng bên trái](../../../../../translated_images/wio-time-of-flight-sensor.c4c182131d2ea73d.vi.png)
+![Cảm biến Grove Time of Flight được kết nối với cổng bên trái](../../../../../translated_images/vi/wio-time-of-flight-sensor.c4c182131d2ea73d.webp)
 
 1. Bây giờ bạn có thể kết nối Wio Terminal với máy tính của mình.
 
@@ -101,7 +101,7 @@ Wio Terminal bây giờ có thể được lập trình để sử dụng cảm 
 
     Máy đo khoảng cách nằm ở mặt sau của cảm biến, vì vậy hãy đảm bảo bạn sử dụng đúng mặt khi đo khoảng cách.
 
-    ![Máy đo khoảng cách ở mặt sau của cảm biến Time of Flight hướng về một quả chuối](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.vi.png)
+    ![Máy đo khoảng cách ở mặt sau của cảm biến Time of Flight hướng về một quả chuối](../../../../../translated_images/vi/time-of-flight-banana.079921ad8b1496e4.webp)
 
 > 💁 Bạn có thể tìm thấy đoạn mã này trong thư mục [code-proximity/wio-terminal](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/wio-terminal).
 

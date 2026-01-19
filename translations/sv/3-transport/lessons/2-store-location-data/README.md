@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Lagra platsdata
 
-![En sketchnote-översikt av denna lektion](../../../../../translated_images/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.sv.jpg)
+![En sketchnote-översikt av denna lektion](../../../../../translated_images/sv/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.jpg)
 
 > Sketchnote av [Nitya Narasimhan](https://github.com/nitya). Klicka på bilden för en större version.
 
@@ -66,7 +66,7 @@ Databaser är tjänster som gör det möjligt att lagra och söka i data. Databa
 
 De första databaserna var relationsdatabashanteringssystem (RDBMS), eller relationsdatabaser. Dessa är också kända som SQL-databaser efter Structured Query Language (SQL) som används för att interagera med dem för att lägga till, ta bort, uppdatera eller söka i data. Dessa databaser består av ett schema - en väldefinierad uppsättning datatabeller, liknande ett kalkylblad. Varje tabell har flera namngivna kolumner. När du lägger till data lägger du till en rad i tabellen och fyller i värden i varje kolumn. Detta håller data i en mycket rigid struktur - även om du kan lämna kolumner tomma, måste du lägga till en ny kolumn i databasen och fylla i värden för de befintliga raderna om du vill lägga till en ny kolumn. Dessa databaser är relationella - en tabell kan ha en relation till en annan.
 
-![En relationsdatabas där ID:t i användartabellen relaterar till användar-ID-kolumnen i köp-tabellen, och ID:t i produkttabellen relaterar till produkt-ID:t i köp-tabellen](../../../../../translated_images/sql-database.be160f12bfccefd3.sv.png)
+![En relationsdatabas där ID:t i användartabellen relaterar till användar-ID-kolumnen i köp-tabellen, och ID:t i produkttabellen relaterar till produkt-ID:t i köp-tabellen](../../../../../translated_images/sv/sql-database.be160f12bfccefd3.webp)
 
 Till exempel, om du lagrade en användares personliga uppgifter i en tabell, skulle du ha någon form av internt unikt ID per användare som används i en rad i en tabell som innehåller användarens namn och adress. Om du sedan ville lagra andra detaljer om den användaren, som deras köp, i en annan tabell, skulle du ha en kolumn i den nya tabellen för användarens ID. När du söker upp en användare kan du använda deras ID för att få deras personliga uppgifter från en tabell och deras köp från en annan.
 
@@ -84,7 +84,7 @@ NoSQL-databaser kallas NoSQL eftersom de inte har samma rigida struktur som SQL-
 
 > 💁 Trots sitt namn tillåter vissa NoSQL-databaser att du använder SQL för att söka i data.
 
-![Dokument i mappar i en NoSQL-databas](../../../../../translated_images/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.sv.png)
+![Dokument i mappar i en NoSQL-databas](../../../../../translated_images/sv/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.png)
 
 NoSQL-databaser har inte ett fördefinierat schema som begränsar hur data lagras. Istället kan du lägga till vilken ostrukturerad data som helst, vanligtvis med JSON-dokument. Dessa dokument kan organiseras i mappar, liknande filer på din dator. Varje dokument kan ha olika fält jämfört med andra dokument - till exempel om du lagrade IoT-data från dina jordbruksfordon, kan vissa ha fält för accelerometer- och hastighetsdata, medan andra kan ha fält för temperaturen i släpet. Om du skulle lägga till en ny lastbilstyp, som en med inbyggda vågar för att spåra vikten av transporterat gods, kan din IoT-enhet lägga till detta nya fält och det kan lagras utan några ändringar i databasen.
 
@@ -98,7 +98,7 @@ I denna lektion kommer du att använda NoSQL-lagring för att lagra IoT-data.
 
 I den senaste lektionen fångade du GPS-data från en GPS-sensor ansluten till din IoT-enhet. För att lagra dessa IoT-data i molnet behöver du skicka dem till en IoT-tjänst. Återigen kommer du att använda Azure IoT Hub, samma IoT-molntjänst som du använde i det tidigare projektet.
 
-![Skicka GPS-telemetri från en IoT-enhet till IoT Hub](../../../../../translated_images/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.sv.png)
+![Skicka GPS-telemetri från en IoT-enhet till IoT Hub](../../../../../translated_images/sv/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.png)
 
 ### Uppgift - skicka GPS-data till en IoT Hub
 
@@ -180,7 +180,7 @@ Kall väg-data lagras i datalager - databaser designade för att lagra stora mä
 
 När data flödar in i din IoT Hub kan du skriva serverlös kod för att lyssna på händelser som publiceras till den Event-Hub-kompatibla slutpunkten. Detta är den varma vägen - dessa data kommer att lagras och användas i nästa lektion för att rapportera om resan.
 
-![Skicka GPS-telemetri från en IoT-enhet till IoT Hub, sedan till Azure Functions via en event hub-trigger](../../../../../translated_images/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.sv.png)
+![Skicka GPS-telemetri från en IoT-enhet till IoT Hub, sedan till Azure Functions via en event hub-trigger](../../../../../translated_images/sv/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.png)
 
 ### Uppgift - hantera GPS-händelser med serverlös kod
 
@@ -202,7 +202,7 @@ När data flödar in i din IoT Hub kan du skriva serverlös kod för att lyssna 
 
 ## Azure Storage-konton
 
-![Azure Storage-logotypen](../../../../../translated_images/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.sv.png)
+![Azure Storage-logotypen](../../../../../translated_images/sv/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.png)
 
 Azure Storage-konton är en allmän lagringstjänst som kan lagra data på olika sätt. Du kan lagra data som blobbar, i köer, i tabeller eller som filer, och allt detta samtidigt.
 
@@ -241,7 +241,7 @@ Din Functions-app behöver nu ansluta till blob-lagring för att lagra meddeland
 
 I denna lektion kommer du att använda Python SDK för att se hur man interagerar med blob-lagring.
 
-![Skicka GPS-telemetri från en IoT-enhet till IoT Hub, sedan till Azure Functions via en Event Hub-utlösare, och sedan spara det till blob-lagring](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f1.sv.png)
+![Skicka GPS-telemetri från en IoT-enhet till IoT Hub, sedan till Azure Functions via en Event Hub-utlösare, och sedan spara det till blob-lagring](../../../../../translated_images/sv/save-telemetry-to-storage-from-functions.ed3b1820980097f1.webp)
 
 Data kommer att sparas som en JSON-blob med följande format:
 

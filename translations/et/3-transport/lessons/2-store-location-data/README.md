@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Poe asukohaandmed
 
-![Selle õppetunni visandmärkmete ülevaade](../../../../../translated_images/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.et.jpg)
+![Selle õppetunni visandmärkmete ülevaade](../../../../../translated_images/et/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.jpg)
 
 > Visandmärkmed: [Nitya Narasimhan](https://github.com/nitya). Klõpsake pildil, et näha suuremat versiooni.
 
@@ -66,7 +66,7 @@ Andmebaasid on teenused, mis võimaldavad andmeid salvestada ja päringuid teha.
 
 Esimesed andmebaasid olid relatsioonilised andmebaasid (RDBMS), mida tuntakse ka SQL-andmebaasidena, kuna need kasutavad struktureeritud päringukeelt (SQL) andmete lisamiseks, eemaldamiseks, uuendamiseks või pärimiseks. Need andmebaasid koosnevad skeemist - hästi määratletud tabelite kogumist, mis sarnanevad arvutustabelitega. Iga tabel sisaldab mitmeid nimega veerge. Andmete sisestamisel lisate tabelisse rea, pannes väärtused veergudesse. See hoiab andmed väga jäigas struktuuris - kuigi veerge võib jätta tühjaks, tuleb uue veeru lisamiseks andmebaasi muuta, täites olemasolevate ridade väärtused. Need andmebaasid on relatsioonilised - üks tabel võib olla seotud teisega.
 
-![Relatsiooniline andmebaas, kus kasutajate tabeli ID on seotud ostude tabeli kasutaja ID veeruga ja toodete tabeli ID on seotud ostude tabeli toote ID veeruga](../../../../../translated_images/sql-database.be160f12bfccefd3.et.png)
+![Relatsiooniline andmebaas, kus kasutajate tabeli ID on seotud ostude tabeli kasutaja ID veeruga ja toodete tabeli ID on seotud ostude tabeli toote ID veeruga](../../../../../translated_images/et/sql-database.be160f12bfccefd3.webp)
 
 Näiteks, kui salvestate kasutaja isiklikke andmeid tabelisse, oleks igal kasutajal mingi sisemine unikaalne ID, mida kasutatakse tabelis, mis sisaldab kasutaja nime ja aadressi. Kui soovite salvestada selle kasutaja kohta muid andmeid, näiteks tema oste, teises tabelis, oleks uues tabelis üks veerg selle kasutaja ID jaoks. Kui otsite kasutajat, saate tema ID abil hankida isiklikud andmed ühest tabelist ja ostud teisest.
 
@@ -84,7 +84,7 @@ NoSQL-andmebaasid on nimetatud NoSQL-iks, kuna neil puudub SQL-andmebaaside jäi
 
 > 💁 Hoolimata nende nimest, võimaldavad mõned NoSQL-andmebaasid kasutada SQL-i andmete pärimiseks.
 
-![Dokumendid kaustades NoSQL-andmebaasis](../../../../../translated_images/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.et.png)
+![Dokumendid kaustades NoSQL-andmebaasis](../../../../../translated_images/et/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.png)
 
 NoSQL-andmebaasidel puudub eelnevalt määratletud skeem, mis piiraks andmete salvestamist; selle asemel saate sisestada mis tahes struktureerimata andmeid, tavaliselt JSON-dokumentidena. Need dokumendid saab korraldada kaustadesse, sarnaselt failidele teie arvutis. Iga dokument võib sisaldada erinevaid välju võrreldes teiste dokumentidega - näiteks kui salvestate IoT-andmeid oma farmisõidukitest, võivad mõned sisaldada kiirendus- ja kiirusandmeid, teised aga haagise temperatuuriandmeid. Kui lisate uue veokitüübi, näiteks sisseehitatud kaaludega veoki, mis jälgib veetava toodangu kaalu, võib teie IoT-seade lisada selle uue välja ja see salvestatakse ilma andmebaasi muutmata.
 
@@ -98,7 +98,7 @@ Selles õppetunnis kasutate NoSQL-salvestust IoT-andmete salvestamiseks.
 
 Eelmises õppetunnis kogusite GPS-andmeid GPS-andurilt, mis oli ühendatud teie IoT-seadmega. IoT-andmete pilves salvestamiseks peate need saatma IoT-teenusesse. Jällegi kasutate Azure IoT Hubi, sama IoT-pilveteenust, mida kasutasite eelmises projektis.
 
-![GPS-telemeetria saatmine IoT-seadmest IoT Hubi](../../../../../translated_images/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.et.png)
+![GPS-telemeetria saatmine IoT-seadmest IoT Hubi](../../../../../translated_images/et/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.png)
 
 ### Ülesanne - GPS-andmete saatmine IoT Hubi
 
@@ -180,7 +180,7 @@ Külma tee andmed salvestatakse andmeladudesse - andmebaasidesse, mis on mõeldu
 
 Kui andmed voolavad teie IoT Hubi, saate kirjutada serverivaba koodi, et kuulata sündmusi, mis avaldatakse Event-Hubiga ühilduval lõpp-punktil. See on soe tee - need andmed salvestatakse ja neid kasutatakse järgmises õppetunnis teekonna aruandluseks.
 
-![GPS-telemeetria saatmine IoT-seadmest IoT Hubi, seejärel Azure Functionsisse sündmuste huba päästiku kaudu](../../../../../translated_images/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.et.png)
+![GPS-telemeetria saatmine IoT-seadmest IoT Hubi, seejärel Azure Functionsisse sündmuste huba päästiku kaudu](../../../../../translated_images/et/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.png)
 
 ### Ülesanne - GPS-sündmuste käsitlemine serverivaba koodi abil
 
@@ -203,7 +203,7 @@ Kui andmed voolavad teie IoT Hubi, saate kirjutada serverivaba koodi, et kuulata
 
 ## Azure'i salvestuskontod
 
-![Azure Storage logo](../../../../../translated_images/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.et.png)
+![Azure Storage logo](../../../../../translated_images/et/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.png)
 
 Azure'i salvestuskontod on üldotstarbeline salvestusteenus, mis võimaldab andmeid salvestada mitmel erineval viisil. Sa saad andmeid salvestada blobidena, järjekordades, tabelites või failidena – ja seda kõike samaaegselt.
 
@@ -242,7 +242,7 @@ Sinu funktsioonirakendus peab nüüd ühenduma blob-salvestusega, et salvestada 
 
 Selles õppetunnis kasutad Python SDK-d, et näha, kuidas blob-salvestusega suhelda.
 
-![GPS-telemeetria saatmine IoT-seadmest IoT Hubi, seejärel Azure Functionsisse sündmuse käivitaja kaudu ja lõpuks salvestamine blob-salvestusse](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f1.et.png)
+![GPS-telemeetria saatmine IoT-seadmest IoT Hubi, seejärel Azure Functionsisse sündmuse käivitaja kaudu ja lõpuks salvestamine blob-salvestusse](../../../../../translated_images/et/save-telemetry-to-storage-from-functions.ed3b1820980097f1.webp)
 
 Andmed salvestatakse JSON-blobina järgmises formaadis:
 

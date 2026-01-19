@@ -29,13 +29,13 @@ Czujnik Grove Time of Flight można podłączyć do Wio Terminal.
 
 Podłącz czujnik Time of Flight.
 
-![Czujnik Grove Time of Flight](../../../../../translated_images/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.pl.png)
+![Czujnik Grove Time of Flight](../../../../../translated_images/pl/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
 
 1. Włóż jeden koniec kabla Grove do gniazda w czujniku Time of Flight. Kabel pasuje tylko w jedną stronę.
 
 1. Gdy Wio Terminal jest odłączony od komputera lub innego źródła zasilania, podłącz drugi koniec kabla Grove do lewego gniazda Grove w Wio Terminal, patrząc na ekran. Jest to gniazdo najbliżej przycisku zasilania. Jest to gniazdo cyfrowe i I²C.
 
-![Czujnik Grove Time of Flight podłączony do lewego gniazda](../../../../../translated_images/wio-time-of-flight-sensor.c4c182131d2ea73d.pl.png)
+![Czujnik Grove Time of Flight podłączony do lewego gniazda](../../../../../translated_images/pl/wio-time-of-flight-sensor.c4c182131d2ea73d.webp)
 
 1. Teraz możesz podłączyć Wio Terminal do komputera.
 
@@ -101,7 +101,7 @@ Wio Terminal można teraz zaprogramować do korzystania z podłączonego czujnik
 
     Dalekomierz znajduje się na tylnej stronie czujnika, więc upewnij się, że używasz właściwej strony podczas pomiaru odległości.
 
-    ![Dalekomierz na tylnej stronie czujnika Time of Flight skierowany na banana](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.pl.png)
+    ![Dalekomierz na tylnej stronie czujnika Time of Flight skierowany na banana](../../../../../translated_images/pl/time-of-flight-banana.079921ad8b1496e4.webp)
 
 > 💁 Kod ten znajdziesz w folderze [code-proximity/wio-terminal](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/wio-terminal).
 

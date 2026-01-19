@@ -154,11 +154,11 @@ Luo Python-sovellus, joka tulostaa `"Hello World"` konsoliin.
 
 1. Kun VS Code käynnistyy, se aktivoi Python-virtuaaliympäristön. Valittu virtuaaliympäristö näkyy alareunan tilapalkissa:
 
-    ![VS Code näyttää valitun virtuaaliympäristön](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.fi.png)
+    ![VS Code näyttää valitun virtuaaliympäristön](../../../../../translated_images/fi/vscode-virtual-env.8ba42e04c3d533cf.webp)
 
 1. Jos VS Coden terminaali on jo käynnissä, kun VS Code käynnistyy, virtuaaliympäristö ei ole aktivoitu siinä. Helpoin tapa on sulkea terminaali käyttämällä **Sulje aktiivinen terminaali** -painiketta:
 
-    ![VS Code Sulje aktiivinen terminaali -painike](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.fi.png)
+    ![VS Code Sulje aktiivinen terminaali -painike](../../../../../translated_images/fi/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
 
     Voit tarkistaa, onko terminaalissa aktivoitu virtuaaliympäristö, sillä virtuaaliympäristön nimi näkyy terminaalin kehotteen etuliitteenä. Esimerkiksi se voi olla:
 
@@ -212,7 +212,7 @@ Toisena 'Hello World' -vaiheena käynnistät CounterFit-sovelluksen ja yhdistät
 
     Sovellus käynnistyy ja avautuu verkkoselaimessasi:
 
-    ![CounterFit-sovellus käynnissä selaimessa](../../../../../translated_images/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.fi.png)
+    ![CounterFit-sovellus käynnissä selaimessa](../../../../../translated_images/fi/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
 
     Sovellus on merkitty *Disconnected*-tilaan, ja oikean yläkulman LED on sammutettu.
 
@@ -229,11 +229,11 @@ Toisena 'Hello World' -vaiheena käynnistät CounterFit-sovelluksen ja yhdistät
 
 1. Sinun täytyy käynnistää uusi VS Code -terminaali valitsemalla **Luo uusi integroitu terminaali** -painike. Tämä johtuu siitä, että CounterFit-sovellus on käynnissä nykyisessä terminaalissa.
 
-    ![VS Code Luo uusi integroitu terminaali -painike](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.fi.png)
+    ![VS Code Luo uusi integroitu terminaali -painike](../../../../../translated_images/fi/vscode-new-terminal.77db8fc0f9cd3182.webp)
 
 1. Aja `app.py`-tiedosto uudessa terminaalissa kuten aiemmin. CounterFitin tila muuttuu **Connected**-tilaan ja LED syttyy.
 
-    ![CounterFit näyttää Connected-tilan](../../../../../translated_images/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.fi.png)
+    ![CounterFit näyttää Connected-tilan](../../../../../translated_images/fi/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
 
 > 💁 Löydät tämän koodin [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device) -kansiosta.
 

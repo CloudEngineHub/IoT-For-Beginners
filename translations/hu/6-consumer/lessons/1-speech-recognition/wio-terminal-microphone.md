@@ -15,11 +15,11 @@ Ebben a leckében hozzáadod a hangszórókat a Wio Terminalhoz. A Wio Terminal 
 
 A Wio Terminal már rendelkezik beépített mikrofonnal, amelyet hangfelvételhez és beszédfelismeréshez használhatsz.
 
-![A Wio Terminal mikrofonja](../../../../../translated_images/wio-mic.3f8c843dbe8ad917.hu.png)
+![A Wio Terminal mikrofonja](../../../../../translated_images/hu/wio-mic.3f8c843dbe8ad917.webp)
 
 Hangszóró hozzáadásához használhatod a [ReSpeaker 2-Mics Pi Hat](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html) eszközt. Ez egy külső panel, amely 2 MEMS mikrofont, hangszóró csatlakozót és fejhallgató aljzatot tartalmaz.
 
-![A ReSpeaker 2-Mics Pi Hat](../../../../../translated_images/respeaker.f5d19d1c6b14ab16.hu.png)
+![A ReSpeaker 2-Mics Pi Hat](../../../../../translated_images/hu/respeaker.f5d19d1c6b14ab16.webp)
 
 Szükséged lesz fejhallgatóra, 3.5mm jack csatlakozós hangszóróra, vagy JST csatlakozós hangszóróra, például a [Mono Enclosed Speaker - 2W 6 Ohm](https://www.seeedstudio.com/Mono-Enclosed-Speaker-2W-6-Ohm-p-2832.html) típusra.
 
@@ -35,7 +35,7 @@ Ezen kívül szükséged lesz egy SD kártyára, amelyet hangfelvétel letölté
 
     A csatlakozókat így kell összekötni:
 
-    ![Pin diagram](../../../../../translated_images/wio-respeaker-wiring-0.767f80aa65081038.hu.png)
+    ![Pin diagram](../../../../../translated_images/hu/wio-respeaker-wiring-0.767f80aa65081038.webp)
 
 1. Helyezd el a ReSpeakert és a Wio Terminalt úgy, hogy a GPIO csatlakozók felfelé nézzenek, és bal oldalon legyenek.
 
@@ -43,33 +43,33 @@ Ezen kívül szükséged lesz egy SD kártyára, amelyet hangfelvétel letölté
 
 1. Ismételd meg ezt az egész bal oldali GPIO csatlakozónál. Ügyelj arra, hogy a csatlakozók szorosan illeszkedjenek.
 
-    ![A ReSpeaker bal oldali csatlakozói összekötve a Wio Terminal bal oldali csatlakozóival](../../../../../translated_images/wio-respeaker-wiring-1.8d894727f2ba2400.hu.png)
+    ![A ReSpeaker bal oldali csatlakozói összekötve a Wio Terminal bal oldali csatlakozóival](../../../../../translated_images/hu/wio-respeaker-wiring-1.8d894727f2ba2400.webp)
 
-    ![A ReSpeaker bal oldali csatlakozói összekötve a Wio Terminal bal oldali csatlakozóival](../../../../../translated_images/wio-respeaker-wiring-2.329e1cbd306e754f.hu.png)
+    ![A ReSpeaker bal oldali csatlakozói összekötve a Wio Terminal bal oldali csatlakozóival](../../../../../translated_images/hu/wio-respeaker-wiring-2.329e1cbd306e754f.webp)
 
     > 💁 Ha a jumper kábelek szalagban vannak összekötve, tartsd őket együtt - így könnyebb biztosítani, hogy minden kábelt sorrendben csatlakoztattál.
 
 1. Ismételd meg a folyamatot a ReSpeaker és a Wio Terminal jobb oldali GPIO csatlakozóival. Ezeket a kábeleket az előzőleg csatlakoztatott kábelek körül kell vezetni.
 
-    ![A ReSpeaker jobb oldali csatlakozói összekötve a Wio Terminal jobb oldali csatlakozóival](../../../../../translated_images/wio-respeaker-wiring-3.75b0be447e2fa930.hu.png)
+    ![A ReSpeaker jobb oldali csatlakozói összekötve a Wio Terminal jobb oldali csatlakozóival](../../../../../translated_images/hu/wio-respeaker-wiring-3.75b0be447e2fa930.webp)
 
-    ![A ReSpeaker jobb oldali csatlakozói összekötve a Wio Terminal jobb oldali csatlakozóival](../../../../../translated_images/wio-respeaker-wiring-4.aa9cd434d8779437.hu.png)
+    ![A ReSpeaker jobb oldali csatlakozói összekötve a Wio Terminal jobb oldali csatlakozóival](../../../../../translated_images/hu/wio-respeaker-wiring-4.aa9cd434d8779437.webp)
 
     > 💁 Ha a jumper kábelek szalagban vannak összekötve, oszd őket két szalagra. Vezesd őket az előző kábelek két oldalán.
 
     > 💁 Használhatsz ragasztószalagot, hogy a csatlakozókat egy blokkban rögzítsd, így megakadályozhatod, hogy a csatlakozók kicsússzanak, miközben mindet csatlakoztatod.
     >
-    > ![A csatlakozók rögzítése szalaggal](../../../../../translated_images/wio-respeaker-wiring-5.af117c20acf622f3.hu.png)
+    > ![A csatlakozók rögzítése szalaggal](../../../../../translated_images/hu/wio-respeaker-wiring-5.af117c20acf622f3.webp)
 
 1. Csatlakoztatnod kell egy hangszórót.
 
     * Ha JST kábellel rendelkező hangszórót használsz, csatlakoztasd a JST porthoz a ReSpeakeren.
 
-      ![JST kábellel csatlakoztatott hangszóró a ReSpeakerhez](../../../../../translated_images/respeaker-jst-speaker.a441d177809df945.hu.png)
+      ![JST kábellel csatlakoztatott hangszóró a ReSpeakerhez](../../../../../translated_images/hu/respeaker-jst-speaker.a441d177809df945.webp)
 
     * Ha 3.5mm jack csatlakozós hangszórót vagy fejhallgatót használsz, dugd be a 3.5mm jack aljzatba.
 
-      ![3.5mm jack csatlakozón keresztül csatlakoztatott hangszóró a ReSpeakerhez](../../../../../translated_images/respeaker-35mm-speaker.ad79ef4f128c7751.hu.png)
+      ![3.5mm jack csatlakozón keresztül csatlakoztatott hangszóró a ReSpeakerhez](../../../../../translated_images/hu/respeaker-35mm-speaker.ad79ef4f128c7751.webp)
 
 ### Feladat - az SD kártya előkészítése
 
@@ -79,7 +79,7 @@ Ezen kívül szükséged lesz egy SD kártyára, amelyet hangfelvétel letölté
 
 1. Helyezd be az SD kártyát a Wio Terminal bal oldalán, a bekapcsoló gomb alatt található SD kártyahelyre. Győződj meg róla, hogy a kártya teljesen be van helyezve és kattan - ehhez szükséged lehet egy vékony eszközre vagy egy másik SD kártyára, hogy teljesen benyomd.
 
-    ![Az SD kártya behelyezése az SD kártyahelyre a bekapcsoló gomb alatt](../../../../../translated_images/wio-sd-card.acdcbe322fa4ee7f.hu.png)
+    ![Az SD kártya behelyezése az SD kártyahelyre a bekapcsoló gomb alatt](../../../../../translated_images/hu/wio-sd-card.acdcbe322fa4ee7f.webp)
 
     > 💁 Az SD kártya eltávolításához enyhén nyomd be, és ki fog ugrani. Ehhez vékony eszközre lesz szükséged, például egy lapos fejű csavarhúzóra vagy egy másik SD kártyára.
 

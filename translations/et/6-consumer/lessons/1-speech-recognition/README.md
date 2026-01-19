@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Tuvasta kõne IoT-seadmega
 
-![Selle õppetunni visuaalne ülevaade](../../../../../translated_images/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.et.jpg)
+![Selle õppetunni visuaalne ülevaade](../../../../../translated_images/et/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.jpg)
 
 > Visuaal autorilt [Nitya Narasimhan](https://github.com/nitya). Klõpsa pildil, et näha suuremat versiooni.
 
@@ -60,19 +60,19 @@ Mikrofonid on saadaval mitmesugustes tüüpides:
 
     Dünaamilised mikrofonid ei vaja töötamiseks voolu, elektrisignaal tekib täielikult mikrofonist.
 
-    ![Patti Smith laulmas Shure SM58 (dünaamiline kardioid-tüüp) mikrofoni](../../../../../translated_images/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.et.jpg)
+    ![Patti Smith laulmas Shure SM58 (dünaamiline kardioid-tüüp) mikrofoni](../../../../../translated_images/et/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.jpg)
 
 * Lintmikrofonid - Lintmikrofonid on sarnased dünaamiliste mikrofonidega, kuid neil on membraani asemel metalllint. See lint liigub magnetväljas, tekitades elektrivoolu. Nagu dünaamilised mikrofonid, ei vaja lintmikrofonid töötamiseks voolu.
 
-    ![Edmund Lowe, Ameerika näitleja, seisab raadiomikrofoni (märgistatud (NBC) Blue Network) juures, hoides käsikirja, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441ca.et.jpg)
+    ![Edmund Lowe, Ameerika näitleja, seisab raadiomikrofoni (märgistatud (NBC) Blue Network) juures, hoides käsikirja, 1942](../../../../../translated_images/et/ribbon-mic.eacc8e092c7441ca.webp)
 
 * Kondensaator - Kondensaator mikrofonidel on õhuke metallmembraan ja fikseeritud metallist tagaplaat. Elektrit rakendatakse mõlemale ja kui membraan vibreerib, muutub plaatide vaheline staatiline laeng, tekitades signaali. Kondensaator mikrofonid vajavad töötamiseks voolu – seda nimetatakse *fantoomtoiteks*.
 
-    ![C451B väikese membraaniga kondensaator mikrofon AKG Acousticsilt](../../../../../translated_images/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.et.jpg)
+    ![C451B väikese membraaniga kondensaator mikrofon AKG Acousticsilt](../../../../../translated_images/et/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.jpg)
 
 * MEMS - Mikroelektromehaanilised süsteemid mikrofonid ehk MEMS mikrofonid on mikrofonid kiibil. Neil on rõhutundlik membraan, mis on söövitatud räni kiibile, ja need töötavad sarnaselt kondensaator mikrofoniga. Need mikrofonid võivad olla väga väikesed ja integreeritud vooluringidesse.
 
-    ![MEMS mikrofon vooluringi plaadil](../../../../../translated_images/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.et.png)
+    ![MEMS mikrofon vooluringi plaadil](../../../../../translated_images/et/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.png)
 
     Ülaloleval pildil on kiip, millel on märgistus **LEFT**, MEMS mikrofon, mille membraan on vähem kui millimeeter lai.
 
@@ -84,7 +84,7 @@ Heli on analoogsignaal, mis kannab väga peeneteralist teavet. Selle signaali di
 
 > 🎓 Proovimine tähendab heli signaali muutmist digitaalseks väärtuseks, mis esindab signaali antud ajahetkel.
 
-![Joonis, mis näitab signaali koos fikseeritud intervallidega diskreetsete punktidega](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7.et.png)
+![Joonis, mis näitab signaali koos fikseeritud intervallidega diskreetsete punktidega](../../../../../translated_images/et/sampling.6f4fadb3f2d9dfe7.webp)
 
 Digitaalset heli proovitakse impulsskoodmodulatsiooni ehk PCM-i abil. PCM hõlmab signaali pinge lugemist ja selle pinge lähima diskreetse väärtuse valimist määratletud suuruse järgi.
 
@@ -169,7 +169,7 @@ Et vältida äratussõna mudeli treenimise ja kasutamise keerukust, kasutab nuti
 
 ## Kõne tekstiks konverteerimine
 
-![Kõneteenuste logo](../../../../../translated_images/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.et.png)
+![Kõneteenuste logo](../../../../../translated_images/et/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
 
 Sarnaselt varasemas projektis tehtud pildiklassifikatsioonile on olemas eelnevalt loodud AI-teenused, mis suudavad võtta kõne helifailina ja konverteerida selle tekstiks. Üks selline teenus on Kõneteenus, mis on osa Cognitive Services'ist – eelnevalt loodud AI-teenustest, mida saad oma rakendustes kasutada.
 

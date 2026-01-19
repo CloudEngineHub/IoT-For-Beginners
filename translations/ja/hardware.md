@@ -21,7 +21,7 @@ IoTの「T」は「Things（モノ）」を指し、私たちの周囲の世界�
 
 ## キットを購入する
 
-![Seeed Studiosのロゴ](../../translated_images/seeed-logo.74732b6b482b6e8e.ja.png)
+![Seeed Studiosのロゴ](../../translated_images/ja/seeed-logo.74732b6b482b6e8e.webp)
 
 Seeed Studiosは、すべてのハードウェアを簡単に購入できるキットとして提供してくれています。
 
@@ -29,13 +29,13 @@ Seeed Studiosは、すべてのハードウェアを簡単に購入できるキ�
 
 **[SeeedとMicrosoftによる初心者向けIoT - Wio Terminalスターターキット](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)**
 
-[![Wio Terminalハードウェアキット](../../translated_images/wio-hardware-kit.4c70c48b85e4283a.ja.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
+[![Wio Terminalハードウェアキット](../../translated_images/ja/wio-hardware-kit.4c70c48b85e4283a.webp)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
 
 ### Raspberry Pi
 
 **[SeeedとMicrosoftによる初心者向けIoT - Raspberry Pi 4スターターキット](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)**
 
-[![Raspberry Pi Terminalハードウェアキット](../../translated_images/pi-hardware-kit.26dbadaedb7dd44c73b0131d5d68ea29472ed0a9744f90d5866c6d82f2d16380.ja.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)
+[![Raspberry Pi Terminalハードウェアキット](../../translated_images/ja/pi-hardware-kit.26dbadaedb7dd44c73b0131d5d68ea29472ed0a9744f90d5866c6d82f2d16380.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)
 
 ## Arduino
 

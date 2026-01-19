@@ -35,7 +35,7 @@ Grove LED pateikiamas kaip modulis su kelių spalvų LED pasirinkimu, leidžian�
 
 Prijunkite LED.
 
-![Grove LED](../../../../../translated_images/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.lt.png)
+![Grove LED](../../../../../translated_images/lt/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
 
 1. Pasirinkite mėgstamą LED ir įstatykite jo kojeles į dvi skyles LED modulyje.
 
@@ -51,7 +51,7 @@ Prijunkite LED.
 
     > 💁 Dešinysis Grove lizdas gali būti naudojamas su analoginiais arba skaitmeniniais jutikliais ir vykdykliais. Kairysis lizdas skirtas tik skaitmeniniams jutikliams ir vykdykliams. C bus aptarta vėlesnėje pamokoje.
 
-![Grove LED prijungtas prie dešiniojo lizdo](../../../../../translated_images/wio-led.265a1897e72d7f21.lt.png)
+![Grove LED prijungtas prie dešiniojo lizdo](../../../../../translated_images/lt/wio-led.265a1897e72d7f21.webp)
 
 ## Užprogramuokite naktinę lemputę
 

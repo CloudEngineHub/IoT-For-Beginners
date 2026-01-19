@@ -22,7 +22,7 @@ I²C hat einen Bus, der aus 2 Hauptleitungen sowie 2 Stromleitungen besteht:
 | VCC | Versorgungsspannung | Die Stromversorgung für die Geräte. Diese ist mit den SDA- und SCL-Leitungen verbunden, um deren Stromversorgung über einen Pull-up-Widerstand bereitzustellen, der das Signal ausschaltet, wenn kein Gerät der Controller ist. |
 | GND | Masse | Dies stellt eine gemeinsame Masse für den Stromkreis bereit. |
 
-![I2C-Bus mit 3 Geräten, die an die SDA- und SCL-Leitungen angeschlossen sind und eine gemeinsame Masseleitung teilen](../../../../../translated_images/i2c.83da845dde02256bdd462dbe0d5145461416b74930571b89d1ae142841eeb584.de.png)
+![I2C-Bus mit 3 Geräten, die an die SDA- und SCL-Leitungen angeschlossen sind und eine gemeinsame Masseleitung teilen](../../../../../translated_images/de/i2c.83da845dde02256bdd462dbe0d5145461416b74930571b89d1ae142841eeb584.png)
 
 Um Daten zu senden, gibt ein Gerät eine Startbedingung aus, um anzuzeigen, dass es bereit ist, Daten zu senden. Es wird dann zum Controller. Der Controller sendet anschließend die Adresse des Geräts, mit dem er kommunizieren möchte, sowie die Information, ob er Daten lesen oder schreiben möchte. Nachdem die Daten übertragen wurden, sendet der Controller eine Stoppbedingung, um anzuzeigen, dass er fertig ist. Danach kann ein anderes Gerät zum Controller werden und Daten senden oder empfangen.
 
@@ -37,7 +37,7 @@ UART umfasst physische Schaltungen, die es zwei Geräten ermöglichen, miteinand
 * Gerät 1 sendet Daten von seinem Tx-Pin, die von Gerät 2 an dessen Rx-Pin empfangen werden.
 * Gerät 1 empfängt Daten an seinem Rx-Pin, die von Gerät 2 über dessen Tx-Pin gesendet werden.
 
-![UART mit dem Tx-Pin eines Chips, der mit dem Rx-Pin eines anderen verbunden ist, und umgekehrt](../../../../../translated_images/uart.d0dbd3fb9e3728c6.de.png)
+![UART mit dem Tx-Pin eines Chips, der mit dem Rx-Pin eines anderen verbunden ist, und umgekehrt](../../../../../translated_images/de/uart.d0dbd3fb9e3728c6.webp)
 
 > 🎓 Die Daten werden bitweise gesendet, und dies wird als *serielle* Kommunikation bezeichnet. Die meisten Betriebssysteme und Mikrocontroller verfügen über *serielle Ports*, also Verbindungen, die serielle Daten senden und empfangen können und Ihrem Code zur Verfügung stehen.
 
@@ -66,7 +66,7 @@ SPI-Controller verwenden drei Drähte sowie einen zusätzlichen Draht pro Periph
 | SCLK | Serial Clock | Dieser Draht sendet ein Taktsignal mit einer vom Controller festgelegten Rate. |
 | CS   | Chip Select | Der Controller hat mehrere Drähte, einen pro Peripheriegerät, und jeder Draht ist mit dem CS-Draht des entsprechenden Peripheriegeräts verbunden. |
 
-![SPI mit einem Controller und zwei Peripheriegeräten](../../../../../translated_images/spi.297431d6f98b386b.de.png)
+![SPI mit einem Controller und zwei Peripheriegeräten](../../../../../translated_images/de/spi.297431d6f98b386b.webp)
 
 Der CS-Draht wird verwendet, um jeweils ein Peripheriegerät zu aktivieren, das über die COPI- und CIPO-Drähte kommuniziert. Wenn der Controller das Peripheriegerät wechseln muss, deaktiviert er den CS-Draht, der mit dem derzeit aktiven Peripheriegerät verbunden ist, und aktiviert dann den Draht, der mit dem Peripheriegerät verbunden ist, mit dem er als Nächstes kommunizieren möchte.
 
@@ -127,13 +127,13 @@ Die Bodenfeuchtigkeit wird entweder durch gravimetrischen oder volumetrischen Wa
 
 Bodenfeuchtigkeitssensoren messen elektrischen Widerstand oder Kapazität – dies variiert nicht nur mit der Bodenfeuchtigkeit, sondern auch mit der Bodenart, da die Bestandteile des Bodens seine elektrischen Eigenschaften verändern können. Idealerweise sollten Sensoren kalibriert werden – das heißt, Messwerte des Sensors werden mit Messungen verglichen, die mit einer wissenschaftlicheren Methode ermittelt wurden. Beispielsweise kann ein Labor den gravimetrischen Wassergehalt des Bodens mit Proben eines bestimmten Feldes berechnen, die einige Male im Jahr entnommen werden, und diese Zahlen zur Kalibrierung des Sensors verwenden, indem die Sensorwerte mit dem gravimetrischen Wassergehalt abgeglichen werden.
 
-![Ein Diagramm von Spannung vs. Bodenfeuchtigkeitsgehalt](../../../../../translated_images/soil-moisture-to-voltage.df86d80cda158700.de.png)
+![Ein Diagramm von Spannung vs. Bodenfeuchtigkeitsgehalt](../../../../../translated_images/de/soil-moisture-to-voltage.df86d80cda158700.webp)
 
 Das obige Diagramm zeigt, wie ein Sensor kalibriert wird. Die Spannung wird für eine Bodenprobe erfasst, die dann im Labor gemessen wird, indem das feuchte Gewicht mit dem trockenen Gewicht verglichen wird (indem das Gewicht im feuchten Zustand gemessen, dann im Ofen getrocknet und im trockenen Zustand gemessen wird). Sobald einige Messwerte erfasst wurden, können diese in einem Diagramm dargestellt und eine Linie an die Punkte angepasst werden. Diese Linie kann dann verwendet werden, um Bodenfeuchtigkeitssensorwerte, die von einem IoT-Gerät erfasst wurden, in tatsächliche Bodenfeuchtigkeitsmessungen umzuwandeln.
 
 💁 Bei resistiven Bodenfeuchtigkeitssensoren steigt die Spannung mit zunehmender Bodenfeuchtigkeit. Bei kapazitiven Bodenfeuchtigkeitssensoren sinkt die Spannung mit zunehmender Bodenfeuchtigkeit, sodass die Diagramme für diese Sensoren abwärts statt aufwärts geneigt wären.
 
-![Ein Bodenfeuchtigkeitswert, der aus dem Diagramm interpoliert wurde](../../../../../translated_images/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.de.png)
+![Ein Bodenfeuchtigkeitswert, der aus dem Diagramm interpoliert wurde](../../../../../translated_images/de/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.webp)
 
 Das obige Diagramm zeigt einen Spannungswert von einem Bodenfeuchtigkeitssensor, und indem man diesem Wert zur Linie im Diagramm folgt, kann die tatsächliche Bodenfeuchtigkeit berechnet werden.
 

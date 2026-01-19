@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Preziceți creșterea plantelor cu IoT
 
-![O prezentare grafică a lecției](../../../../../translated_images/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.ro.jpg)
+![O prezentare grafică a lecției](../../../../../translated_images/ro/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.jpg)
 
 > Prezentare grafică de [Nitya Narasimhan](https://github.com/nitya). Faceți clic pe imagine pentru o versiune mai mare.
 
@@ -65,7 +65,7 @@ Fiecare specie de plantă are valori diferite pentru temperatura de bază, optim
 
 ✅ Fă niște cercetări. Pentru orice plante pe care le ai în grădină, școală sau parc local, vezi dacă poți găsi temperatura de bază.
 
-![Un grafic care arată rata de creștere crescând pe măsură ce temperatura crește, apoi scăzând pe măsură ce temperatura devine prea mare](../../../../../translated_images/plant-growth-temp-graph.c6d69c9478e6ca83.ro.png)
+![Un grafic care arată rata de creștere crescând pe măsură ce temperatura crește, apoi scăzând pe măsură ce temperatura devine prea mare](../../../../../translated_images/ro/plant-growth-temp-graph.c6d69c9478e6ca83.webp)
 
 Graficul de mai sus arată un exemplu de grafic al ratei de creștere în funcție de temperatură. Până la temperatura de bază, nu există creștere. Rata de creștere crește până la temperatura optimă, apoi scade după atingerea acestui vârf. La temperatura maximă, creșterea se oprește.
 
@@ -99,7 +99,7 @@ Zilele gradelor de creștere, sau GDD, sunt calculate pe zi ca temperatura medie
 
 Formula completă pentru GDD este puțin complicată, dar există o ecuație simplificată care este adesea utilizată ca o bună aproximare:
 
-![GDD = T max + T min împărțit la 2, totul minus T bază](../../../../../translated_images/gdd-calculation.79b3660f9c5757aa92dc2dd2cdde75344e2d2c1565c4b3151640f7887edc0275.ro.png)
+![GDD = T max + T min împărțit la 2, totul minus T bază](../../../../../translated_images/ro/gdd-calculation.79b3660f9c5757aa92dc2dd2cdde75344e2d2c1565c4b3151640f7887edc0275.png)
 
 * **GDD** - acesta este numărul de zile ale gradelor de creștere
 * **T max** - aceasta este temperatura maximă zilnică în grade Celsius
@@ -127,7 +127,7 @@ Introducând aceste numere în calculul nostru:
 
 Aceasta dă un calcul de:
 
-![GDD = 16 + 12 împărțit la 2, totul minus 10, rezultând un răspuns de 4](../../../../../translated_images/gdd-calculation-corn.64a58b7a7afcd0dfd46ff733996d939f17f4f3feac9f0d1c632be3523e51ebd9.ro.png)
+![GDD = 16 + 12 împărțit la 2, totul minus 10, rezultând un răspuns de 4](../../../../../translated_images/ro/gdd-calculation-corn.64a58b7a7afcd0dfd46ff733996d939f17f4f3feac9f0d1c632be3523e51ebd9.png)
 
 Porumbul a primit 4 GDD în acea zi. Presupunând o varietate de porumb care necesită 800 GDD pentru a se maturiza, va avea nevoie de încă 796 GDD pentru a ajunge la maturitate.
 
@@ -141,7 +141,7 @@ Acest lucru are un impact mare asupra muncii pe o fermă mare și riscă ca ferm
 
 Prin colectarea datelor despre temperatură folosind un dispozitiv IoT, un fermier poate fi notificat automat când plantele sunt aproape de maturitate. O arhitectură tipică pentru acest lucru este ca dispozitivele IoT să măsoare temperatura, apoi să publice aceste date de telemetrie pe Internet folosind ceva precum MQTT. Codul serverului ascultă aceste date și le salvează undeva, cum ar fi într-o bază de date. Acest lucru înseamnă că datele pot fi apoi analizate mai târziu, cum ar fi o sarcină nocturnă pentru a calcula GDD pentru ziua respectivă, a totaliza GDD pentru fiecare cultură până acum și a alerta dacă o plantă este aproape de maturitate.
 
-![Datele de telemetrie sunt trimise către un server și apoi salvate într-o bază de date](../../../../../translated_images/save-telemetry-database.ddc9c6bea0c5ba39.ro.png)
+![Datele de telemetrie sunt trimise către un server și apoi salvate într-o bază de date](../../../../../translated_images/ro/save-telemetry-database.ddc9c6bea0c5ba39.webp)
 
 Codul serverului poate, de asemenea, să completeze datele adăugând informații suplimentare. De exemplu, dispozitivul IoT poate publica un identificator pentru a indica ce dispozitiv este, iar codul serverului poate utiliza acest lucru pentru a găsi locația dispozitivului și ce culturi monitorizează. De asemenea, poate adăuga date de bază, cum ar fi ora curentă, deoarece unele dispozitive IoT nu au hardware-ul necesar pentru a ține evidența unei ore exacte sau necesită cod suplimentar pentru a citi ora curentă de pe Internet.
 
@@ -228,7 +228,7 @@ Acest cod deschide fișierul CSV, apoi adaugă un rând nou la final. Rândul co
 
     
 > 💁 Dacă folosești un dispozitiv IoT virtual, selectează caseta de bifare pentru valori aleatorii și setează un interval pentru a evita obținerea aceleiași temperaturi de fiecare dată când este returnată valoarea temperaturii.
-    ![Selectează caseta de bifare pentru valori aleatorii și setează un interval](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.ro.png) 
+    ![Selectează caseta de bifare pentru valori aleatorii și setează un interval](../../../../../translated_images/ro/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.webp) 
 
     > 💁 Dacă vrei să rulezi acest cod o zi întreagă, trebuie să te asiguri că computerul pe care rulează codul serverului nu va intra în modul de repaus, fie prin schimbarea setărilor de alimentare, fie rulând ceva precum [acest script Python pentru menținerea activității sistemului](https://github.com/jaqsparow/keep-system-active).
     
@@ -248,7 +248,7 @@ Pașii pentru a face acest lucru manual sunt:
 
 De exemplu, dacă temperatura maximă a zilei este 25°C, iar cea minimă este 12°C:
 
-![GDD = 25 + 12 împărțit la 2, apoi scade 10 din rezultat, obținând 8.5](../../../../../translated_images/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.ro.png)
+![GDD = 25 + 12 împărțit la 2, apoi scade 10 din rezultat, obținând 8.5](../../../../../translated_images/ro/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
 
 * 25 + 12 = 37
 * 37 / 2 = 18.5

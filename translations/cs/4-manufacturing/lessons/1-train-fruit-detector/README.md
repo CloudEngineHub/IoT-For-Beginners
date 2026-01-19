@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Trénink detektoru kvality ovoce
 
-![Přehled této lekce ve formě sketchnote](../../../../../translated_images/lesson-15.843d21afdc6fb2bba70cd9db7b7d2f91598859fafda2078b0bdc44954194b6c0.cs.jpg)
+![Přehled této lekce ve formě sketchnote](../../../../../translated_images/cs/lesson-15.843d21afdc6fb2bba70cd9db7b7d2f91598859fafda2078b0bdc44954194b6c0.jpg)
 
 > Sketchnote od [Nitya Narasimhan](https://github.com/nitya). Klikněte na obrázek pro větší verzi.
 
@@ -47,7 +47,7 @@ Ne všechny plodiny dozrávají rovnoměrně. Například rajčata mohou mít na
 
 Rozmach automatizované sklizně přesunul třídění plodin ze sklizně do továren. Potraviny se pohybovaly na dlouhých dopravníkových pásech, kde týmy lidí vybíraly plodiny, které neodpovídaly požadovaným kvalitativním standardům. Sklizeň byla díky strojům levnější, ale stále zde byly náklady na ruční třídění potravin.
 
-![Pokud je detekováno červené rajče, pokračuje na pásu. Pokud je detekováno zelené rajče, páka ho odhodí do odpadního koše.](../../../../../translated_images/optical-tomato-sorting.61aa134bdda4e5b1bfb16a212c1e35a6ef0c426cbb8b1c975f79d7bfbf48d068.cs.png)
+![Pokud je detekováno červené rajče, pokračuje na pásu. Pokud je detekováno zelené rajče, páka ho odhodí do odpadního koše.](../../../../../translated_images/cs/optical-tomato-sorting.61aa134bdda4e5b1bfb16a212c1e35a6ef0c426cbb8b1c975f79d7bfbf48d068.png)
 
 Další evolucí bylo použití strojů k třídění, buď zabudovaných do sklízecích strojů, nebo v zpracovatelských závodech. První generace těchto strojů používala optické senzory k detekci barev, ovládající akční členy, které zelená rajčata odhazovaly do odpadního koše pomocí pák nebo proudů vzduchu, zatímco červená rajčata pokračovala na síti dopravníkových pásů.
 
@@ -61,7 +61,7 @@ Nejnovější evoluce těchto třídicích strojů využívají AI a ML, použí
 
 Tradiční programování spočívá v tom, že vezmete data, aplikujete na ně algoritmus a získáte výstup. Například v posledním projektu jste vzali GPS souřadnice a geofenci, aplikovali algoritmus poskytovaný Azure Maps a získali výsledek, zda bod je uvnitř nebo vně geofence. Zadáte více dat, získáte více výstupů.
 
-![Tradiční vývoj bere vstup a algoritmus a dává výstup. Strojové učení používá vstupní a výstupní data k trénování modelu, a tento model může brát nová vstupní data k vytvoření nových výstupů.](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539.cs.png)
+![Tradiční vývoj bere vstup a algoritmus a dává výstup. Strojové učení používá vstupní a výstupní data k trénování modelu, a tento model může brát nová vstupní data k vytvoření nových výstupů.](../../../../../translated_images/cs/traditional-vs-ml.5c20c169621fa539.webp)
 
 Strojové učení to obrací – začínáte s daty a známými výstupy a algoritmus strojového učení se z dat učí. Poté můžete vzít tento trénovaný algoritmus, nazývaný *model strojového učení* nebo *model*, a zadat nová data a získat nové výstupy.
 
@@ -71,7 +71,7 @@ Například můžete modelu poskytnout miliony obrázků nezralých banánů jak
 
 > 🎓 Výsledky modelů ML se nazývají *predikce*.
 
-![2 banány, jeden zralý s predikcí 99,7 % zralý, 0,3 % nezralý, a jeden nezralý s predikcí 1,4 % zralý, 98,6 % nezralý.](../../../../../translated_images/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50ece4e4589e724b142da0681f35470fe3db3f7d51240f69c85.cs.png)
+![2 banány, jeden zralý s predikcí 99,7 % zralý, 0,3 % nezralý, a jeden nezralý s predikcí 1,4 % zralý, 98,6 % nezralý.](../../../../../translated_images/cs/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50ece4e4589e724b142da0681f35470fe3db3f7d51240f69c85.png)
 
 Modely ML neposkytují binární odpověď, místo toho poskytují pravděpodobnosti. Například model může dostat obrázek banánu a předpovědět `zralý` s 99,7 % a `nezralý` s 0,3 %. Váš kód poté vybere nejlepší predikci a rozhodne, že banán je zralý.
 
@@ -87,7 +87,7 @@ Pro úspěšný trénink klasifikátoru obrázků potřebujete miliony obrázků
 
 Jakmile je klasifikátor obrázků trénován na širokou škálu obrázků, jeho vnitřní mechanismy jsou skvělé v rozpoznávání tvarů, barev a vzorů. Transfer learning umožňuje modelu využít to, co se již naučil při rozpoznávání částí obrázků, a použít to k rozpoznávání nových obrázků.
 
-![Jakmile rozpoznáte tvary, mohou být uspořádány do různých konfigurací, aby vytvořily loď nebo kočku.](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66f.cs.png)
+![Jakmile rozpoznáte tvary, mohou být uspořádány do různých konfigurací, aby vytvořily loď nebo kočku.](../../../../../translated_images/cs/shapes-to-images.1a309f0ea88dd66f.webp)
 
 Můžete si to představit jako dětské knížky s tvary, kde jakmile rozpoznáte půlkruh, obdélník a trojúhelník, můžete rozpoznat plachetnici nebo kočku v závislosti na konfiguraci těchto tvarů. Klasifikátor obrázků dokáže rozpoznat tvary a transfer learning ho naučí, jaká kombinace tvoří loď nebo kočku – nebo zralý banán.
 
@@ -99,7 +99,7 @@ Existuje široká škála nástrojů, které vám s tím mohou pomoci, včetně 
 
 Custom Vision je cloudový nástroj pro trénink klasifikátorů obrázků. Umožňuje vám trénovat klasifikátor pomocí pouze malého počtu obrázků. Obrázky můžete nahrávat prostřednictvím webového portálu, webového API nebo SDK, přičemž každému obrázku přiřadíte *tag*, který představuje klasifikaci daného obrázku. Poté model vytrénujete a otestujete, jak dobře funguje. Jakmile jste s modelem spokojeni, můžete publikovat jeho verze, které lze přistupovat prostřednictvím webového API nebo SDK.
 
-![Logo Azure Custom Vision](../../../../../translated_images/custom-vision-logo.d3d4e7c8a87ec9daf825e72e210576c3cbf60312577be7a139e22dd97ab7f1e6.cs.png)
+![Logo Azure Custom Vision](../../../../../translated_images/cs/custom-vision-logo.d3d4e7c8a87ec9daf825e72e210576c3cbf60312577be7a139e22dd97ab7f1e6.png)
 
 > 💁 Model Custom Vision můžete trénovat s pouhými 5 obrázky na klasifikaci, ale více je lepší. Lepších výsledků dosáhnete s alespoň 30 obrázky.
 
@@ -155,7 +155,7 @@ Pro použití Custom Vision musíte nejprve vytvořit dva zdroje kognitivních s
 
     Při vytváření projektu se ujistěte, že používáte zdroj `fruit-quality-detector-training`, který jste vytvořili dříve. Použijte typ projektu *Classification*, typ klasifikace *Multiclass* a doménu *Food*.
 
-    ![Nastavení projektu Custom Vision s názvem fruit-quality-detector, bez popisu, zdrojem nastaveným na fruit-quality-detector-training, typem projektu nastaveným na classification, typem klasifikace na multi class a doménou na food.](../../../../../translated_images/custom-vision-create-project.cf46325b92d8b131089f6647cf5e07b664cb77850e106d66e3c057b6b69756c6.cs.png)
+    ![Nastavení projektu Custom Vision s názvem fruit-quality-detector, bez popisu, zdrojem nastaveným na fruit-quality-detector-training, typem projektu nastaveným na classification, typem klasifikace na multi class a doménou na food.](../../../../../translated_images/cs/custom-vision-create-project.cf46325b92d8b131089f6647cf5e07b664cb77850e106d66e3c057b6b69756c6.png)
 
 ✅ Věnujte nějaký čas prozkoumání uživatelského rozhraní Custom Vision pro váš klasifikátor obrázků.
 
@@ -173,7 +173,7 @@ Klasifikátory obrázků pracují s velmi nízkým rozlišením. Například Cus
 
     * Použijte 2 zralé banány, vyfoťte každý z nich z několika různých úhlů, pořiďte alespoň 7 obrázků (5 pro trénink, 2 pro testování), ale ideálně více.
 
-        ![Fotografie 2 různých banánů](../../../../../translated_images/banana-training-images.530eb203346d73bc23b8b990fb4609470bf4ff7c942ccc13d4cfffeed9be1ad4.cs.png)
+        ![Fotografie 2 různých banánů](../../../../../translated_images/cs/banana-training-images.530eb203346d73bc23b8b990fb4609470bf4ff7c942ccc13d4cfffeed9be1ad4.png)
 
     * Opakujte stejný proces s 2 nezralými banány.
 
@@ -183,7 +183,7 @@ Klasifikátory obrázků pracují s velmi nízkým rozlišením. Například Cus
 
 1. Postupujte podle [sekce nahrání a označení obrázků v rychlém startu pro vytvoření klasifikátoru na Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#upload-and-tag-images) a nahrajte své trénovací obrázky. Označte zralé ovoce jako `ripe` a nezralé ovoce jako `unripe`.
 
-    ![Dialogy nahrávání ukazující nahrávání obrázků zralých a nezralých banánů](../../../../../translated_images/image-upload-bananas.0751639f3815e0ec42bdbc6254d1e4357a185834d1ae10c9948a0e7d6d336695.cs.png)
+    ![Dialogy nahrávání ukazující nahrávání obrázků zralých a nezralých banánů](../../../../../translated_images/cs/image-upload-bananas.0751639f3815e0ec42bdbc6254d1e4357a185834d1ae10c9948a0e7d6d336695.png)
 
 1. Postupujte podle [sekce trénování klasifikátoru v rychlém startu pro vytvoření klasifikátoru na Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#train-the-classifier) a natrénujte klasifikátor obrázků na svých nahraných obrázcích.
 
@@ -201,7 +201,7 @@ Jakmile je váš klasifikátor natrénován, můžete jej otestovat tím, že mu
 
 1. Postupujte podle [dokumentace testování modelu na Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/test-your-model?WT.mc_id=academic-17441-jabenn#test-your-model) a otestujte svůj klasifikátor obrázků. Použijte testovací obrázky, které jste vytvořili dříve, nikoli žádné z obrázků, které jste použili pro trénování.
 
-    ![Nezralý banán předpovězen jako nezralý s pravděpodobností 98,9 %, zralý s pravděpodobností 1,1 %](../../../../../translated_images/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64886422438850ea14f0be6ac918c217ea3b255c685abfabe7.cs.png)
+    ![Nezralý banán předpovězen jako nezralý s pravděpodobností 98,9 %, zralý s pravděpodobností 1,1 %](../../../../../translated_images/cs/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64886422438850ea14f0be6ac918c217ea3b255c685abfabe7.png)
 
 1. Vyzkoušejte všechny testovací obrázky, které máte k dispozici, a sledujte pravděpodobnosti.
 

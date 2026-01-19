@@ -154,11 +154,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. כאשר VS Code יופעל, הוא יפעיל את הסביבה הווירטואלית של Python. הסביבה הווירטואלית שנבחרה תופיע בשורת המצב התחתונה:
 
-    ![VS Code showing the selected virtual environment](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.he.png)
+    ![VS Code showing the selected virtual environment](../../../../../translated_images/he/vscode-virtual-env.8ba42e04c3d533cf.webp)
 
 1. אם הטרמינל של VS Code כבר פועל כאשר VS Code מופעל, הוא לא יפעיל את הסביבה הווירטואלית בתוכו. הדרך הקלה ביותר היא לסגור את הטרמינל באמצעות כפתור **Kill the active terminal instance**:
 
-    ![VS Code Kill the active terminal instance button](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.he.png)
+    ![VS Code Kill the active terminal instance button](../../../../../translated_images/he/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
 
     תוכל לדעת אם הטרמינל מפעיל את הסביבה הווירטואלית לפי שם הסביבה הווירטואלית שיופיע כקידומת בשורת הפקודה של הטרמינל. לדוגמה, זה עשוי להיות:
 
@@ -212,7 +212,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     האפליקציה תתחיל לפעול ותיפתח בדפדפן האינטרנט שלך:
 
-    ![The Counter Fit app running in a browser](../../../../../translated_images/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.he.png)
+    ![The Counter Fit app running in a browser](../../../../../translated_images/he/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
 
     היא תסומן כ-*Disconnected*, עם הנורית בפינה הימנית העליונה כבויה.
 
@@ -229,11 +229,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. תצטרך להפעיל טרמינל חדש ב-VS Code על ידי בחירה בכפתור **Create a new integrated terminal**. זאת מכיוון שאפליקציית CounterFit רצה בטרמינל הנוכחי.
 
-    ![VS Code Create a new integrated terminal button](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.he.png)
+    ![VS Code Create a new integrated terminal button](../../../../../translated_images/he/vscode-new-terminal.77db8fc0f9cd3182.webp)
 
 1. בטרמינל החדש, הרץ את הקובץ `app.py` כפי שעשית קודם. הסטטוס של CounterFit ישתנה ל-**Connected** והנורית תידלק.
 
-    ![Counter Fit showing as connected](../../../../../translated_images/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.he.png)
+    ![Counter Fit showing as connected](../../../../../translated_images/he/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
 
 > 💁 תוכל למצוא את הקוד הזה בתיקייה [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device).
 

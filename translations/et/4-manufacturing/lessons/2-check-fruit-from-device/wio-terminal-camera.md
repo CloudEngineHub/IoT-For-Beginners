@@ -25,11 +25,11 @@ ArduCamil ei ole Grove-pesa, selle asemel ühendatakse see nii SPI kui ka I<sup>
 
 Ühendage kaamera.
 
-![ArduCam sensor](../../../../../translated_images/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.et.png)
+![ArduCam sensor](../../../../../translated_images/et/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.png)
 
 1. ArduCami alumised pistikud tuleb ühendada Wio Terminali GPIO-pistikutesse. Õigete pistikute leidmise hõlbustamiseks kinnitage Wio Terminaliga kaasas olev GPIO-pistiku kleebis pistikute ümber:
 
-    ![Wio Terminal koos GPIO-pistiku kleebisega](../../../../../translated_images/wio-terminal-pin-sticker.b90b1535937b84bd.et.png)
+    ![Wio Terminal koos GPIO-pistiku kleebisega](../../../../../translated_images/et/wio-terminal-pin-sticker.b90b1535937b84bd.webp)
 
 1. Kasutades hüppajajuhtmeid, tehke järgmised ühendused:
 
@@ -44,7 +44,7 @@ ArduCamil ei ole Grove-pesa, selle asemel ühendatakse see nii SPI kui ka I<sup>
     | SDA         | 3 (I2C1_SDA)     | I<sup>2</sup>C Serial Data              |
     | SCL         | 5 (I2C1_SCL)     | I<sup>2</sup>C Serial Clock             |
 
-    ![Wio Terminal ühendatud ArduCamiga hüppajajuhtmete abil](../../../../../translated_images/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.et.png)
+    ![Wio Terminal ühendatud ArduCamiga hüppajajuhtmete abil](../../../../../translated_images/et/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.png)
 
     GND ja VCC ühendused tagavad ArduCamile 5V toiteallika. See töötab 5V juures, erinevalt Grove sensoritest, mis töötavad 3V juures. See toide tuleb otse USB-C ühendusest, mis seadet toidab.
 
@@ -297,7 +297,7 @@ Wio Terminali saab nüüd programmeerida jäädvustama pilti, kui nuppu vajutata
 
 1. Mikroprotsessorid käitavad teie koodi pidevalt, seega pole lihtne käivitada midagi, näiteks foto tegemist, ilma sensorile reageerimata. Wio Terminalil on nupud, seega saab kaamera seadistada ühe nupu vajutamisega käivituma. Lisage järgmine kood `setup` funktsiooni lõppu, et konfigureerida C nupp (üks kolmest nupust ülaosas, kõige lähemal toitelülitile).
 
-    ![C nupp ülaosas, kõige lähemal toitelülitile](../../../../../translated_images/wio-terminal-c-button.73df3cb1c1445ea0.et.png)
+    ![C nupp ülaosas, kõige lähemal toitelülitile](../../../../../translated_images/et/wio-terminal-c-button.73df3cb1c1445ea0.webp)
 
     ```cpp
     pinMode(WIO_KEY_C, INPUT_PULLUP);
@@ -465,7 +465,7 @@ Wio Terminal toetab ainult kuni 16GB suuruseid microSD kaarte. Kui teil on suure
 
 1. Lülitage microSD kaart välja ja eemaldage see, vajutades seda kergelt sisse ja vabastades, ning see hüppab välja. Võite vajada õhukest tööriista selleks. Ühendage microSD kaart oma arvutiga, et pilte vaadata.
 
-    ![Pilt banaanist, jäädvustatud ArduCamiga](../../../../../translated_images/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.et.jpg)
+    ![Pilt banaanist, jäädvustatud ArduCamiga](../../../../../translated_images/et/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.jpg)
 
     > 💁 Kaamera valge tasakaalu kohandamiseks võib kuluda paar pilti. Näete seda piltide värvi põhjal, esimesed paar pilti võivad olla värvilt ebatäpsed. Selle ümber saab töötada, muutes koodi nii, et `setup` funktsioonis jäädvustatakse paar pilti, mida ignoreeritakse.
 

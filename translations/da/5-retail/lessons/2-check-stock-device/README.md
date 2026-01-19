@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Tjek lager fra en IoT-enhed
 
-![En sketchnote-oversigt over denne lektion](../../../../../translated_images/lesson-20.0211df9551a8abb300fc8fcf7dc2789468dea2eabe9202273ac077b0ba37f15e.da.jpg)
+![En sketchnote-oversigt over denne lektion](../../../../../translated_images/da/lesson-20.0211df9551a8abb300fc8fcf7dc2789468dea2eabe9202273ac077b0ba37f15e.jpg)
 
 > Sketchnote af [Nitya Narasimhan](https://github.com/nitya). Klik på billedet for en større version.
 
@@ -39,7 +39,7 @@ Objektdetektorer kan bruges til lagerkontrol, enten til at tælle lager eller si
 
 For eksempel, hvis et kamera peger på en hylde, der kan rumme 8 dåser tomatpuré, og en objektdetektor kun registrerer 7 dåser, mangler der én, som skal genopfyldes.
 
-![7 dåser tomatpuré på en hylde, 4 på øverste række, 3 på nederste række](../../../../../translated_images/stock-7-cans-tomato-paste.f86059cc573d7bec.da.png)
+![7 dåser tomatpuré på en hylde, 4 på øverste række, 3 på nederste række](../../../../../translated_images/da/stock-7-cans-tomato-paste.f86059cc573d7bec.webp)
 
 I billedet ovenfor har en objektdetektor registreret 7 dåser tomatpuré på en hylde, der kan rumme 8 dåser. Ikke alene kan IoT-enheden sende en notifikation om behovet for genopfyldning, men den kan også give en indikation af, hvor den manglende vare befinder sig, hvilket er vigtig information, hvis du bruger robotter til at genopfylde hylder.
 
@@ -51,7 +51,7 @@ Nogle gange kan det forkerte lager være på hylderne. Dette kan skyldes mennesk
 
 Objektdetektion kan bruges til at opdage uventede varer og igen advare en person eller robot om at returnere varen, så snart den opdages.
 
-![En vildfaren dåse babymajs på tomatpuréhylden](../../../../../translated_images/stock-rogue-corn.be1f3ada8c457854.da.png)
+![En vildfaren dåse babymajs på tomatpuréhylden](../../../../../translated_images/da/stock-rogue-corn.be1f3ada8c457854.webp)
 
 I billedet ovenfor er en dåse babymajs blevet placeret på hylden ved siden af tomatpuréen. Objektdetektoren har registreret dette, hvilket gør det muligt for IoT-enheden at give besked til en person eller robot om at returnere dåsen til dens korrekte placering.
 
@@ -71,7 +71,7 @@ Iterationer udgives fra Custom Vision-portalen.
 
 1. Vælg knappen **Publish** for iterationen.
 
-    ![Udgiv-knappen](../../../../../translated_images/custom-vision-object-detector-publish-button.34ee379fc650ccb9856c3868d0003f413b9529f102fc73c37168c98d721cc293.da.png)
+    ![Udgiv-knappen](../../../../../translated_images/da/custom-vision-object-detector-publish-button.34ee379fc650ccb9856c3868d0003f413b9529f102fc73c37168c98d721cc293.png)
 
 1. I dialogboksen *Publish Model* skal du indstille *Prediction resource* til den `stock-detector-prediction`-ressource, du oprettede i den sidste lektion. Lad navnet være `Iteration2`, og vælg knappen **Publish**.
 
@@ -85,7 +85,7 @@ Iterationer udgives fra Custom Vision-portalen.
 
     Tag også en kopi af værdien *Prediction-Key*. Dette er en sikker nøgle, som du skal sende, når du kalder modellen. Kun applikationer, der sender denne nøgle, har tilladelse til at bruge modellen, alle andre applikationer afvises.
 
-    ![Dialogboksen for forudsigelses-API, der viser URL og nøgle](../../../../../translated_images/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.da.png)
+    ![Dialogboksen for forudsigelses-API, der viser URL og nøgle](../../../../../translated_images/da/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
 
 ✅ Når en ny iteration udgives, vil den have et andet navn. Hvordan tror du, at du ville ændre den iteration, som en IoT-enhed bruger?
 
@@ -104,7 +104,7 @@ Når du bruger objektdetektoren, får du ikke kun de registrerede objekter med d
 
 Resultaterne af en forudsigelse i fanen **Predictions** i Custom Vision har afgrænsningsboksene tegnet på det billede, der blev sendt til forudsigelse.
 
-![4 dåser tomatpuré på en hylde med forudsigelser for de 4 registreringer på 35,8 %, 33,5 %, 25,7 % og 16,6 %](../../../../../translated_images/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.da.png)
+![4 dåser tomatpuré på en hylde med forudsigelser for de 4 registreringer på 35,8 %, 33,5 %, 25,7 % og 16,6 %](../../../../../translated_images/da/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
 
 I billedet ovenfor blev 4 dåser tomatpuré registreret. I resultaterne er en rød firkant overlejret for hvert objekt, der blev registreret i billedet, hvilket angiver afgrænsningsboksen for billedet.
 
@@ -112,7 +112,7 @@ I billedet ovenfor blev 4 dåser tomatpuré registreret. I resultaterne er en r�
 
 Afgrænsningsbokse defineres med 4 værdier - top, venstre, højde og bredde. Disse værdier er på en skala fra 0-1, der repræsenterer positionerne som en procentdel af billedets størrelse. Oprindelsen (0,0-positionen) er øverste venstre hjørne af billedet, så topværdien er afstanden fra toppen, og bunden af afgrænsningsboksen er toppen plus højden.
 
-![En afgrænsningsboks omkring en dåse tomatpuré](../../../../../translated_images/bounding-box.1420a7ea0d3d15f71e1ffb5cf4b2271d184fac051f990abc541975168d163684.da.png)
+![En afgrænsningsboks omkring en dåse tomatpuré](../../../../../translated_images/da/bounding-box.1420a7ea0d3d15f71e1ffb5cf4b2271d184fac051f990abc541975168d163684.png)
 
 Billedet ovenfor er 600 pixels bredt og 800 pixels højt. Afgrænsningsboksen starter 320 pixels nede, hvilket giver en topkoordinat på 0,4 (800 x 0,4 = 320). Fra venstre starter afgrænsningsboksen 240 pixels inde, hvilket giver en venstre koordinat på 0,4 (600 x 0,4 = 240). Højden på afgrænsningsboksen er 240 pixels, hvilket giver en højdeværdi på 0,3 (800 x 0,3 = 240). Bredden på afgrænsningsboksen er 120 pixels, hvilket giver en breddeværdi på 0,2 (600 x 0,2 = 120).
 
@@ -127,7 +127,7 @@ Ved at bruge procentværdier fra 0-1 betyder det, at uanset hvilken størrelse b
 
 Du kan bruge afgrænsningsbokse kombineret med sandsynligheder til at evaluere, hvor præcis en registrering er. For eksempel kan en objektdetektor registrere flere objekter, der overlapper hinanden, for eksempel registrere én dåse inde i en anden. Din kode kunne se på afgrænsningsboksene, forstå, at dette er umuligt, og ignorere eventuelle objekter, der har en betydelig overlapning med andre objekter.
 
-![To afgrænsningsbokse, der overlapper en dåse tomatpuré](../../../../../translated_images/overlap-object-detection.d431e03cae75072a2760430eca7f2c5fdd43045bfd72dadcbf12711f7cd6c2ae.da.png)
+![To afgrænsningsbokse, der overlapper en dåse tomatpuré](../../../../../translated_images/da/overlap-object-detection.d431e03cae75072a2760430eca7f2c5fdd43045bfd72dadcbf12711f7cd6c2ae.png)
 
 I eksemplet ovenfor angav en afgrænsningsboks en forudsagt dåse tomatpuré med 78,3 %. En anden afgrænsningsboks er lidt mindre og er inde i den første afgrænsningsboks med en sandsynlighed på 64,3 %. Din kode kan tjekke afgrænsningsboksene, se, at de overlapper fuldstændigt, og ignorere den lavere sandsynlighed, da det ikke er muligt, at én dåse er inde i en anden.
 

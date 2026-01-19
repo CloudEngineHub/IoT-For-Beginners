@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Povežite svojo napravo z internetom
 
-![Sketchnote pregled te lekcije](../../../../../translated_images/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.sl.jpg)
+![Sketchnote pregled te lekcije](../../../../../translated_images/sl/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.jpg)
 
 > Sketchnote avtorja [Nitya Narasimhan](https://github.com/nitya). Kliknite na sliko za večjo različico.
 
@@ -46,7 +46,7 @@ V tej lekciji bomo obravnavali:
 
 Obstaja več priljubljenih komunikacijskih protokolov, ki jih IoT naprave uporabljajo za komunikacijo z internetom. Najbolj priljubljeni temeljijo na objavi/naročanju prek nekakšnega posrednika. IoT naprave se povežejo s posrednikom, objavljajo telemetrijo in se naročajo na ukaze. Tudi storitve v oblaku se povežejo s posrednikom, naročajo na vsa telemetrijska sporočila in objavljajo ukaze bodisi za določene naprave bodisi za skupine naprav.
 
-![IoT naprave se povežejo s posrednikom, objavljajo telemetrijo in se naročajo na ukaze. Storitve v oblaku se povežejo s posrednikom, naročajo na vso telemetrijo in pošiljajo ukaze določenim napravam.](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4.sl.png)
+![IoT naprave se povežejo s posrednikom, objavljajo telemetrijo in se naročajo na ukaze. Storitve v oblaku se povežejo s posrednikom, naročajo na vso telemetrijo in pošiljajo ukaze določenim napravam.](../../../../../translated_images/sl/pub-sub.7c7ed43fe9fd15d4.webp)
 
 MQTT je najbolj priljubljen komunikacijski protokol za IoT naprave in je obravnavan v tej lekciji. Drugi protokoli vključujejo AMQP in HTTP/HTTPS.
 
@@ -56,7 +56,7 @@ MQTT je najbolj priljubljen komunikacijski protokol za IoT naprave in je obravna
 
 MQTT ima enega posrednika in več odjemalcev. Vsi odjemalci se povežejo s posrednikom, posrednik pa usmerja sporočila ustreznim odjemalcem. Sporočila se usmerjajo prek poimenovanih tem, namesto da bi bila poslana neposredno posameznemu odjemalcu. Odjemalec lahko objavi na temo, vsi odjemalci, ki so naročeni na to temo, pa prejmejo sporočilo.
 
-![IoT naprava objavlja telemetrijo na temi /telemetry, storitev v oblaku pa se naroča na to temo](../../../../../translated_images/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.sl.png)
+![IoT naprava objavlja telemetrijo na temi /telemetry, storitev v oblaku pa se naroča na to temo](../../../../../translated_images/sl/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.png)
 
 ✅ Raziskujte. Če imate veliko IoT naprav, kako lahko zagotovite, da vaš MQTT posrednik obvlada vsa sporočila?
 
@@ -78,7 +78,7 @@ Namesto da bi se ukvarjali s kompleksnostjo nastavitve MQTT posrednika kot del t
 
 > 💁 Ta testni posrednik je javni in ni varen. Kdorkoli lahko posluša, kaj objavljate, zato ga ne uporabljajte za podatke, ki morajo ostati zasebni.
 
-![Diagram naloge, ki prikazuje branje in preverjanje ravni svetlobe ter nadzor LED](../../../../../translated_images/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.sl.png)
+![Diagram naloge, ki prikazuje branje in preverjanje ravni svetlobe ter nadzor LED](../../../../../translated_images/sl/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.png)
 
 Sledite ustreznemu koraku spodaj, da povežete svojo napravo z MQTT posrednikom:
 
@@ -115,7 +115,7 @@ Beseda telemetrija izhaja iz grških korenin, ki pomenijo merjenje na daljavo. T
 
 Poglejmo primer pametnega termostata iz Lekcije 1.
 
-![Internetno povezan termostat z več senzorji v prostorih](../../../../../translated_images/telemetry.21e5d8b97649d2eb.sl.png)
+![Internetno povezan termostat z več senzorji v prostorih](../../../../../translated_images/sl/telemetry.21e5d8b97649d2eb.webp)
 
 Termostat ima temperaturne senzorje za zbiranje telemetrije. Najverjetneje bi imel en temperaturni senzor vgrajen, poleg tega pa bi se lahko povezal z več zunanjimi temperaturnimi senzorji prek brezžičnega protokola, kot je [Bluetooth Low Energy](https://wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE).
 
@@ -267,11 +267,11 @@ Napišite strežniško kodo.
 
 1. Ko se VS Code zažene, bo aktiviral virtualno okolje za Python. To bo prikazano v spodnji statusni vrstici:
 
-    ![VS Code prikazuje izbrano virtualno okolje](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.sl.png)
+    ![VS Code prikazuje izbrano virtualno okolje](../../../../../translated_images/sl/vscode-virtual-env.8ba42e04c3d533cf.webp)
 
 1. Če je terminal v VS Code že odprt, ko se VS Code zažene, virtualno okolje v njem ne bo aktivirano. Najlažje je zapreti terminal s klikom na gumb **Kill the active terminal instance**:
 
-    ![Gumb za zapiranje terminala v VS Code](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.sl.png)
+    ![Gumb za zapiranje terminala v VS Code](../../../../../translated_images/sl/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
 
 1. Odprite nov terminal v VS Code z izbiro *Terminal -> New Terminal* ali s pritiskom na `` CTRL+` ``. Novi terminal bo naložil virtualno okolje, kar bo prikazano v terminalu. Ime virtualnega okolja (`.venv`) bo tudi v pozivu:
 
@@ -359,7 +359,7 @@ Za stroje pa bi morda želeli obdržati podatke, še posebej, če se uporabljajo
 
 Oblikovalci IoT naprav bi morali razmisliti tudi o tem, ali se lahko IoT naprava uporablja med izpadom interneta ali izgubo signala zaradi lokacije. Pametni termostat bi moral biti sposoben sprejeti nekaj omejenih odločitev za nadzor ogrevanja, če ne more poslati telemetrije v oblak zaradi izpada.
 
-[![Ta ferrari je postal neuporaben, ker so ga poskušali nadgraditi pod zemljo, kjer ni mobilnega signala](../../../../../translated_images/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.sl.png)](https://twitter.com/internetofshit/status/1315736960082808832)
+[![Ta ferrari je postal neuporaben, ker so ga poskušali nadgraditi pod zemljo, kjer ni mobilnega signala](../../../../../translated_images/sl/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.png)](https://twitter.com/internetofshit/status/1315736960082808832)
 
 Za MQTT, da obvlada izgubo povezljivosti, morata biti naprava in strežniška koda odgovorni za zagotavljanje dostave sporočil, če je to potrebno, na primer z zahtevo, da se vsa poslana sporočila potrdijo z dodatnimi sporočili na odgovorni temi, in če ne, se ročno postavijo v čakalno vrsto za ponovno pošiljanje kasneje.
 
@@ -367,7 +367,7 @@ Za MQTT, da obvlada izgubo povezljivosti, morata biti naprava in strežniška ko
 
 Ukazi so sporočila, ki jih oblak pošlje napravi in ji naročijo, naj nekaj stori. Večinoma to vključuje podajanje nekega izhoda prek aktuatorja, lahko pa je tudi navodilo za samo napravo, na primer za ponovni zagon ali zbiranje dodatne telemetrije in njeno vračanje kot odgovor na ukaz.
 
-![Internetno povezan termostat prejme ukaz za vklop ogrevanja](../../../../../translated_images/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.sl.png)
+![Internetno povezan termostat prejme ukaz za vklop ogrevanja](../../../../../translated_images/sl/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.png)
 
 Termostat bi lahko prejel ukaz iz oblaka za vklop ogrevanja. Na podlagi telemetrijskih podatkov iz vseh senzorjev je oblačna storitev odločila, da mora biti ogrevanje vklopljeno, zato pošlje ustrezen ukaz.
 

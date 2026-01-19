@@ -25,11 +25,11 @@ Az ArduCam nem rendelkezik Grove csatlakozóval, helyette az SPI és I2C buszokh
 
 Csatlakoztasd a kamerát.
 
-![Egy ArduCam érzékelő](../../../../../translated_images/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.hu.png)
+![Egy ArduCam érzékelő](../../../../../translated_images/hu/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.png)
 
 1. Az ArduCam alján található tüskéket a Wio Terminal GPIO tüskéihez kell csatlakoztatni. Hogy könnyebben megtaláld a megfelelő tüskéket, helyezd fel a Wio Terminalhoz mellékelt GPIO tüske matricát a tüskék köré:
 
-    ![A Wio Terminal a GPIO tüske matricával](../../../../../translated_images/wio-terminal-pin-sticker.b90b1535937b84bd.hu.png)
+    ![A Wio Terminal a GPIO tüske matricával](../../../../../translated_images/hu/wio-terminal-pin-sticker.b90b1535937b84bd.webp)
 
 1. Használj jumper kábeleket az alábbi csatlakozásokhoz:
 
@@ -44,7 +44,7 @@ Csatlakoztasd a kamerát.
     | SDA           | 3 (I2C1_SDA)       | I2C Soros adat                          |
     | SCL           | 5 (I2C1_SCL)       | I2C Soros órajel                        |
 
-    ![A Wio Terminal jumper kábelekkel csatlakoztatva az ArduCamhoz](../../../../../translated_images/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.hu.png)
+    ![A Wio Terminal jumper kábelekkel csatlakoztatva az ArduCamhoz](../../../../../translated_images/hu/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.png)
 
     A GND és VCC csatlakozások 5V tápfeszültséget biztosítanak az ArduCam számára. Ez 5V-on működik, ellentétben a Grove érzékelőkkel, amelyek 3V-on működnek. Ez az energia közvetlenül az USB-C csatlakozóról érkezik, amely a készüléket táplálja.
 
@@ -297,7 +297,7 @@ A Wio Terminal most már programozható úgy, hogy képet készítsen, amikor eg
 
 1. A mikrokontrollerek folyamatosan futtatják a kódodat, így nem egyszerű olyan eseményt, mint például egy fénykép készítése, érzékelő nélkül elindítani. A Wio Terminal rendelkezik gombokkal, így a kamerát be lehet állítani úgy, hogy az egyik gomb megnyomásával aktiválódjon. Add hozzá a következő kódot a `setup` függvény végéhez, hogy konfiguráld a C gombot (a három felső gomb közül a legközelebbit a bekapcsoló kapcsolóhoz).
 
-    ![A C gomb a bekapcsoló kapcsolóhoz legközelebb](../../../../../translated_images/wio-terminal-c-button.73df3cb1c1445ea0.hu.png)
+    ![A C gomb a bekapcsoló kapcsolóhoz legközelebb](../../../../../translated_images/hu/wio-terminal-c-button.73df3cb1c1445ea0.webp)
 
     ```cpp
     pinMode(WIO_KEY_C, INPUT_PULLUP);
@@ -465,7 +465,7 @@ A Wio Terminal csak legfeljebb 16GB méretű microSD kártyákat támogat. Ha na
 
 1. Kapcsold ki a microSD kártyát, és távolítsd el úgy, hogy kissé benyomod, majd elengeded, és ki fog ugrani. Ehhez lehet, hogy egy vékony eszközt kell használnod. Csatlakoztasd a microSD kártyát a számítógépedhez, hogy megnézd a képeket.
 
-    ![Egy banánról készült kép az ArduCam segítségével](../../../../../translated_images/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.hu.jpg)
+    ![Egy banánról készült kép az ArduCam segítségével](../../../../../translated_images/hu/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.jpg)
 💁 Előfordulhat, hogy néhány kép szükséges ahhoz, hogy a kamera fehéregyensúlya beálljon. Ezt az elkészített képek színe alapján fogja észrevenni, az első néhány kép színe eltérő lehet. Ezt mindig megkerülheti úgy, hogy módosítja a kódot, hogy a `setup` függvényben néhány képet készítsen, amelyeket figyelmen kívül hagy.
 
 

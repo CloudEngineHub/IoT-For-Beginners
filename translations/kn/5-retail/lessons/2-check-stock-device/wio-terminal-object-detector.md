@@ -104,7 +104,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     ತೆಗೆದ ಚಿತ್ರದ ಮತ್ತು ಈ ಮೌಲ್ಯಗಳನ್ನೂ ನೀವು Custom Vision ನಲ್ಲಿ **Predictions** ಟ್ಯಾಬ್ ನಲ್ಲಿ ನೋಡಬಲ್ಲಿರಿ.
 
-    ![4 cans of tomato paste on a shelf with predictions for the 4 detections of 35.8%, 33.5%, 25.7% and 16.6%](../../../../../translated_images/custom-vision-stock-prediction.942266ab1bcca341.kn.png)
+    ![4 cans of tomato paste on a shelf with predictions for the 4 detections of 35.8%, 33.5%, 25.7% and 16.6%](../../../../../translated_images/kn/custom-vision-stock-prediction.942266ab1bcca341.webp)
 
 > 💁 ಈ ಕೋಡ್ ಅನ್ನು ನೀವು [code-detect/wio-terminal](../../../../../5-retail/lessons/2-check-stock-device/code-detect/wio-terminal) ಫೋಲ್ಡರ್‌ನಲ್ಲಿ ಕಾಣಬಹುದು.
 

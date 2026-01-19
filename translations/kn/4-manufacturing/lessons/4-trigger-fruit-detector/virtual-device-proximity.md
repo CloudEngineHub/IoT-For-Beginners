@@ -45,11 +45,11 @@ CounterFit ಅಪ್ಲಿಕೇಶನ್ಗೆ ದೂರ ಸೆನ್ಸಾರ�
 
     1. ದೂರ ಸೆನ್ಸಾರವನ್ನು ರಚಿಸಲು **Add** ಬಟನ್ ಕ್ಲಿಕ್ ಮಾಡಿ
 
-    ![The distance sensor settings](../../../../../translated_images/counterfit-create-distance-sensor.967c9fb98f27888d.kn.png)
+    ![The distance sensor settings](../../../../../translated_images/kn/counterfit-create-distance-sensor.967c9fb98f27888d.webp)
 
     ದೂರ ಸೆನ್ಸಾರವನ್ನು ರಚಿಸಲಾಗುತ್ತದೆ ಮತ್ತು ಸೆನ್ಸಾರಗಳ ಪಟ್ಟಿಯಲ್ಲಿ ಕಾಣಿಸುತ್ತದೆ.
 
-    ![The distance sensor created](../../../../../translated_images/counterfit-distance-sensor.079eefeeea0b68af.kn.png)
+    ![The distance sensor created](../../../../../translated_images/kn/counterfit-distance-sensor.079eefeeea0b68af.webp)
 
 ## ದೂರ ಸೆನ್ಸಾರವನ್ನು ಪ್ರೋಗ್ರಾಮ್ಮಿಂಗ್ ಮಾಡಿ
 

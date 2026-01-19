@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Rakenda oma rakenduse loogika pilve
 
-![Selle õppetunni visuaalne ülevaade](../../../../../translated_images/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.et.jpg)
+![Selle õppetunni visuaalne ülevaade](../../../../../translated_images/et/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.jpg)
 
 > Visuaalne ülevaade: [Nitya Narasimhan](https://github.com/nitya). Klõpsa pildil, et näha suuremat versiooni.
 
@@ -37,11 +37,11 @@ Selles õppetunnis käsitleme:
 
 Serverivaba, või serverivaba arvutus, hõlmab väikeste koodiplokkide loomist, mis töötavad pilves vastuseks erinevatele sündmustele. Kui sündmus toimub, käivitatakse teie kood ja sellele edastatakse sündmuse andmed. Need sündmused võivad pärineda mitmesugustest allikatest, sealhulgas veebipäringutest, järjekorda pandud sõnumitest, andmebaasis tehtud muudatustest või IoT-seadmete poolt IoT-teenusele saadetud sõnumitest.
 
-![Sündmused, mis saadetakse IoT-teenusest serverivabasse teenusesse, kus neid töödeldakse samaaegselt mitme funktsiooni poolt](../../../../../translated_images/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.et.png)
+![Sündmused, mis saadetakse IoT-teenusest serverivabasse teenusesse, kus neid töödeldakse samaaegselt mitme funktsiooni poolt](../../../../../translated_images/et/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.png)
 
 > 💁 Kui olete varem kasutanud andmebaasi käivitajaid, võite mõelda sellele kui samale asjale – kood, mis käivitatakse sündmuse, näiteks rea lisamise, korral.
 
-![Kui palju sündmusi saadetakse korraga, skaleerub serverivaba teenus üles, et neid kõiki samaaegselt töödelda](../../../../../translated_images/serverless-scaling.f8c769adf0413fd1.et.png)
+![Kui palju sündmusi saadetakse korraga, skaleerub serverivaba teenus üles, et neid kõiki samaaegselt töödelda](../../../../../translated_images/et/serverless-scaling.f8c769adf0413fd1.webp)
 
 Teie kood käivitatakse ainult siis, kui sündmus toimub; muul ajal ei hoita teie koodi aktiivsena. Sündmus toimub, teie kood laaditakse ja käivitatakse. See muudab serverivaba mudeli väga skaleeritavaks – kui palju sündmusi toimub korraga, saab pilveteenuse pakkuja käivitada teie funktsiooni nii mitu korda kui vaja, kasutades kõiki saadaolevaid servereid. Selle mudeli miinus on see, et kui teil on vaja jagada teavet sündmuste vahel, peate selle salvestama kuhugi, näiteks andmebaasi, mitte hoidma seda mälus.
 
@@ -63,7 +63,7 @@ IoT-arendajana on serverivaba mudel ideaalne. Saate kirjutada funktsiooni, mis k
 
 Microsofti serverivaba arvutusteenus kannab nime Azure Functions.
 
-![Azure Functions logo](../../../../../translated_images/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.et.png)
+![Azure Functions logo](../../../../../translated_images/et/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.png)
 
 Lühike video allpool annab ülevaate Azure Functionsist.
 
@@ -246,7 +246,7 @@ VS Code tuvastab teie Functions projekti ja kuvab teate, mis ütleb:
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-![Teade](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb.et.png)
+![Teade](../../../../../translated_images/et/vscode-azure-functions-init-notification.bd19b49229963edb.webp)
 
 Valige sellest teatest **Yes**.
 

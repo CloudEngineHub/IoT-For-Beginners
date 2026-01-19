@@ -35,7 +35,7 @@ Grove LED je dodávaná ako modul s výberom LED, čo vám umožňuje zvoliť si
 
 Pripojte LED.
 
-![Grove LED](../../../../../translated_images/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.sk.png)
+![Grove LED](../../../../../translated_images/sk/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
 
 1. Vyberte svoju obľúbenú LED a vložte jej nožičky do dvoch otvorov na LED module.
 
@@ -51,7 +51,7 @@ Pripojte LED.
 
     > 💁 Pravý Grove konektor môže byť použitý s analógovými alebo digitálnymi senzormi a aktuátormi. Ľavý konektor je určený len pre I2C a digitálne senzory a aktuátory. I2C bude pokryté v neskoršej lekcii.
 
-![Grove LED pripojená k pravému konektoru](../../../../../translated_images/wio-led.265a1897e72d7f21.sk.png)
+![Grove LED pripojená k pravému konektoru](../../../../../translated_images/sk/wio-led.265a1897e72d7f21.webp)
 
 ## Naprogramujte nočné svetlo
 

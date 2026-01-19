@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Atpažinkite kalbą su IoT įrenginiu
 
-![Pamokos apžvalga sketchnote formatu](../../../../../translated_images/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.lt.jpg)
+![Pamokos apžvalga sketchnote formatu](../../../../../translated_images/lt/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.jpg)
 
 > Sketchnote sukūrė [Nitya Narasimhan](https://github.com/nitya). Spustelėkite paveikslėlį, kad pamatytumėte didesnę versiją.
 
@@ -60,19 +60,19 @@ Mikrofonai būna įvairių tipų:
 
     Dinaminiai mikrofonai nereikalauja energijos, elektros signalas sukuriamas vien tik mikrofono.
 
-    ![Patti Smith dainuoja į Shure SM58 (dinaminio tipo kardioidinis) mikrofoną](../../../../../translated_images/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.lt.jpg)
+    ![Patti Smith dainuoja į Shure SM58 (dinaminio tipo kardioidinis) mikrofoną](../../../../../translated_images/lt/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.jpg)
 
 * Juostiniai – Juostiniai mikrofonai yra panašūs į dinaminius mikrofonus, išskyrus tai, kad vietoj diafragmos jie turi metalinę juostelę. Ši juostelė juda magnetiniame lauke, generuodama elektros srovę. Kaip ir dinaminiai mikrofonai, juostiniai mikrofonai nereikalauja energijos.
 
-    ![Edmund Lowe, amerikiečių aktorius, stovi prie radijo mikrofono (pažymėto kaip (NBC) Blue Network), laikydamas scenarijų, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441ca.lt.jpg)
+    ![Edmund Lowe, amerikiečių aktorius, stovi prie radijo mikrofono (pažymėto kaip (NBC) Blue Network), laikydamas scenarijų, 1942](../../../../../translated_images/lt/ribbon-mic.eacc8e092c7441ca.webp)
 
 * Kondensatoriniai – Kondensatoriniai mikrofonai turi ploną metalinę diafragmą ir fiksuotą metalinę plokštelę. Elektrinė energija taikoma abiem, ir kai diafragma vibruoja, statinis krūvis tarp plokštelių keičiasi, generuodamas signalą. Kondensatoriniai mikrofonai reikalauja energijos – vadinamos *fantomine energija*.
 
-    ![C451B mažos diafragmos kondensatorinis mikrofonas, sukurtas AKG Acoustics](../../../../../translated_images/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.lt.jpg)
+    ![C451B mažos diafragmos kondensatorinis mikrofonas, sukurtas AKG Acoustics](../../../../../translated_images/lt/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.jpg)
 
 * MEMS – Mikroelektromechaninės sistemos mikrofonai, arba MEMS, yra mikrofonai ant mikroschemos. Jie turi slėgiui jautrią diafragmą, išgraviruotą ant silicio mikroschemos, ir veikia panašiai kaip kondensatoriniai mikrofonai. Šie mikrofonai gali būti labai maži ir integruoti į grandines.
 
-    ![MEMS mikrofonas ant grandinės plokštės](../../../../../translated_images/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.lt.png)
+    ![MEMS mikrofonas ant grandinės plokštės](../../../../../translated_images/lt/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.png)
 
     Aukščiau esančiame paveikslėlyje mikroschema, pažymėta **LEFT**, yra MEMS mikrofonas su mažyte diafragma, mažesne nei milimetras.
 
@@ -84,7 +84,7 @@ Garsas yra analoginis signalas, turintis labai smulkią informaciją. Norint kon
 
 > 🎓 Mėginiuojimas – tai garso signalo konvertavimas į skaitmeninę vertę, kuri atspindi signalą tam tikru momentu.
 
-![Linijinė diagrama, rodanti signalą su diskrečiais taškais fiksuotais intervalais](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7.lt.png)
+![Linijinė diagrama, rodanti signalą su diskrečiais taškais fiksuotais intervalais](../../../../../translated_images/lt/sampling.6f4fadb3f2d9dfe7.webp)
 
 Skaitmeninis garsas mėginiuojamas naudojant impulsų kodavimo moduliaciją (PCM). PCM apima signalo įtampos nuskaitymą ir artimiausios diskretinės vertės pasirinkimą pagal apibrėžtą dydį.
 
@@ -168,7 +168,7 @@ Kad išvengtumėte aktyvavimo žodžio modelio mokymo ir naudojimo sudėtingumo,
 
 ## Kalbos konvertavimas į tekstą
 
-![Kalbos paslaugų logotipas](../../../../../translated_images/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.lt.png)
+![Kalbos paslaugų logotipas](../../../../../translated_images/lt/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
 
 Kaip ir vaizdų klasifikavime ankstesniame projekte, yra iš anksto sukurtų AI paslaugų, kurios gali paimti kalbą kaip garso failą ir paversti ją tekstu. Viena iš tokių paslaugų yra Kalbos Paslauga, dalis Cognitive Services, iš anksto sukurtų AI paslaugų, kurias galite naudoti savo programose.
 

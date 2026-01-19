@@ -93,7 +93,7 @@ Custom Vision సేవకు Python SDK ఉంది, దీన్ని మీ
 
     మీరు తీసుకున్న ఇమేజ్ మరియు ఈ విలువలను Custom Visionలో **Predictions** ట్యాబ్‌లో చూడవచ్చు.
 
-    ![Custom Visionలో అరుపుగా 56.8% గా మరియు అరుపుగా లేని వాటి 43.1% గా అంచనా వేయబడిన అరటి](../../../../../translated_images/custom-vision-banana-prediction.30cdff4e1d72db5d.te.png)
+    ![Custom Visionలో అరుపుగా 56.8% గా మరియు అరుపుగా లేని వాటి 43.1% గా అంచనా వేయబడిన అరటి](../../../../../translated_images/te/custom-vision-banana-prediction.30cdff4e1d72db5d.webp)
 
 > 💁 మీరు ఈ కోడ్‌ను [code-classify/pi](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/pi) లేదా [code-classify/virtual-iot-device](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/virtual-iot-device) ఫోల్డర్లలో చూడొచ్చు.
 

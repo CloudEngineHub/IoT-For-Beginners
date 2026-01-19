@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Migrirajte logiko svoje aplikacije v oblak
 
-![Sketchnote pregled te lekcije](../../../../../translated_images/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.sl.jpg)
+![Sketchnote pregled te lekcije](../../../../../translated_images/sl/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.jpg)
 
 > Sketchnote avtorja [Nitya Narasimhan](https://github.com/nitya). Kliknite na sliko za večjo različico.
 
@@ -37,11 +37,11 @@ V tej lekciji bomo obravnavali:
 
 Strežniško, ali strežniško računalništvo, vključuje ustvarjanje majhnih blokov kode, ki se izvajajo v oblaku kot odziv na različne vrste dogodkov. Ko se dogodek zgodi, se vaša koda zažene in prejme podatke o dogodku. Ti dogodki lahko izhajajo iz različnih virov, vključno s spletnimi zahtevami, sporočili v vrsti, spremembami podatkov v bazi podatkov ali sporočili, ki jih IoT naprave pošljejo IoT storitvi.
 
-![Dogodki, ki se pošiljajo iz IoT storitve v strežniško storitev, vsi obdelani hkrati z več funkcijami](../../../../../translated_images/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.sl.png)
+![Dogodki, ki se pošiljajo iz IoT storitve v strežniško storitev, vsi obdelani hkrati z več funkcijami](../../../../../translated_images/sl/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.png)
 
 > 💁 Če ste že uporabljali sprožilce v bazi podatkov, si to lahko predstavljate kot nekaj podobnega - koda, ki se sproži ob dogodku, kot je vstavljanje vrstice.
 
-![Ko se hkrati pošlje veliko dogodkov, se strežniška storitev razširi, da jih vse obdeluje hkrati](../../../../../translated_images/serverless-scaling.f8c769adf0413fd1.sl.png)
+![Ko se hkrati pošlje veliko dogodkov, se strežniška storitev razširi, da jih vse obdeluje hkrati](../../../../../translated_images/sl/serverless-scaling.f8c769adf0413fd1.webp)
 
 Vaša koda se zažene le, ko se dogodek zgodi, sicer ni aktivna. Dogodek se zgodi, vaša koda se naloži in zažene. To naredi strežniško zelo prilagodljivo - če se hkrati zgodi veliko dogodkov, lahko ponudnik oblaka zažene vašo funkcijo tolikokrat, kot je potrebno, hkrati na vseh razpoložljivih strežnikih. Slabost tega je, da če morate deliti informacije med dogodki, jih morate shraniti nekje, na primer v bazi podatkov, namesto da jih hranite v pomnilniku.
 
@@ -63,7 +63,7 @@ Kot IoT razvijalec je strežniški model idealen. Lahko napišete funkcijo, ki s
 
 Strežniška računalniška storitev Microsofta se imenuje Azure Functions.
 
-![Logotip Azure Functions](../../../../../translated_images/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.sl.png)
+![Logotip Azure Functions](../../../../../translated_images/sl/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.png)
 
 Kratek video spodaj ponuja pregled Azure Functions.
 
@@ -244,7 +244,7 @@ CLI za Azure Functions se lahko uporablja za ustvarjanje nove aplikacije funkcij
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-    ![Obvestilo](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb.sl.png)
+    ![Obvestilo](../../../../../translated_images/sl/vscode-azure-functions-init-notification.bd19b49229963edb.webp)
 
     Izberite **Yes** v tem obvestilu.
 

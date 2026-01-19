@@ -29,13 +29,13 @@ Grove senzor Time of Flight lze připojit k Wio Terminalu.
 
 Připojte senzor Time of Flight.
 
-![Grove senzor Time of Flight](../../../../../translated_images/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.cs.png)
+![Grove senzor Time of Flight](../../../../../translated_images/cs/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
 
 1. Zasuňte jeden konec Grove kabelu do konektoru na senzoru Time of Flight. Kabel lze zasunout pouze jedním způsobem.
 
 1. S Wio Terminalem odpojeným od počítače nebo jiného zdroje napájení připojte druhý konec Grove kabelu do levého Grove konektoru na Wio Terminalu, když se díváte na obrazovku. Tento konektor je nejblíže k tlačítku napájení. Jedná se o kombinovaný digitální a I²C konektor.
 
-![Grove senzor Time of Flight připojený k levému konektoru](../../../../../translated_images/wio-time-of-flight-sensor.c4c182131d2ea73d.cs.png)
+![Grove senzor Time of Flight připojený k levému konektoru](../../../../../translated_images/cs/wio-time-of-flight-sensor.c4c182131d2ea73d.webp)
 
 1. Nyní můžete připojit Wio Terminal k počítači.
 
@@ -101,7 +101,7 @@ Wio Terminal nyní může být naprogramován pro použití připojeného senzor
 
     Dálkoměr se nachází na zadní straně senzoru, takže při měření vzdálenosti používejte správnou stranu.
 
-    ![Dálkoměr na zadní straně senzoru Time of Flight mířící na banán](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.cs.png)
+    ![Dálkoměr na zadní straně senzoru Time of Flight mířící na banán](../../../../../translated_images/cs/time-of-flight-banana.079921ad8b1496e4.webp)
 
 > 💁 Tento kód najdete ve složce [code-proximity/wio-terminal](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/wio-terminal).
 

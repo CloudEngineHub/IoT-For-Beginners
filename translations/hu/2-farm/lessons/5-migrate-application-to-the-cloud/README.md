@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Alkalmazáslogika áthelyezése a felhőbe
 
-![A lecke vázlatos áttekintése](../../../../../translated_images/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.hu.jpg)
+![A lecke vázlatos áttekintése](../../../../../translated_images/hu/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.jpg)
 
 > Vázlatrajz: [Nitya Narasimhan](https://github.com/nitya). Kattints a képre a nagyobb verzióért.
 
@@ -37,11 +37,11 @@ Ebben a leckében a következőket tárgyaljuk:
 
 A szerver nélküli, vagy szerver nélküli számítástechnika kis kódrészletek létrehozását jelenti, amelyek a felhőben futnak különböző események hatására. Amikor az esemény bekövetkezik, a kódod lefut, és megkapja az esemény adatait. Ezek az események sokféle forrásból származhatnak, például webes kérésekből, sorba helyezett üzenetekből, adatbázisban történt változásokból vagy IoT eszközök által küldött üzenetekből.
 
-![Események küldése egy IoT szolgáltatásból egy szerver nélküli szolgáltatásba, amelyeket egyszerre több funkció dolgoz fel](../../../../../translated_images/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.hu.png)
+![Események küldése egy IoT szolgáltatásból egy szerver nélküli szolgáltatásba, amelyeket egyszerre több funkció dolgoz fel](../../../../../translated_images/hu/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.png)
 
 > 💁 Ha már használtál adatbázis-triggereket, gondolj erre úgy, mint egy hasonló dologra: kódot indít el egy esemény, például egy sor beszúrása.
 
-![Amikor sok esemény érkezik egyszerre, a szerver nélküli szolgáltatás skálázódik, hogy mindet egyszerre futtassa](../../../../../translated_images/serverless-scaling.f8c769adf0413fd1.hu.png)
+![Amikor sok esemény érkezik egyszerre, a szerver nélküli szolgáltatás skálázódik, hogy mindet egyszerre futtassa](../../../../../translated_images/hu/serverless-scaling.f8c769adf0413fd1.webp)
 
 A kódod csak akkor fut, amikor az esemény bekövetkezik, máskor nem marad aktív. Az esemény bekövetkezik, a kódod betöltődik és lefut. Ez a szerver nélküli megoldást nagyon skálázhatóvá teszi – ha sok esemény történik egyszerre, a felhőszolgáltató annyiszor futtatja a funkciódat, ahányszor szükséges, a rendelkezésre álló szervereken. Ennek hátránya, hogy ha információt kell megosztanod az események között, azt valahol el kell tárolnod, például egy adatbázisban, nem pedig memóriában.
 
@@ -63,7 +63,7 @@ IoT fejlesztőként a szerver nélküli modell ideális. Írhatsz egy funkciót,
 
 A Microsoft szerver nélküli számítástechnikai szolgáltatása az Azure Functions.
 
-![Az Azure Functions logója](../../../../../translated_images/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.hu.png)
+![Az Azure Functions logója](../../../../../translated_images/hu/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.png)
 
 Az alábbi rövid videó áttekintést nyújt az Azure Functions-ről:
 
@@ -244,7 +244,7 @@ Az Azure Functions CLI segítségével új Functions alkalmazást hozhatsz létr
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-    ![Az értesítés](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb.hu.png)
+    ![Az értesítés](../../../../../translated_images/hu/vscode-azure-functions-init-notification.bd19b49229963edb.webp)
 
     Válaszd az **Igen** lehetőséget az értesítésben.
 

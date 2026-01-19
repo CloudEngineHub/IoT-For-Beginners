@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Migre a lógica da sua aplicação para a nuvem
 
-![Uma visão geral ilustrada desta lição](../../../../../translated_images/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.br.jpg)
+![Uma visão geral ilustrada desta lição](../../../../../translated_images/br/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.jpg)
 
 > Ilustração por [Nitya Narasimhan](https://github.com/nitya). Clique na imagem para uma versão maior.
 
@@ -37,11 +37,11 @@ Nesta lição, abordaremos:
 
 Serverless, ou computação sem servidor, envolve criar pequenos blocos de código que são executados na nuvem em resposta a diferentes tipos de eventos. Quando o evento ocorre, seu código é executado e recebe dados sobre o evento. Esses eventos podem vir de várias fontes, incluindo requisições web, mensagens colocadas em uma fila, alterações em dados de um banco de dados ou mensagens enviadas a um serviço de IoT por dispositivos IoT.
 
-![Eventos sendo enviados de um serviço IoT para um serviço serverless, todos processados ao mesmo tempo por várias funções sendo executadas](../../../../../translated_images/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.br.png)
+![Eventos sendo enviados de um serviço IoT para um serviço serverless, todos processados ao mesmo tempo por várias funções sendo executadas](../../../../../translated_images/br/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.png)
 
 > 💁 Se você já usou gatilhos de banco de dados antes, pode pensar nisso como algo semelhante: código sendo acionado por um evento, como a inserção de uma linha.
 
-![Quando muitos eventos são enviados ao mesmo tempo, o serviço serverless escala para executá-los todos simultaneamente](../../../../../translated_images/serverless-scaling.f8c769adf0413fd1.br.png)
+![Quando muitos eventos são enviados ao mesmo tempo, o serviço serverless escala para executá-los todos simultaneamente](../../../../../translated_images/br/serverless-scaling.f8c769adf0413fd1.webp)
 
 Seu código só é executado quando o evento ocorre, não há nada mantendo seu código ativo em outros momentos. O evento acontece, seu código é carregado e executado. Isso torna o serverless muito escalável - se muitos eventos ocorrerem ao mesmo tempo, o provedor de nuvem pode executar sua função quantas vezes forem necessárias simultaneamente, utilizando os servidores disponíveis. A desvantagem disso é que, se você precisar compartilhar informações entre eventos, será necessário armazená-las em algum lugar, como um banco de dados, em vez de mantê-las na memória.
 
@@ -63,7 +63,7 @@ Como desenvolvedor de IoT, o modelo serverless é ideal. Você pode escrever uma
 
 O serviço de computação serverless da Microsoft é chamado Azure Functions.
 
-![O logotipo do Azure Functions](../../../../../translated_images/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.br.png)
+![O logotipo do Azure Functions](../../../../../translated_images/br/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.png)
 
 O vídeo curto abaixo oferece uma visão geral do Azure Functions.
 
@@ -244,7 +244,7 @@ A CLI do Azure Functions pode ser usada para criar um novo aplicativo de funçõ
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-    ![A notificação](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb.br.png)
+    ![A notificação](../../../../../translated_images/br/vscode-azure-functions-init-notification.bd19b49229963edb.webp)
 
     Selecione **Sim** nesta notificação.
 

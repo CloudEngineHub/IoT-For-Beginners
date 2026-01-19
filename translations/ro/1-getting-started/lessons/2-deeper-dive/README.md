@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # O privire mai profundă asupra IoT
 
-![O prezentare grafică a acestei lecții](../../../../../translated_images/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.ro.jpg)
+![O prezentare grafică a acestei lecții](../../../../../translated_images/ro/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.jpg)
 
 > Prezentare grafică realizată de [Nitya Narasimhan](https://github.com/nitya). Click pe imagine pentru o versiune mai mare.
 
@@ -41,13 +41,13 @@ Cele două componente ale unei aplicații IoT sunt *Internetul* și *dispozitivu
 
 ### Dispozitivul
 
-![Un Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.ro.jpg)
+![Un Raspberry Pi 4](../../../../../translated_images/ro/raspberry-pi-4.fd4590d308c3d456.webp)
 
 Partea **Dispozitiv** din IoT se referă la un aparat care poate interacționa cu lumea fizică. Aceste dispozitive sunt de obicei computere mici, cu preț redus, care funcționează la viteze reduse și consumă puțină energie - de exemplu, microcontrolere simple cu kilobytes de RAM (spre deosebire de gigabytes într-un PC) care funcționează la doar câteva sute de megahertz (spre deosebire de gigahertz într-un PC), dar consumă uneori atât de puțină energie încât pot funcționa săptămâni, luni sau chiar ani pe baterii.
 
 Aceste dispozitive interacționează cu lumea fizică, fie prin utilizarea senzorilor pentru a colecta date din mediul înconjurător, fie prin controlarea ieșirilor sau actuatoarelor pentru a face modificări fizice. Exemplul tipic este un termostat inteligent - un dispozitiv care are un senzor de temperatură, un mijloc de setare a unei temperaturi dorite, cum ar fi un cadran sau un ecran tactil, și o conexiune la un sistem de încălzire sau răcire care poate fi activat atunci când temperatura detectată este în afara intervalului dorit. Senzorul de temperatură detectează că încăperea este prea rece, iar un actuator pornește încălzirea.
 
-![Un diagram care arată temperatura și un cadran ca intrări pentru un dispozitiv IoT, și controlul unui încălzitor ca ieșire](../../../../../translated_images/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.ro.png)
+![Un diagram care arată temperatura și un cadran ca intrări pentru un dispozitiv IoT, și controlul unui încălzitor ca ieșire](../../../../../translated_images/ro/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.png)
 
 Există o gamă largă de lucruri care pot acționa ca dispozitive IoT, de la hardware dedicat care detectează un singur lucru, la dispozitive de uz general, chiar și smartphone-ul tău! Un smartphone poate folosi senzori pentru a detecta lumea din jurul său și actuatoare pentru a interacționa cu lumea - de exemplu, utilizând un senzor GPS pentru a detecta locația ta și un difuzor pentru a-ți oferi instrucțiuni de navigare către o destinație.
 
@@ -63,11 +63,11 @@ Dispozitivele nu se conectează întotdeauna direct la Internet prin WiFi sau co
 
 În exemplul unui termostat inteligent, termostatul s-ar conecta folosind WiFi-ul de acasă la un serviciu cloud. Acesta ar trimite datele de temperatură către acest serviciu cloud, iar de acolo ar fi scrise într-o bază de date, permițând proprietarului să verifice temperaturile curente și anterioare folosind o aplicație de telefon. Un alt serviciu din cloud ar ști ce temperatură dorește proprietarul și ar trimite mesaje înapoi către dispozitivul IoT prin serviciul cloud pentru a spune sistemului de încălzire să se pornească sau să se oprească.
 
-![Un diagram care arată temperatura și un cadran ca intrări pentru un dispozitiv IoT, dispozitivul IoT cu comunicare bidirecțională către cloud, care la rândul său are comunicare bidirecțională către un telefon, și controlul unui încălzitor ca ieșire din dispozitivul IoT](../../../../../translated_images/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.ro.png)
+![Un diagram care arată temperatura și un cadran ca intrări pentru un dispozitiv IoT, dispozitivul IoT cu comunicare bidirecțională către cloud, care la rândul său are comunicare bidirecțională către un telefon, și controlul unui încălzitor ca ieșire din dispozitivul IoT](../../../../../translated_images/ro/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.png)
 
 O versiune și mai inteligentă ar putea folosi AI în cloud cu date de la alți senzori conectați la alte dispozitive IoT, cum ar fi senzori de ocupare care detectează ce camere sunt utilizate, precum și date precum vremea și chiar calendarul tău, pentru a lua decizii privind setarea temperaturii într-un mod inteligent. De exemplu, ar putea opri încălzirea dacă citește din calendarul tău că ești în vacanță sau ar putea opri încălzirea pe baza utilizării camerelor, învățând din date pentru a fi din ce în ce mai precis în timp.
 
-![Un diagram care arată mai mulți senzori de temperatură și un cadran ca intrări pentru un dispozitiv IoT, dispozitivul IoT cu comunicare bidirecțională către cloud, care la rândul său are comunicare bidirecțională către un telefon, un calendar și un serviciu meteo, și controlul unui încălzitor ca ieșire din dispozitivul IoT](../../../../../translated_images/smarter-thermostat.a75855f15d2d9e63.ro.png)
+![Un diagram care arată mai mulți senzori de temperatură și un cadran ca intrări pentru un dispozitiv IoT, dispozitivul IoT cu comunicare bidirecțională către cloud, care la rândul său are comunicare bidirecțională către un telefon, un calendar și un serviciu meteo, și controlul unui încălzitor ca ieșire din dispozitivul IoT](../../../../../translated_images/ro/smarter-thermostat.a75855f15d2d9e63.webp)
 
 ✅ Ce alte date ar putea ajuta un termostat conectat la Internet să fie mai inteligent?
 
@@ -103,7 +103,7 @@ Cu cât ciclul ceasului este mai rapid, cu atât mai multe instrucțiuni pot fi 
 
 > 💁 CPU-urile execută programe folosind [ciclul fetch-decode-execute](https://wikipedia.org/wiki/Instruction_cycle). Pentru fiecare ticăit de ceas, CPU-ul va prelua următoarea instrucțiune din memorie, o va decoda, apoi o va executa, cum ar fi utilizarea unei unități logice aritmetice (ALU) pentru a aduna 2 numere. Unele execuții vor dura mai multe ticăituri pentru a rula, astfel încât următorul ciclu va rula la următorul ticăit după ce instrucțiunea a fost finalizată.
 
-![Ciclurile fetch-decode-execute care arată preluarea unei instrucțiuni din programul stocat în RAM, apoi decodarea și executarea acesteia pe un CPU](../../../../../translated_images/fetch-decode-execute.2fd6f150f6280392807f4475382319abd0cee0b90058e1735444d6baa6f2078c.ro.png)
+![Ciclurile fetch-decode-execute care arată preluarea unei instrucțiuni din programul stocat în RAM, apoi decodarea și executarea acesteia pe un CPU](../../../../../translated_images/ro/fetch-decode-execute.2fd6f150f6280392807f4475382319abd0cee0b90058e1735444d6baa6f2078c.png)
 
 Microcontrolerele au viteze de ceas mult mai mici decât computerele desktop sau laptop, sau chiar decât majoritatea smartphone-urilor. De exemplu, Wio Terminal are un CPU care funcționează la 120MHz sau 120.000.000 de cicluri pe secundă.
 
@@ -135,7 +135,7 @@ La fel ca în cazul CPU-ului, memoria unui microcontroler este de ordinul magnit
 
 Diagrama de mai jos arată diferența relativă de dimensiune între 192KB și 8GB - punctul mic din centru reprezintă 192KB.
 
-![O comparație între 192KB și 8GB - de peste 40.000 de ori mai mare](../../../../../translated_images/ram-comparison.6beb73541b42ac6f.ro.png)
+![O comparație între 192KB și 8GB - de peste 40.000 de ori mai mare](../../../../../translated_images/ro/ram-comparison.6beb73541b42ac6f.webp)
 
 Spațiul de stocare pentru programe este, de asemenea, mai mic decât cel al unui PC. Un PC tipic ar putea avea un hard disk de 500GB pentru stocarea programelor, în timp ce un microcontroler ar putea avea doar kilobytes sau poate câțiva megabytes (MB) de stocare (1MB este 1.000KB, sau 1.000.000 de bytes). Terminalul Wio are 4MB de spațiu de stocare pentru programe.
 
@@ -191,7 +191,7 @@ Plăcile Arduino sunt programate în C sau C++. Utilizarea C/C++ permite ca codu
 
 Ai scrie codul de inițializare în funcția `setup`, cum ar fi conectarea la WiFi și servicii cloud sau inițializarea pinilor pentru intrare și ieșire. Codul din `loop` ar conține apoi procesarea, cum ar fi citirea de la un senzor și trimiterea valorii în cloud. De obicei, ai include o întârziere în fiecare buclă, de exemplu, dacă dorești ca datele senzorului să fie trimise doar la fiecare 10 secunde, ai adăuga o întârziere de 10 secunde la sfârșitul buclei, astfel încât microcontrolerul să poată dormi, economisind energie, apoi să ruleze bucla din nou când este necesar, 10 secunde mai târziu.
 
-![O schiță Arduino care rulează mai întâi setup, apoi rulează loop repetat](../../../../../translated_images/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.ro.png)
+![O schiță Arduino care rulează mai întâi setup, apoi rulează loop repetat](../../../../../translated_images/ro/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.png)
 
 ✅ Această arhitectură de program este cunoscută sub numele de *buclă de evenimente* sau *buclă de mesaje*. Multe aplicații folosesc acest model în fundal și este standardul pentru majoritatea aplicațiilor desktop care rulează pe OS-uri precum Windows, macOS sau Linux. Funcția `loop` ascultă mesaje de la componentele interfeței de utilizator, cum ar fi butoanele, sau dispozitivele precum tastatura, și răspunde la acestea. Poți citi mai multe în acest [articol despre bucla de evenimente](https://wikipedia.org/wiki/Event_loop).
 
@@ -211,17 +211,17 @@ Dacă folosești un terminal Wio pentru aceste lecții, recitește codul pe care
 
 ### Raspberry Pi
 
-![Logo-ul Raspberry Pi](../../../../../translated_images/raspberry-pi-logo.4efaa16605cee054.ro.png)
+![Logo-ul Raspberry Pi](../../../../../translated_images/ro/raspberry-pi-logo.4efaa16605cee054.webp)
 
 [Fundația Raspberry Pi](https://www.raspberrypi.org) este o organizație caritabilă din Marea Britanie fondată în 2009 pentru a promova studiul informaticii, în special la nivel școlar. Ca parte a acestei misiuni, au dezvoltat un computer cu o singură placă, numit Raspberry Pi. Raspberry Pi-urile sunt disponibile în prezent în 3 variante - o versiune de dimensiune completă, mai micul Pi Zero și un modul de calcul care poate fi integrat în dispozitivul tău IoT final.
 
-![Un Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.ro.jpg)
+![Un Raspberry Pi 4](../../../../../translated_images/ro/raspberry-pi-4.fd4590d308c3d456.webp)
 
 Ultima iterație a Raspberry Pi de dimensiune completă este Raspberry Pi 4B. Acesta are un CPU quad-core (4 nuclee) care rulează la 1.5GHz, 2, 4 sau 8GB de RAM, ethernet gigabit, WiFi, 2 porturi HDMI care suportă ecrane 4k, un port de ieșire audio și video compozit, porturi USB (2 USB 2.0, 2 USB 3.0), 40 de pini GPIO, un conector pentru cameră pentru un modul de cameră Raspberry Pi și un slot pentru card SD. Toate acestea pe o placă de 88mm x 58mm x 19.5mm, alimentată de o sursă de alimentare USB-C de 3A. Acestea încep de la 35 USD, mult mai ieftin decât un PC sau Mac.
 
 > 💁 Există și un Pi400, un computer all-in-one cu un Pi4 integrat într-o tastatură.
 
-![Un Raspberry Pi Zero](../../../../../translated_images/raspberry-pi-zero.f7a4133e1e7d54bb.ro.jpg)
+![Un Raspberry Pi Zero](../../../../../translated_images/ro/raspberry-pi-zero.f7a4133e1e7d54bb.webp)
 
 Pi Zero este mult mai mic, cu o putere mai redusă. Are un CPU single-core de 1GHz, 512MB de RAM, WiFi (în modelul Zero W), un singur port HDMI, un port micro-USB, 40 de pini GPIO, un conector pentru cameră pentru un modul de cameră Raspberry Pi și un slot pentru card SD. Măsoară 65mm x 30mm x 5mm și consumă foarte puțină energie. Zero costă 5 USD, iar versiunea W cu WiFi costă 10 USD.
 

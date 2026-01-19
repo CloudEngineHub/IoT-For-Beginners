@@ -35,7 +35,7 @@ Grove LED je dodávána jako modul s výběrem LED diod, což vám umožňuje zv
 
 Připojte LED.
 
-![Grove LED](../../../../../translated_images/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.cs.png)
+![Grove LED](../../../../../translated_images/cs/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
 
 1. Vyberte si svou oblíbenou LED a vložte její nožičky do dvou otvorů na modulu LED.
 
@@ -51,7 +51,7 @@ Připojte LED.
 
     > 💁 Pravá Grove zásuvka může být použita s analogovými nebo digitálními senzory a akčními členy. Levá zásuvka je pouze pro digitální senzory a akční členy.
 
-![Grove LED připojená k pravé zásuvce](../../../../../translated_images/wio-led.265a1897e72d7f21.cs.png)
+![Grove LED připojená k pravé zásuvce](../../../../../translated_images/cs/wio-led.265a1897e72d7f21.webp)
 
 ## Naprogramujte noční světlo
 

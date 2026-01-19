@@ -154,11 +154,11 @@ Hozz létre egy Python alkalmazást, amely kiírja a `"Hello World"` szöveget a
 
 1. Amikor a VS Code elindul, aktiválja a Python virtuális környezetet. A kiválasztott virtuális környezet megjelenik az alsó állapotsávban:
 
-    ![VS Code a kiválasztott virtuális környezettel](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.hu.png)
+    ![VS Code a kiválasztott virtuális környezettel](../../../../../translated_images/hu/vscode-virtual-env.8ba42e04c3d533cf.webp)
 
 1. Ha a VS Code terminál már fut, amikor a VS Code elindul, akkor nem lesz aktiválva benne a virtuális környezet. A legegyszerűbb megoldás az, ha bezárod a terminált a **Kill the active terminal instance** gombbal:
 
-    ![VS Code Kill the active terminal instance gomb](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.hu.png)
+    ![VS Code Kill the active terminal instance gomb](../../../../../translated_images/hu/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
 
     Megállapíthatod, hogy a terminálban aktiválva van-e a virtuális környezet, ha a terminál promptjának előtagja a virtuális környezet neve. Például lehet:
 
@@ -212,7 +212,7 @@ Második 'Hello World' lépésként futtatni fogod a CounterFit alkalmazást, é
 
     Az alkalmazás elindul, és megnyílik a webböngésződben:
 
-    ![A Counter Fit alkalmazás futása böngészőben](../../../../../translated_images/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.hu.png)
+    ![A Counter Fit alkalmazás futása böngészőben](../../../../../translated_images/hu/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
 
     *Disconnected* állapotban lesz, a jobb felső sarokban lévő LED ki lesz kapcsolva.
 
@@ -229,11 +229,11 @@ Második 'Hello World' lépésként futtatni fogod a CounterFit alkalmazást, é
 
 1. Új VS Code terminált kell indítanod a **Create a new integrated terminal** gombbal. Ez azért szükséges, mert a CounterFit alkalmazás a jelenlegi terminálban fut.
 
-    ![VS Code Create a new integrated terminal gomb](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.hu.png)
+    ![VS Code Create a new integrated terminal gomb](../../../../../translated_images/hu/vscode-new-terminal.77db8fc0f9cd3182.webp)
 
 1. Ebben az új terminálban futtasd az `app.py` fájlt, ahogy korábban. A CounterFit állapota **Connected**-re változik, és a LED világítani fog.
 
-    ![Counter Fit csatlakoztatva](../../../../../translated_images/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.hu.png)
+    ![Counter Fit csatlakoztatva](../../../../../translated_images/hu/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
 
 > 💁 Ezt a kódot megtalálod a [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device) mappában.
 

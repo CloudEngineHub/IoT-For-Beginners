@@ -27,17 +27,17 @@ Grove 土壤濕度傳感器可以連接到 Wio Terminal 的可配置類比/數�
 
 連接土壤濕度傳感器。
 
-![Grove 土壤濕度傳感器](../../../../../translated_images/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.tw.png)
+![Grove 土壤濕度傳感器](../../../../../translated_images/tw/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
 
 1. 將 Grove 電纜的一端插入土壤濕度傳感器的插座中。它只能以一種方式插入。
 
 1. 在 Wio Terminal 未連接到電腦或其他電源的情況下，將 Grove 電纜的另一端連接到 Wio Terminal 螢幕右側的 Grove 插座。這是距離電源按鈕最遠的插座。
 
-![Grove 土壤濕度傳感器連接到右側插座](../../../../../translated_images/wio-soil-moisture-sensor.46919b61c3f6cb74.tw.png)
+![Grove 土壤濕度傳感器連接到右側插座](../../../../../translated_images/tw/wio-soil-moisture-sensor.46919b61c3f6cb74.webp)
 
 1. 將土壤濕度傳感器插入土壤中。傳感器上有一條“最高位置線”——一條白線。將傳感器插入到該線以下但不要超過該線。
 
-![土壤中的 Grove 土壤濕度傳感器](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.tw.png)
+![土壤中的 Grove 土壤濕度傳感器](../../../../../translated_images/tw/soil-moisture-sensor-in-soil.bfad91002bda5e96.webp)
 
 1. 現在可以將 Wio Terminal 連接到您的電腦。
 

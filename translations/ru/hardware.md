@@ -21,7 +21,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## Покупка наборов
 
-![Логотип Seeed Studios](../../translated_images/seeed-logo.74732b6b482b6e8e.ru.png)
+![Логотип Seeed Studios](../../translated_images/ru/seeed-logo.74732b6b482b6e8e.webp)
 
 Seeed Studios любезно предоставили всё оборудование в виде удобных для покупки наборов:
 
@@ -29,13 +29,13 @@ Seeed Studios любезно предоставили всё оборудова�
 
 **[IoT для начинающих с Seeed и Microsoft - стартовый набор Wio Terminal](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)**
 
-[![Набор оборудования Wio Terminal](../../translated_images/wio-hardware-kit.4c70c48b85e4283a.ru.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
+[![Набор оборудования Wio Terminal](../../translated_images/ru/wio-hardware-kit.4c70c48b85e4283a.webp)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
 
 ### Raspberry Pi
 
 **[IoT для начинающих с Seeed и Microsoft - стартовый набор Raspberry Pi 4](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)**
 
-[![Набор оборудования Raspberry Pi Terminal](../../translated_images/pi-hardware-kit.26dbadaedb7dd44c73b0131d5d68ea29472ed0a9744f90d5866c6d82f2d16380.ru.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)
+[![Набор оборудования Raspberry Pi Terminal](../../translated_images/ru/pi-hardware-kit.26dbadaedb7dd44c73b0131d5d68ea29472ed0a9744f90d5866c6d82f2d16380.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)
 
 ## Arduino
 

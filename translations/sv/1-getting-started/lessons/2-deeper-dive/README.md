@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # En djupare inblick i IoT
 
-![En sketchnote-översikt av denna lektion](../../../../../translated_images/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.sv.jpg)
+![En sketchnote-översikt av denna lektion](../../../../../translated_images/sv/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.jpg)
 
 > Sketchnote av [Nitya Narasimhan](https://github.com/nitya). Klicka på bilden för en större version.
 
@@ -41,13 +41,13 @@ De två huvudkomponenterna i en IoT-applikation är *Internet* och *saken*. Låt
 
 ### Saken
 
-![En Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.sv.jpg)
+![En Raspberry Pi 4](../../../../../translated_images/sv/raspberry-pi-4.fd4590d308c3d456.webp)
 
 **Saken** i IoT syftar på en enhet som kan interagera med den fysiska världen. Dessa enheter är vanligtvis små, prisvärda datorer som arbetar med låg hastighet och låg strömförbrukning - till exempel enkla mikrokontroller med några kilobyte RAM (jämfört med gigabyte i en PC) som körs på bara några hundra megahertz (jämfört med gigahertz i en PC), men som ibland förbrukar så lite ström att de kan drivas i veckor, månader eller till och med år på batterier.
 
 Dessa enheter interagerar med den fysiska världen, antingen genom att använda sensorer för att samla in data från sin omgivning eller genom att styra utgångar eller aktuatorer för att göra fysiska förändringar. Ett typiskt exempel är en smart termostat - en enhet som har en temperatursensor, ett sätt att ställa in önskad temperatur, som en ratt eller pekskärm, och en anslutning till ett värme- eller kylsystem som kan slås på när den uppmätta temperaturen är utanför det önskade intervallet. Temperatursensorn upptäcker att rummet är för kallt och en aktuator slår på värmen.
 
-![Ett diagram som visar temperatur och en ratt som indata till en IoT-enhet, och styrning av en värmare som utdata](../../../../../translated_images/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.sv.png)
+![Ett diagram som visar temperatur och en ratt som indata till en IoT-enhet, och styrning av en värmare som utdata](../../../../../translated_images/sv/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.png)
 
 Det finns ett enormt utbud av olika saker som kan fungera som IoT-enheter, från dedikerad hårdvara som mäter en enda sak till allmänna enheter, till och med din smartphone! En smartphone kan använda sensorer för att upptäcka världen omkring sig och aktuatorer för att interagera med världen - till exempel genom att använda en GPS-sensor för att upptäcka din plats och en högtalare för att ge dig navigationsinstruktioner till en destination.
 
@@ -63,11 +63,11 @@ Enheter ansluter inte alltid direkt till Internet själva via WiFi eller trådbu
 
 I exemplet med en smart termostat skulle termostaten ansluta via hemmets WiFi till en molntjänst. Den skulle skicka temperaturdata till denna molntjänst, och därifrån skulle den skrivas till en databas av något slag som gör det möjligt för husägaren att kontrollera aktuella och tidigare temperaturer via en telefonapp. En annan tjänst i molnet skulle veta vilken temperatur husägaren vill ha och skicka meddelanden tillbaka till IoT-enheten via molntjänsten för att tala om för värmesystemet att slå på eller av.
 
-![Ett diagram som visar temperatur och en ratt som indata till en IoT-enhet, IoT-enheten med tvåvägskommunikation till molnet, som i sin tur har tvåvägskommunikation till en telefon, och styrning av en värmare som utdata från IoT-enheten](../../../../../translated_images/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.sv.png)
+![Ett diagram som visar temperatur och en ratt som indata till en IoT-enhet, IoT-enheten med tvåvägskommunikation till molnet, som i sin tur har tvåvägskommunikation till en telefon, och styrning av en värmare som utdata från IoT-enheten](../../../../../translated_images/sv/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.png)
 
 En ännu smartare version skulle kunna använda AI i molnet med data från andra sensorer anslutna till andra IoT-enheter, såsom rörelsesensorer som upptäcker vilka rum som används, samt data som väder och till och med din kalender, för att fatta beslut om hur temperaturen ska ställas in på ett smart sätt. Till exempel skulle den kunna stänga av värmen om den läser från din kalender att du är på semester, eller stänga av värmen rum för rum beroende på vilka rum du använder, och lära sig från datan för att bli mer och mer exakt över tid.
 
-![Ett diagram som visar flera temperatursensorer och en ratt som indata till en IoT-enhet, IoT-enheten med tvåvägskommunikation till molnet, som i sin tur har tvåvägskommunikation till en telefon, en kalender och en vädertjänst, och styrning av en värmare som utdata från IoT-enheten](../../../../../translated_images/smarter-thermostat.a75855f15d2d9e63.sv.png)
+![Ett diagram som visar flera temperatursensorer och en ratt som indata till en IoT-enhet, IoT-enheten med tvåvägskommunikation till molnet, som i sin tur har tvåvägskommunikation till en telefon, en kalender och en vädertjänst, och styrning av en värmare som utdata från IoT-enheten](../../../../../translated_images/sv/smarter-thermostat.a75855f15d2d9e63.webp)
 
 ✅ Vilka andra data skulle kunna hjälpa till att göra en Internetansluten termostat smartare?
 
@@ -103,7 +103,7 @@ Ju snabbare klockcykeln är, desto fler instruktioner kan bearbetas per sekund o
 
 > 💁 CPU:er kör program med hjälp av [fetch-decode-execute-cykeln](https://wikipedia.org/wiki/Instruction_cycle). Vid varje klocktick hämtar CPU:n nästa instruktion från minnet, avkodar den och utför den, till exempel genom att använda en aritmetisk logikenhet (ALU) för att addera två tal. Vissa exekveringar tar flera tick att köra, så nästa cykel körs vid nästa tick efter att instruktionen har slutförts.
 
-![Fetch-decode-execute-cykeln som visar hur instruktioner hämtas från programmet i RAM, avkodas och exekveras på en CPU](../../../../../translated_images/fetch-decode-execute.2fd6f150f6280392807f4475382319abd0cee0b90058e1735444d6baa6f2078c.sv.png)
+![Fetch-decode-execute-cykeln som visar hur instruktioner hämtas från programmet i RAM, avkodas och exekveras på en CPU](../../../../../translated_images/sv/fetch-decode-execute.2fd6f150f6280392807f4475382319abd0cee0b90058e1735444d6baa6f2078c.png)
 
 Mikrokontroller har mycket lägre klockhastigheter än stationära eller bärbara datorer, eller till och med de flesta smartphones. Wio Terminal har till exempel en CPU som körs på 120 MHz eller 120 000 000 cykler per sekund.
 
@@ -135,7 +135,7 @@ Precis som med CPU:n är minnet i en mikrokontroller många gånger mindre än i
 
 Diagrammet nedan visar den relativa storleksskillnaden mellan 192KB och 8GB - den lilla pricken i mitten representerar 192KB.
 
-![En jämförelse mellan 192KB och 8GB - mer än 40 000 gånger större](../../../../../translated_images/ram-comparison.6beb73541b42ac6f.sv.png)
+![En jämförelse mellan 192KB och 8GB - mer än 40 000 gånger större](../../../../../translated_images/sv/ram-comparison.6beb73541b42ac6f.webp)
 
 Programlagring är också mindre än i en PC. En typisk PC kan ha en hårddisk på 500GB för programlagring, medan en mikrokontroller kan ha bara kilobyte eller kanske några megabyte (MB) lagring (1MB är 1 000KB, eller 1 000 000 byte). Wio-terminalen har 4MB programlagring.
 
@@ -191,7 +191,7 @@ Arduino-kort programmeras i C eller C++. Att använda C/C++ gör att din kod kan
 
 Du skulle skriva din setup-kod i `setup`-funktionen, såsom att ansluta till WiFi och molntjänster eller initiera pinnar för input och output. Din loop-kod skulle sedan innehålla bearbetningskod, såsom att läsa från en sensor och skicka värdet till molnet. Du skulle normalt inkludera en fördröjning i varje loop, till exempel om du bara vill att sensordata ska skickas var tionde sekund skulle du lägga till en fördröjning på 10 sekunder i slutet av loopen så att mikrokontrollern kan sova, spara ström och sedan köra loopen igen när det behövs 10 sekunder senare.
 
-![En Arduino-sketch som kör setup först, och sedan kör loop upprepade gånger](../../../../../translated_images/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.sv.png)
+![En Arduino-sketch som kör setup först, och sedan kör loop upprepade gånger](../../../../../translated_images/sv/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.png)
 
 ✅ Denna programarkitektur kallas en *event loop* eller *message loop*. Många applikationer använder detta i bakgrunden och det är standard för de flesta desktop-applikationer som körs på OS som Windows, macOS eller Linux. `loop` lyssnar efter meddelanden från användargränssnittskomponenter som knappar, eller enheter som tangentbordet, och svarar på dem. Du kan läsa mer i denna [artikel om event loop](https://wikipedia.org/wiki/Event_loop).
 
@@ -211,17 +211,17 @@ I förra lektionen introducerade vi enkortsdatorer. Låt oss nu titta djupare p�
 
 ### Raspberry Pi
 
-![Raspberry Pi-logotypen](../../../../../translated_images/raspberry-pi-logo.4efaa16605cee054.sv.png)
+![Raspberry Pi-logotypen](../../../../../translated_images/sv/raspberry-pi-logo.4efaa16605cee054.webp)
 
 [Raspberry Pi Foundation](https://www.raspberrypi.org) är en välgörenhetsorganisation från Storbritannien som grundades 2009 för att främja studier i datavetenskap, särskilt på skolnivå. Som en del av detta uppdrag utvecklade de en enkortsdator, kallad Raspberry Pi. Raspberry Pi finns för närvarande i tre varianter - en fullstor version, den mindre Pi Zero, och en beräkningsmodul som kan byggas in i din slutliga IoT-enhet.
 
-![En Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.sv.jpg)
+![En Raspberry Pi 4](../../../../../translated_images/sv/raspberry-pi-4.fd4590d308c3d456.webp)
 
 Den senaste iterationen av den fullstora Raspberry Pi är Raspberry Pi 4B. Den har en fyrkärnig (4 kärnor) CPU som körs på 1.5GHz, 2, 4 eller 8GB RAM, gigabit ethernet, WiFi, 2 HDMI-portar som stöder 4k-skärmar, en ljud- och kompositvideoutgångsport, USB-portar (2 USB 2.0, 2 USB 3.0), 40 GPIO-pinnar, en kamerakontakt för en Raspberry Pi-kameramodul och en SD-kortplats. Allt detta på ett kort som är 88mm x 58mm x 19.5mm och drivs av en 3A USB-C strömadapter. Dessa börjar på US$35, mycket billigare än en PC eller Mac.
 
 > 💁 Det finns också en Pi400 allt-i-ett-dator med en Pi4 inbyggd i ett tangentbord.
 
-![En Raspberry Pi Zero](../../../../../translated_images/raspberry-pi-zero.f7a4133e1e7d54bb.sv.jpg)
+![En Raspberry Pi Zero](../../../../../translated_images/sv/raspberry-pi-zero.f7a4133e1e7d54bb.webp)
 
 Pi Zero är mycket mindre, med lägre effekt. Den har en enkelkärnig 1GHz CPU, 512MB RAM, WiFi (i Zero W-modellen), en enda HDMI-port, en mikro-USB-port, 40 GPIO-pinnar, en kamerakontakt för en Raspberry Pi-kameramodul och en SD-kortplats. Den mäter 65mm x 30mm x 5mm och drar väldigt lite ström. Zero kostar US$5, med W-versionen med WiFi US$10.
 

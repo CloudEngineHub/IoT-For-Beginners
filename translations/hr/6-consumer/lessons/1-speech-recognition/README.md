@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Prepoznajte govor pomoću IoT uređaja
 
-![Sketchnote pregled ove lekcije](../../../../../translated_images/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.hr.jpg)
+![Sketchnote pregled ove lekcije](../../../../../translated_images/hr/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.jpg)
 
 > Sketchnote od [Nitya Narasimhan](https://github.com/nitya). Kliknite na sliku za veću verziju.
 
@@ -60,19 +60,19 @@ Mikrofoni dolaze u raznim vrstama:
 
     Dinamički mikrofoni ne trebaju napajanje za rad, električni signal se stvara isključivo iz mikrofona.
 
-    ![Patti Smith pjeva u Shure SM58 (dinamički kardioidni tip) mikrofon](../../../../../translated_images/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.hr.jpg)
+    ![Patti Smith pjeva u Shure SM58 (dinamički kardioidni tip) mikrofon](../../../../../translated_images/hr/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.jpg)
 
 * Trakasti - Trakasti mikrofoni slični su dinamičkim mikrofonima, osim što imaju metalnu traku umjesto membrane. Ova traka se pomiče u magnetskom polju stvarajući električnu struju. Kao i dinamički mikrofoni, trakasti mikrofoni ne trebaju napajanje za rad.
 
-    ![Edmund Lowe, američki glumac, stoji uz radijski mikrofon (označen za (NBC) Blue Network), drži skriptu, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441ca.hr.jpg)
+    ![Edmund Lowe, američki glumac, stoji uz radijski mikrofon (označen za (NBC) Blue Network), drži skriptu, 1942](../../../../../translated_images/hr/ribbon-mic.eacc8e092c7441ca.webp)
 
 * Kondenzatorski - Kondenzatorski mikrofoni imaju tanku metalnu membranu i fiksnu metalnu stražnju ploču. Elektricitet se primjenjuje na obje ove komponente, a kako membrana vibrira, statički naboj između ploča se mijenja generirajući signal. Kondenzatorski mikrofoni trebaju napajanje za rad - nazvano *Phantom power*.
 
-    ![C451B mali kondenzatorski mikrofon s membranom od AKG Acoustics](../../../../../translated_images/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.hr.jpg)
+    ![C451B mali kondenzatorski mikrofon s membranom od AKG Acoustics](../../../../../translated_images/hr/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.jpg)
 
 * MEMS - Mikroelektromehanički sustavi mikrofona, ili MEMS, su mikrofoni na čipu. Imaju dijafragmu osjetljivu na pritisak ugraviranu na silicijski čip i rade slično kondenzatorskom mikrofonu. Ovi mikrofoni mogu biti vrlo mali i integrirani u elektroničke sklopove.
 
-    ![MEMS mikrofon na pločici](../../../../../translated_images/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.hr.png)
+    ![MEMS mikrofon na pločici](../../../../../translated_images/hr/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.png)
 
     Na slici iznad, čip označen **LEFT** je MEMS mikrofon, s dijafragmom manjom od jednog milimetra.
 
@@ -84,7 +84,7 @@ Zvuk je analogni signal koji nosi vrlo detaljne informacije. Da bi se taj signal
 
 > 🎓 Uzorkovanje je pretvaranje audio signala u digitalnu vrijednost koja predstavlja signal u tom trenutku.
 
-![Grafikon koji prikazuje signal s diskretnim točkama u fiksnim intervalima](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7.hr.png)
+![Grafikon koji prikazuje signal s diskretnim točkama u fiksnim intervalima](../../../../../translated_images/hr/sampling.6f4fadb3f2d9dfe7.webp)
 
 Digitalni zvuk se uzorkuje pomoću Pulse Code Modulation (PCM). PCM uključuje očitavanje napona signala i odabir najbliže diskretne vrijednosti tom naponu koristeći definiranu veličinu.
 
@@ -168,7 +168,7 @@ Kako biste izbjegli složenost treniranja i korištenja modela za budnu riječ, 
 
 ## Pretvorba govora u tekst
 
-![Logotip govorne usluge](../../../../../translated_images/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.hr.png)
+![Logotip govorne usluge](../../../../../translated_images/hr/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
 
 Kao i kod klasifikacije slika u ranijem projektu, postoje unaprijed izgrađene AI usluge koje mogu uzeti govor kao audio datoteku i pretvoriti ga u tekst. Jedna od takvih usluga je Govorna usluga, dio Cognitive Services, unaprijed izgrađenih AI usluga koje možete koristiti u svojim aplikacijama.
 

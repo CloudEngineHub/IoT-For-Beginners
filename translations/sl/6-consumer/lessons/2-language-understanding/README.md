@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 Razumeti jezik
 
-![Skica pregleda te lekcije](../../../../../translated_images/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.sl.jpg)
+![Skica pregleda te lekcije](../../../../../translated_images/sl/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.jpg)
 
 > Skica avtorja [Nitya Narasimhan](https://github.com/nitya). Kliknite sliko za večjo različico.
 
@@ -55,7 +55,7 @@ Modeli za razumevanje jezika so AI modeli, ki so trenirani za izluščitev dolo�
 
 ## Ustvarjanje modela za razumevanje jezika
 
-![Logotip LUIS](../../../../../translated_images/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.sl.png)
+![Logotip LUIS](../../../../../translated_images/sl/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.png)
 
 Modele za razumevanje jezika lahko ustvarite z LUIS, Microsoftovo storitvijo za razumevanje jezika, ki je del Cognitive Services.
 
@@ -126,7 +126,7 @@ Ko so entitete definirane, ustvarite namene. Ti se učijo s pomočjo modela na p
 
 Nato LUIS-u poveste, kateri deli teh stavkov ustrezajo entitetam:
 
-![Stavek "nastavi časovnik za 1 minuto in 12 sekund" razdeljen na entitete](../../../../../translated_images/sentence-as-intent-entities.301401696f992259.sl.png)
+![Stavek "nastavi časovnik za 1 minuto in 12 sekund" razdeljen na entitete](../../../../../translated_images/sl/sentence-as-intent-entities.301401696f992259.webp)
 
 Stavek `nastavi časovnik za 1 minuto in 12 sekund` ima namen `nastavi časovnik`. Ima tudi 2 entiteti z 2 vrednostma:
 
@@ -178,7 +178,7 @@ Navodila za uporabo portala LUIS najdete v [Quickstart: Build your app in LUIS p
 
 1. Ko vnesete vsak primer, bo LUIS začel zaznavati entitete in podčrtal ter označil vse, ki jih najde.
 
-    ![Primeri z označenimi številkami in časovnimi enotami](../../../../../translated_images/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.sl.png)
+    ![Primeri z označenimi številkami in časovnimi enotami](../../../../../translated_images/sl/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.png)
 
 ### Naloga - treniranje in testiranje modela
 

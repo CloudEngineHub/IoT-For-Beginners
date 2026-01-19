@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Süvitsi IoT teemadesse
 
-![Selle õppetunni visuaalne ülevaade](../../../../../translated_images/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.et.jpg)
+![Selle õppetunni visuaalne ülevaade](../../../../../translated_images/et/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.jpg)
 
 > Visuaalne märkmik: [Nitya Narasimhan](https://github.com/nitya). Klõpsa pildil, et näha suuremat versiooni.
 
@@ -41,13 +41,13 @@ IoT rakenduse kaks peamist komponenti on *Internet* ja *asi*. Vaatame neid kompo
 
 ### Asi
 
-![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.et.jpg)
+![Raspberry Pi 4](../../../../../translated_images/et/raspberry-pi-4.fd4590d308c3d456.webp)
 
 IoT **asi** viitab seadmele, mis suudab suhelda füüsilise maailmaga. Need seadmed on tavaliselt väikesed, odavad arvutid, mis töötavad madalatel kiirustel ja kasutavad vähe energiat – näiteks lihtsad mikroprotsessorid, millel on vaid kilobaidid RAM-i (võrreldes PC-de gigabaitidega), töötades vaid mõnesaja megahertsi juures (võrreldes PC-de gigahertsiga), kuid tarbides nii vähe energiat, et võivad töötada nädalate, kuude või isegi aastate jooksul patareide abil.
 
 Need seadmed suhtlevad füüsilise maailmaga, kas sensorite abil, et koguda andmeid oma ümbrusest, või juhtides väljundeid või aktuaatoreid, et teha füüsilisi muudatusi. Tüüpiline näide on nutikas termostaat – seade, millel on temperatuuriandur, vahend soovitud temperatuuri seadmiseks, näiteks ketas või puutetundlik ekraan, ja ühendus kütte- või jahutussüsteemiga, mida saab sisse lülitada, kui tuvastatud temperatuur on väljaspool soovitud vahemikku. Temperatuuriandur tuvastab, et ruum on liiga külm, ja aktuaator lülitab kütte sisse.
 
-![Diagram, mis näitab temperatuuri ja ketast IoT seadme sisenditena ning kütte juhtimist väljundina](../../../../../translated_images/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.et.png)
+![Diagram, mis näitab temperatuuri ja ketast IoT seadme sisenditena ning kütte juhtimist väljundina](../../../../../translated_images/et/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.png)
 
 IoT seadmeteks võivad olla väga erinevad asjad, alates spetsiaalsest riistvarast, mis tuvastab ühte asja, kuni üldotstarbeliste seadmeteni, isegi teie nutitelefon! Nutitelefon võib kasutada sensoreid, et tuvastada ümbritsevat maailma, ja aktuaatoreid, et suhelda maailmaga – näiteks GPS-sensori abil tuvastada teie asukohta ja kõlarit, et anda navigeerimisjuhiseid sihtkohta.
 
@@ -63,11 +63,11 @@ Seadmed ei pruugi alati otse Internetiga ühenduda WiFi või kaabliga. Mõned se
 
 Näiteks nutika termostaadi puhul ühendub termostaat koduse WiFi kaudu pilveteenusega. See saadab temperatuuriandmed pilveteenusele, kust need kirjutatakse mingisse andmebaasi, võimaldades koduomanikul kontrollida praegust ja varasemat temperatuuri telefoni rakenduse kaudu. Teine pilveteenus teab, millist temperatuuri koduomanik soovib, ja saadab sõnumeid IoT seadmele pilveteenuse kaudu, et öelda küttele, kas see tuleks sisse või välja lülitada.
 
-![Diagram, mis näitab temperatuuri ja ketast IoT seadme sisenditena, IoT seadet kahepoolse suhtlusega pilvega, mis omakorda suhtleb kahepoolse suhtlusega telefoniga, ja kütte juhtimist IoT seadme väljundina](../../../../../translated_images/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.et.png)
+![Diagram, mis näitab temperatuuri ja ketast IoT seadme sisenditena, IoT seadet kahepoolse suhtlusega pilvega, mis omakorda suhtleb kahepoolse suhtlusega telefoniga, ja kütte juhtimist IoT seadme väljundina](../../../../../translated_images/et/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.png)
 
 Veelgi nutikam versioon võiks kasutada pilves AI-d koos andmetega teistelt IoT seadmetelt, näiteks liikumisanduritelt, mis tuvastavad, millised ruumid on kasutuses, samuti andmeid nagu ilm ja isegi teie kalender, et teha otsuseid temperatuuri nutikaks seadmiseks. Näiteks võiks see lülitada kütte välja, kui teie kalendrist loeb, et olete puhkusel, või lülitada kütte välja ruumipõhiselt sõltuvalt sellest, milliseid ruume te kasutate, õppides andmetest aja jooksul üha täpsemaks.
 
-![Diagram, mis näitab mitut temperatuuriandurit ja ketast IoT seadme sisenditena, IoT seadet kahepoolse suhtlusega pilvega, mis omakorda suhtleb kahepoolse suhtlusega telefoniga, kalendri ja ilmateenusega, ja kütte juhtimist IoT seadme väljundina](../../../../../translated_images/smarter-thermostat.a75855f15d2d9e63.et.png)
+![Diagram, mis näitab mitut temperatuuriandurit ja ketast IoT seadme sisenditena, IoT seadet kahepoolse suhtlusega pilvega, mis omakorda suhtleb kahepoolse suhtlusega telefoniga, kalendri ja ilmateenusega, ja kütte juhtimist IoT seadme väljundina](../../../../../translated_images/et/smarter-thermostat.a75855f15d2d9e63.webp)
 
 ✅ Millised muud andmed võiksid aidata Internetiga ühendatud termostaati nutikamaks muuta?
 
@@ -103,7 +103,7 @@ Mida kiirem on kellatsükkel, seda rohkem juhiseid saab sekundis töödelda ja s
 
 > 💁 CPU-d käitavad programme kasutades [fetch-decode-execute tsüklit](https://wikipedia.org/wiki/Instruction_cycle). Iga kellatiksumisega hangib CPU järgmise juhise mälust, dekodeerib selle ja täidab selle, näiteks kasutades aritmeetika-loogika üksust (ALU), et liita kaks numbrit. Mõned täitmised võtavad mitu tiksumist, nii et järgmine tsükkel käivitub järgmise tiksumise ajal pärast juhise täitmist.
 
-![Fetch-decode-execute tsüklid, mis näitavad, kuidas fetch võtab juhise RAM-is salvestatud programmist, seejärel dekodeerib ja täidab selle CPU-s](../../../../../translated_images/fetch-decode-execute.2fd6f150f6280392807f4475382319abd0cee0b90058e1735444d6baa6f2078c.et.png)
+![Fetch-decode-execute tsüklid, mis näitavad, kuidas fetch võtab juhise RAM-is salvestatud programmist, seejärel dekodeerib ja täidab selle CPU-s](../../../../../translated_images/et/fetch-decode-execute.2fd6f150f6280392807f4475382319abd0cee0b90058e1735444d6baa6f2078c.png)
 
 Mikroprotsessoritel on palju madalamad kellakiirused kui lauaarvutitel, sülearvutitel või isegi enamikul nutitelefonidel. Näiteks Wio Terminalil on CPU, mis töötab 120MHz juures ehk 120 000 000 tsüklit sekundis.
 
@@ -136,7 +136,7 @@ Nagu protsessoriga, on mikrokontrolleri mälu suurus võrreldes PC või Maciga m
 
 Allolev diagramm näitab suhtelist suuruse erinevust 192KB ja 8GB vahel – väike täpp keskel esindab 192KB.
 
-![Võrdlus 192KB ja 8GB vahel - üle 40 000 korra suurem](../../../../../translated_images/ram-comparison.6beb73541b42ac6f.et.png)
+![Võrdlus 192KB ja 8GB vahel - üle 40 000 korra suurem](../../../../../translated_images/et/ram-comparison.6beb73541b42ac6f.webp)
 
 Programmi salvestusruum on samuti väiksem kui arvutil. Tüüpilisel arvutil võib olla 500GB kõvaketas programmide salvestamiseks, samas kui mikrokontrolleril võib olla ainult kilobaite või mõni megabait (MB) salvestusruumi (1MB on 1000KB ehk 1 000 000 baiti). Wio terminalil on 4MB programmi salvestusruumi.
 
@@ -192,7 +192,7 @@ Arduino plaate programmeeritakse C või C++ keeles. C/C++ kasutamine võimaldab 
 
 `setup` funktsiooni kirjutatakse algseadistuse kood, näiteks WiFi ja pilveteenustega ühendamine või kontaktide initsialiseerimine sisendi ja väljundi jaoks. `loop` funktsioon sisaldab töötlemiskoodi, näiteks sensori lugemine ja väärtuse saatmine pilve. Tavaliselt lisatakse igasse tsüklisse viivitus, näiteks kui soovid sensori andmeid saata iga 10 sekundi järel, lisatakse tsükli lõppu 10-sekundiline viivitus, et mikrokontroller saaks magada, säästes energiat, ja käivitada tsükli uuesti 10 sekundi pärast.
 
-![Arduino visand, mis käivitab kõigepealt setup-funktsiooni ja seejärel loop-funktsiooni korduvalt](../../../../../translated_images/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.et.png)
+![Arduino visand, mis käivitab kõigepealt setup-funktsiooni ja seejärel loop-funktsiooni korduvalt](../../../../../translated_images/et/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.png)
 
 ✅ Seda programmi arhitektuuri nimetatakse *sündmuste tsükliks* või *sõnumite tsükliks*. Paljud rakendused kasutavad seda taustal ja see on standard enamiku desktop-rakenduste jaoks, mis töötavad operatsioonisüsteemidel nagu Windows, macOS või Linux. `loop` kuulab sõnumeid kasutajaliidese komponentidelt, nagu nupud, või seadmetelt, nagu klaviatuur, ja reageerib neile. Loe rohkem sellest [artiklist sündmuste tsükli kohta](https://wikipedia.org/wiki/Event_loop).
 
@@ -212,17 +212,17 @@ Eelmises õppetunnis tutvustasime üheplaadi arvuteid. Vaatame nüüd neid süga
 
 ### Raspberry Pi
 
-![Raspberry Pi logo](../../../../../translated_images/raspberry-pi-logo.4efaa16605cee054.et.png)
+![Raspberry Pi logo](../../../../../translated_images/et/raspberry-pi-logo.4efaa16605cee054.webp)
 
 [Raspberry Pi Foundation](https://www.raspberrypi.org) on Ühendkuningriigi heategevusorganisatsioon, mis asutati 2009. aastal, et edendada arvutiteaduse õppimist, eriti koolitasemel. Osana sellest missioonist arendasid nad välja üheplaadi arvuti, mida nimetatakse Raspberry Pi-ks. Raspberry Pi-d on praegu saadaval kolmes variandis – täissuuruses versioon, väiksem Pi Zero ja arvutimoodul, mida saab integreerida lõplikku IoT seadmesse.
 
-![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.et.jpg)
+![Raspberry Pi 4](../../../../../translated_images/et/raspberry-pi-4.fd4590d308c3d456.webp)
 
 Viimane täissuuruses Raspberry Pi iteratsioon on Raspberry Pi 4B. Sellel on neljatuumaline (4 tuuma) protsessor, mis töötab 1.5GHz sagedusel, 2, 4 või 8GB RAM-i, gigabitine Ethernet, WiFi, 2 HDMI porti, mis toetavad 4k ekraane, audio- ja komposiitvideo väljundport, USB-pordid (2 USB 2.0, 2 USB 3.0), 40 GPIO kontakti, kaameraühendus Raspberry Pi kaameramooduli jaoks ja SD-kaardi pesa. Kõik see plaadil, mille mõõtmed on 88mm x 58mm x 19.5mm ja mida toidab 3A USB-C toiteallikas. Need algavad hinnast 35 USA dollarit, mis on palju odavam kui PC või Mac.
 
 > 💁 On olemas ka Pi400, kõik-ühes arvuti, millel on Pi4 integreeritud klaviatuuri sisse.
 
-![Raspberry Pi Zero](../../../../../translated_images/raspberry-pi-zero.f7a4133e1e7d54bb.et.jpg)
+![Raspberry Pi Zero](../../../../../translated_images/et/raspberry-pi-zero.f7a4133e1e7d54bb.webp)
 
 Pi Zero on palju väiksem ja madalama võimsusega. Sellel on ühetuumaline 1GHz protsessor, 512MB RAM-i, WiFi (Zero W mudelis), üks HDMI port, üks mikro-USB port, 40 GPIO kontakti, kaameraühendus Raspberry Pi kaameramooduli jaoks ja SD-kaardi pesa. Selle mõõtmed on 65mm x 30mm x 5mm ja see tarbib väga vähe energiat. Zero maksab 5 USA dollarit, WiFi-ga W versioon maksab 10 USA dollarit.
 

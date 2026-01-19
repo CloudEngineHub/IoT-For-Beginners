@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 ## Predpovedajte rast rastlín pomocou IoT
 
-![Prehľad tejto lekcie v sketchnote](../../../../../translated_images/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.sk.jpg)
+![Prehľad tejto lekcie v sketchnote](../../../../../translated_images/sk/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.jpg)
 
 > Sketchnote od [Nitya Narasimhan](https://github.com/nitya). Kliknite na obrázok pre väčšiu verziu.
 
@@ -65,7 +65,7 @@ Každý druh rastliny má rôzne hodnoty pre svoju základnú, optimálnu a maxi
 
 ✅ Urobte si prieskum. Pre akékoľvek rastliny vo vašej záhrade, škole alebo miestnom parku zistite, či môžete nájsť ich základnú teplotu.
 
-![Graf ukazujúci rýchlosť rastu, ktorá stúpa s teplotou, potom klesá, keď teplota stúpne príliš vysoko](../../../../../translated_images/plant-growth-temp-graph.c6d69c9478e6ca83.sk.png)
+![Graf ukazujúci rýchlosť rastu, ktorá stúpa s teplotou, potom klesá, keď teplota stúpne príliš vysoko](../../../../../translated_images/sk/plant-growth-temp-graph.c6d69c9478e6ca83.webp)
 
 Graf vyššie ukazuje príklad grafu rýchlosti rastu voči teplote. Až do základnej teploty nedochádza k rastu. Rýchlosť rastu sa zvyšuje až do optimálnej teploty, potom klesá po dosiahnutí tohto vrcholu. 
 
@@ -91,7 +91,7 @@ Tento kód otvorí súbor CSV a na jeho koniec pridá nový riadok. Riadok obsah
 
     
 > 💁 Ak používate virtuálne IoT zariadenie, zaškrtnite políčko náhodného výberu a nastavte rozsah, aby ste sa vyhli získaniu rovnakej teploty pri každom vrátení hodnoty teploty.
-    ![Zaškrtnite políčko náhodného výberu a nastavte rozsah](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.sk.png) 
+    ![Zaškrtnite políčko náhodného výberu a nastavte rozsah](../../../../../translated_images/sk/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.webp) 
 
     > 💁 Ak chcete tento kód spustiť počas celého dňa, musíte sa uistiť, že počítač, na ktorom beží váš serverový kód, neprejde do režimu spánku. Môžete to dosiahnuť zmenou nastavení napájania alebo spustením niečoho ako [tento Python skript na udržanie systému aktívneho](https://github.com/jaqsparow/keep-system-active).
     
@@ -111,7 +111,7 @@ Kroky na manuálny výpočet sú:
 
 Napríklad, ak je najvyššia teplota za deň 25°C a najnižšia 12°C:
 
-![GDD = 25 + 12 delené 2, potom od výsledku odčítajte 10, čo dáva 8.5](../../../../../translated_images/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.sk.png)
+![GDD = 25 + 12 delené 2, potom od výsledku odčítajte 10, čo dáva 8.5](../../../../../translated_images/sk/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
 
 * 25 + 12 = 37
 * 37 / 2 = 18.5

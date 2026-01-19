@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Skontrolujte zásoby pomocou IoT zariadenia
 
-![Prehľad lekcie v sketchnote](../../../../../translated_images/lesson-20.0211df9551a8abb300fc8fcf7dc2789468dea2eabe9202273ac077b0ba37f15e.sk.jpg)
+![Prehľad lekcie v sketchnote](../../../../../translated_images/sk/lesson-20.0211df9551a8abb300fc8fcf7dc2789468dea2eabe9202273ac077b0ba37f15e.jpg)
 
 > Sketchnote od [Nitya Narasimhan](https://github.com/nitya). Kliknite na obrázok pre väčšiu verziu.
 
@@ -39,7 +39,7 @@ Detektory objektov môžu byť použité na kontrolu zásob, či už na ich poč
 
 Napríklad, ak kamera smeruje na poličky, ktoré môžu držať 8 plechoviek paradajkového pretlaku, a detektor objektov detekuje iba 7 plechoviek, jedna chýba a je potrebné ju doplniť.
 
-![7 plechoviek paradajkového pretlaku na poličke, 4 na hornom rade, 3 na spodnom](../../../../../translated_images/stock-7-cans-tomato-paste.f86059cc573d7bec.sk.png)
+![7 plechoviek paradajkového pretlaku na poličke, 4 na hornom rade, 3 na spodnom](../../../../../translated_images/sk/stock-7-cans-tomato-paste.f86059cc573d7bec.webp)
 
 Na obrázku vyššie detektor objektov detekoval 7 plechoviek paradajkového pretlaku na poličke, ktorá môže držať 8 plechoviek. IoT zariadenie môže nielen poslať upozornenie na potrebu doplnenia, ale môže dokonca poskytnúť informáciu o umiestnení chýbajúcej položky, čo je dôležitý údaj, ak používate roboty na dopĺňanie poličiek.
 
@@ -51,7 +51,7 @@ Niekedy sa na poličkách môže nachádzať nesprávny tovar. Môže to byť ľ
 
 Detekcia objektov môže byť použitá na detekciu neočakávaných položiek, opäť upozorňujúc človeka alebo robota, aby položku vrátil hneď, ako je detekovaná.
 
-![Nepatriaca plechovka baby kukurice na poličke s paradajkovým pretlakom](../../../../../translated_images/stock-rogue-corn.be1f3ada8c457854.sk.png)
+![Nepatriaca plechovka baby kukurice na poličke s paradajkovým pretlakom](../../../../../translated_images/sk/stock-rogue-corn.be1f3ada8c457854.webp)
 
 Na obrázku vyššie bola na poličku vedľa paradajkového pretlaku umiestnená plechovka baby kukurice. Detektor objektov to detekoval, čo umožňuje IoT zariadeniu upozorniť človeka alebo robota, aby plechovku vrátil na správne miesto.
 
@@ -71,7 +71,7 @@ Iterácie sa publikujú z portálu Custom Vision.
 
 1. Kliknite na tlačidlo **Publish** pre danú iteráciu.
 
-    ![Tlačidlo publikovania](../../../../../translated_images/custom-vision-object-detector-publish-button.34ee379fc650ccb9856c3868d0003f413b9529f102fc73c37168c98d721cc293.sk.png)
+    ![Tlačidlo publikovania](../../../../../translated_images/sk/custom-vision-object-detector-publish-button.34ee379fc650ccb9856c3868d0003f413b9529f102fc73c37168c98d721cc293.png)
 
 1. V dialógovom okne *Publish Model* nastavte *Prediction resource* na zdroj `stock-detector-prediction`, ktorý ste vytvorili v poslednej lekcii. Názov ponechajte ako `Iteration2` a kliknite na tlačidlo **Publish**.
 
@@ -85,7 +85,7 @@ Iterácie sa publikujú z portálu Custom Vision.
 
     Tiež si skopírujte hodnotu *Prediction-Key*. Toto je bezpečnostný kľúč, ktorý musíte odoslať pri volaní modelu. Iba aplikácie, ktoré odosielajú tento kľúč, môžu používať model, všetky ostatné aplikácie sú odmietnuté.
 
-    ![Dialógové okno predikčného API zobrazujúce URL a kľúč](../../../../../translated_images/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.sk.png)
+    ![Dialógové okno predikčného API zobrazujúce URL a kľúč](../../../../../translated_images/sk/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
 
 ✅ Keď je publikovaná nová iterácia, bude mať iný názov. Ako si myslíte, že by ste zmenili iteráciu, ktorú IoT zariadenie používa?
 
@@ -104,7 +104,7 @@ Keď používate detektor objektov, nielenže získate späť detekované objekt
 
 Výsledky predikcie na karte **Predictions** v Custom Vision majú ohraničujúce boxy nakreslené na obrázku, ktorý bol odoslaný na predikciu.
 
-![4 plechovky paradajkového pretlaku na poličke s predikciami pre 4 detekcie s pravdepodobnosťami 35.8%, 33.5%, 25.7% a 16.6%](../../../../../translated_images/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.sk.png)
+![4 plechovky paradajkového pretlaku na poličke s predikciami pre 4 detekcie s pravdepodobnosťami 35.8%, 33.5%, 25.7% a 16.6%](../../../../../translated_images/sk/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
 
 Na obrázku vyššie boli detekované 4 plechovky paradajkového pretlaku. Vo výsledkoch je na každom detekovanom objekte nakreslený červený štvorec, ktorý označuje ohraničujúci box pre obrázok.
 
@@ -112,7 +112,7 @@ Na obrázku vyššie boli detekované 4 plechovky paradajkového pretlaku. Vo v�
 
 Ohraničujúce boxy sú definované pomocou 4 hodnôt - top, left, height a width. Tieto hodnoty sú na škále od 0 do 1, reprezentujúce pozície ako percento veľkosti obrázka. Pôvod (pozícia 0,0) je v ľavom hornom rohu obrázka, takže hodnota top je vzdialenosť od vrchu a spodná časť ohraničujúceho boxu je top plus height.
 
-![Ohraničujúci box okolo plechovky paradajkového pretlaku](../../../../../translated_images/bounding-box.1420a7ea0d3d15f71e1ffb5cf4b2271d184fac051f990abc541975168d163684.sk.png)
+![Ohraničujúci box okolo plechovky paradajkového pretlaku](../../../../../translated_images/sk/bounding-box.1420a7ea0d3d15f71e1ffb5cf4b2271d184fac051f990abc541975168d163684.png)
 
 Obrázok vyššie má šírku 600 pixelov a výšku 800 pixelov. Ohraničujúci box začína 320 pixelov dole, čo dáva hodnotu top 0.4 (800 x 0.4 = 320). Zľava začína ohraničujúci box 240 pixelov, čo dáva hodnotu left 0.4 (600 x 0.4 = 240). Výška ohraničujúceho boxu je 240 pixelov, čo dáva hodnotu height 0.3 (800 x 0.3 = 240). Šírka ohraničujúceho boxu je 120 pixelov, čo dáva hodnotu width 0.2 (600 x 0.2 = 120).
 
@@ -127,7 +127,7 @@ Použitie percentuálnych hodnôt od 0 do 1 znamená, že bez ohľadu na to, na 
 
 Môžete použiť ohraničujúce boxy v kombinácii s pravdepodobnosťami na vyhodnotenie, aká presná je detekcia. Napríklad detektor objektov môže detekovať viacero objektov, ktoré sa prekrývajú, napríklad detekciu jednej plechovky vo vnútri druhej. Váš kód by mohol skontrolovať ohraničujúce boxy, pochopiť, že to nie je možné, a ignorovať akékoľvek objekty, ktoré majú významný prekrýv s inými objektmi.
 
-![Dva ohraničujúce boxy prekrývajúce plechovku paradajkového pretlaku](../../../../../translated_images/overlap-object-detection.d431e03cae75072a2760430eca7f2c5fdd43045bfd72dadcbf12711f7cd6c2ae.sk.png)
+![Dva ohraničujúce boxy prekrývajúce plechovku paradajkového pretlaku](../../../../../translated_images/sk/overlap-object-detection.d431e03cae75072a2760430eca7f2c5fdd43045bfd72dadcbf12711f7cd6c2ae.png)
 
 V príklade vyššie jeden ohraničujúci box označuje predikovanú plechovku paradajkového pretlaku s pravdepodobnosťou 78.3%. Druhý ohraničujúci box je o niečo menší a je vo vnútri prvého boxu s pravdepodobnosťou 64.3%. Váš kód môže skontrolovať ohraničujúce boxy, vidieť, že sa úplne prekrývajú, a ignorovať nižšiu pravdepodobnosť, pretože nie je možné, aby jedna plechovka bola vo vnútri druhej.
 

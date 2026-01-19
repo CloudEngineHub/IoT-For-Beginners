@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Interacționează cu lumea fizică folosind senzori și actuatoare
 
-![O prezentare grafică a lecției](../../../../../translated_images/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.ro.jpg)
+![O prezentare grafică a lecției](../../../../../translated_images/ro/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.jpg)
 
 > Prezentare grafică realizată de [Nitya Narasimhan](https://github.com/nitya). Click pe imagine pentru o versiune mai mare.
 
@@ -75,7 +75,7 @@ Unii dintre cei mai simpli senzori sunt cei analogici. Acești senzori primesc o
 
 Un exemplu este un potențiometru. Acesta este un buton rotativ care poate fi ajustat între două poziții, iar senzorul măsoară rotația.
 
-![Un potențiometru setat la o poziție intermediară, alimentat cu 5 volți, returnând 3,8 volți](../../../../../translated_images/potentiometer.35a348b9ce22f6ec.ro.png)
+![Un potențiometru setat la o poziție intermediară, alimentat cu 5 volți, returnând 3,8 volți](../../../../../translated_images/ro/potentiometer.35a348b9ce22f6ec.webp)
 
 Dispozitivul IoT va trimite un semnal electric către potențiometru la o anumită tensiune, cum ar fi 5 volți (5V). Pe măsură ce potențiometrul este ajustat, acesta modifică tensiunea care iese pe cealaltă parte. Imaginează-ți un potențiometru etichetat ca un buton care merge de la 0 la [11](https://wikipedia.org/wiki/Up_to_eleven), cum ar fi un buton de volum pe un amplificator. Când potențiometrul este în poziția complet oprită (0), 0V (0 volți) vor ieși. Când este în poziția complet pornită (11), 5V (5 volți) vor ieși.
 
@@ -101,7 +101,7 @@ Senzorii digitali, la fel ca cei analogici, detectează lumea din jur folosind s
 
 Cel mai simplu senzor digital este un buton sau un comutator. Acesta este un senzor cu două stări, pornit sau oprit.
 
-![Un buton alimentat cu 5 volți. Când nu este apăsat, returnează 0 volți; când este apăsat, returnează 5 volți](../../../../../translated_images/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.ro.png)
+![Un buton alimentat cu 5 volți. Când nu este apăsat, returnează 0 volți; când este apăsat, returnează 5 volți](../../../../../translated_images/ro/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.png)
 
 Pinii de pe dispozitivele IoT, cum ar fi pinii GPIO, pot măsura direct acest semnal ca 0 sau 1. Dacă tensiunea trimisă este aceeași cu tensiunea returnată, valoarea citită este 1, altfel valoarea citită este 0. Nu este nevoie să se convertească semnalul, acesta poate fi doar 1 sau 0.
 
@@ -112,7 +112,7 @@ Pinii de pe dispozitivele IoT, cum ar fi pinii GPIO, pot măsura direct acest se
 
 Senzorii digitali mai avansați citesc valori analogice, apoi le convertesc folosind ADC-uri încorporate în semnale digitale. De exemplu, un senzor digital de temperatură va folosi în continuare un termocuplu în același mod ca un senzor analogic și va măsura în continuare schimbarea tensiunii cauzată de rezistența termocuplului la temperatura curentă. În loc să returneze o valoare analogică și să se bazeze pe dispozitiv sau pe placa de conectare pentru a o converti într-un semnal digital, un ADC încorporat în senzor va converti valoarea și o va trimite ca o serie de 0 și 1 către dispozitivul IoT. Acești 0 și 1 sunt trimiși în același mod ca semnalul digital pentru un buton, cu 1 fiind tensiunea completă și 0 fiind 0V.
 
-![Un senzor digital de temperatură care convertește o citire analogică în date binare cu 0 ca 0 volți și 1 ca 5 volți înainte de a le trimite către un dispozitiv IoT](../../../../../translated_images/temperature-as-digital.85004491b977bae1.ro.png)
+![Un senzor digital de temperatură care convertește o citire analogică în date binare cu 0 ca 0 volți și 1 ca 5 volți înainte de a le trimite către un dispozitiv IoT](../../../../../translated_images/ro/temperature-as-digital.85004491b977bae1.webp)
 
 Trimiterea datelor digitale permite senzorilor să devină mai complecși și să trimită date mai detaliate, chiar și date criptate pentru senzori securizați. Un exemplu este o cameră. Aceasta este un senzor care capturează o imagine și o trimite ca date digitale care conțin acea imagine, de obicei într-un format comprimat precum JPEG, pentru a fi citită de dispozitivul IoT. Poate chiar să transmită video prin capturarea imaginilor și trimiterea fie a imaginii complete cadru cu cadru, fie a unui flux video comprimat.
 
@@ -134,7 +134,7 @@ Câteva actuatoare comune includ:
 
 Urmează ghidul relevant de mai jos pentru a adăuga un actuator la dispozitivul tău IoT, controlat de senzor, pentru a construi o lampă de veghe IoT. Aceasta va colecta nivelurile de lumină de la senzorul de lumină și va utiliza un actuator sub forma unui LED pentru a emite lumină atunci când nivelul de lumină detectat este prea scăzut.
 
-![O diagramă de flux a sarcinii, arătând citirea și verificarea nivelurilor de lumină și controlul LED-ului](../../../../../translated_images/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.ro.png)
+![O diagramă de flux a sarcinii, arătând citirea și verificarea nivelurilor de lumină și controlul LED-ului](../../../../../translated_images/ro/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.png)
 
 * [Arduino - Wio Terminal](wio-terminal-actuator.md)
 * [Computer cu placă unică - Raspberry Pi](pi-actuator.md)
@@ -149,7 +149,7 @@ La fel ca senzorii, actuatoarele pot fi analogice sau digitale.
 Actuatoarele analogice primesc un semnal analogic și îl transformă într-un tip de interacțiune, unde interacțiunea se schimbă în funcție de tensiunea furnizată.
 
 Un exemplu este o lumină reglabilă, cum ar fi cele pe care le-ai putea avea în casă. Cantitatea de tensiune furnizată luminii determină cât de strălucitoare este aceasta.
-![O lumină estompată la o tensiune joasă și mai strălucitoare la o tensiune mai mare](../../../../../translated_images/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.ro.png)
+![O lumină estompată la o tensiune joasă și mai strălucitoare la o tensiune mai mare](../../../../../translated_images/ro/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.png)
 
 La fel ca în cazul senzorilor, dispozitivul IoT funcționează cu semnale digitale, nu analogice. Asta înseamnă că, pentru a trimite un semnal analogic, dispozitivul IoT are nevoie de un convertor digital-analogic (DAC), fie direct pe dispozitivul IoT, fie pe o placă de conectare. Acesta va converti 0-urile și 1-urile de la dispozitivul IoT într-o tensiune analogică pe care actuatorul o poate utiliza.
 
@@ -164,7 +164,7 @@ De exemplu, poți utiliza PWM pentru a controla viteza unui motor.
 
 Imaginează-ți că controlezi un motor cu o alimentare de 5V. Trimiți un impuls scurt către motorul tău, comutând tensiunea la nivel înalt (5V) pentru două sutimi de secundă (0,02s). În acel timp, motorul poate efectua o zecime de rotație, sau 36°. Semnalul apoi se oprește pentru două sutimi de secundă (0,02s), trimițând un semnal scăzut (0V). Fiecare ciclu de pornire și oprire durează 0,04s. Ciclul se repetă.
 
-![Modulația lățimii impulsului - rotația unui motor la 150 RPM](../../../../../translated_images/pwm-motor-150rpm.83347ac04ca38482.ro.png)
+![Modulația lățimii impulsului - rotația unui motor la 150 RPM](../../../../../translated_images/ro/pwm-motor-150rpm.83347ac04ca38482.webp)
 
 Aceasta înseamnă că într-o secundă ai 25 de impulsuri de 5V de 0,02s care rotesc motorul, fiecare urmat de o pauză de 0,02s de 0V în care motorul nu se rotește. Fiecare impuls rotește motorul cu o zecime de rotație, ceea ce înseamnă că motorul completează 2,5 rotații pe secundă. Ai utilizat un semnal digital pentru a roti motorul la 2,5 rotații pe secundă, sau 150 [rotații pe minut](https://wikipedia.org/wiki/Revolutions_per_minute) (o măsură non-standard a vitezei de rotație).
 
@@ -175,7 +175,7 @@ Aceasta înseamnă că într-o secundă ai 25 de impulsuri de 5V de 0,02s care r
 
 > 🎓 Când un semnal PWM este activ pentru jumătate din timp și inactiv pentru cealaltă jumătate, se numește [ciclu de funcționare de 50%](https://wikipedia.org/wiki/Duty_cycle). Ciclurile de funcționare sunt măsurate ca procentul de timp în care semnalul este în stare activă comparativ cu starea inactivă.
 
-![Modulația lățimii impulsului - rotația unui motor la 75 RPM](../../../../../translated_images/pwm-motor-75rpm.a5e4c939934b6e14.ro.png)
+![Modulația lățimii impulsului - rotația unui motor la 75 RPM](../../../../../translated_images/ro/pwm-motor-75rpm.a5e4c939934b6e14.webp)
 
 Poți schimba viteza motorului modificând dimensiunea impulsurilor. De exemplu, cu același motor, poți păstra același timp de ciclu de 0,04s, cu impulsul activ redus la jumătate (0,01s), iar impulsul inactiv crescând la 0,03s. Ai același număr de impulsuri pe secundă (25), dar fiecare impuls activ este de jumătate din lungime. Un impuls de jumătate de lungime rotește motorul cu o douăzecime de rotație, iar la 25 de impulsuri pe secundă va completa 1,25 rotații pe secundă sau 75rpm. Prin modificarea vitezei impulsurilor unui semnal digital, ai înjumătățit viteza unui motor analogic.
 
@@ -196,7 +196,7 @@ Actuatorii digitali, la fel ca senzorii digitali, au fie două stări controlate
 
 Un actuator digital simplu este un LED. Când un dispozitiv trimite un semnal digital de 1, se trimite o tensiune înaltă care aprinde LED-ul. Când se trimite un semnal digital de 0, tensiunea scade la 0V și LED-ul se stinge.
 
-![Un LED este stins la 0 volți și aprins la 5V](../../../../../translated_images/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.ro.png)
+![Un LED este stins la 0 volți și aprins la 5V](../../../../../translated_images/ro/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.png)
 
 ✅ Ce alți actuatori simpli cu 2 stări îți vin în minte? Un exemplu este un solenoid, care este un electromagnet ce poate fi activat pentru a face lucruri precum mișcarea unui șurub de ușă pentru a bloca/debloca o ușă.
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Geogjerder
 
-![En sketchnote-oversikt over denne leksjonen](../../../../../translated_images/lesson-14.63980c5150ae3c153e770fb71d044c1845dce79248d86bed9fc525adf3ede73c.no.jpg)
+![En sketchnote-oversikt over denne leksjonen](../../../../../translated_images/no/lesson-14.63980c5150ae3c153e770fb71d044c1845dce79248d86bed9fc525adf3ede73c.jpg)
 
 > Sketchnote av [Nitya Narasimhan](https://github.com/nitya). Klikk på bildet for en større versjon.
 
@@ -44,7 +44,7 @@ I denne leksjonen dekker vi:
 
 Et geogjerde er en virtuell grense for et geografisk område i den virkelige verden. Geogjerder kan være sirkler definert som et punkt og en radius (for eksempel en sirkel med en diameter på 100m rundt en bygning), eller en polygon som dekker et område som en skole, bygrenser, eller et universitets- eller kontorområde.
 
-![Noen eksempler på geogjerder som viser et sirkulært geogjerde rundt Microsofts firmabutikk, og et polygon-geogjerde rundt Microsofts vestcampus](../../../../../translated_images/geofence-examples.172fbc534665769f6e1a1ddcf75e3b25183cd10354c80cc603ba44b635390e1a.no.png)
+![Noen eksempler på geogjerder som viser et sirkulært geogjerde rundt Microsofts firmabutikk, og et polygon-geogjerde rundt Microsofts vestcampus](../../../../../translated_images/no/geofence-examples.172fbc534665769f6e1a1ddcf75e3b25183cd10354c80cc603ba44b635390e1a.png)
 
 > 💁 Du har kanskje allerede brukt geogjerder uten å vite det. Hvis du har satt en påminnelse i iOS-påminnelsesappen eller Google Keep basert på en lokasjon, har du brukt et geogjerde. Disse appene setter opp et geogjerde basert på den angitte lokasjonen og varsler deg når telefonen din går inn i geogjerdet.
 
@@ -110,7 +110,7 @@ Hvert punkt på polygonet defineres som et lengdegrad-, breddegrad-par i en arra
 
 Polygon-koordinatene har alltid én mer oppføring enn antall punkter på polygonet, med den siste oppføringen som den samme som den første, for å lukke polygonet. For eksempel, for et rektangel vil det være 5 punkter.
 
-![Et rektangel med koordinater](../../../../../translated_images/polygon-points.302193da381cb415.no.png)
+![Et rektangel med koordinater](../../../../../translated_images/no/polygon-points.302193da381cb415.webp)
 
 I bildet ovenfor er det et rektangel. Polygon-koordinatene starter øverst til venstre ved 47,-122, deretter beveger seg til høyre til 47,-121, deretter ned til 46,-121, deretter til venstre til 46,-122, og til slutt tilbake til startpunktet ved 47,-122. Dette gir polygonet 5 punkter – øverst til venstre, øverst til høyre, nederst til høyre, nederst til venstre, og til slutt øverst til venstre for å lukke det.
 
@@ -208,7 +208,7 @@ Når du gjør denne forespørselen, kan du også sende en verdi kalt `searchBuff
 
 Når resultater returneres fra API-forespørselen, er en av delene av resultatet en `distance` målt til det nærmeste punktet på kanten av geogjerdet, med en positiv verdi hvis punktet er utenfor geogjerdet, og negativ hvis det er innenfor geogjerdet. Hvis denne avstanden er mindre enn søkebufferen, returneres den faktiske avstanden i meter, ellers er verdien 999 eller -999. 999 betyr at punktet er utenfor geogjerdet med mer enn søkebufferen, -999 betyr at det er innenfor geogjerdet med mer enn søkebufferen.
 
-![Et geogjerde med en 50m søkebuffer rundt det](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7.no.png)
+![Et geogjerde med en 50m søkebuffer rundt det](../../../../../translated_images/no/search-buffer-and-distance.e6a79af3898183c7.webp)
 
 I bildet ovenfor har geogjerdet en 50m søkebuffer.
 
@@ -221,7 +221,7 @@ Det er viktig å kjenne avstanden til kanten av geogjerdet og kombinere dette me
 
 For eksempel, tenk deg GPS-avlesninger som viser at et kjøretøy kjørte langs en vei som ender opp ved siden av et geogjerde. Hvis en enkelt GPS-verdi er unøyaktig og plasserer kjøretøyet innenfor geogjerdet, til tross for at det ikke er noen kjøretøystilgang, kan det ignoreres.
 
-![En GPS-spor som viser et kjøretøy som passerer Microsoft-campus på 520, med GPS-avlesninger langs veien bortsett fra én på campus, innenfor et geogjerde](../../../../../translated_images/geofence-crossing-inaccurate-gps.6a3ed911202ad9cabb66d3964888cec03a42c61d5b8f536ad5bdc99716b370f5.no.png)
+![En GPS-spor som viser et kjøretøy som passerer Microsoft-campus på 520, med GPS-avlesninger langs veien bortsett fra én på campus, innenfor et geogjerde](../../../../../translated_images/no/geofence-crossing-inaccurate-gps.6a3ed911202ad9cabb66d3964888cec03a42c61d5b8f536ad5bdc99716b370f5.png)
 På bildet ovenfor er det en geofence over en del av Microsoft-campus. Den røde linjen viser en lastebil som kjører langs 520, med sirkler som representerer GPS-avlesningene. De fleste av disse er nøyaktige og langs 520, med én unøyaktig avlesning inne i geofencen. Det er ingen måte denne avlesningen kan være korrekt – det finnes ingen veier som gjør det mulig for lastebilen å plutselig svinge av fra 520 inn på campus og deretter tilbake til 520. Koden som sjekker denne geofencen må ta tidligere avlesninger i betraktning før den handler basert på resultatene fra geofence-testen.
 
 ✅ Hvilke ekstra data ville du trenge for å sjekke om en GPS-avlesning kan anses som korrekt?
@@ -293,7 +293,7 @@ Som du husker fra tidligere leksjoner, lar IoT Hub deg spille av hendelser som h
 
 Svaret er at den ikke kan! I stedet kan du definere flere separate tilkoblinger for å lese av hendelser, og hver av dem kan administrere avspilling av uleste meldinger. Disse kalles *konsumentgrupper*. Når du kobler til endepunktet, kan du spesifisere hvilken konsumentgruppe du vil koble til. Hver komponent i applikasjonen din vil koble til en annen konsumentgruppe.
 
-![Én IoT Hub med 3 konsumentgrupper som distribuerer de samme meldingene til 3 forskjellige funksjonsapper](../../../../../translated_images/consumer-groups.a3262e26fc27ba2092863678ad57af15c7223416e388a23f330c058cf4358630.no.png)
+![Én IoT Hub med 3 konsumentgrupper som distribuerer de samme meldingene til 3 forskjellige funksjonsapper](../../../../../translated_images/no/consumer-groups.a3262e26fc27ba2092863678ad57af15c7223416e388a23f330c058cf4358630.png)
 
 I teorien kan opptil 5 applikasjoner koble seg til hver konsumentgruppe, og de vil alle motta meldinger når de ankommer. Det er beste praksis å ha kun én applikasjon som får tilgang til hver konsumentgruppe for å unngå duplisert meldingsbehandling og sikre at alle køede meldinger behandles korrekt ved omstart. For eksempel, hvis du lanserte Functions-appen din lokalt samtidig som den kjører i skyen, ville begge behandle meldinger, noe som fører til dupliserte blobber lagret i lagringskontoen.
 

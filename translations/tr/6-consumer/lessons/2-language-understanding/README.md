@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Dil Anlama
 
-![Bu dersin genel bir sketchnote özeti](../../../../../translated_images/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.tr.jpg)
+![Bu dersin genel bir sketchnote özeti](../../../../../translated_images/tr/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.jpg)
 
 > Sketchnote: [Nitya Narasimhan](https://github.com/nitya). Daha büyük bir versiyon için görsele tıklayın.
 
@@ -55,7 +55,7 @@ Dil anlama modelleri, dilden belirli detayları çıkarmak için eğitilmiş AI 
 
 ## Dil Anlama Modeli Oluşturma
 
-![LUIS logosu](../../../../../translated_images/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.tr.png)
+![LUIS logosu](../../../../../translated_images/tr/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.png)
 
 Dil anlama modellerini, Microsoft'un Cognitive Services'ın bir parçası olan LUIS adlı dil anlama hizmetini kullanarak oluşturabilirsiniz.
 
@@ -126,7 +126,7 @@ Varlıklar tanımlandıktan sonra niyetler oluşturursunuz. Bunlar, sağladığ�
 
 Daha sonra LUIS'e bu cümlelerin hangi bölümlerinin varlıklarla eşleştiğini söylersiniz:
 
-![1 dakika 12 saniyelik bir zamanlayıcı ayarla cümlesi varlıklara bölünmüş](../../../../../translated_images/sentence-as-intent-entities.301401696f992259.tr.png)
+![1 dakika 12 saniyelik bir zamanlayıcı ayarla cümlesi varlıklara bölünmüş](../../../../../translated_images/tr/sentence-as-intent-entities.301401696f992259.webp)
 
 `1 dakika 12 saniyelik bir zamanlayıcı ayarla` cümlesi `zamanlayıcı ayarla` niyetine sahiptir. Ayrıca 2 varlık ve her biri için 2 değer içerir:
 
@@ -178,7 +178,7 @@ LUIS portalını kullanma talimatlarını [Microsoft Docs'taki LUIS portalında 
 
 1. Her örneği girerken, LUIS varlıkları algılamaya başlayacak ve bulduğu varlıkları altını çizerek ve etiketleyerek gösterecektir.
 
-    ![LUIS tarafından altı çizilen ve etiketlenen sayılar ve zaman birimleriyle örnekler](../../../../../translated_images/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.tr.png)
+    ![LUIS tarafından altı çizilen ve etiketlenen sayılar ve zaman birimleriyle örnekler](../../../../../translated_images/tr/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.png)
 
 ### Görev - modeli eğit ve test et
 

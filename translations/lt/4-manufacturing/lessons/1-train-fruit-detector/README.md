@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Sukurkite vaisių kokybės detektorių
 
-![Šios pamokos apžvalga pieštuku](../../../../../translated_images/lesson-15.843d21afdc6fb2bba70cd9db7b7d2f91598859fafda2078b0bdc44954194b6c0.lt.jpg)
+![Šios pamokos apžvalga pieštuku](../../../../../translated_images/lt/lesson-15.843d21afdc6fb2bba70cd9db7b7d2f91598859fafda2078b0bdc44954194b6c0.jpg)
 
 > Piešinys sukurtas [Nitya Narasimhan](https://github.com/nitya). Spustelėkite paveikslėlį, kad pamatytumėte didesnę versiją.
 
@@ -47,7 +47,7 @@ Ne visi augalai sunoksta vienodai. Pavyzdžiui, pomidorai gali turėti dar žali
 
 Automatizuotas derliaus nuėmimas perkėlė maisto rūšiavimą iš lauko į fabriką. Maistas keliaudavo ilgais konvejeriais, o žmonių komandos rankomis pašalindavo viską, kas neatitiko kokybės standartų. Derliaus nuėmimas tapo pigesnis dėl technikos, tačiau maisto rūšiavimas rankomis vis dar kainavo.
 
-![Jei aptinkamas raudonas pomidoras, jis keliauja toliau. Jei aptinkamas žalias pomidoras, jis svirtimi išmetamas į atliekų dėžę](../../../../../translated_images/optical-tomato-sorting.61aa134bdda4e5b1bfb16a212c1e35a6ef0c426cbb8b1c975f79d7bfbf48d068.lt.png)
+![Jei aptinkamas raudonas pomidoras, jis keliauja toliau. Jei aptinkamas žalias pomidoras, jis svirtimi išmetamas į atliekų dėžę](../../../../../translated_images/lt/optical-tomato-sorting.61aa134bdda4e5b1bfb16a212c1e35a6ef0c426cbb8b1c975f79d7bfbf48d068.png)
 
 Kitas evoliucijos etapas buvo mašinų naudojimas rūšiavimui, įmontuotų į derliaus nuėmimo techniką arba naudojamų perdirbimo gamyklose. Pirmosios šių mašinų kartos naudojo optinius jutiklius spalvoms aptikti, valdančius svirtis ar oro pūtimo įrenginius, kad žali pomidorai būtų pašalinti į atliekų dėžę, o raudoni pomidorai tęstų kelionę konvejeriais.
 
@@ -61,7 +61,7 @@ Naujausios šių rūšiavimo mašinų evoliucijos pasitelkia DI ir MM, naudodamo
 
 Tradicinis programavimas yra tada, kai jūs imate duomenis, taikote jiems algoritmą ir gaunate rezultatą. Pavyzdžiui, ankstesniame projekte jūs naudojote GPS koordinates ir geografinę zoną, taikėte Azure Maps pateiktą algoritmą ir gavote rezultatą, ar taškas yra zonos viduje, ar išorėje. Įvedate daugiau duomenų, gaunate daugiau rezultatų.
 
-![Tradicinis kūrimas naudoja įvestį ir algoritmą, kad gautų rezultatą. Mašininis mokymasis naudoja įvesties ir išvesties duomenis, kad apmokytų modelį, kuris gali naudoti naujus įvesties duomenis naujiems rezultatams generuoti](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539.lt.png)
+![Tradicinis kūrimas naudoja įvestį ir algoritmą, kad gautų rezultatą. Mašininis mokymasis naudoja įvesties ir išvesties duomenis, kad apmokytų modelį, kuris gali naudoti naujus įvesties duomenis naujiems rezultatams generuoti](../../../../../translated_images/lt/traditional-vs-ml.5c20c169621fa539.webp)
 
 Mašininis mokymasis tai apverčia – jūs pradedate nuo duomenų ir žinomų rezultatų, o mašininio mokymosi algoritmas mokosi iš duomenų. Tada galite naudoti šį apmokytą algoritmą, vadinamą *mašininio mokymosi modeliu* arba *modeliu*, ir įvesti naujus duomenis, kad gautumėte naujus rezultatus.
 
@@ -71,7 +71,7 @@ Pavyzdžiui, galite pateikti modeliui milijonus neprinokusių bananų nuotraukų
 
 > 🎓 MM modelių rezultatai vadinami *prognozėmis*
 
-![2 bananai: prinokęs su prognoze 99,7% prinokęs, 0,3% neprinokęs, ir neprinokęs su prognoze 1,4% prinokęs, 98,6% neprinokęs](../../../../../translated_images/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50ece4e4589e724b142da0681f35470fe3db3f7d51240f69c85.lt.png)
+![2 bananai: prinokęs su prognoze 99,7% prinokęs, 0,3% neprinokęs, ir neprinokęs su prognoze 1,4% prinokęs, 98,6% neprinokęs](../../../../../translated_images/lt/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50ece4e4589e724b142da0681f35470fe3db3f7d51240f69c85.png)
 
 MM modeliai nepateikia binarinio atsakymo, o pateikia tikimybes. Pavyzdžiui, modelis gali gauti banano nuotrauką ir prognozuoti `prinokęs` su 99,7% tikimybe ir `neprinokęs` su 0,3% tikimybe. Jūsų kodas tada pasirinktų geriausią prognozę ir nuspręstų, kad bananas yra prinokęs.
 
@@ -87,7 +87,7 @@ Norint sėkmingai apmokyti vaizdų klasifikatorių, reikia milijonų nuotraukų.
 
 Kai vaizdų klasifikatorius yra apmokytas atpažinti įvairias nuotraukas, jo vidiniai mechanizmai puikiai atpažįsta formas, spalvas ir raštus. Perdavimo mokymasis leidžia modeliui panaudoti jau įgytas žinias apie vaizdų dalis ir pritaikyti jas naujų vaizdų atpažinimui.
 
-![Kai atpažįstate formas, jas galima sudėlioti į skirtingas konfigūracijas, kad sudarytumėte laivą arba katę](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66f.lt.png)
+![Kai atpažįstate formas, jas galima sudėlioti į skirtingas konfigūracijas, kad sudarytumėte laivą arba katę](../../../../../translated_images/lt/shapes-to-images.1a309f0ea88dd66f.webp)
 
 Galite tai įsivaizduoti kaip vaikų knygas apie formas, kur, kai jau atpažįstate puslankį, stačiakampį ir trikampį, galite atpažinti burlaivį arba katę, priklausomai nuo šių formų išdėstymo. Vaizdų klasifikatorius gali atpažinti formas, o perdavimo mokymasis moko, kokia kombinacija sudaro laivą ar katę – arba prinokusį bananą.
 
@@ -99,7 +99,7 @@ Yra daugybė įrankių, kurie gali padėti tai padaryti, įskaitant debesų pasl
 
 Custom Vision yra debesų įrankis, skirtas vaizdų klasifikatorių mokymui. Jis leidžia apmokyti klasifikatorių naudojant tik nedidelį nuotraukų kiekį. Galite įkelti nuotraukas per žiniatinklio portalą, API arba SDK, kiekvienai nuotraukai priskirdami *žymą*, kuri nurodo tos nuotraukos klasifikaciją. Tada galite apmokyti modelį ir išbandyti, kaip gerai jis veikia. Kai būsite patenkinti modeliu, galėsite jį publikuoti ir naudoti per žiniatinklio API arba SDK.
 
-![Azure Custom Vision logotipas](../../../../../translated_images/custom-vision-logo.d3d4e7c8a87ec9daf825e72e210576c3cbf60312577be7a139e22dd97ab7f1e6.lt.png)
+![Azure Custom Vision logotipas](../../../../../translated_images/lt/custom-vision-logo.d3d4e7c8a87ec9daf825e72e210576c3cbf60312577be7a139e22dd97ab7f1e6.png)
 
 > 💁 Galite apmokyti Custom Vision modelį naudodami vos 5 nuotraukas kiekvienai klasifikacijai, tačiau daugiau nuotraukų duoda geresnius rezultatus. Geriausia turėti bent 30 nuotraukų.
 
@@ -155,7 +155,7 @@ Norėdami naudoti Custom Vision, pirmiausia turite sukurti du Cognitive Services
 
     Kurdamas projektą, būtinai naudokite anksčiau sukurtą `fruit-quality-detector-training` išteklį. Pasirinkite *Klasifikacijos* projekto tipą, *Daugiaklasę* klasifikacijos tipą ir *Maisto* domeną.
 
-    ![Custom Vision projekto nustatymai su pavadinimu fruit-quality-detector, be aprašymo, išteklius nustatytas į fruit-quality-detector-training, projekto tipas nustatytas į klasifikaciją, klasifikacijos tipas nustatytas į daugiaklasį, o domenas nustatytas į maistą](../../../../../translated_images/custom-vision-create-project.cf46325b92d8b131089f6647cf5e07b664cb77850e106d66e3c057b6b69756c6.lt.png)
+    ![Custom Vision projekto nustatymai su pavadinimu fruit-quality-detector, be aprašymo, išteklius nustatytas į fruit-quality-detector-training, projekto tipas nustatytas į klasifikaciją, klasifikacijos tipas nustatytas į daugiaklasį, o domenas nustatytas į maistą](../../../../../translated_images/lt/custom-vision-create-project.cf46325b92d8b131089f6647cf5e07b664cb77850e106d66e3c057b6b69756c6.png)
 
 ✅ Skirkite laiko susipažinti su Custom Vision sąsaja savo vaizdų klasifikatoriui.
 
@@ -173,7 +173,7 @@ Vaizdų klasifikatoriai veikia labai maža raiška. Pavyzdžiui, „Custom Visio
 
     * Naudodami 2 prinokusius bananus, padarykite keletą kiekvieno nuotraukų iš skirtingų kampų, padarydami bent 7 nuotraukas (5 mokymui, 2 testavimui), bet idealiu atveju daugiau.
 
-        ![2 skirtingų bananų nuotraukos](../../../../../translated_images/banana-training-images.530eb203346d73bc23b8b990fb4609470bf4ff7c942ccc13d4cfffeed9be1ad4.lt.png)
+        ![2 skirtingų bananų nuotraukos](../../../../../translated_images/lt/banana-training-images.530eb203346d73bc23b8b990fb4609470bf4ff7c942ccc13d4cfffeed9be1ad4.png)
 
     * Pakartokite tą patį procesą su 2 neprinokusiais bananais.
 
@@ -183,7 +183,7 @@ Vaizdų klasifikatoriai veikia labai maža raiška. Pavyzdžiui, „Custom Visio
 
 1. Sekite [nuotraukų įkėlimo ir žymėjimo skyrių klasifikatoriaus kūrimo greitos pradžios vadove Microsoft dokumentacijoje](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#upload-and-tag-images), kad įkeltumėte savo mokymo nuotraukas. Žymėkite prinokusius vaisius kaip `ripe`, o neprinokusius kaip `unripe`.
 
-    ![Prinokusių ir neprinokusių bananų nuotraukų įkėlimo dialogai](../../../../../translated_images/image-upload-bananas.0751639f3815e0ec42bdbc6254d1e4357a185834d1ae10c9948a0e7d6d336695.lt.png)
+    ![Prinokusių ir neprinokusių bananų nuotraukų įkėlimo dialogai](../../../../../translated_images/lt/image-upload-bananas.0751639f3815e0ec42bdbc6254d1e4357a185834d1ae10c9948a0e7d6d336695.png)
 
 1. Sekite [klasifikatoriaus mokymo skyrių klasifikatoriaus kūrimo greitos pradžios vadove Microsoft dokumentacijoje](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#train-the-classifier), kad apmokytumėte vaizdų klasifikatorių naudodami savo įkeltas nuotraukas.
 
@@ -201,7 +201,7 @@ Kai jūsų klasifikatorius bus apmokytas, galėsite jį išbandyti, pateikdami n
 
 1. Sekite [savo modelio testavimo dokumentaciją Microsoft dokumentacijoje](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/test-your-model?WT.mc_id=academic-17441-jabenn#test-your-model), kad išbandytumėte savo vaizdų klasifikatorių. Naudokite anksčiau sukurtas testavimo nuotraukas, o ne tas, kurias naudojote mokymui.
 
-    ![Neprinokęs bananas, klasifikuotas kaip neprinokęs su 98,9% tikimybe, prinokęs su 1,1% tikimybe](../../../../../translated_images/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64886422438850ea14f0be6ac918c217ea3b255c685abfabe7.lt.png)
+    ![Neprinokęs bananas, klasifikuotas kaip neprinokęs su 98,9% tikimybe, prinokęs su 1,1% tikimybe](../../../../../translated_images/lt/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64886422438850ea14f0be6ac918c217ea3b255c685abfabe7.png)
 
 1. Išbandykite visas turimas testavimo nuotraukas ir stebėkite tikimybes.
 

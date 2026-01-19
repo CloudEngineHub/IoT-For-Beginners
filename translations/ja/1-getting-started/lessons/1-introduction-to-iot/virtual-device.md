@@ -154,11 +154,11 @@ Python仮想環境が準備できたら、'Hello World'アプリケーション�
 
 1. VS Codeが起動すると、Python仮想環境が有効化されます。選択された仮想環境は、下部のステータスバーに表示されます：
 
-    ![VS Codeに選択された仮想環境が表示されている](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.ja.png)
+    ![VS Codeに選択された仮想環境が表示されている](../../../../../translated_images/ja/vscode-virtual-env.8ba42e04c3d533cf.webp)
 
 1. VS Codeターミナルが起動時にすでに実行中の場合、仮想環境がターミナル内で有効化されていない可能性があります。この場合、**Kill the active terminal instance**ボタンを使用してターミナルを終了するのが最も簡単です：
 
-    ![VS CodeのKill the active terminal instanceボタン](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.ja.png)
+    ![VS CodeのKill the active terminal instanceボタン](../../../../../translated_images/ja/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
 
     ターミナルに仮想環境が有効化されているかどうかは、ターミナルプロンプトに仮想環境の名前がプレフィックスとして表示されるかどうかで確認できます。例えば、以下のように表示される場合があります：
 
@@ -212,7 +212,7 @@ Python仮想環境が準備できたら、'Hello World'アプリケーション�
 
     アプリが実行され、ブラウザで開きます：
 
-    ![ブラウザで実行中のCounterFitアプリ](../../../../../translated_images/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.ja.png)
+    ![ブラウザで実行中のCounterFitアプリ](../../../../../translated_images/ja/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
 
     アプリは*Disconnected*と表示され、右上のLEDがオフになっています。
 
@@ -229,11 +229,11 @@ Python仮想環境が準備できたら、'Hello World'アプリケーション�
 
 1. CounterFitアプリが現在のターミナルで実行中のため、新しいVS Codeターミナルを起動する必要があります。**Create a new integrated terminal**ボタンを選択してください：
 
-    ![VS CodeのCreate a new integrated terminalボタン](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.ja.png)
+    ![VS CodeのCreate a new integrated terminalボタン](../../../../../translated_images/ja/vscode-new-terminal.77db8fc0f9cd3182.webp)
 
 1. この新しいターミナルで、先ほどと同じように`app.py`ファイルを実行します。CounterFitのステータスが**Connected**に変わり、LEDが点灯します。
 
-    ![接続された状態を示すCounterFit](../../../../../translated_images/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.ja.png)
+    ![接続された状態を示すCounterFit](../../../../../translated_images/ja/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
 
 > 💁 このコードは[code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device)フォルダにあります。
 

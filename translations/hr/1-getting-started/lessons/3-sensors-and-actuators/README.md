@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Interakcija s fizičkim svijetom pomoću senzora i aktuatora
 
-![Pregled lekcije u obliku sketchnotea](../../../../../translated_images/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.hr.jpg)
+![Pregled lekcije u obliku sketchnotea](../../../../../translated_images/hr/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.jpg)
 
 > Sketchnote autorice [Nitya Narasimhan](https://github.com/nitya). Kliknite na sliku za veću verziju.
 
@@ -75,7 +75,7 @@ Neki od najosnovnijih senzora su analogni senzori. Ovi senzori primaju napon od 
 
 Jedan primjer je potenciometar. To je kotačić koji možete rotirati između dvije pozicije, a senzor mjeri rotaciju.
 
-![Potenciometar postavljen na srednju točku, primajući 5 volti i vraćajući 3,8 volti](../../../../../translated_images/potentiometer.35a348b9ce22f6ec.hr.png)
+![Potenciometar postavljen na srednju točku, primajući 5 volti i vraćajući 3,8 volti](../../../../../translated_images/hr/potentiometer.35a348b9ce22f6ec.webp)
 
 IoT uređaj šalje električni signal potenciometru na određenom naponu, poput 5 volti (5V). Kako se potenciometar prilagođava, mijenja napon koji izlazi s druge strane. Zamislite da imate potenciometar označen kao kotačić koji ide od 0 do [11](https://wikipedia.org/wiki/Up_to_eleven), poput gumba za glasnoću na pojačalu. Kada je potenciometar u potpuno isključenom položaju (0), izlazi 0V (0 volti). Kada je u potpuno uključenom položaju (11), izlazi 5V (5 volti).
 
@@ -101,7 +101,7 @@ Digitalni senzori, poput analognih senzora, opažaju svijet oko sebe koristeći 
 
 Najjednostavniji digitalni senzor je tipka ili prekidač. To je senzor s dva stanja, uključen ili isključen.
 
-![Tipka prima 5 volti. Kada nije pritisnuta vraća 0 volti, kada je pritisnuta vraća 5 volti](../../../../../translated_images/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.hr.png)
+![Tipka prima 5 volti. Kada nije pritisnuta vraća 0 volti, kada je pritisnuta vraća 5 volti](../../../../../translated_images/hr/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.png)
 
 Pinovi na IoT uređajima poput GPIO pinova mogu izravno mjeriti ovaj signal kao 0 ili 1. Ako je napon poslan isti kao napon vraćen, očitana vrijednost je 1, inače je očitana vrijednost 0. Nema potrebe za pretvorbom signala, može biti samo 1 ili 0.
 
@@ -112,7 +112,7 @@ Pinovi na IoT uređajima poput GPIO pinova mogu izravno mjeriti ovaj signal kao 
 
 Napredniji digitalni senzori očitavaju analogne vrijednosti, a zatim ih pretvaraju pomoću ugrađenih ADC-a u digitalne signale. Na primjer, digitalni senzor temperature i dalje koristi termoelement na isti način kao analogni senzor, i dalje mjeri promjenu napona uzrokovanu otporom termoelementa na trenutnoj temperaturi. Umjesto da vraća analognu vrijednost i oslanja se na uređaj ili konektorsku ploču za pretvorbu u digitalni signal, ADC ugrađen u senzor pretvara vrijednost i šalje je kao niz 0 i 1 IoT uređaju. Ovi 0 i 1 šalju se na isti način kao digitalni signal za tipku, pri čemu je 1 puni napon, a 0 je 0V.
 
-![Digitalni senzor temperature pretvara analogno očitanje u binarne podatke s 0 kao 0 volti i 1 kao 5 volti prije slanja IoT uređaju](../../../../../translated_images/temperature-as-digital.85004491b977bae1.hr.png)
+![Digitalni senzor temperature pretvara analogno očitanje u binarne podatke s 0 kao 0 volti i 1 kao 5 volti prije slanja IoT uređaju](../../../../../translated_images/hr/temperature-as-digital.85004491b977bae1.webp)
 
 Slanje digitalnih podataka omogućuje senzorima da postanu složeniji i šalju detaljnije podatke, čak i šifrirane podatke za sigurne senzore. Jedan primjer je kamera. To je senzor koji snima sliku i šalje je kao digitalne podatke koji sadrže tu sliku, obično u komprimiranom formatu poput JPEG-a, kako bi ih pročitao IoT uređaj. Može čak i streamati video snimanjem slika i slanjem ili kompletne slike okvir po okvir ili komprimiranog video streama.
 
@@ -134,7 +134,7 @@ Neki uobičajeni aktuatori uključuju:
 
 Slijedite odgovarajući vodič kako biste dodali aktuator svom IoT uređaju, kontroliran senzorom, za izradu IoT noćnog svjetla. Ono će prikupljati razine svjetla iz senzora svjetla i koristiti aktuator u obliku LED-a za emitiranje svjetla kada je detektirana razina svjetla preniska.
 
-![Dijagram toka zadatka koji prikazuje očitavanje i provjeru razina svjetla te kontrolu LED-a](../../../../../translated_images/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.hr.png)
+![Dijagram toka zadatka koji prikazuje očitavanje i provjeru razina svjetla te kontrolu LED-a](../../../../../translated_images/hr/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.png)
 
 * [Arduino - Wio Terminal](wio-terminal-actuator.md)
 * [Jednoplani računalo - Raspberry Pi](pi-actuator.md)
@@ -149,7 +149,7 @@ Kao i senzori, aktuatori mogu biti analogni ili digitalni.
 Analogni aktuatori uzimaju analogni signal i pretvaraju ga u neku vrstu interakcije, gdje se interakcija mijenja ovisno o naponu koji se isporučuje.
 
 Jedan primjer je svjetlo koje se može prigušiti, poput onih koje možda imate u svom domu. Količina napona isporučena svjetlu određuje koliko jako svijetli.
-![Svjetlo prigušeno na niskom naponu i svjetlije na višem naponu](../../../../../translated_images/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.hr.png)
+![Svjetlo prigušeno na niskom naponu i svjetlije na višem naponu](../../../../../translated_images/hr/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.png)
 
 Kao i kod senzora, stvarni IoT uređaj radi na digitalnim signalima, a ne analognim. To znači da za slanje analognog signala IoT uređaj treba digitalno-analogni pretvarač (DAC), bilo direktno na IoT uređaju ili na priključnoj ploči. Ovo će pretvoriti 0 i 1 iz IoT uređaja u analogni napon koji aktuator može koristiti.
 
@@ -164,7 +164,7 @@ Na primjer, PWM možete koristiti za kontrolu brzine motora.
 
 Zamislite da kontrolirate motor s napajanjem od 5V. Pošaljete kratki impuls svom motoru, prebacujući napon na visoki (5V) na dvije stotinke sekunde (0,02s). U tom vremenu vaš motor može napraviti jednu desetinu okreta, ili 36°. Signal se zatim pauzira na dvije stotinke sekunde (0,02s), šaljući niski signal (0V). Svaki ciklus uključivanja i isključivanja traje 0,04s. Ciklus se zatim ponavlja.
 
-![Modulacija širine impulsa rotacija motora na 150 RPM](../../../../../translated_images/pwm-motor-150rpm.83347ac04ca38482.hr.png)
+![Modulacija širine impulsa rotacija motora na 150 RPM](../../../../../translated_images/hr/pwm-motor-150rpm.83347ac04ca38482.webp)
 
 To znači da u jednoj sekundi imate 25 impulsa od 5V koji traju 0,02s i rotiraju motor, svaki praćen pauzom od 0,02s na 0V kada motor ne rotira. Svaki impuls rotira motor za jednu desetinu okreta, što znači da motor završi 2,5 okreta u sekundi. Koristili ste digitalni signal za rotaciju motora na 2,5 okreta u sekundi, ili 150 [okreta u minuti](https://wikipedia.org/wiki/Revolutions_per_minute) (ne-standardna mjera brzine rotacije).
 
@@ -175,7 +175,7 @@ To znači da u jednoj sekundi imate 25 impulsa od 5V koji traju 0,02s i rotiraju
 
 > 🎓 Kada je PWM signal uključen pola vremena, a isključen pola vremena, to se naziva [radni ciklus od 50%](https://wikipedia.org/wiki/Duty_cycle). Radni ciklusi se mjere kao postotak vremena kada je signal u stanju uključen u odnosu na stanje isključen.
 
-![Modulacija širine impulsa rotacija motora na 75 RPM](../../../../../translated_images/pwm-motor-75rpm.a5e4c939934b6e14.hr.png)
+![Modulacija širine impulsa rotacija motora na 75 RPM](../../../../../translated_images/hr/pwm-motor-75rpm.a5e4c939934b6e14.webp)
 
 Brzinu motora možete promijeniti promjenom veličine impulsa. Na primjer, s istim motorom možete zadržati isto vrijeme ciklusa od 0,04s, s impulsom uključenim prepolovljenim na 0,01s, dok se impuls isključen povećava na 0,03s. Imate isti broj impulsa po sekundi (25), ali svaki impuls uključen je upola kraći. Impuls upola kraći okreće motor za jednu dvadesetinu okreta, a pri 25 impulsa u sekundi motor će završiti 1,25 okreta u sekundi ili 75 okreta u minuti. Promjenom brzine impulsa digitalnog signala prepolovili ste brzinu analognog motora.
 
@@ -196,7 +196,7 @@ Digitalni aktuatori, poput digitalnih senzora, imaju ili dva stanja koja se kont
 
 Jedan jednostavan digitalni aktuator je LED. Kada uređaj pošalje digitalni signal 1, šalje se visoki napon koji pali LED. Kada se pošalje digitalni signal 0, napon pada na 0V i LED se gasi.
 
-![LED je ugašen na 0 volti i upaljen na 5V](../../../../../translated_images/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.hr.png)
+![LED je ugašen na 0 volti i upaljen na 5V](../../../../../translated_images/hr/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.png)
 
 ✅ Koje druge jednostavne aktuatore s 2 stanja možete zamisliti? Jedan primjer je solenoid, koji je elektromagnet koji se može aktivirati za obavljanje stvari poput pomicanja zasuna vrata za zaključavanje/otključavanje vrata.
 

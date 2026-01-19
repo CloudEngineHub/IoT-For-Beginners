@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Tallenna sijaintitiedot
 
-![Tämän oppitunnin luonnoskuva](../../../../../translated_images/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.fi.jpg)
+![Tämän oppitunnin luonnoskuva](../../../../../translated_images/fi/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.jpg)
 
 > Luonnoskuva: [Nitya Narasimhan](https://github.com/nitya). Klikkaa kuvaa nähdäksesi suuremman version.
 
@@ -66,7 +66,7 @@ Tietokannat ovat palveluita, joiden avulla voit tallentaa ja hakea dataa. Tietok
 
 Ensimmäiset tietokannat olivat relaatiotietokantoja (RDBMS), joita kutsutaan myös SQL-tietokannoiksi niiden käyttämän Structured Query Language (SQL) -kielen mukaan. Näissä tietokannoissa on skeema – hyvin määritelty joukko taulukoita, jotka muistuttavat laskentataulukoita. Jokaisessa taulukossa on useita nimettyjä sarakkeita. Kun lisäät dataa, lisäät rivin taulukkoon ja täytät sarakkeet arvoilla. Tämä pitää datan hyvin jäykässä rakenteessa – vaikka voit jättää sarakkeita tyhjiksi, uuden sarakkeen lisääminen vaatii muutoksia tietokantaan ja olemassa olevien rivien arvojen täyttämistä. Nämä tietokannat ovat relaatiotietokantoja, eli yksi taulukko voi olla suhteessa toiseen.
 
-![Relaatiotietokanta, jossa käyttäjätaulukon ID liittyy ostostaulukon käyttäjä-ID-sarakkeeseen ja tuotetaulukon ID liittyy ostostaulukon tuote-ID-sarakkeeseen](../../../../../translated_images/sql-database.be160f12bfccefd3.fi.png)
+![Relaatiotietokanta, jossa käyttäjätaulukon ID liittyy ostostaulukon käyttäjä-ID-sarakkeeseen ja tuotetaulukon ID liittyy ostostaulukon tuote-ID-sarakkeeseen](../../../../../translated_images/fi/sql-database.be160f12bfccefd3.webp)
 
 Esimerkiksi, jos tallennat käyttäjän henkilökohtaisia tietoja taulukkoon, sinulla olisi jokaiselle käyttäjälle sisäinen yksilöllinen ID, jota käytetään rivillä taulukossa, joka sisältää käyttäjän nimen ja osoitteen. Jos haluat tallentaa muita tietoja kyseisestä käyttäjästä, kuten hänen ostoksensa, toiseen taulukkoon, sinulla olisi yksi sarake uudessa taulukossa kyseisen käyttäjän ID:lle. Kun haet käyttäjää, voit käyttää hänen ID:tään saadaksesi hänen henkilökohtaiset tietonsa yhdestä taulukosta ja ostotiedot toisesta.
 
@@ -84,7 +84,7 @@ NoSQL-tietokannat on nimetty näin, koska niillä ei ole SQL-tietokantojen jäyk
 
 > 💁 Nimestään huolimatta jotkut NoSQL-tietokannat mahdollistavat SQL:n käytön datan hakemiseen.
 
-![Dokumentteja kansioissa NoSQL-tietokannassa](../../../../../translated_images/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.fi.png)
+![Dokumentteja kansioissa NoSQL-tietokannassa](../../../../../translated_images/fi/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.png)
 
 NoSQL-tietokannoilla ei ole ennalta määriteltyä skeemaa, joka rajoittaisi datan tallennustapaa. Sen sijaan voit lisätä mitä tahansa strukturoimatonta dataa, yleensä JSON-dokumentteina. Nämä dokumentit voidaan järjestää kansioihin, kuten tiedostot tietokoneellasi. Jokaisella dokumentilla voi olla eri kenttiä kuin toisilla dokumenteilla – esimerkiksi, jos tallennat IoT-dataa maatilan ajoneuvoista, joillakin dokumenteilla voi olla kiihtyvyys- ja nopeustietokenttiä, kun taas toisilla voi olla perävaunun lämpötilatietokenttiä. Jos lisäisit uuden kuorma-autotyypin, kuten sellaisen, jossa on sisäänrakennetut vaa'at kuorman painon seuraamiseen, IoT-laite voisi lisätä tämän uuden kentän, ja se voitaisiin tallentaa ilman muutoksia tietokantaan.
 
@@ -98,7 +98,7 @@ Tässä oppitunnissa käytät NoSQL-tallennusta IoT-datan tallentamiseen.
 
 Edellisessä oppitunnissa tallensit GPS-tietoja GPS-anturista, joka oli yhdistetty IoT-laitteeseesi. Jotta nämä IoT-tiedot voidaan tallentaa pilveen, ne täytyy lähettää IoT-palveluun. Käytät jälleen Azure IoT Hubia, samaa IoT-pilvipalvelua, jota käytit edellisessä projektissa.
 
-![GPS-telemetrian lähettäminen IoT-laitteesta IoT Hubiin](../../../../../translated_images/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.fi.png)
+![GPS-telemetrian lähettäminen IoT-laitteesta IoT Hubiin](../../../../../translated_images/fi/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.png)
 
 ### Tehtävä – lähetä GPS-tietoja IoT Hubiin
 
@@ -180,7 +180,7 @@ Kylmä polku -data tallennetaan datavarastoihin – tietokantoihin, jotka on suu
 
 Kun data virtaa IoT Hubiin, voit kirjoittaa palvelimetonta koodia kuuntelemaan tapahtumia, jotka julkaistaan Event-Hub-yhteensopivaan päätepisteeseen. Tämä on lämmin polku – tämä data tallennetaan ja sitä käytetään seuraavassa oppitunnissa matkan raportointiin.
 
-![GPS-telemetrian lähettäminen IoT-laitteesta IoT Hubiin ja sitten Azure Functions -palveluun tapahtumakäynnistimen kautta](../../../../../translated_images/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.fi.png)
+![GPS-telemetrian lähettäminen IoT-laitteesta IoT Hubiin ja sitten Azure Functions -palveluun tapahtumakäynnistimen kautta](../../../../../translated_images/fi/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.png)
 
 ### Tehtävä – käsittele GPS-tapahtumia palvelimettomalla koodilla
 
@@ -202,7 +202,7 @@ Kun data virtaa IoT Hubiin, voit kirjoittaa palvelimetonta koodia kuuntelemaan t
 
 ## Azure Storage -tilit
 
-![Azure Storage -logo](../../../../../translated_images/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.fi.png)
+![Azure Storage -logo](../../../../../translated_images/fi/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.png)
 
 Azure Storage -tilit ovat yleiskäyttöinen tallennuspalvelu, joka voi tallentaa dataa monin eri tavoin. Voit tallentaa dataa blobina, jonoissa, taulukoissa tai tiedostoina, ja kaikki nämä samanaikaisesti.
 
@@ -241,7 +241,7 @@ Functions-sovelluksesi täytyy nyt yhdistää blob-tallennukseen IoT Hubin viest
 
 Tässä oppitunnissa käytät Python SDK:ta nähdäksesi, miten blob-tallennusta käytetään.
 
-![GPS-telemetrian lähettäminen IoT-laitteesta IoT Hubiin, sitten Azure Functions -sovellukseen tapahtumatriggerin kautta ja lopulta tallentaminen blob-tallennukseen](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f1.fi.png)
+![GPS-telemetrian lähettäminen IoT-laitteesta IoT Hubiin, sitten Azure Functions -sovellukseen tapahtumatriggerin kautta ja lopulta tallentaminen blob-tallennukseen](../../../../../translated_images/fi/save-telemetry-to-storage-from-functions.ed3b1820980097f1.webp)
 
 Data tallennetaan JSON-blobina seuraavassa muodossa:
 

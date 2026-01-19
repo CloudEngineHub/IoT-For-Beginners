@@ -154,11 +154,11 @@ Python 가상 환경이 준비되면 'Hello World' 애플리케이션의 코드�
 
 1. VS Code가 실행되면 Python 가상 환경이 활성화됩니다. 선택된 가상 환경은 하단 상태 표시줄에 나타납니다:
 
-    ![VS Code에서 선택된 가상 환경 표시](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.ko.png)
+    ![VS Code에서 선택된 가상 환경 표시](../../../../../translated_images/ko/vscode-virtual-env.8ba42e04c3d533cf.webp)
 
 1. VS Code 터미널이 이미 실행 중일 때 VS Code가 시작되면 터미널에 가상 환경이 활성화되지 않을 수 있습니다. 가장 쉬운 방법은 **활성 터미널 인스턴스 종료** 버튼을 사용하여 터미널을 종료하는 것입니다:
 
-    ![VS Code 활성 터미널 인스턴스 종료 버튼](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.ko.png)
+    ![VS Code 활성 터미널 인스턴스 종료 버튼](../../../../../translated_images/ko/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
 
     터미널에 가상 환경이 활성화되었는지 확인하려면 터미널 프롬프트에 가상 환경 이름이 접두사로 표시됩니다. 예를 들어, 다음과 같을 수 있습니다:
 
@@ -212,7 +212,7 @@ Python 가상 환경이 준비되면 'Hello World' 애플리케이션의 코드�
 
     앱이 실행되며 웹 브라우저에서 열립니다:
 
-    ![브라우저에서 실행 중인 CounterFit 앱](../../../../../translated_images/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.ko.png)
+    ![브라우저에서 실행 중인 CounterFit 앱](../../../../../translated_images/ko/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
 
     앱은 *Disconnected*로 표시되며, 오른쪽 상단의 LED가 꺼져 있습니다.
 
@@ -229,11 +229,11 @@ Python 가상 환경이 준비되면 'Hello World' 애플리케이션의 코드�
 
 1. 현재 터미널에서 CounterFit 앱이 실행 중이므로 **새 통합 터미널 생성** 버튼을 선택하여 새 VS Code 터미널을 실행해야 합니다.
 
-    ![VS Code 새 통합 터미널 생성 버튼](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.ko.png)
+    ![VS Code 새 통합 터미널 생성 버튼](../../../../../translated_images/ko/vscode-new-terminal.77db8fc0f9cd3182.webp)
 
 1. 새 터미널에서 이전과 같이 `app.py` 파일을 실행하세요. CounterFit 상태가 **Connected**로 변경되고 LED가 켜집니다.
 
-    ![CounterFit가 연결된 상태 표시](../../../../../translated_images/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.ko.png)
+    ![CounterFit가 연결된 상태 표시](../../../../../translated_images/ko/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
 
 > 💁 이 코드는 [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device) 폴더에서 찾을 수 있습니다.
 

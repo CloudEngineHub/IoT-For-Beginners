@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # השקיית צמחים אוטומטית
 
-![סקיצה של השיעור](../../../../../translated_images/lesson-7.30b5f577d3cb8e031238751475cb519c7d6dbaea261b5df4643d086ffb2a03bb.he.jpg)
+![סקיצה של השיעור](../../../../../translated_images/he/lesson-7.30b5f577d3cb8e031238751475cb519c7d6dbaea261b5df4643d086ffb2a03bb.jpg)
 
 > סקיצה מאת [ניטיה נאראסימן](https://github.com/nitya). לחצו על התמונה לגרסה גדולה יותר.
 
@@ -41,7 +41,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 הפתרון לכך הוא לחבר את המשאבה למקור כוח חיצוני ולהשתמש במפעיל כדי להפעיל את המשאבה, בדומה לאופן שבו מפעילים אור. נדרש מעט מאוד כוח (בצורת אנרגיה בגוף שלכם) כדי שהאצבע שלכם תלחץ על מתג, וזה מחבר את האור לחשמל ביתי הפועל ב-110v/240v.
 
-![מתג אור מפעיל כוח לאור](../../../../../translated_images/light-switch.760317ad6ab8bd6d611da5352dfe9c73a94a0822ccec7df3c8bae35da18e1658.he.png)
+![מתג אור מפעיל כוח לאור](../../../../../translated_images/he/light-switch.760317ad6ab8bd6d611da5352dfe9c73a94a0822ccec7df3c8bae35da18e1658.png)
 
 > 🎓 [חשמל ביתי](https://wikipedia.org/wiki/Mains_electricity) מתייחס לחשמל המסופק לבתים ולעסקים דרך תשתיות לאומיות בחלקים רבים בעולם.
 
@@ -55,11 +55,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 > 🎓 [אלקטרומגנטים](https://wikipedia.org/wiki/Electromagnet) הם מגנטים שנוצרים על ידי העברת חשמל דרך סליל חוט. כאשר החשמל מופעל, הסליל מתמגנט. כאשר החשמל כבוי, הסליל מאבד את המגנטיות שלו.
 
-![כאשר מופעל, האלקטרומגנט יוצר שדה מגנטי, שמפעיל את המתג במעגל הפלט](../../../../../translated_images/relay-on.4db16a0fd6b66926.he.png)
+![כאשר מופעל, האלקטרומגנט יוצר שדה מגנטי, שמפעיל את המתג במעגל הפלט](../../../../../translated_images/he/relay-on.4db16a0fd6b66926.webp)
 
 בממסר, מעגל הבקרה מפעיל את האלקטרומגנט. כאשר האלקטרומגנט מופעל, הוא מושך מנוף שמזיז מתג, סוגר זוג מגעים ומשלים מעגל פלט.
 
-![כאשר כבוי, האלקטרומגנט לא יוצר שדה מגנטי, שמכבה את המתג במעגל הפלט](../../../../../translated_images/relay-off.c34a178a2960fecd.he.png)
+![כאשר כבוי, האלקטרומגנט לא יוצר שדה מגנטי, שמכבה את המתג במעגל הפלט](../../../../../translated_images/he/relay-off.c34a178a2960fecd.webp)
 
 כאשר מעגל הבקרה כבוי, האלקטרומגנט נכבה, משחרר את המנוף ופותח את המגעים, מכבה את מעגל הפלט. ממסרים הם מפעילים דיגיטליים - אות גבוה לממסר מפעיל אותו, אות נמוך מכבה אותו.
 
@@ -81,11 +81,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 האלקטרומגנט לא צריך הרבה כוח כדי להפעיל ולמשוך את המנוף, ניתן לשלוט בו באמצעות יציאת 3.3V או 5V מערכת פיתוח IoT. מעגל הפלט יכול לשאת הרבה יותר כוח, תלוי בממסר, כולל מתח ביתי או אפילו רמות כוח גבוהות יותר לשימוש תעשייתי. כך ערכת פיתוח IoT יכולה לשלוט במערכת השקיה, ממשאבה קטנה לצמח יחיד ועד מערכת תעשייתית גדולה לחווה מסחרית שלמה.
 
-![ממסר Grove עם מעגל הבקרה, מעגל הפלט והממסר מסומנים](../../../../../translated_images/grove-relay-labelled.293e068f5c3c2a199bd7892f2661fdc9e10c920b535cfed317fbd6d1d4ae1168.he.png)
+![ממסר Grove עם מעגל הבקרה, מעגל הפלט והממסר מסומנים](../../../../../translated_images/he/grove-relay-labelled.293e068f5c3c2a199bd7892f2661fdc9e10c920b535cfed317fbd6d1d4ae1168.png)
 
 התמונה למעלה מציגה ממסר Grove. מעגל הבקרה מתחבר למכשיר IoT ומפעיל או מכבה את הממסר באמצעות 3.3V או 5V. למעגל הפלט יש שני מסופים, כל אחד מהם יכול להיות כוח או קרקע. מעגל הפלט יכול להתמודד עם עד 250V ב-10A, מספיק למגוון מכשירים המופעלים על ידי חשמל ביתי. ניתן להשיג ממסרים שיכולים להתמודד עם רמות כוח גבוהות אף יותר.
 
-![משאבה מחוברת דרך ממסר](../../../../../translated_images/pump-wired-to-relay.66c5cfc0d8918990.he.png)
+![משאבה מחוברת דרך ממסר](../../../../../translated_images/he/pump-wired-to-relay.66c5cfc0d8918990.webp)
 
 בתמונה למעלה, כוח מסופק למשאבה דרך ממסר. ישנו חוט אדום שמחבר את מסוף ה-+5V של ספק כוח USB למסוף אחד של מעגל הפלט של הממסר, וחוט אדום נוסף שמחבר את המסוף השני של מעגל הפלט למשאבה. חוט שחור מחבר את המשאבה לקרקע של ספק כוח ה-USB. כאשר הממסר מופעל, הוא משלים את המעגל, שולח 5V למשאבה ומפעיל אותה.
 
@@ -135,7 +135,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 אם עשיתם את השיעור הקודם על לחות הקרקע באמצעות חיישן פיזי, הייתם שמים לב שלקח כמה שניות עד שרמת לחות הקרקע ירדה לאחר שהשקיתם את הצמח שלכם. זה לא בגלל שהחיישן איטי, אלא בגלל שלוקח זמן למים לחלחל דרך הקרקע.
 💁 אם השקיתם קרוב מדי לחיישן, ייתכן שראיתם את הקריאה יורדת במהירות ואז עולה שוב - זה נגרם מכך שהמים ליד החיישן מתפשטים בשאר האדמה, מה שמפחית את רמת הלחות באדמה ליד החיישן.
-![מדידת לחות קרקע של 658 לא משתנה במהלך השקיה, היא יורדת ל-320 רק לאחר שהמים חלחלו דרך הקרקע](../../../../../translated_images/soil-moisture-travel.a0e31af222cf1438.he.png)
+![מדידת לחות קרקע של 658 לא משתנה במהלך השקיה, היא יורדת ל-320 רק לאחר שהמים חלחלו דרך הקרקע](../../../../../translated_images/he/soil-moisture-travel.a0e31af222cf1438.webp)
 
 בדיאגרמה למעלה, מדידת לחות הקרקע מראה 658. הצמח מושקה, אך המדידה הזו לא משתנה מיד, מכיוון שהמים עדיין לא הגיעו לחיישן. ההשקיה יכולה אפילו להסתיים לפני שהמים מגיעים לחיישן והערך יורד כדי לשקף את רמת הלחות החדשה.
 
@@ -157,11 +157,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 > 💁 תזמון מסוג זה מאוד ספציפי למכשיר ה-IoT שאתם בונים, לתכונה שאתם מודדים ולחיישנים ולמפסק שאתם משתמשים בהם.
 
-![צמח תות מחובר למים דרך משאבה, כשהמשאבה מחוברת לממסר. הממסר וחיישן לחות הקרקע בצמח מחוברים ל-Raspberry Pi](../../../../../translated_images/strawberry-with-pump.b410fc72ac6aabad.he.png)
+![צמח תות מחובר למים דרך משאבה, כשהמשאבה מחוברת לממסר. הממסר וחיישן לחות הקרקע בצמח מחוברים ל-Raspberry Pi](../../../../../translated_images/he/strawberry-with-pump.b410fc72ac6aabad.webp)
 
 לדוגמה, יש לי צמח תות עם חיישן לחות קרקע ומשאבה הנשלטת על ידי ממסר. שמתי לב שכאשר אני מוסיף מים, לוקח כ-20 שניות עד שרמת הלחות בקרקע מתייצבת. המשמעות היא שאני צריך לכבות את הממסר ולהמתין 20 שניות לפני שאני בודק את רמות הלחות. אני מעדיף שיהיו מעט מדי מים מאשר יותר מדי - תמיד אפשר להפעיל את המשאבה שוב, אבל אי אפשר להוציא מים מהצמח.
 
-![שלב 1, מדידה. שלב 2, הוספת מים. שלב 3, המתנה לחלחול המים דרך הקרקע. שלב 4, מדידה חוזרת](../../../../../translated_images/soil-moisture-delay.865f3fae206db01d.he.png)
+![שלב 1, מדידה. שלב 2, הוספת מים. שלב 3, המתנה לחלחול המים דרך הקרקע. שלב 4, מדידה חוזרת](../../../../../translated_images/he/soil-moisture-delay.865f3fae206db01d.webp)
 
 המשמעות היא שתהליך ההשקיה הטוב ביותר יהיה משהו כמו:
 

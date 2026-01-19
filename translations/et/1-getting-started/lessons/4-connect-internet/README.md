@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Ühenda oma seade Internetiga
 
-![Selle õppetunni visuaalne ülevaade](../../../../../translated_images/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.et.jpg)
+![Selle õppetunni visuaalne ülevaade](../../../../../translated_images/et/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.jpg)
 
 > Visuaalne ülevaade: [Nitya Narasimhan](https://github.com/nitya). Klõpsa pildil, et näha suuremat versiooni.
 
@@ -46,7 +46,7 @@ Selles õppetunnis käsitleme:
 
 IoT-seadmete ja Interneti vaheliseks suhtluseks kasutatakse mitmeid populaarseid protokolle. Kõige populaarsemad põhinevad avaldamise/tellimise sõnumite edastamisel mingi vahendaja kaudu. IoT-seadmed ühenduvad vahendajaga, avaldavad telemeetria ja tellivad käske. Pilveteenused ühenduvad samuti vahendajaga, tellivad kõik telemeetria sõnumid ja avaldavad käske kas konkreetsetele seadmetele või seadmete gruppidele.
 
-![IoT-seadmed ühenduvad vahendajaga, avaldavad telemeetria ja tellivad käske. Pilveteenused ühenduvad vahendajaga, tellivad kõik telemeetria ja saadavad käske konkreetsetele seadmetele.](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4.et.png)
+![IoT-seadmed ühenduvad vahendajaga, avaldavad telemeetria ja tellivad käske. Pilveteenused ühenduvad vahendajaga, tellivad kõik telemeetria ja saadavad käske konkreetsetele seadmetele.](../../../../../translated_images/et/pub-sub.7c7ed43fe9fd15d4.webp)
 
 MQTT on IoT-seadmete seas kõige populaarsem suhtlusprotokoll ja seda käsitletakse selles õppetunnis. Muud protokollid hõlmavad AMQP ja HTTP/HTTPS.
 
@@ -56,7 +56,7 @@ MQTT on IoT-seadmete seas kõige populaarsem suhtlusprotokoll ja seda käsitleta
 
 MQTT-l on üks vahendaja ja mitu klienti. Kõik kliendid ühenduvad vahendajaga, ja vahendaja suunab sõnumid vastavatele klientidele. Sõnumeid suunatakse nimeliste teemade kaudu, mitte otse individuaalsele kliendile. Klient saab avaldada teemas ja kõik kliendid, kes seda teemat tellivad, saavad sõnumi.
 
-![IoT-seade avaldab telemeetria teemal /telemetry ja pilveteenus tellib seda teemat](../../../../../translated_images/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.et.png)
+![IoT-seade avaldab telemeetria teemal /telemetry ja pilveteenus tellib seda teemat](../../../../../translated_images/et/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.png)
 
 ✅ Uuri lähemalt. Kui sul on palju IoT-seadmeid, kuidas tagada, et sinu MQTT vahendaja suudab kõiki sõnumeid hallata?
 
@@ -78,7 +78,7 @@ Selle ülesande raames ei pea sa tegelema MQTT vahendaja seadistamise keerukuseg
 
 > 💁 See testvahendaja on avalik ja mitte turvaline. Kõik võivad kuulata, mida sa avaldad, seega ei tohiks seda kasutada andmetega, mis peavad jääma privaatseks.
 
-![Ülesande vooskeem, mis näitab valguse taseme lugemist ja kontrollimist ning LED-i juhtimist](../../../../../translated_images/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.et.png)
+![Ülesande vooskeem, mis näitab valguse taseme lugemist ja kontrollimist ning LED-i juhtimist](../../../../../translated_images/et/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.png)
 
 Järgi allpool toodud samme, et ühendada oma seade MQTT vahendajaga:
 
@@ -115,7 +115,7 @@ Sõna telemeetria pärineb kreeka juurtest, mis tähendavad kaugmõõtmist. Tele
 
 Vaatame tagasi nutika termostaadi näitele 1. õppetunnist.
 
-![Internetiga ühendatud termostaat, mis kasutab mitme ruumi andureid](../../../../../translated_images/telemetry.21e5d8b97649d2eb.et.png)
+![Internetiga ühendatud termostaat, mis kasutab mitme ruumi andureid](../../../../../translated_images/et/telemetry.21e5d8b97649d2eb.webp)
 
 Termostaadil on temperatuuriandurid telemeetria kogumiseks. Tõenäoliselt on sellel üks sisseehitatud temperatuuriandur ja see võib ühenduda mitme välise temperatuurianduriga traadita protokolli, näiteks [Bluetooth Low Energy](https://wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE), kaudu.
 
@@ -268,11 +268,11 @@ Kirjuta serveri kood.
 
 1. Kui VS Code käivitub, aktiveerib see Pythoni virtuaalse keskkonna. Seda näidatakse alumises olekuribal:
 
-    ![VS Code näitab valitud virtuaalset keskkonda](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.et.png)
+    ![VS Code näitab valitud virtuaalset keskkonda](../../../../../translated_images/et/vscode-virtual-env.8ba42e04c3d533cf.webp)
 
 1. Kui VS Code Terminal on juba käimas, kui VS Code käivitub, siis virtuaalne keskkond ei ole seal aktiveeritud. Lihtsaim viis on terminal sulgeda, kasutades **Kill the active terminal instance** nuppu:
 
-    ![VS Code Kill the active terminal instance nupp](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.et.png)
+    ![VS Code Kill the active terminal instance nupp](../../../../../translated_images/et/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
 
 1. Käivita uus VS Code Terminal, valides *Terminal -> New Terminal* või vajutades `` CTRL+` ``. Uus terminal laadib virtuaalse keskkonna, aktiveerimiskäsk ilmub terminalis. Virtuaalse keskkonna nimi (`.venv`) ilmub ka käsurea promptis:
 
@@ -360,7 +360,7 @@ Masinate puhul võib olla vajalik andmed säilitada, eriti kui neid kasutatakse 
 
 IoT-seadme disainerid peaksid kaaluma ka seda, kas IoT-seadet saab kasutada internetikatkestuse või signaali kadumise korral, mis on põhjustatud asukohast. Nutikas termostaat peaks suutma teha mõningaid piiratud otsuseid kütmise juhtimiseks, kui see ei saa telemeetriat pilve saata katkestuse tõttu.
 
-[![See Ferrari muutus kasutuskõlbmatuks, kuna keegi üritas seda uuendada maa all, kus pole mobiililevi](../../../../../translated_images/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.et.png)](https://twitter.com/internetofshit/status/1315736960082808832)
+[![See Ferrari muutus kasutuskõlbmatuks, kuna keegi üritas seda uuendada maa all, kus pole mobiililevi](../../../../../translated_images/et/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.png)](https://twitter.com/internetofshit/status/1315736960082808832)
 
 MQTT puhul, et käsitleda ühenduse kaotust, peavad seade ja serveri kood vastutama sõnumite edastamise tagamise eest, kui see on vajalik, näiteks nõudes, et kõik saadetud sõnumid vastatakse täiendavate sõnumitega vastusteemal, ja kui ei, siis need järjekorrastatakse käsitsi, et hiljem uuesti saata.
 
@@ -368,7 +368,7 @@ MQTT puhul, et käsitleda ühenduse kaotust, peavad seade ja serveri kood vastut
 
 Käsklused on sõnumid, mida pilv saadab seadmele, juhendades seda midagi tegema. Enamasti hõlmab see mingisuguse väljundi andmist läbi aktuaatori, kuid see võib olla juhis seadmele endale, näiteks taaskäivitamiseks või lisatelemeetria kogumiseks ja vastusena käsklusele tagastamiseks.
 
-![Internetiühendusega termostaat, mis saab käsu kütmise sisselülitamiseks](../../../../../translated_images/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.et.png)
+![Internetiühendusega termostaat, mis saab käsu kütmise sisselülitamiseks](../../../../../translated_images/et/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.png)
 
 Termostaat võiks saada pilvest käsu kütmise sisselülitamiseks. Kõigi sensorite telemeetriaandmete põhjal otsustab pilveteenus, et küte peaks olema sisse lülitatud, ja saadab vastava käsu.
 

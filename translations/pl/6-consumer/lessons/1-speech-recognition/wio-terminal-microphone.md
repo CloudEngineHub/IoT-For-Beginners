@@ -15,11 +15,11 @@ W tej części lekcji dodasz głośniki do swojego Wio Terminal. Wio Terminal ma
 
 Wio Terminal ma już wbudowany mikrofon, który może być używany do rejestrowania dźwięku na potrzeby rozpoznawania mowy.
 
-![Mikrofon w Wio Terminal](../../../../../translated_images/wio-mic.3f8c843dbe8ad917.pl.png)
+![Mikrofon w Wio Terminal](../../../../../translated_images/pl/wio-mic.3f8c843dbe8ad917.webp)
 
 Aby dodać głośnik, możesz użyć [ReSpeaker 2-Mics Pi Hat](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html). Jest to zewnętrzna płytka zawierająca 2 mikrofony MEMS, a także złącze głośnika i gniazdo słuchawkowe.
 
-![ReSpeaker 2-Mics Pi Hat](../../../../../translated_images/respeaker.f5d19d1c6b14ab16.pl.png)
+![ReSpeaker 2-Mics Pi Hat](../../../../../translated_images/pl/respeaker.f5d19d1c6b14ab16.webp)
 
 Będziesz potrzebować słuchawek, głośnika z wtykiem 3,5 mm lub głośnika z połączeniem JST, takiego jak [Mono Enclosed Speaker - 2W 6 Ohm](https://www.seeedstudio.com/Mono-Enclosed-Speaker-2W-6-Ohm-p-2832.html).
 
@@ -35,7 +35,7 @@ Będziesz także potrzebować karty SD do pobierania i odtwarzania dźwięku. Wi
 
     Piny muszą być podłączone w następujący sposób:
 
-    ![Schemat pinów](../../../../../translated_images/wio-respeaker-wiring-0.767f80aa65081038.pl.png)
+    ![Schemat pinów](../../../../../translated_images/pl/wio-respeaker-wiring-0.767f80aa65081038.webp)
 
 1. Ustaw ReSpeaker i Wio Terminal tak, aby gniazda GPIO były skierowane do góry i znajdowały się po lewej stronie.
 
@@ -43,33 +43,33 @@ Będziesz także potrzebować karty SD do pobierania i odtwarzania dźwięku. Wi
 
 1. Powtarzaj ten proces wzdłuż gniazd GPIO po lewej stronie. Upewnij się, że piny są dobrze osadzone.
 
-    ![ReSpeaker z lewymi pinami podłączonymi do lewych pinów Wio Terminal](../../../../../translated_images/wio-respeaker-wiring-1.8d894727f2ba2400.pl.png)
+    ![ReSpeaker z lewymi pinami podłączonymi do lewych pinów Wio Terminal](../../../../../translated_images/pl/wio-respeaker-wiring-1.8d894727f2ba2400.webp)
 
-    ![ReSpeaker z lewymi pinami podłączonymi do lewych pinów Wio Terminal](../../../../../translated_images/wio-respeaker-wiring-2.329e1cbd306e754f.pl.png)
+    ![ReSpeaker z lewymi pinami podłączonymi do lewych pinów Wio Terminal](../../../../../translated_images/pl/wio-respeaker-wiring-2.329e1cbd306e754f.webp)
 
     > 💁 Jeśli twoje przewody jumper są połączone w taśmy, trzymaj je razem - ułatwi to upewnienie się, że wszystkie przewody są podłączone w odpowiedniej kolejności.
 
 1. Powtórz proces, używając prawych gniazd GPIO na ReSpeaker i Wio Terminal. Te przewody muszą przechodzić wokół już podłączonych przewodów.
 
-    ![ReSpeaker z prawymi pinami podłączonymi do prawych pinów Wio Terminal](../../../../../translated_images/wio-respeaker-wiring-3.75b0be447e2fa930.pl.png)
+    ![ReSpeaker z prawymi pinami podłączonymi do prawych pinów Wio Terminal](../../../../../translated_images/pl/wio-respeaker-wiring-3.75b0be447e2fa930.webp)
 
-    ![ReSpeaker z prawymi pinami podłączonymi do prawych pinów Wio Terminal](../../../../../translated_images/wio-respeaker-wiring-4.aa9cd434d8779437.pl.png)
+    ![ReSpeaker z prawymi pinami podłączonymi do prawych pinów Wio Terminal](../../../../../translated_images/pl/wio-respeaker-wiring-4.aa9cd434d8779437.webp)
 
     > 💁 Jeśli twoje przewody jumper są połączone w taśmy, rozdziel je na dwie taśmy. Przeprowadź każdą z nich po jednej stronie istniejących przewodów.
 
     > 💁 Możesz użyć taśmy klejącej, aby przytrzymać piny w bloku, co pomoże zapobiec ich wypadaniu podczas podłączania.
 
-    > ![Piny zabezpieczone taśmą](../../../../../translated_images/wio-respeaker-wiring-5.af117c20acf622f3.pl.png)
+    > ![Piny zabezpieczone taśmą](../../../../../translated_images/pl/wio-respeaker-wiring-5.af117c20acf622f3.webp)
 
 1. Będziesz musiał dodać głośnik.
 
     * Jeśli używasz głośnika z kablem JST, podłącz go do portu JST na ReSpeaker.
 
-      ![Głośnik podłączony do ReSpeaker za pomocą kabla JST](../../../../../translated_images/respeaker-jst-speaker.a441d177809df945.pl.png)
+      ![Głośnik podłączony do ReSpeaker za pomocą kabla JST](../../../../../translated_images/pl/respeaker-jst-speaker.a441d177809df945.webp)
 
     * Jeśli używasz głośnika z wtykiem 3,5 mm lub słuchawek, włóż je do gniazda 3,5 mm.
 
-      ![Głośnik podłączony do ReSpeaker przez gniazdo 3,5 mm](../../../../../translated_images/respeaker-35mm-speaker.ad79ef4f128c7751.pl.png)
+      ![Głośnik podłączony do ReSpeaker przez gniazdo 3,5 mm](../../../../../translated_images/pl/respeaker-35mm-speaker.ad79ef4f128c7751.webp)
 
 ### Zadanie - skonfiguruj kartę SD
 
@@ -79,7 +79,7 @@ Będziesz także potrzebować karty SD do pobierania i odtwarzania dźwięku. Wi
 
 1. Włóż kartę SD do gniazda na karty SD znajdującego się po lewej stronie Wio Terminal, tuż pod przyciskiem zasilania. Upewnij się, że karta jest całkowicie wsunięta i "kliknęła" - możesz potrzebować cienkiego narzędzia lub innej karty SD, aby pomóc ją wsunąć.
 
-    ![Wkładanie karty SD do gniazda pod przełącznikiem zasilania](../../../../../translated_images/wio-sd-card.acdcbe322fa4ee7f.pl.png)
+    ![Wkładanie karty SD do gniazda pod przełącznikiem zasilania](../../../../../translated_images/pl/wio-sd-card.acdcbe322fa4ee7f.webp)
 
     > 💁 Aby wyjąć kartę SD, musisz ją lekko wcisnąć, aby się wysunęła. Do tego może być potrzebne cienkie narzędzie, takie jak płaski śrubokręt lub inna karta SD.
 

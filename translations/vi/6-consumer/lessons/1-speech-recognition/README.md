@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Nhận diện giọng nói với thiết bị IoT
 
-![Tổng quan bài học qua sketchnote](../../../../../translated_images/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.vi.jpg)
+![Tổng quan bài học qua sketchnote](../../../../../translated_images/vi/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.jpg)
 
 > Sketchnote bởi [Nitya Narasimhan](https://github.com/nitya). Nhấp vào hình ảnh để xem phiên bản lớn hơn.
 
@@ -60,19 +60,19 @@ Micro có nhiều loại khác nhau:
 
     Micro dynamic không cần nguồn điện để hoạt động, tín hiệu điện được tạo ra hoàn toàn từ micro.
 
-    ![Patti Smith hát vào micro Shure SM58 (loại dynamic cardioid)](../../../../../translated_images/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.vi.jpg)
+    ![Patti Smith hát vào micro Shure SM58 (loại dynamic cardioid)](../../../../../translated_images/vi/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.jpg)
 
 * Ribbon - Micro ribbon tương tự như micro dynamic, nhưng thay vì màng rung, chúng có một dải kim loại. Dải này di chuyển trong trường từ tạo ra dòng điện. Giống như micro dynamic, micro ribbon không cần nguồn điện để hoạt động.
 
-    ![Edmund Lowe, diễn viên người Mỹ, đứng trước micro radio (gắn nhãn cho mạng Blue của NBC), cầm kịch bản, năm 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441ca.vi.jpg)
+    ![Edmund Lowe, diễn viên người Mỹ, đứng trước micro radio (gắn nhãn cho mạng Blue của NBC), cầm kịch bản, năm 1942](../../../../../translated_images/vi/ribbon-mic.eacc8e092c7441ca.webp)
 
 * Condenser - Micro condenser có màng kim loại mỏng và một tấm kim loại cố định phía sau. Điện được áp dụng cho cả hai và khi màng rung, điện tích tĩnh giữa các tấm thay đổi tạo ra tín hiệu. Micro condenser cần nguồn điện để hoạt động - gọi là *Phantom power*.
 
-    ![Micro condenser màng nhỏ C451B của AKG Acoustics](../../../../../translated_images/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.vi.jpg)
+    ![Micro condenser màng nhỏ C451B của AKG Acoustics](../../../../../translated_images/vi/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.jpg)
 
 * MEMS - Micro hệ thống vi cơ điện tử, hay MEMS, là micro trên chip. Chúng có màng nhạy áp lực được khắc trên chip silicon, hoạt động tương tự như micro condenser. Những micro này có thể rất nhỏ và tích hợp vào mạch.
 
-    ![Micro MEMS trên bảng mạch](../../../../../translated_images/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.vi.png)
+    ![Micro MEMS trên bảng mạch](../../../../../translated_images/vi/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.png)
 
     Trong hình trên, chip được gắn nhãn **LEFT** là micro MEMS, với màng nhỏ chưa đến một milimet.
 
@@ -84,7 +84,7 @@ Micro có nhiều loại khác nhau:
 
 > 🎓 Lấy mẫu là quá trình chuyển đổi tín hiệu âm thanh thành giá trị kỹ thuật số đại diện cho tín hiệu tại thời điểm đó.
 
-![Biểu đồ đường hiển thị tín hiệu, với các điểm rời rạc tại các khoảng cố định](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7.vi.png)
+![Biểu đồ đường hiển thị tín hiệu, với các điểm rời rạc tại các khoảng cố định](../../../../../translated_images/vi/sampling.6f4fadb3f2d9dfe7.webp)
 
 Âm thanh kỹ thuật số được lấy mẫu bằng cách sử dụng Điều chế Mã Xung (Pulse Code Modulation - PCM). PCM liên quan đến việc đọc điện áp của tín hiệu và chọn giá trị rời rạc gần nhất với điện áp đó theo kích thước được định nghĩa.
 
@@ -168,7 +168,7 @@ Phát hiện từ đánh thức thường sử dụng một kỹ thuật gọi l
 
 ## Chuyển đổi giọng nói thành văn bản
 
-![Logo dịch vụ giọng nói](../../../../../translated_images/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.vi.png)
+![Logo dịch vụ giọng nói](../../../../../translated_images/vi/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
 
 Giống như với phân loại hình ảnh trong dự án trước, có các dịch vụ AI được xây dựng sẵn có thể nhận giọng nói dưới dạng tệp âm thanh và chuyển đổi thành văn bản. Một trong những dịch vụ như vậy là Speech Service, một phần của Cognitive Services, các dịch vụ AI được xây dựng sẵn mà bạn có thể sử dụng trong ứng dụng của mình.
 

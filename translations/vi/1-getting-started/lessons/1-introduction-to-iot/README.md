@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Giới thiệu về IoT
 
-![Tóm tắt bài học bằng sketchnote](../../../../../translated_images/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.vi.jpg)
+![Tóm tắt bài học bằng sketchnote](../../../../../translated_images/vi/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.jpg)
 
 > Sketchnote bởi [Nitya Narasimhan](https://github.com/nitya). Nhấn vào hình ảnh để xem phiên bản lớn hơn.
 
@@ -79,7 +79,7 @@ Vi điều khiển (còn được gọi là MCU, viết tắt của microcontrol
 
 Vi điều khiển thường là các thiết bị tính toán chi phí thấp, với giá trung bình cho các thiết bị được sử dụng trong phần cứng tùy chỉnh giảm xuống khoảng 0,50 USD, và một số thiết bị có giá chỉ 0,03 USD. Các bộ công cụ phát triển có thể bắt đầu từ 4 USD, với chi phí tăng lên khi bạn thêm nhiều tính năng hơn. [Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html), một bộ công cụ phát triển vi điều khiển từ [Seeed studios](https://www.seeedstudio.com) có cảm biến, bộ truyền động, WiFi và màn hình, có giá khoảng 30 USD.
 
-![Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9a.vi.png)
+![Wio Terminal](../../../../../translated_images/vi/wio-terminal.b8299ee16587db9a.webp)
 
 > 💁 Khi tìm kiếm vi điều khiển trên Internet, hãy cẩn thận khi tìm kiếm thuật ngữ **MCU** vì điều này có thể trả về rất nhiều kết quả liên quan đến Vũ trụ Điện ảnh Marvel, không phải vi điều khiển.
 
@@ -93,7 +93,7 @@ Các bộ công cụ phát triển vi điều khiển thường đi kèm với c
 
 Máy tính bảng đơn là một thiết bị tính toán nhỏ có tất cả các thành phần của một máy tính hoàn chỉnh được tích hợp trên một bảng nhỏ. Đây là các thiết bị có thông số kỹ thuật gần giống với máy tính để bàn hoặc laptop, chạy một hệ điều hành đầy đủ, nhưng nhỏ gọn hơn, tiêu thụ ít năng lượng hơn và rẻ hơn đáng kể.
 
-![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.vi.jpg)
+![Raspberry Pi 4](../../../../../translated_images/vi/raspberry-pi-4.fd4590d308c3d456.webp)
 
 Raspberry Pi là một trong những máy tính bảng đơn phổ biến nhất.
 

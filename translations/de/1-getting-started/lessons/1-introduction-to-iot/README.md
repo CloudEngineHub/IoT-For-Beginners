@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Einführung in IoT
 
-![Eine Sketchnote-Übersicht dieser Lektion](../../../../../translated_images/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.de.jpg)
+![Eine Sketchnote-Übersicht dieser Lektion](../../../../../translated_images/de/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.jpg)
 
 > Sketchnote von [Nitya Narasimhan](https://github.com/nitya). Klicken Sie auf das Bild für eine größere Version.
 
@@ -79,7 +79,7 @@ Ein Mikrocontroller (auch als MCU, kurz für Microcontroller Unit, bezeichnet) i
 
 Mikrocontroller sind typischerweise kostengünstige Rechengeräte, wobei die Durchschnittspreise für die in kundenspezifischer Hardware verwendeten Geräte auf etwa 0,50 US-Dollar sinken und einige Geräte nur 0,03 US-Dollar kosten. Entwicklerkits können bereits ab 4 US-Dollar beginnen, wobei die Kosten steigen, wenn mehr Funktionen hinzugefügt werden. Das [Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html), ein Mikrocontroller-Entwicklerkit von [Seeed Studios](https://www.seeedstudio.com), das Sensoren, Aktoren, WLAN und einen Bildschirm enthält, kostet etwa 30 US-Dollar.
 
-![Ein Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9a.de.png)
+![Ein Wio Terminal](../../../../../translated_images/de/wio-terminal.b8299ee16587db9a.webp)
 
 > 💁 Seien Sie vorsichtig, wenn Sie im Internet nach Mikrocontrollern suchen, da die Suche nach dem Begriff **MCU** viele Ergebnisse für das Marvel Cinematic Universe und nicht für Mikrocontroller zurückbringen kann.
 
@@ -93,7 +93,7 @@ Mikrocontroller-Entwicklerkits werden normalerweise mit zusätzlichen Sensoren u
 
 Ein Einplatinencomputer ist ein kleines Rechengerät, das alle Elemente eines vollständigen Computers auf einer einzigen kleinen Platine enthält. Diese Geräte haben Spezifikationen, die denen eines Desktop- oder Laptop-PCs oder Macs nahekommen, führen ein vollständiges Betriebssystem aus, sind jedoch klein, verbrauchen weniger Energie und sind erheblich günstiger.
 
-![Ein Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.de.jpg)
+![Ein Raspberry Pi 4](../../../../../translated_images/de/raspberry-pi-4.fd4590d308c3d456.webp)
 
 Der Raspberry Pi ist einer der beliebtesten Einplatinencomputer.
 

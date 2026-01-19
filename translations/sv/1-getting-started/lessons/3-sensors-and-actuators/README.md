@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Interagera med den fysiska världen med sensorer och aktuatorer
 
-![En sketchnote-översikt av denna lektion](../../../../../translated_images/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.sv.jpg)
+![En sketchnote-översikt av denna lektion](../../../../../translated_images/sv/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.jpg)
 
 > Sketchnote av [Nitya Narasimhan](https://github.com/nitya). Klicka på bilden för en större version.
 
@@ -75,7 +75,7 @@ Några av de mest grundläggande sensorerna är analoga sensorer. Dessa sensorer
 
 Ett exempel på detta är en potentiometer. Detta är en ratt som du kan rotera mellan två positioner och sensorn mäter rotationen.
 
-![En potentiometer inställd på en mittpunkt som skickar 5 volt och returnerar 3,8 volt](../../../../../translated_images/potentiometer.35a348b9ce22f6ec.sv.png)
+![En potentiometer inställd på en mittpunkt som skickar 5 volt och returnerar 3,8 volt](../../../../../translated_images/sv/potentiometer.35a348b9ce22f6ec.webp)
 
 IoT-enheten skickar en elektrisk signal till potentiometern med en spänning, till exempel 5 volt (5V). När potentiometern justeras ändrar den spänningen som kommer ut på andra sidan. Föreställ dig att du har en potentiometer märkt som en ratt som går från 0 till [11](https://wikipedia.org/wiki/Up_to_eleven), som en volymknapp på en förstärkare. När potentiometern är i helt avstängt läge (0) kommer 0V (0 volt) att komma ut. När den är i helt påslaget läge (11) kommer 5V (5 volt) att komma ut.
 
@@ -101,7 +101,7 @@ Digitala sensorer, precis som analoga sensorer, upptäcker världen omkring dem 
 
 Den enklaste digitala sensorn är en knapp eller brytare. Detta är en sensor med två tillstånd, på eller av.
 
-![En knapp skickas 5 volt. När den inte är tryckt returnerar den 0 volt, när den är tryckt returnerar den 5 volt](../../../../../translated_images/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.sv.png)
+![En knapp skickas 5 volt. När den inte är tryckt returnerar den 0 volt, när den är tryckt returnerar den 5 volt](../../../../../translated_images/sv/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.png)
 
 Pinnar på IoT-enheter, såsom GPIO-pinnar, kan mäta denna signal direkt som en 0 eller 1. Om spänningen som skickas är densamma som spänningen som returneras, läses värdet som 1, annars läses värdet som 0. Det finns inget behov av att konvertera signalen, den kan bara vara 1 eller 0.
 
@@ -112,7 +112,7 @@ Pinnar på IoT-enheter, såsom GPIO-pinnar, kan mäta denna signal direkt som en
 
 Mer avancerade digitala sensorer läser analoga värden och konverterar dem sedan med inbyggda ADC till digitala signaler. Till exempel kommer en digital temperatursensor fortfarande att använda en termoelement på samma sätt som en analog sensor och fortfarande mäta förändringen i spänning som orsakas av termoelementets resistans vid aktuell temperatur. Istället för att returnera ett analogt värde och förlita sig på enheten eller anslutningskortet för att konvertera till en digital signal, kommer en ADC inbyggd i sensorn att konvertera värdet och skicka det som en serie 0:or och 1:or till IoT-enheten. Dessa 0:or och 1:or skickas på samma sätt som den digitala signalen för en knapp, där 1 är full spänning och 0 är 0V.
 
-![En digital temperatursensor som konverterar en analog avläsning till binär data med 0 som 0 volt och 1 som 5 volt innan den skickas till en IoT-enhet](../../../../../translated_images/temperature-as-digital.85004491b977bae1.sv.png)
+![En digital temperatursensor som konverterar en analog avläsning till binär data med 0 som 0 volt och 1 som 5 volt innan den skickas till en IoT-enhet](../../../../../translated_images/sv/temperature-as-digital.85004491b977bae1.webp)
 
 Att skicka digital data gör det möjligt för sensorer att bli mer komplexa och skicka mer detaljerad data, till och med krypterad data för säkra sensorer. Ett exempel är en kamera. Detta är en sensor som fångar en bild och skickar den som digital data som innehåller den bilden, vanligtvis i ett komprimerat format som JPEG, för att läsas av IoT-enheten. Den kan till och med strömma video genom att fånga bilder och skicka antingen hela bilden bild för bild eller en komprimerad videoström.
 
@@ -134,7 +134,7 @@ Några vanliga aktuatorer inkluderar:
 
 Följ den relevanta guiden nedan för att lägga till en aktuator till din IoT-enhet, styrd av sensorn, för att bygga en IoT-nattlampa. Den kommer att samla ljusnivåer från ljussensorn och använda en aktuator i form av en LED för att avge ljus när den upptäckta ljusnivån är för låg.
 
-![Ett flödesschema för uppgiften som visar ljusnivåer som läses och kontrolleras, och LED som styrs](../../../../../translated_images/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.sv.png)
+![Ett flödesschema för uppgiften som visar ljusnivåer som läses och kontrolleras, och LED som styrs](../../../../../translated_images/sv/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.png)
 
 * [Arduino - Wio Terminal](wio-terminal-actuator.md)
 * [Enkortsdator - Raspberry Pi](pi-actuator.md)
@@ -149,7 +149,7 @@ Precis som sensorer är aktuatorer antingen analoga eller digitala.
 Analoga aktuatorer tar en analog signal och omvandlar den till någon form av interaktion, där interaktionen ändras baserat på den tillförda spänningen.
 
 Ett exempel är en dimbar lampa, såsom de du kanske har i ditt hem. Mängden spänning som tillförs lampan avgör hur starkt den lyser.
-![En lampa som är dimmad vid låg spänning och ljusare vid högre spänning](../../../../../translated_images/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.sv.png)
+![En lampa som är dimmad vid låg spänning och ljusare vid högre spänning](../../../../../translated_images/sv/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.png)
 
 Precis som med sensorer arbetar den faktiska IoT-enheten med digitala signaler, inte analoga. Detta innebär att för att skicka en analog signal behöver IoT-enheten en digital-till-analog-omvandlare (DAC), antingen direkt på IoT-enheten eller på en anslutningskort. Denna omvandlare konverterar 0:or och 1:or från IoT-enheten till en analog spänning som aktuatorn kan använda.
 
@@ -164,7 +164,7 @@ Till exempel kan du använda PWM för att kontrollera hastigheten på en motor.
 
 Föreställ dig att du styr en motor med en 5V strömkälla. Du skickar en kort puls till din motor, där spänningen höjs till 5V under två hundradels sekunder (0,02s). Under den tiden kan din motor rotera en tiondels varv, eller 36°. Signalen pausar sedan i två hundradels sekunder (0,02s), och skickar en låg signal (0V). Varje cykel av på och av varar 0,04s. Cykeln upprepas sedan.
 
-![Pulsbreddsmodulering rotation av en motor vid 150 RPM](../../../../../translated_images/pwm-motor-150rpm.83347ac04ca38482.sv.png)
+![Pulsbreddsmodulering rotation av en motor vid 150 RPM](../../../../../translated_images/sv/pwm-motor-150rpm.83347ac04ca38482.webp)
 
 Detta innebär att du under en sekund har 25 pulser på 5V som varar 0,02s och roterar motorn, följt av 0,02s paus med 0V där motorn inte roterar. Varje puls roterar motorn en tiondels varv, vilket innebär att motorn gör 2,5 varv per sekund. Du har använt en digital signal för att rotera motorn med 2,5 varv per sekund, eller 150 [varv per minut](https://wikipedia.org/wiki/Revolutions_per_minute) (en icke-standardiserad måttenhet för rotationshastighet).
 
@@ -175,7 +175,7 @@ Detta innebär att du under en sekund har 25 pulser på 5V som varar 0,02s och r
 
 > 🎓 När en PWM-signal är på halva tiden och av halva tiden kallas det för en [50% arbetscykel](https://wikipedia.org/wiki/Duty_cycle). Arbetscykler mäts som procentandelen tid signalen är i på-läge jämfört med av-läge.
 
-![Pulsbreddsmodulering rotation av en motor vid 75 RPM](../../../../../translated_images/pwm-motor-75rpm.a5e4c939934b6e14.sv.png)
+![Pulsbreddsmodulering rotation av en motor vid 75 RPM](../../../../../translated_images/sv/pwm-motor-75rpm.a5e4c939934b6e14.webp)
 
 Du kan ändra motorhastigheten genom att ändra storleken på pulserna. Till exempel, med samma motor kan du behålla samma cykeltid på 0,04s, men halvera på-pulsen till 0,01s och öka av-pulsen till 0,03s. Du har samma antal pulser per sekund (25), men varje på-puls är hälften så lång. En halvlång puls roterar motorn en tjugondels varv, och vid 25 pulser per sekund kommer motorn att göra 1,25 varv per sekund eller 75rpm. Genom att ändra pulsens längd i en digital signal har du halverat hastigheten på en analog motor.
 
@@ -196,7 +196,7 @@ Digitala aktuatorer, precis som digitala sensorer, har antingen två tillstånd 
 
 En enkel digital aktuator är en LED. När en enhet skickar en digital signal med värdet 1 skickas en hög spänning som tänder LED-lampan. När en digital signal med värdet 0 skickas sjunker spänningen till 0V och LED-lampan släcks.
 
-![En LED är släckt vid 0 volt och tänd vid 5V](../../../../../translated_images/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.sv.png)
+![En LED är släckt vid 0 volt och tänd vid 5V](../../../../../translated_images/sv/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.png)
 
 ✅ Vilka andra enkla tvåtillståndsaktuatorer kan du komma på? Ett exempel är en solenoid, som är en elektromagnet som kan aktiveras för att göra saker som att flytta en dörrregel för att låsa/öppna en dörr.
 

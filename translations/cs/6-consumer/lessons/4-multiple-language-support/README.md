@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Podpora více jazyků
 
-![Přehled této lekce ve formě sketchnote](../../../../../translated_images/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.cs.jpg)
+![Přehled této lekce ve formě sketchnote](../../../../../translated_images/cs/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
 
 > Sketchnote od [Nitya Narasimhan](https://github.com/nitya). Klikněte na obrázek pro větší verzi.
 
@@ -83,7 +83,7 @@ Existuje řada AI služeb, které lze použít z vašich aplikací k překladu �
 
 ### Cognitive services Speech service
 
-![Logo služby Speech](../../../../../translated_images/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.cs.png)
+![Logo služby Speech](../../../../../translated_images/cs/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
 
 Služba Speech, kterou jste používali v předchozích lekcích, má schopnosti překladu pro rozpoznávání řeči. Když rozpoznáváte řeč, můžete požádat nejen o text řeči ve stejném jazyce, ale také v jiných jazycích.
 
@@ -91,7 +91,7 @@ Služba Speech, kterou jste používali v předchozích lekcích, má schopnosti
 
 ### Cognitive services Translator service
 
-![Logo služby Translator](../../../../../translated_images/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.cs.png)
+![Logo služby Translator](../../../../../translated_images/cs/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
 
 Služba Translator je specializovaná překladová služba, která dokáže překládat text z jednoho jazyka do jednoho nebo více cílových jazyků. Kromě překladu podporuje širokou škálu dalších funkcí, včetně maskování vulgarismů. Umožňuje také poskytnout konkrétní překlad pro určité slovo nebo větu, aby pracovala s termíny, které nechcete překládat, nebo měla specifický známý překlad.
 
@@ -130,7 +130,7 @@ Pro tuto lekci budete potřebovat zdroj Translator. Použijete REST API k překl
 
 V ideálním světě by celá vaše aplikace měla rozumět co nejvíce různým jazykům, od poslechu řeči, přes porozumění jazyku, až po odpovědi řečí. To je hodně práce, takže překladové služby mohou urychlit čas dodání vaší aplikace.
 
-![Architektura chytrého časovače překládajícího japonštinu do angličtiny, zpracovávajícího v angličtině a poté překládajícího zpět do japonštiny](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c37.cs.png)
+![Architektura chytrého časovače překládajícího japonštinu do angličtiny, zpracovávajícího v angličtině a poté překládajícího zpět do japonštiny](../../../../../translated_images/cs/translated-smart-timer.08ac20057fdc5c37.webp)
 
 Představte si, že vytváříte chytrý časovač, který používá angličtinu od začátku do konce, rozumí mluvené angličtině a převádí ji na text, provádí porozumění jazyku v angličtině, sestavuje odpovědi v angličtině a odpovídá anglickou řečí. Pokud byste chtěli přidat podporu japonštiny, mohli byste začít překladem mluvené japonštiny na anglický text, poté ponechat jádro aplikace stejné, a nakonec přeložit odpovědní text do japonštiny před jeho vyslovením. To by vám umožnilo rychle přidat podporu japonštiny a později můžete rozšířit na plnou podporu japonštiny od začátku do konce.
 

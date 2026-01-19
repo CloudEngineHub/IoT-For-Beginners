@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Kích hoạt phát hiện chất lượng trái cây từ cảm biến
 
-![Tổng quan bài học qua hình vẽ](../../../../../translated_images/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.vi.jpg)
+![Tổng quan bài học qua hình vẽ](../../../../../translated_images/vi/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.jpg)
 
 > Hình vẽ minh họa bởi [Nitya Narasimhan](https://github.com/nitya). Nhấp vào hình để xem phiên bản lớn hơn.
 
@@ -48,7 +48,7 @@ Các ứng dụng IoT có thể được mô tả là *thiết bị* gửi dữ 
 
 ### Kiến trúc IoT tham khảo
 
-![Kiến trúc IoT tham khảo](../../../../../translated_images/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.vi.png)
+![Kiến trúc IoT tham khảo](../../../../../translated_images/vi/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.png)
 
 Hình trên minh họa một kiến trúc IoT tham khảo.
 
@@ -58,7 +58,7 @@ Hình trên minh họa một kiến trúc IoT tham khảo.
 * **Thông tin chi tiết** đến từ các ứng dụng không máy chủ hoặc từ phân tích dữ liệu đã lưu trữ.
 * **Hành động** có thể là các lệnh gửi đến thiết bị hoặc hình ảnh hóa dữ liệu cho phép con người đưa ra quyết định.
 
-![Kiến trúc IoT tham khảo](../../../../../translated_images/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.vi.png)
+![Kiến trúc IoT tham khảo](../../../../../translated_images/vi/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.png)
 
 Hình trên minh họa một số thành phần và dịch vụ đã được đề cập trong các bài học trước và cách chúng liên kết với nhau trong một kiến trúc IoT tham khảo.
 
@@ -98,7 +98,7 @@ Bạn cần xây dựng một hệ thống nơi trái cây được phát hiện
 
 ### Tạo nguyên mẫu ứng dụng của bạn
 
-![Kiến trúc IoT tham khảo cho kiểm tra chất lượng trái cây](../../../../../translated_images/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.vi.png)
+![Kiến trúc IoT tham khảo cho kiểm tra chất lượng trái cây](../../../../../translated_images/vi/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.png)
 
 Hình trên minh họa một kiến trúc tham khảo cho ứng dụng nguyên mẫu này.
 
@@ -115,7 +115,7 @@ Hình trên minh họa một kiến trúc tham khảo cho ứng dụng nguyên m
 
 Thiết bị IoT cần một loại kích hoạt nào đó để chỉ ra khi nào trái cây sẵn sàng được phân loại. Một kích hoạt cho việc này có thể là đo khoảng cách khi trái cây ở đúng vị trí trên băng chuyền bằng cách đo khoảng cách đến cảm biến.
 
-![Cảm biến khoảng cách gửi tia laser đến các vật thể như quả chuối và đo thời gian tia phản xạ trở lại](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fe.vi.png)
+![Cảm biến khoảng cách gửi tia laser đến các vật thể như quả chuối và đo thời gian tia phản xạ trở lại](../../../../../translated_images/vi/proximity-sensor.f5cd752c77fb62fe.webp)
 
 Cảm biến khoảng cách có thể được sử dụng để đo khoảng cách từ cảm biến đến một vật thể. Chúng thường phát ra một tia bức xạ điện từ như tia laser hoặc ánh sáng hồng ngoại, sau đó phát hiện bức xạ phản xạ từ vật thể. Thời gian giữa tia laser được gửi đi và tín hiệu phản xạ trở lại có thể được sử dụng để tính toán khoảng cách đến cảm biến.
 
@@ -133,7 +133,7 @@ Thực hiện theo hướng dẫn liên quan để sử dụng cảm biến kho�
 
 Nguyên mẫu bộ phát hiện trái cây có nhiều thành phần giao tiếp với nhau.
 
-![Các thành phần giao tiếp với nhau](../../../../../translated_images/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.vi.png)
+![Các thành phần giao tiếp với nhau](../../../../../translated_images/vi/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.png)
 
 * Một cảm biến khoảng cách đo khoảng cách đến một quả trái cây và gửi dữ liệu này đến IoT Hub
 * Lệnh điều khiển camera được gửi từ IoT Hub đến thiết bị camera

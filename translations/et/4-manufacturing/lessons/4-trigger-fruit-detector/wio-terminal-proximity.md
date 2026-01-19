@@ -29,13 +29,13 @@ Grove Time of Flight anduri saab ühendada Wio Terminaliga.
 
 Ühenda Time of Flight andur.
 
-![Grove Time of Flight andur](../../../../../translated_images/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.et.png)
+![Grove Time of Flight andur](../../../../../translated_images/et/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
 
 1. Sisesta ühe Grove-kaabli ots Time of Flight anduri pistikusse. See läheb sisse ainult ühes suunas.
 
 1. Kui Wio Terminal ei ole arvutiga või muu toiteallikaga ühendatud, ühenda Grove-kaabli teine ots Wio Terminali vasakpoolse Grove-pistikuga, kui vaatad ekraani poole. See on pistik, mis asub toitenupule kõige lähemal. See on kombineeritud digitaalne ja I<sup>2</sup>C pistik.
 
-![Grove Time of Flight andur ühendatud vasakpoolse pistikuga](../../../../../translated_images/wio-time-of-flight-sensor.c4c182131d2ea73d.et.png)
+![Grove Time of Flight andur ühendatud vasakpoolse pistikuga](../../../../../translated_images/et/wio-time-of-flight-sensor.c4c182131d2ea73d.webp)
 
 1. Nüüd saad ühendada Wio Terminali oma arvutiga.
 
@@ -101,7 +101,7 @@ Nüüd saab Wio Terminali programmeerida kasutama ühendatud Time of Flight andu
 
     Kaugusmõõtja asub anduri tagaküljel, seega veendu, et kasutad õiget külge kauguse mõõtmiseks.
 
-    ![Kaugusmõõtja Time of Flight anduri tagaküljel, suunatud banaani poole](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.et.png)
+    ![Kaugusmõõtja Time of Flight anduri tagaküljel, suunatud banaani poole](../../../../../translated_images/et/time-of-flight-banana.079921ad8b1496e4.webp)
 
 > 💁 Selle koodi leiad kaustast [code-proximity/wio-terminal](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/wio-terminal).
 

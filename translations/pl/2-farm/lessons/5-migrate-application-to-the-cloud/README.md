@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Przenieś logikę swojej aplikacji do chmury
 
-![Szkicowy przegląd tej lekcji](../../../../../translated_images/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.pl.jpg)
+![Szkicowy przegląd tej lekcji](../../../../../translated_images/pl/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.jpg)
 
 > Szkic autorstwa [Nitya Narasimhan](https://github.com/nitya). Kliknij obraz, aby zobaczyć większą wersję.
 
@@ -37,11 +37,11 @@ W tej lekcji omówimy:
 
 Bezserwerowość, czyli przetwarzanie bezserwerowe, polega na tworzeniu małych bloków kodu, które są uruchamiane w chmurze w odpowiedzi na różne zdarzenia. Gdy zdarzenie wystąpi, Twój kod jest uruchamiany i otrzymuje dane dotyczące tego zdarzenia. Zdarzenia te mogą pochodzić z różnych źródeł, takich jak żądania sieciowe, wiadomości umieszczone w kolejce, zmiany danych w bazie danych czy wiadomości wysyłane do usługi IoT przez urządzenia IoT.
 
-![Zdarzenia wysyłane z usługi IoT do usługi bezserwerowej, przetwarzane jednocześnie przez wiele funkcji](../../../../../translated_images/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.pl.png)
+![Zdarzenia wysyłane z usługi IoT do usługi bezserwerowej, przetwarzane jednocześnie przez wiele funkcji](../../../../../translated_images/pl/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.png)
 
 > 💁 Jeśli wcześniej korzystałeś z wyzwalaczy w bazach danych, możesz to porównać do tego samego mechanizmu — kod jest uruchamiany w odpowiedzi na zdarzenie, takie jak wstawienie wiersza.
 
-![Gdy wiele zdarzeń występuje jednocześnie, usługa bezserwerowa skaluje się, aby obsłużyć je wszystkie w tym samym czasie](../../../../../translated_images/serverless-scaling.f8c769adf0413fd1.pl.png)
+![Gdy wiele zdarzeń występuje jednocześnie, usługa bezserwerowa skaluje się, aby obsłużyć je wszystkie w tym samym czasie](../../../../../translated_images/pl/serverless-scaling.f8c769adf0413fd1.webp)
 
 Twój kod jest uruchamiany tylko wtedy, gdy wystąpi zdarzenie, a w innych momentach nie jest aktywny. Zdarzenie występuje, Twój kod jest ładowany i uruchamiany. Dzięki temu bezserwerowość jest bardzo skalowalna — jeśli wiele zdarzeń wystąpi jednocześnie, dostawca chmury może uruchomić Twoją funkcję tyle razy, ile potrzeba, na dostępnych serwerach. Wadą tego podejścia jest to, że jeśli musisz udostępniać informacje między zdarzeniami, musisz je zapisać w miejscu takim jak baza danych, zamiast przechowywać je w pamięci.
 
@@ -63,7 +63,7 @@ Jako programista IoT, model bezserwerowy jest idealny. Możesz napisać funkcję
 
 Usługa przetwarzania bezserwerowego od Microsoftu nazywa się Azure Functions.
 
-![Logo Azure Functions](../../../../../translated_images/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.pl.png)
+![Logo Azure Functions](../../../../../translated_images/pl/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.png)
 
 Krótki film poniżej przedstawia przegląd Azure Functions.
 
@@ -244,7 +244,7 @@ Interfejs wiersza poleceń Azure Functions może być używany do tworzenia nowe
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-    ![Powiadomienie](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb.pl.png)
+    ![Powiadomienie](../../../../../translated_images/pl/vscode-azure-functions-init-notification.bd19b49229963edb.webp)
 
     Wybierz **Yes** w tym powiadomieniu.
 

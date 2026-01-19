@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Wprowadzenie do IoT
 
-![Szkicowy przegląd tej lekcji](../../../../../translated_images/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.pl.jpg)
+![Szkicowy przegląd tej lekcji](../../../../../translated_images/pl/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.jpg)
 
 > Szkic autorstwa [Nitya Narasimhan](https://github.com/nitya). Kliknij obrazek, aby zobaczyć większą wersję.
 
@@ -79,7 +79,7 @@ Mikrokontroler (często nazywany MCU, od ang. microcontroller unit) to mały kom
 
 Mikrokontrolery są zazwyczaj tanimi urządzeniami obliczeniowymi, z przeciętnymi cenami dla tych używanych w niestandardowym sprzęcie spadającymi do około 0,50 USD, a niektóre urządzenia kosztują nawet 0,03 USD. Zestawy deweloperskie mogą zaczynać się od 4 USD, a ich koszt rośnie wraz z dodawaniem kolejnych funkcji. [Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html), zestaw deweloperski mikrokontrolera od [Seeed studios](https://www.seeedstudio.com), który ma sensory, aktuatory, WiFi i ekran, kosztuje około 30 USD.
 
-![Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9a.pl.png)
+![Wio Terminal](../../../../../translated_images/pl/wio-terminal.b8299ee16587db9a.webp)
 
 > 💁 Szukając w Internecie mikrokontrolerów, uważaj na wyszukiwanie terminu **MCU**, ponieważ może to zwrócić wiele wyników dotyczących Marvel Cinematic Universe, a nie mikrokontrolerów.
 
@@ -93,7 +93,7 @@ Zestawy deweloperskie mikrokontrolerów zazwyczaj mają dodatkowe sensory i aktu
 
 Komputer jednopłytkowy to małe urządzenie obliczeniowe, które zawiera wszystkie elementy pełnoprawnego komputera na jednej małej płytce. Są to urządzenia o specyfikacjach zbliżonych do komputerów stacjonarnych lub laptopów, które działają na pełnym systemie operacyjnym, ale są mniejsze, zużywają mniej energii i są znacznie tańsze.
 
-![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.pl.jpg)
+![Raspberry Pi 4](../../../../../translated_images/pl/raspberry-pi-4.fd4590d308c3d456.webp)
 
 Raspberry Pi jest jednym z najpopularniejszych komputerów jednopłytkowych.
 

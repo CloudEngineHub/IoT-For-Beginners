@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Interakcija s fizičnim svetom s senzorji in aktuatorji
 
-![Sketchnote pregled te lekcije](../../../../../translated_images/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.sl.jpg)
+![Sketchnote pregled te lekcije](../../../../../translated_images/sl/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.jpg)
 
 > Sketchnote avtorja [Nitya Narasimhan](https://github.com/nitya). Kliknite na sliko za večjo različico.
 
@@ -75,7 +75,7 @@ Nekateri najosnovnejši senzorji so analogni senzorji. Ti senzorji prejmejo nape
 
 Eden od primerov je potenciometer. To je gumb, ki ga lahko zavrtite med dvema položajema, senzor pa meri rotacijo.
 
-![Potenciometer nastavljen na srednjo točko, ki prejema 5 voltov in vrača 3,8 volta](../../../../../translated_images/potentiometer.35a348b9ce22f6ec.sl.png)
+![Potenciometer nastavljen na srednjo točko, ki prejema 5 voltov in vrača 3,8 volta](../../../../../translated_images/sl/potentiometer.35a348b9ce22f6ec.webp)
 
 IoT naprava pošlje električni signal potenciometru z določeno napetostjo, na primer 5 voltov (5V). Ko se potenciometer prilagodi, spremeni napetost, ki pride iz druge strani. Predstavljajte si potenciometer, označen kot gumb, ki gre od 0 do [11](https://wikipedia.org/wiki/Up_to_eleven), na primer gumb za glasnost na ojačevalniku. Ko je potenciometer v popolnoma izklopljenem položaju (0), bo iz njega prišlo 0V (0 voltov). Ko je v popolnoma vklopljenem položaju (11), bo iz njega prišlo 5V (5 voltov).
 
@@ -101,7 +101,7 @@ Digitalni senzorji, podobno kot analogni senzorji, zaznavajo svet okoli sebe z u
 
 Najenostavnejši digitalni senzor je gumb ali stikalo. To je senzor z dvema stanjem, vklopljen ali izklopljen.
 
-![Gumb prejme 5 voltov. Ko ni pritisnjen, vrača 0 voltov, ko je pritisnjen, vrača 5 voltov](../../../../../translated_images/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.sl.png)
+![Gumb prejme 5 voltov. Ko ni pritisnjen, vrača 0 voltov, ko je pritisnjen, vrača 5 voltov](../../../../../translated_images/sl/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.png)
 
 Pini na IoT napravah, kot so GPIO pini, lahko neposredno merijo ta signal kot 0 ali 1. Če je poslana napetost enaka vrnjeni napetosti, je prebrana vrednost 1, sicer je prebrana vrednost 0. Pretvorba signala ni potrebna, saj je lahko le 1 ali 0.
 
@@ -112,7 +112,7 @@ Pini na IoT napravah, kot so GPIO pini, lahko neposredno merijo ta signal kot 0 
 
 Naprednejši digitalni senzorji berejo analogne vrednosti, nato pa jih pretvorijo z vgrajenimi ADC-ji v digitalne signale. Na primer, digitalni temperaturni senzor bo še vedno uporabljal termoelement na enak način kot analogni senzor in bo še vedno meril spremembo napetosti, ki jo povzroča upornost termoelementa pri trenutni temperaturi. Namesto da bi vrnil analogno vrednost in se zanašal na napravo ali priključno ploščo za pretvorbo v digitalni signal, bo ADC, vgrajen v senzor, pretvoril vrednost in jo poslal kot niz 0 in 1 IoT napravi. Te 0 in 1 se pošljejo na enak način kot digitalni signal za gumb, pri čemer je 1 polna napetost, 0 pa 0V.
 
-![Digitalni temperaturni senzor pretvarja analogno vrednost v binarne podatke, kjer je 0 enako 0 voltov in 1 enako 5 voltov, preden jih pošlje IoT napravi](../../../../../translated_images/temperature-as-digital.85004491b977bae1.sl.png)
+![Digitalni temperaturni senzor pretvarja analogno vrednost v binarne podatke, kjer je 0 enako 0 voltov in 1 enako 5 voltov, preden jih pošlje IoT napravi](../../../../../translated_images/sl/temperature-as-digital.85004491b977bae1.webp)
 
 Pošiljanje digitalnih podatkov omogoča, da senzorji postanejo bolj zapleteni in pošiljajo podrobnejše podatke, celo šifrirane podatke za varne senzorje. Eden od primerov je kamera. To je senzor, ki zajame sliko in jo pošlje kot digitalne podatke, ki vsebujejo to sliko, običajno v stisnjeni obliki, kot je JPEG, da jo prebere IoT naprava. Lahko celo pretaka video z zajemanjem slik in pošiljanjem bodisi celotne slike okvir za okvirjem bodisi stisnjenega video toka.
 
@@ -134,7 +134,7 @@ Nekateri pogosti aktuatorji vključujejo:
 
 Sledite ustreznemu vodniku spodaj, da dodate aktuator svoji IoT napravi, ki ga bo nadzoroval senzor, in zgradite IoT nočno lučko. Ta bo zbirala ravni svetlobe iz svetlobnega senzorja in uporabljala aktuator v obliki LED, da oddaja svetlobo, ko je zaznana raven svetlobe prenizka.
 
-![Diagram poteka naloge, ki prikazuje branje in preverjanje ravni svetlobe ter nadzor LED](../../../../../translated_images/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.sl.png)
+![Diagram poteka naloge, ki prikazuje branje in preverjanje ravni svetlobe ter nadzor LED](../../../../../translated_images/sl/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.png)
 
 * [Arduino - Wio Terminal](wio-terminal-actuator.md)
 * [Enokartični računalnik - Raspberry Pi](pi-actuator.md)
@@ -149,7 +149,7 @@ Tako kot senzorji so tudi aktuatorji lahko analogni ali digitalni.
 Analogni aktuatorji sprejmejo analogni signal in ga pretvorijo v neko vrsto interakcije, kjer se interakcija spreminja glede na dobavljeno napetost.
 
 Eden od primerov je zatemnilna luč, kot so tiste, ki jih imate morda doma. Količina napetosti, ki jo prejme luč, določa, kako svetla je.
-![Svetloba zatemnjena pri nizki napetosti in svetlejša pri višji napetosti](../../../../../translated_images/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.sl.png)
+![Svetloba zatemnjena pri nizki napetosti in svetlejša pri višji napetosti](../../../../../translated_images/sl/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.png)
 
 Tako kot pri senzorjih, IoT naprava deluje na digitalnih signalih, ne analognih. To pomeni, da za pošiljanje analognega signala IoT naprava potrebuje pretvornik iz digitalnega v analogni signal (DAC), bodisi neposredno na IoT napravi ali na priključni plošči. Ta pretvornik spremeni 0 in 1 iz IoT naprave v analogno napetost, ki jo lahko uporabi aktuator.
 
@@ -164,7 +164,7 @@ Na primer, PWM lahko uporabite za nadzor hitrosti motorja.
 
 Predstavljajte si, da upravljate motor s 5V napajanjem. Pošljete kratek impulz motorju, ki za dve stotinki sekunde (0,02s) preklopi napetost na visoko (5V). V tem času se motor lahko zavrti za eno desetino obrata ali 36°. Signal nato za dve stotinki sekunde (0,02s) preklopi na nizko napetost (0V). Vsak cikel vklopa in izklopa traja 0,04s. Cikel se nato ponovi.
 
-![Modulacija širine impulza - rotacija motorja pri 150 RPM](../../../../../translated_images/pwm-motor-150rpm.83347ac04ca38482.sl.png)
+![Modulacija širine impulza - rotacija motorja pri 150 RPM](../../../../../translated_images/sl/pwm-motor-150rpm.83347ac04ca38482.webp)
 
 To pomeni, da v eni sekundi pošljete 25 impulzov 5V, ki trajajo 0,02s in zavrtijo motor, vsakemu pa sledi 0,02s premora pri 0V, ko motor ne vrti. Vsak impulz zavrti motor za eno desetino obrata, kar pomeni, da motor opravi 2,5 obrata na sekundo. Uporabili ste digitalni signal za vrtenje motorja pri 2,5 obratih na sekundo ali 150 [obratov na minuto](https://wikipedia.org/wiki/Revolutions_per_minute) (nestandardna enota za merjenje hitrosti vrtenja).
 
@@ -175,7 +175,7 @@ To pomeni, da v eni sekundi pošljete 25 impulzov 5V, ki trajajo 0,02s in zavrti
 
 > 🎓 Ko je PWM signal vklopljen polovico časa in izklopljen polovico časa, se to imenuje [50% delovni cikel](https://wikipedia.org/wiki/Duty_cycle). Delovni cikli se merijo kot odstotek časa, ko je signal v stanju vklopa v primerjavi s stanjem izklopa.
 
-![Modulacija širine impulza - rotacija motorja pri 75 RPM](../../../../../translated_images/pwm-motor-75rpm.a5e4c939934b6e14.sl.png)
+![Modulacija širine impulza - rotacija motorja pri 75 RPM](../../../../../translated_images/sl/pwm-motor-75rpm.a5e4c939934b6e14.webp)
 
 Hitrost motorja lahko spremenite s spreminjanjem dolžine impulzov. Na primer, pri istem motorju lahko ohranite enak čas cikla 0,04s, pri čemer je impulz vklopa prepolovljen na 0,01s, impulz izklopa pa povečan na 0,03s. Število impulzov na sekundo (25) ostane enako, vendar je vsak impulz vklopa polovične dolžine. Polovični impulz zavrti motor za eno dvajsetino obrata, in pri 25 impulzih na sekundo motor opravi 1,25 obrata na sekundo ali 75 RPM. S spreminjanjem hitrosti impulzov digitalnega signala ste prepolovili hitrost analognega motorja.
 
@@ -196,7 +196,7 @@ Digitalni aktuatorji, podobno kot digitalni senzorji, imajo bodisi dve stanji, k
 
 Enostaven digitalni aktuator je LED. Ko naprava pošlje digitalni signal 1, se pošlje visoka napetost, ki prižge LED. Ko se pošlje digitalni signal 0, napetost pade na 0V in LED ugasne.
 
-![LED je ugasnjen pri 0 voltih in prižgan pri 5V](../../../../../translated_images/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.sl.png)
+![LED je ugasnjen pri 0 voltih in prižgan pri 5V](../../../../../translated_images/sl/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.png)
 
 ✅ Katere druge enostavne aktuatorje z dvema stanjem si lahko zamislite? En primer je solenoid, ki je elektromagnet, ki ga je mogoče aktivirati za premikanje zapaha vrat pri zaklepanju/odklepanju vrat.
 

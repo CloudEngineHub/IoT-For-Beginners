@@ -154,11 +154,11 @@ Python 的一個強大功能是能夠安裝 [Pip 套件](https://pypi.org)——
 
 1. 當 VS Code 啟動時，它將啟動 Python 虛擬環境。選定的虛擬環境將顯示在底部狀態欄中：
 
-    ![VS Code 顯示選定的虛擬環境](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.mo.png)
+    ![VS Code 顯示選定的虛擬環境](../../../../../translated_images/mo/vscode-virtual-env.8ba42e04c3d533cf.webp)
 
 1. 如果 VS Code Terminal 在啟動時已運行，則它不會啟動虛擬環境。最簡單的方法是使用 **Kill the active terminal instance** 按鈕關閉終端：
 
-    ![VS Code Kill the active terminal instance 按鈕](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.mo.png)
+    ![VS Code Kill the active terminal instance 按鈕](../../../../../translated_images/mo/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
 
     你可以通過終端提示符上的虛擬環境名稱來判斷終端是否啟動了虛擬環境。例如，它可能是：
 
@@ -212,7 +212,7 @@ Python 的一個強大功能是能夠安裝 [Pip 套件](https://pypi.org)——
 
     該應用將開始運行並在瀏覽器中打開：
 
-    ![在瀏覽器中運行的 Counter Fit 應用](../../../../../translated_images/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.mo.png)
+    ![在瀏覽器中運行的 Counter Fit 應用](../../../../../translated_images/mo/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
 
     它將顯示為 *Disconnected*，右上角的 LED 為關閉狀態。
 
@@ -229,11 +229,11 @@ Python 的一個強大功能是能夠安裝 [Pip 套件](https://pypi.org)——
 
 1. 你需要通過選擇 **Create a new integrated terminal** 按鈕啟動新的 VS Code 終端。這是因為 CounterFit 應用正在當前終端中運行。
 
-    ![VS Code Create a new integrated terminal 按鈕](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.mo.png)
+    ![VS Code Create a new integrated terminal 按鈕](../../../../../translated_images/mo/vscode-new-terminal.77db8fc0f9cd3182.webp)
 
 1. 在這個新終端中，像之前一樣運行 `app.py` 文件。CounterFit 的狀態將變為 **Connected**，LED 會亮起。
 
-    ![Counter Fit 顯示為已連接](../../../../../translated_images/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.mo.png)
+    ![Counter Fit 顯示為已連接](../../../../../translated_images/mo/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
 
 > 💁 你可以在 [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device) 資料夾中找到這段程式碼。
 

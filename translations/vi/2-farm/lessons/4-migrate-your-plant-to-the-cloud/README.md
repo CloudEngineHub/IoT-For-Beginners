@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Di chuyển cây của bạn lên đám mây
 
-![Tổng quan bài học dưới dạng sketchnote](../../../../../translated_images/lesson-8.3f21f3c11159e6a0a376351973ea5724d5de68fa23b4288853a174bed9ac48c3.vi.jpg)
+![Tổng quan bài học dưới dạng sketchnote](../../../../../translated_images/vi/lesson-8.3f21f3c11159e6a0a376351973ea5724d5de68fa23b4288853a174bed9ac48c3.jpg)
 
 > Sketchnote bởi [Nitya Narasimhan](https://github.com/nitya). Nhấp vào hình ảnh để xem phiên bản lớn hơn.
 
@@ -55,8 +55,8 @@ Trước khi có đám mây, khi một công ty muốn cung cấp dịch vụ ch
 
 Đám mây thường được đùa gọi là "máy tính của người khác". Ý tưởng ban đầu rất đơn giản - thay vì mua máy tính, bạn thuê máy tính của người khác. Một nhà cung cấp dịch vụ đám mây sẽ quản lý các trung tâm dữ liệu khổng lồ. Họ sẽ chịu trách nhiệm mua và cài đặt phần cứng, quản lý điện và làm mát, mạng lưới, bảo mật tòa nhà, cập nhật phần cứng và phần mềm, mọi thứ. Là khách hàng, bạn sẽ thuê các máy tính bạn cần, thuê thêm khi nhu cầu tăng đột biến, sau đó giảm số lượng thuê nếu nhu cầu giảm. Các trung tâm dữ liệu đám mây này có mặt khắp thế giới.
 
-![Một trung tâm dữ liệu đám mây của Microsoft](../../../../../translated_images/azure-region-existing.73f704604f2aa6cb9b5a49ed40e93d4fd81ae3f4e6af4a8ca504023902832f56.vi.png)
-![Một kế hoạch mở rộng trung tâm dữ liệu đám mây của Microsoft](../../../../../translated_images/azure-region-planned-expansion.a5074a1e8af74f156a73552d502429e5b126ea5019274d767ecb4b9afdad442b.vi.png)
+![Một trung tâm dữ liệu đám mây của Microsoft](../../../../../translated_images/vi/azure-region-existing.73f704604f2aa6cb9b5a49ed40e93d4fd81ae3f4e6af4a8ca504023902832f56.png)
+![Một kế hoạch mở rộng trung tâm dữ liệu đám mây của Microsoft](../../../../../translated_images/vi/azure-region-planned-expansion.a5074a1e8af74f156a73552d502429e5b126ea5019274d767ecb4b9afdad442b.png)
 
 Các trung tâm dữ liệu này có thể rộng hàng km vuông. Các hình ảnh trên được chụp vài năm trước tại một trung tâm dữ liệu đám mây của Microsoft, và cho thấy kích thước ban đầu, cùng với kế hoạch mở rộng. Khu vực được dọn sạch cho việc mở rộng rộng hơn 5 km vuông.
 
@@ -72,7 +72,7 @@ Nhà cung cấp đám mây sau đó có thể sử dụng quy mô kinh tế đ�
 
 Azure là đám mây dành cho nhà phát triển từ Microsoft, và đây là đám mây bạn sẽ sử dụng cho các bài học này. Video dưới đây cung cấp một cái nhìn tổng quan ngắn về Azure:
 
-[![Video tổng quan về Azure](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb8.vi.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![Video tổng quan về Azure](../../../../../translated_images/vi/what-is-azure-video-thumbnail.20174db09e03bbb8.webp)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## Tạo một đăng ký đám mây
 
@@ -117,11 +117,11 @@ Các dịch vụ IoT trên đám mây giải quyết những vấn đề này. C
 
 Thiết bị IoT kết nối với dịch vụ đám mây thông qua SDK thiết bị (một thư viện cung cấp mã để làm việc với các tính năng của dịch vụ), hoặc trực tiếp qua giao thức giao tiếp như MQTT hoặc HTTP. SDK thiết bị thường là cách dễ nhất vì nó xử lý mọi thứ cho bạn, chẳng hạn như biết các chủ đề cần xuất bản hoặc đăng ký, và cách xử lý bảo mật.
 
-![Thiết bị kết nối với dịch vụ bằng SDK thiết bị. Mã máy chủ cũng kết nối với dịch vụ qua SDK](../../../../../translated_images/iot-service-connectivity.7e873847921a5d6fd60d0ba3a943210194518cee0d4e362476624316443275c3.vi.png)
+![Thiết bị kết nối với dịch vụ bằng SDK thiết bị. Mã máy chủ cũng kết nối với dịch vụ qua SDK](../../../../../translated_images/vi/iot-service-connectivity.7e873847921a5d6fd60d0ba3a943210194518cee0d4e362476624316443275c3.png)
 
 Thiết bị của bạn sau đó giao tiếp với các phần khác của ứng dụng thông qua dịch vụ này - tương tự như cách bạn gửi dữ liệu và nhận lệnh qua MQTT. Điều này thường sử dụng SDK dịch vụ hoặc thư viện tương tự. Tin nhắn từ thiết bị của bạn đến dịch vụ, nơi các thành phần khác của ứng dụng có thể đọc chúng, và tin nhắn có thể được gửi trở lại thiết bị của bạn.
 
-![Thiết bị không có khóa bí mật hợp lệ không thể kết nối với dịch vụ IoT](../../../../../translated_images/iot-service-allowed-denied-connection.818b0063ac213fb84204a7229303764d9b467ca430fb822b4ac2fca267d56726.vi.png)
+![Thiết bị không có khóa bí mật hợp lệ không thể kết nối với dịch vụ IoT](../../../../../translated_images/vi/iot-service-allowed-denied-connection.818b0063ac213fb84204a7229303764d9b467ca430fb822b4ac2fca267d56726.png)
 
 Các dịch vụ này thực hiện bảo mật bằng cách biết về tất cả các thiết bị có thể kết nối và gửi dữ liệu, hoặc bằng cách đăng ký trước các thiết bị với dịch vụ, hoặc bằng cách cung cấp cho các thiết bị khóa bí mật hoặc chứng chỉ mà chúng có thể sử dụng để tự đăng ký với dịch vụ lần đầu tiên chúng kết nối. Các thiết bị không xác định không thể kết nối, nếu chúng cố gắng, dịch vụ sẽ từ chối kết nối và bỏ qua các tin nhắn được gửi bởi chúng.
 
@@ -133,7 +133,7 @@ Các thành phần khác của ứng dụng của bạn có thể kết nối v�
 
 Bây giờ bạn đã có một đăng ký Azure, bạn có thể đăng ký một dịch vụ IoT. Dịch vụ IoT từ Microsoft được gọi là Azure IoT Hub.
 
-![Logo của Azure IoT Hub](../../../../../translated_images/azure-iot-hub-logo.28a19de76d0a1932464d858f7558712bcdace3e5ec69c434d482ed7ce41c3a26.vi.png)
+![Logo của Azure IoT Hub](../../../../../translated_images/vi/azure-iot-hub-logo.28a19de76d0a1932464d858f7558712bcdace3e5ec69c434d482ed7ce41c3a26.png)
 
 Video dưới đây cung cấp một cái nhìn tổng quan ngắn gọn về Azure IoT Hub:
 

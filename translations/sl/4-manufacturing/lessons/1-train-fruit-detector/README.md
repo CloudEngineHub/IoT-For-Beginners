@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Ustvarite detektor kakovosti sadja
 
-![Sketchnote pregled te lekcije](../../../../../translated_images/lesson-15.843d21afdc6fb2bba70cd9db7b7d2f91598859fafda2078b0bdc44954194b6c0.sl.jpg)
+![Sketchnote pregled te lekcije](../../../../../translated_images/sl/lesson-15.843d21afdc6fb2bba70cd9db7b7d2f91598859fafda2078b0bdc44954194b6c0.jpg)
 
 > Sketchnote avtorja [Nitya Narasimhan](https://github.com/nitya). Kliknite sliko za večjo različico.
 
@@ -47,7 +47,7 @@ Vsi pridelki ne dozorijo enakomerno. Paradižniki, na primer, lahko še vedno vs
 
 Vzpon avtomatizirane žetve je premaknil sortiranje pridelkov z žetve v tovarne. Hrana je potovala po dolgih tekočih trakovih, kjer so ekipe ljudi pregledovale pridelke in odstranjevale vse, kar ni ustrezalo zahtevanim standardom kakovosti. Žetev je bila cenejša zaradi strojev, vendar je še vedno obstajal strošek ročnega sortiranja hrane.
 
-![Če je zaznan rdeč paradižnik, nadaljuje svojo pot brez prekinitve. Če je zaznan zeleni paradižnik, ga ročica preusmeri v koš za odpadke.](../../../../../translated_images/optical-tomato-sorting.61aa134bdda4e5b1bfb16a212c1e35a6ef0c426cbb8b1c975f79d7bfbf48d068.sl.png)
+![Če je zaznan rdeč paradižnik, nadaljuje svojo pot brez prekinitve. Če je zaznan zeleni paradižnik, ga ročica preusmeri v koš za odpadke.](../../../../../translated_images/sl/optical-tomato-sorting.61aa134bdda4e5b1bfb16a212c1e35a6ef0c426cbb8b1c975f79d7bfbf48d068.png)
 
 Naslednja evolucija je bila uporaba strojev za sortiranje, bodisi vgrajenih v kombajne ali v obratih za predelavo. Prva generacija teh strojev je uporabljala optične senzorje za zaznavanje barv, ki so upravljali aktuatorje za preusmerjanje zelenih paradižnikov v koš za odpadke z uporabo ročic ali zračnih sunkov, medtem ko so rdeči paradižniki nadaljevali svojo pot po mreži tekočih trakov.
 
@@ -61,7 +61,7 @@ Najbolj napredni stroji za sortiranje zdaj izkoriščajo AI in ML, pri čemer up
 
 Tradicionalno programiranje vključuje uporabo podatkov in algoritma za pridobitev rezultata. Na primer, v zadnjem projektu ste uporabili GPS koordinate in geografsko ograjo, uporabili algoritem, ki ga je zagotovil Azure Maps, in dobili rezultat, ali je točka znotraj ali zunaj geografske ograje. Vnesete več podatkov, dobite več rezultatov.
 
-![Tradicionalni razvoj uporablja vhodne podatke in algoritem za pridobitev izhoda. Strojno učenje uporablja vhodne in izhodne podatke za usposabljanje modela, ta model pa lahko nato obdeluje nove vhodne podatke za ustvarjanje novih izhodov.](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539.sl.png)
+![Tradicionalni razvoj uporablja vhodne podatke in algoritem za pridobitev izhoda. Strojno učenje uporablja vhodne in izhodne podatke za usposabljanje modela, ta model pa lahko nato obdeluje nove vhodne podatke za ustvarjanje novih izhodov.](../../../../../translated_images/sl/traditional-vs-ml.5c20c169621fa539.webp)
 
 Strojno učenje to obrne – začnete s podatki in znanimi izhodi, algoritem strojnega učenja pa se uči iz podatkov. Nato lahko uporabite ta usposobljeni algoritem, imenovan *model strojnega učenja* ali *model*, in vnesete nove podatke za pridobitev novih rezultatov.
 
@@ -71,7 +71,7 @@ Na primer, modelu bi lahko dali milijone slik nezrelih banan kot vhodne podatke 
 
 > 🎓 Rezultati ML modelov se imenujejo *napovedi*.
 
-![2 banani, ena zrela z napovedjo 99,7 % zrela, 0,3 % nezrela, in ena nezrela z napovedjo 1,4 % zrela, 98,6 % nezrela.](../../../../../translated_images/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50ece4e4589e724b142da0681f35470fe3db3f7d51240f69c85.sl.png)
+![2 banani, ena zrela z napovedjo 99,7 % zrela, 0,3 % nezrela, in ena nezrela z napovedjo 1,4 % zrela, 98,6 % nezrela.](../../../../../translated_images/sl/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50ece4e4589e724b142da0681f35470fe3db3f7d51240f69c85.png)
 
 ML modeli ne dajejo binarnih odgovorov, temveč verjetnosti. Na primer, modelu bi lahko dali sliko banane, ki bi napovedal `zrela` z 99,7 % in `nezrela` z 0,3 %. Vaša koda bi nato izbrala najboljšo napoved in odločila, da je banana zrela.
 
@@ -87,7 +87,7 @@ Za uspešno usposabljanje klasifikatorja slik potrebujete milijone slik. Kot se 
 
 Ko je klasifikator slik usposobljen za širok spekter slik, so njegove notranje funkcije odlične pri prepoznavanju oblik, barv in vzorcev. Prenosno učenje omogoča modelu, da uporabi to, kar se je že naučil pri prepoznavanju delov slik, za prepoznavanje novih slik.
 
-![Ko enkrat prepoznate oblike, jih lahko razporedite v različne konfiguracije, da ustvarite ladjo ali mačko.](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66f.sl.png)
+![Ko enkrat prepoznate oblike, jih lahko razporedite v različne konfiguracije, da ustvarite ladjo ali mačko.](../../../../../translated_images/sl/shapes-to-images.1a309f0ea88dd66f.webp)
 
 To si lahko predstavljate kot otroške knjige z oblikami, kjer lahko, ko prepoznate polkrog, pravokotnik in trikotnik, prepoznate jadrnico ali mačko, odvisno od konfiguracije teh oblik. Klasifikator slik lahko prepozna oblike, prenosno učenje pa ga nauči, katera kombinacija predstavlja ladjo ali mačko – ali zrelo banano.
 
@@ -99,7 +99,7 @@ Na voljo je širok spekter orodij, ki vam lahko pri tem pomagajo, vključno s st
 
 Custom Vision je orodje v oblaku za usposabljanje klasifikatorjev slik. Omogoča vam usposabljanje klasifikatorja z uporabo le majhnega števila slik. Slike lahko naložite prek spletnega portala, spletnega API-ja ali SDK-ja, pri čemer vsaki sliki dodelite *oznako*, ki predstavlja klasifikacijo te slike. Nato usposobite model in ga preizkusite, da vidite, kako dobro deluje. Ko ste zadovoljni z modelom, lahko objavite njegove različice, ki so dostopne prek spletnega API-ja ali SDK-ja.
 
-![Logotip Azure Custom Vision](../../../../../translated_images/custom-vision-logo.d3d4e7c8a87ec9daf825e72e210576c3cbf60312577be7a139e22dd97ab7f1e6.sl.png)
+![Logotip Azure Custom Vision](../../../../../translated_images/sl/custom-vision-logo.d3d4e7c8a87ec9daf825e72e210576c3cbf60312577be7a139e22dd97ab7f1e6.png)
 
 > 💁 Model Custom Vision lahko usposobite že s 5 slikami na klasifikacijo, vendar je več bolje. Boljše rezultate lahko dosežete z vsaj 30 slikami.
 
@@ -155,7 +155,7 @@ Za uporabo Custom Vision morate najprej ustvariti dva vira za kognitivne storitv
 
     Ko ustvarite svoj projekt, se prepričajte, da uporabljate vir `fruit-quality-detector-training`, ki ste ga ustvarili prej. Uporabite vrsto projekta *Classification*, vrsto klasifikacije *Multiclass* in domeno *Food*.
 
-    ![Nastavitve za projekt Custom Vision z imenom nastavljenim na fruit-quality-detector, brez opisa, virom nastavljenim na fruit-quality-detector-training, vrsto projekta nastavljenim na classification, vrsto klasifikacije nastavljenim na multi class in domeno nastavljenim na food.](../../../../../translated_images/custom-vision-create-project.cf46325b92d8b131089f6647cf5e07b664cb77850e106d66e3c057b6b69756c6.sl.png)
+    ![Nastavitve za projekt Custom Vision z imenom nastavljenim na fruit-quality-detector, brez opisa, virom nastavljenim na fruit-quality-detector-training, vrsto projekta nastavljenim na classification, vrsto klasifikacije nastavljenim na multi class in domeno nastavljenim na food.](../../../../../translated_images/sl/custom-vision-create-project.cf46325b92d8b131089f6647cf5e07b664cb77850e106d66e3c057b6b69756c6.png)
 
 ✅ Vzemite si čas za raziskovanje uporabniškega vmesnika Custom Vision za vaš klasifikator slik.
 
@@ -173,7 +173,7 @@ Klasifikatorji slik delujejo pri zelo nizki ločljivosti. Na primer, Custom Visi
 
     * Uporabite 2 zrela banan in posnemite nekaj slik vsake iz različnih kotov, pri čemer posnemite vsaj 7 slik (5 za treniranje, 2 za testiranje), vendar idealno več.
 
-        ![Fotografije 2 različnih banan](../../../../../translated_images/banana-training-images.530eb203346d73bc23b8b990fb4609470bf4ff7c942ccc13d4cfffeed9be1ad4.sl.png)
+        ![Fotografije 2 različnih banan](../../../../../translated_images/sl/banana-training-images.530eb203346d73bc23b8b990fb4609470bf4ff7c942ccc13d4cfffeed9be1ad4.png)
 
     * Ponovite isti postopek z 2 nezrelimi bananami.
 
@@ -183,7 +183,7 @@ Klasifikatorji slik delujejo pri zelo nizki ločljivosti. Na primer, Custom Visi
 
 1. Sledite [oddelku za nalaganje in označevanje slik v hitrem začetku za izdelavo klasifikatorja na Microsoftovi dokumentaciji](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#upload-and-tag-images), da naložite svoje slike za treniranje. Zrele sadeže označite kot `ripe`, nezrele pa kot `unripe`.
 
-    ![Dialogi za nalaganje, ki prikazujejo nalaganje slik zrelih in nezrelih banan](../../../../../translated_images/image-upload-bananas.0751639f3815e0ec42bdbc6254d1e4357a185834d1ae10c9948a0e7d6d336695.sl.png)
+    ![Dialogi za nalaganje, ki prikazujejo nalaganje slik zrelih in nezrelih banan](../../../../../translated_images/sl/image-upload-bananas.0751639f3815e0ec42bdbc6254d1e4357a185834d1ae10c9948a0e7d6d336695.png)
 
 1. Sledite [oddelku za treniranje klasifikatorja v hitrem začetku za izdelavo klasifikatorja na Microsoftovi dokumentaciji](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#train-the-classifier), da trenirate klasifikator slik na svojih naloženih slikah.
 
@@ -201,7 +201,7 @@ Ko je vaš klasifikator treniran, ga lahko testirate tako, da mu podate novo sli
 
 1. Sledite [dokumentaciji za testiranje modela na Microsoftovi dokumentaciji](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/test-your-model?WT.mc_id=academic-17441-jabenn#test-your-model), da testirate svoj klasifikator slik. Uporabite slike za testiranje, ki ste jih ustvarili prej, ne pa slik, ki ste jih uporabili za treniranje.
 
-    ![Nezrela banana napovedana kot nezrela z verjetnostjo 98,9 %, zrela z verjetnostjo 1,1 %](../../../../../translated_images/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64886422438850ea14f0be6ac918c217ea3b255c685abfabe7.sl.png)
+    ![Nezrela banana napovedana kot nezrela z verjetnostjo 98,9 %, zrela z verjetnostjo 1,1 %](../../../../../translated_images/sl/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64886422438850ea14f0be6ac918c217ea3b255c685abfabe7.png)
 
 1. Preizkusite vse slike za testiranje, ki jih imate na voljo, in opazujte verjetnosti.
 

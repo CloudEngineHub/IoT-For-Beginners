@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 ## Napovedovanje rasti rastlin z IoT
 
-![Pregled lekcije v obliki sketchnote](../../../../../translated_images/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.sl.jpg)
+![Pregled lekcije v obliki sketchnote](../../../../../translated_images/sl/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.jpg)
 
 > Sketchnote avtorja [Nitya Narasimhan](https://github.com/nitya). Kliknite na sliko za večjo različico.
 
@@ -65,7 +65,7 @@ Vsaka vrsta rastline ima različne vrednosti za osnovno, optimalno in maksimalno
 
 ✅ Raziskujte. Za rastline, ki jih imate na vrtu, v šoli ali lokalnem parku, preverite, ali lahko najdete osnovno temperaturo.
 
-![Graf, ki prikazuje stopnjo rasti, ki se povečuje z naraščanjem temperature, nato pa upada, ko temperatura postane previsoka](../../../../../translated_images/plant-growth-temp-graph.c6d69c9478e6ca83.sl.png)
+![Graf, ki prikazuje stopnjo rasti, ki se povečuje z naraščanjem temperature, nato pa upada, ko temperatura postane previsoka](../../../../../translated_images/sl/plant-growth-temp-graph.c6d69c9478e6ca83.webp)
 
 Zgornji graf prikazuje primer grafa stopnje rasti glede na temperaturo. Do osnovne temperature ni rasti. Stopnja rasti se povečuje do optimalne temperature, nato pa upada po doseganju vrha. 
 
@@ -99,7 +99,7 @@ Dnevi rastne stopnje ali GDD se izračunajo na dan kot povprečna temperatura v 
 
 Celotna formula za GDD je nekoliko zapletena, vendar obstaja poenostavljena enačba, ki se pogosto uporablja kot dobra približek:
 
-![GDD = T max + T min deljeno z 2, vse minus T base](../../../../../translated_images/gdd-calculation.79b3660f9c5757aa92dc2dd2cdde75344e2d2c1565c4b3151640f7887edc0275.sl.png)
+![GDD = T max + T min deljeno z 2, vse minus T base](../../../../../translated_images/sl/gdd-calculation.79b3660f9c5757aa92dc2dd2cdde75344e2d2c1565c4b3151640f7887edc0275.png)
 
 * **GDD** - to je število dni rastne stopnje
 * **T max** - to je dnevna maksimalna temperatura v stopinjah Celzija
@@ -127,7 +127,7 @@ Prvi dan nad osnovno temperaturo so bile izmerjene naslednje temperature:
 
 To daje izračun:
 
-![GDD = 16 + 12 deljeno z 2, vse minus 10, kar daje rezultat 4](../../../../../translated_images/gdd-calculation-corn.64a58b7a7afcd0dfd46ff733996d939f17f4f3feac9f0d1c632be3523e51ebd9.sl.png)
+![GDD = 16 + 12 deljeno z 2, vse minus 10, kar daje rezultat 4](../../../../../translated_images/sl/gdd-calculation-corn.64a58b7a7afcd0dfd46ff733996d939f17f4f3feac9f0d1c632be3523e51ebd9.png)
 
 Koruza je prejela 4 GDD tisti dan. Če predpostavimo sorto koruze, ki potrebuje 800 GDD za zrelost, bo potrebovala še 796 GDD, da doseže zrelost.
 
@@ -141,7 +141,7 @@ To ima velik vpliv na delo na velikih kmetijah in tveganje, da kmet zamudi pride
 
 Z zbiranjem podatkov o temperaturi z uporabo IoT naprave lahko kmet samodejno prejme obvestilo, ko so rastline blizu zrelosti. Tipična arhitektura za to je, da IoT naprave merijo temperaturo, nato pa te podatke o telemetriji objavijo prek interneta z uporabo nečesa, kot je MQTT. Strežniška koda nato posluša te podatke in jih shrani nekam, na primer v bazo podatkov. To pomeni, da se podatki lahko analizirajo kasneje, na primer nočno opravilo za izračun GDD za dan, seštevanje GDD za vsak pridelek doslej in opozarjanje, če je rastlina blizu zrelosti.
 
-![Podatki o telemetriji se pošljejo na strežnik in nato shranijo v bazo podatkov](../../../../../translated_images/save-telemetry-database.ddc9c6bea0c5ba39.sl.png)
+![Podatki o telemetriji se pošljejo na strežnik in nato shranijo v bazo podatkov](../../../../../translated_images/sl/save-telemetry-database.ddc9c6bea0c5ba39.webp)
 
 Strežniška koda lahko podatke tudi dopolni z dodatnimi informacijami. Na primer, IoT naprava lahko objavi identifikator, ki označuje, katera naprava je, strežniška koda pa lahko to uporabi za iskanje lokacije naprave in katere pridelke spremlja. Prav tako lahko doda osnovne podatke, kot je trenutni čas, saj nekatere IoT naprave nimajo potrebne strojne opreme za natančno spremljanje časa ali zahtevajo dodatno kodo za branje trenutnega časa prek interneta.
 
@@ -228,7 +228,7 @@ Ta koda odpre datoteko CSV in na koncu doda novo vrstico. Vrstica vsebuje trenut
 
     
 > 💁 Če uporabljate virtualno IoT napravo, izberite naključni potrditveni okvir in nastavite razpon, da se izognete vedno enaki temperaturi, ko se vrne vrednost temperature.
-    ![Izberite naključni potrditveni okvir in nastavite razpon](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.sl.png) 
+    ![Izberite naključni potrditveni okvir in nastavite razpon](../../../../../translated_images/sl/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.webp) 
 
     > 💁 Če želite to izvajati cel dan, morate poskrbeti, da računalnik, na katerem se izvaja vaša strežniška koda, ne bo prešel v stanje spanja, bodisi s spremembo nastavitev porabe energije ali z uporabo nečesa, kot je [ta Python skripta za ohranjanje sistema aktivnega](https://github.com/jaqsparow/keep-system-active).
     
@@ -248,7 +248,7 @@ Koraki za ročni izračun so:
 
 Na primer, če je najvišja temperatura dneva 25°C, najnižja pa 12°C:
 
-![GDD = 25 + 12 deljeno z 2, nato odštejte 10 od rezultata, kar daje 8.5](../../../../../translated_images/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.sl.png)
+![GDD = 25 + 12 deljeno z 2, nato odštejte 10 od rezultata, kar daje 8.5](../../../../../translated_images/sl/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
 
 * 25 + 12 = 37
 * 37 / 2 = 18.5

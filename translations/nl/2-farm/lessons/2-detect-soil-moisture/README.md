@@ -22,7 +22,7 @@ I²C heeft een bus bestaande uit 2 hoofddraden, samen met 2 stroomdraden:
 | VCC | Voltage common collector | De stroomvoorziening voor de apparaten. Deze is verbonden met de SDA- en SCL-draden om hun stroom te leveren via een pull-up weerstand die het signaal uitschakelt wanneer geen enkel apparaat de controller is. |
 | GND | Aarde | Dit biedt een gemeenschappelijke grond voor het elektrische circuit. |
 
-![I2C-bus met 3 apparaten aangesloten op de SDA- en SCL-draden, die een gemeenschappelijke aarddraad delen](../../../../../translated_images/i2c.83da845dde02256bdd462dbe0d5145461416b74930571b89d1ae142841eeb584.nl.png)
+![I2C-bus met 3 apparaten aangesloten op de SDA- en SCL-draden, die een gemeenschappelijke aarddraad delen](../../../../../translated_images/nl/i2c.83da845dde02256bdd462dbe0d5145461416b74930571b89d1ae142841eeb584.png)
 
 Om gegevens te verzenden, zal een apparaat een startconditie afgeven om aan te geven dat het klaar is om gegevens te verzenden. Het wordt dan de controller. De controller verzendt vervolgens het adres van het apparaat waarmee het wil communiceren, samen met de informatie of het gegevens wil lezen of schrijven. Nadat de gegevens zijn verzonden, stuurt de controller een stopconditie om aan te geven dat het klaar is. Hierna kan een ander apparaat de controller worden en gegevens verzenden of ontvangen.
 
@@ -37,7 +37,7 @@ UART omvat fysieke schakelingen die twee apparaten in staat stellen te communice
 * Apparaat 1 verzendt gegevens vanaf zijn Tx-pin, die worden ontvangen door apparaat 2 op zijn Rx-pin.
 * Apparaat 1 ontvangt gegevens op zijn Rx-pin die worden verzonden door apparaat 2 vanaf zijn Tx-pin.
 
-![UART met de Tx-pin op één chip verbonden met de Rx-pin op een andere, en vice versa](../../../../../translated_images/uart.d0dbd3fb9e3728c6.nl.png)
+![UART met de Tx-pin op één chip verbonden met de Rx-pin op een andere, en vice versa](../../../../../translated_images/nl/uart.d0dbd3fb9e3728c6.webp)
 
 > 🎓 De gegevens worden één bit tegelijk verzonden, en dit staat bekend als *seriële* communicatie. De meeste besturingssystemen en microcontrollers hebben *seriële poorten*, dat wil zeggen verbindingen die seriële gegevens kunnen verzenden en ontvangen en beschikbaar zijn voor je code.
 
@@ -66,7 +66,7 @@ SPI-controllers gebruiken 3 draden, samen met 1 extra draad per perifere. Perife
 | SCLK | Seriële klok | Deze draad verzendt een kloksignaal met een snelheid ingesteld door de controller. |
 | CS   | Chip Select | De controller heeft meerdere draden, één per perifere, en elke draad is verbonden met de CS-draad op de corresponderende perifere. |
 
-![SPI met één controller en twee perifere apparaten](../../../../../translated_images/spi.297431d6f98b386b.nl.png)
+![SPI met één controller en twee perifere apparaten](../../../../../translated_images/nl/spi.297431d6f98b386b.webp)
 
 De CS-draad wordt gebruikt om één perifere tegelijk te activeren, waarbij communicatie plaatsvindt via de COPI- en CIPO-draden. Wanneer de controller van perifere moet wisselen, deactiveert hij de CS-draad die is verbonden met de momenteel actieve perifere, en activeert vervolgens de draad die is verbonden met de perifere waarmee hij als volgende wil communiceren.
 
@@ -127,13 +127,13 @@ Bodemvochtigheid wordt gemeten met behulp van gravimetrische of volumetrische wa
 
 Bodemvochtigheidssensoren meten elektrische weerstand of capaciteit - dit varieert niet alleen door bodemvochtigheid, maar ook door bodemtype omdat de componenten in de bodem de elektrische eigenschappen kunnen veranderen. Idealiter moeten sensoren worden gekalibreerd - dat wil zeggen het nemen van metingen van de sensor en deze vergelijken met metingen die zijn verkregen met een meer wetenschappelijke aanpak. Bijvoorbeeld, een laboratorium kan de gravimetrische bodemvochtigheid berekenen met behulp van monsters van een specifiek veld die een paar keer per jaar worden genomen, en deze cijfers worden gebruikt om de sensor te kalibreren, waarbij de sensorlezing wordt gekoppeld aan de gravimetrische bodemvochtigheid.
 
-![Een grafiek van spanning vs bodemvochtigheidsinhoud](../../../../../translated_images/soil-moisture-to-voltage.df86d80cda158700.nl.png)
+![Een grafiek van spanning vs bodemvochtigheidsinhoud](../../../../../translated_images/nl/soil-moisture-to-voltage.df86d80cda158700.webp)
 
 De bovenstaande grafiek laat zien hoe een sensor kan worden gekalibreerd. De spanning wordt vastgelegd voor een bodemmonster dat vervolgens in een laboratorium wordt gemeten door het vochtige gewicht te vergelijken met het droge gewicht (door het gewicht nat te meten, vervolgens te drogen in een oven en het droge gewicht te meten). Zodra een paar metingen zijn genomen, kan dit worden uitgezet op een grafiek en een lijn worden aangepast aan de punten. Deze lijn kan vervolgens worden gebruikt om bodemvochtigheidssensorlezingen die door een IoT-apparaat worden genomen om te zetten in daadwerkelijke bodemvochtigheidsmetingen.
 
 💁 Voor resistieve bodemvochtigheidssensoren neemt de spanning toe naarmate de bodemvochtigheid toeneemt. Voor capacitieve bodemvochtigheidssensoren neemt de spanning af naarmate de bodemvochtigheid toeneemt, dus de grafieken voor deze zouden naar beneden hellen, niet naar boven.
 
-![Een bodemvochtigheidswaarde geïnterpoleerd uit de grafiek](../../../../../translated_images/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.nl.png)
+![Een bodemvochtigheidswaarde geïnterpoleerd uit de grafiek](../../../../../translated_images/nl/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.webp)
 
 De bovenstaande grafiek toont een spanningsmeting van een bodemvochtigheidssensor, en door deze te volgen naar de lijn op de grafiek, kan de daadwerkelijke bodemvochtigheid worden berekend.
 

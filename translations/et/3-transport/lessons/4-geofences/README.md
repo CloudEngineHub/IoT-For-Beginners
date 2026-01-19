@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Geopiirded
 
-![Selle õppetunni visuaalne ülevaade](../../../../../translated_images/lesson-14.63980c5150ae3c153e770fb71d044c1845dce79248d86bed9fc525adf3ede73c.et.jpg)
+![Selle õppetunni visuaalne ülevaade](../../../../../translated_images/et/lesson-14.63980c5150ae3c153e770fb71d044c1845dce79248d86bed9fc525adf3ede73c.jpg)
 
 > Visuaal autorilt [Nitya Narasimhan](https://github.com/nitya). Klõpsa pildil, et näha suuremat versiooni.
 
@@ -44,7 +44,7 @@ Selles õppetunnis käsitleme:
 
 Geopiire on virtuaalne perimeeter reaalse maailma geograafilise piirkonna jaoks. Geopiirded võivad olla ringid, mis on määratletud punktina ja raadiusena (näiteks 100m laiune ring hoone ümber), või polügoonid, mis katavad ala, nagu koolitsoon, linnapiirid või ülikooli või kontori kampus.
 
-![Mõned geopiirde näited, mis näitavad ringikujulist geopiiret Microsofti ettevõtte poe ümber ja polügoon-geopiiret Microsofti läänekampuse ümber](../../../../../translated_images/geofence-examples.172fbc534665769f6e1a1ddcf75e3b25183cd10354c80cc603ba44b635390e1a.et.png)
+![Mõned geopiirde näited, mis näitavad ringikujulist geopiiret Microsofti ettevõtte poe ümber ja polügoon-geopiiret Microsofti läänekampuse ümber](../../../../../translated_images/et/geofence-examples.172fbc534665769f6e1a1ddcf75e3b25183cd10354c80cc603ba44b635390e1a.png)
 
 > 💁 Võimalik, et olete juba geopiirdeid kasutanud seda teadvustamata. Kui olete seadnud meeldetuletuse iOS-i meeldetuletuste rakenduses või Google Keepis asukoha põhjal, olete kasutanud geopiiret. Need rakendused loovad geopiirde antud asukoha põhjal ja teavitavad teid, kui teie telefon siseneb geopiirdesse.
 
@@ -110,7 +110,7 @@ Iga polügooni punkt määratletakse pikkus- ja laiuskraadi paarina massiivis ni
 
 Polügooni koordinaatide massiivis on alati üks kirje rohkem kui polügooni punktide arv, kus viimane kirje on sama mis esimene, sulgedes polügooni. Näiteks ristküliku puhul oleks 5 punkti.
 
-![Ristkülik koos koordinaatidega](../../../../../translated_images/polygon-points.302193da381cb415.et.png)
+![Ristkülik koos koordinaatidega](../../../../../translated_images/et/polygon-points.302193da381cb415.webp)
 
 Ülaloleval pildil on ristkülik. Polügooni koordinaadid algavad vasakult ülevalt 47,-122, liiguvad paremale 47,-121, siis alla 46,-121, siis vasakule 46,-122 ja lõpuks tagasi alguspunkti 47,-122. See annab polügoonile 5 punkti - vasak ülemine, parem ülemine, parem alumine, vasak alumine ja vasak ülemine, et see sulgeda.
 
@@ -208,7 +208,7 @@ Selle päringu tegemisel saate edastada ka väärtuse nimega `searchBuffer`. See
 
 Kui API-päringust tagastatakse tulemused, on üks osa tulemusest `distance`, mis mõõdetakse geopiirde serva lähima punktini, positiivse väärtusega, kui punkt on geopiirde väljas, ja negatiivsega, kui see on sees. Kui see kaugus on väiksem kui otsingupuhver, tagastatakse tegelik kaugus meetrites, vastasel juhul on väärtus 999 või -999. 999 tähendab, et punkt on geopiirde väljas rohkem kui otsingupuhvri võrra, -999 tähendab, et see on geopiirde sees rohkem kui otsingupuhvri võrra.
 
-![Geopiire koos 50m otsingupuhvriga](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7.et.png)
+![Geopiire koos 50m otsingupuhvriga](../../../../../translated_images/et/search-buffer-and-distance.e6a79af3898183c7.webp)
 
 Ülaloleval pildil on geopiire koos 50m otsingupuhvriga.
 
@@ -221,7 +221,7 @@ Oluline on teada kaugust geopiirde servani ja kombineerida see muu teabega, nagu
 
 Näiteks kujutage ette GPS-i näiteid, mis näitavad, et sõiduk sõidab mööda teed, mis kulgeb geopiirde kõrval. Kui üksik GPS-i väärtus on ebatäpne ja paigutab sõiduki geopiirde sisse, kuigi seal ei ole sõidukile juurdepääsu, siis võib selle ignoreerida.
 
-![GPS-i rada, mis näitab sõidukit möödumas Microsofti kampusest mööda 520 teed, GPS-i näidud mööda teed, välja arvatud üks kampusel, geopiirde sees](../../../../../translated_images/geofence-crossing-inaccurate-gps.6a3ed911202ad9cabb66d3964888cec03a42c61d5b8f536ad5bdc99716b370f5.et.png)
+![GPS-i rada, mis näitab sõidukit möödumas Microsofti kampusest mööda 520 teed, GPS-i näidud mööda teed, välja arvatud üks kampusel, geopiirde sees](../../../../../translated_images/et/geofence-crossing-inaccurate-gps.6a3ed911202ad9cabb66d3964888cec03a42c61d5b8f536ad5bdc99716b370f5.png)
 Ülaloleval pildil on geopiire, mis katab osa Microsofti kampusest. Punane joon näitab veoauto liikumist mööda 520 maanteed, kus ringid tähistavad GPS-i lugemisi. Enamik neist on täpsed ja jäävad 520 maantee piiridesse, kuid üks ebatäpne lugemine asub geopiirde sees. See lugemine ei saa olla õige – ei ole teid, mille kaudu veoauto saaks äkitselt 520 maanteelt kampusele pöörata ja siis tagasi 520 maanteele. Geopiirde kontrollimiseks mõeldud kood peab arvestama varasemaid lugemisi enne, kui tegutseb geopiirde testi tulemuste põhjal.
 
 ✅ Milliseid lisanduvaid andmeid oleks vaja kontrollida, et GPS-i lugemist saaks pidada korrektseks?
@@ -293,7 +293,7 @@ Nagu mäletad eelmistest õppetundidest, võimaldab IoT Hub taasesitada sündmus
 
 Vastus on, et see ei tea! Selle asemel saad määratleda mitu eraldi ühendust, et lugeda sündmusi, ja igaüks neist saab hallata lugemata sõnumite taasesitamist. Neid nimetatakse *tarbijarühmadeks*. Kui ühendad lõpp-punktiga, saad määrata, millise tarbijarühmaga soovid ühenduda. Iga rakenduse komponent ühendub erineva tarbijarühmaga.
 
-![Üks IoT Hub koos 3 tarbijarühmaga, mis jagavad samu sõnumeid 3 erinevale Functions rakendusele](../../../../../translated_images/consumer-groups.a3262e26fc27ba2092863678ad57af15c7223416e388a23f330c058cf4358630.et.png)
+![Üks IoT Hub koos 3 tarbijarühmaga, mis jagavad samu sõnumeid 3 erinevale Functions rakendusele](../../../../../translated_images/et/consumer-groups.a3262e26fc27ba2092863678ad57af15c7223416e388a23f330c058cf4358630.png)
 
 Teoreetiliselt saab iga tarbijarühmaga ühendada kuni 5 rakendust, ja kõik saavad sõnumeid, kui need saabuvad. Parim praktika on, et iga tarbijarühma kasutaks ainult üks rakendus, et vältida sõnumite dubleerimist ja tagada, et taaskäivitamisel töödeldakse kõik järjekorras olevad sõnumid korrektselt. Näiteks, kui käivitad oma Functions rakenduse lokaalselt ja pilves samaaegselt, töötlevad mõlemad sõnumeid, mis viib dubleeritud blobide salvestamiseni salvestuskontole.
 

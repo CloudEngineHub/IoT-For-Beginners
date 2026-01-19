@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Migráld a növényedet a felhőbe
 
-![A leckéről készült sketchnote áttekintése](../../../../../translated_images/lesson-8.3f21f3c11159e6a0a376351973ea5724d5de68fa23b4288853a174bed9ac48c3.hu.jpg)
+![A leckéről készült sketchnote áttekintése](../../../../../translated_images/hu/lesson-8.3f21f3c11159e6a0a376351973ea5724d5de68fa23b4288853a174bed9ac48c3.jpg)
 
 > Sketchnote készítette: [Nitya Narasimhan](https://github.com/nitya). Kattints a képre a nagyobb verzióért.
 
@@ -55,8 +55,8 @@ Ez nagyon drága lehetett, széles körű szakértelmet igényelt, és lassú vo
 
 A felhőt gyakran viccesen "valaki más számítógépének" nevezik. Az alapötlet egyszerű volt - a számítógépek vásárlása helyett bérelj valaki más számítógépét. Valaki más, egy felhőszolgáltató, hatalmas adatközpontokat üzemeltetne. Ők felelnének a hardver vásárlásáért és telepítéséért, az áramellátásért és hűtésért, a hálózatért, az épület biztonságáért, a hardver és szoftver frissítésekért, mindenért. Ügyfélként bérelhetnéd a szükséges számítógépeket, bérelhetnél többet, amikor a kereslet megugrik, majd csökkenthetnéd a bérlést, ha a kereslet visszaesik. Ezek az adatközpontok világszerte megtalálhatók.
 
-![Egy Microsoft felhő adatközpont](../../../../../translated_images/azure-region-existing.73f704604f2aa6cb9b5a49ed40e93d4fd81ae3f4e6af4a8ca504023902832f56.hu.png)
-![Egy Microsoft felhő adatközpont tervezett bővítése](../../../../../translated_images/azure-region-planned-expansion.a5074a1e8af74f156a73552d502429e5b126ea5019274d767ecb4b9afdad442b.hu.png)
+![Egy Microsoft felhő adatközpont](../../../../../translated_images/hu/azure-region-existing.73f704604f2aa6cb9b5a49ed40e93d4fd81ae3f4e6af4a8ca504023902832f56.png)
+![Egy Microsoft felhő adatközpont tervezett bővítése](../../../../../translated_images/hu/azure-region-planned-expansion.a5074a1e8af74f156a73552d502429e5b126ea5019274d767ecb4b9afdad442b.png)
 
 Ezek az adatközpontok akár több négyzetkilométeresek is lehetnek. A fenti képek néhány évvel ezelőtt készültek egy Microsoft felhő adatközpontban, és az eredeti méretet, valamint a tervezett bővítést mutatják. A bővítéshez előkészített terület több mint 5 négyzetkilométer.
 
@@ -72,7 +72,7 @@ A felhőszolgáltató pedig a méretgazdaságosságot kihasználva csökkentheti
 
 Az Azure a Microsoft fejlesztői felhője, és ez az a felhő, amelyet ezekben a leckékben használni fogsz. Az alábbi videó rövid áttekintést nyújt az Azure-ról:
 
-[![Azure áttekintő videó](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb8.hu.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![Azure áttekintő videó](../../../../../translated_images/hu/what-is-azure-video-thumbnail.20174db09e03bbb8.webp)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## Felhő előfizetés létrehozása
 
@@ -117,11 +117,11 @@ A felhő IoT szolgáltatások megoldják ezeket a problémákat. Ezeket nagy fel
 
 Az IoT eszközök egy felhőszolgáltatáshoz csatlakoznak, vagy egy eszköz SDK (egy könyvtár, amely kódot biztosít a szolgáltatás funkcióinak használatához), vagy közvetlenül egy kommunikációs protokoll, például MQTT vagy HTTP segítségével. Az eszköz SDK általában a legegyszerűbb út, mivel mindent kezel, például tudja, milyen témákra kell publikálni vagy feliratkozni, és hogyan kell kezelni a biztonságot.
 
-![Az eszközök egy eszköz SDK segítségével csatlakoznak a szolgáltatáshoz. A szerver kód szintén egy SDK-n keresztül csatlakozik a szolgáltatáshoz](../../../../../translated_images/iot-service-connectivity.7e873847921a5d6fd60d0ba3a943210194518cee0d4e362476624316443275c3.hu.png)
+![Az eszközök egy eszköz SDK segítségével csatlakoznak a szolgáltatáshoz. A szerver kód szintén egy SDK-n keresztül csatlakozik a szolgáltatáshoz](../../../../../translated_images/hu/iot-service-connectivity.7e873847921a5d6fd60d0ba3a943210194518cee0d4e362476624316443275c3.png)
 
 Az eszközöd ezután az alkalmazásod más részeivel kommunikál ezen a szolgáltatáson keresztül - hasonlóan ahhoz, ahogy telemetriát küldtél és parancsokat fogadtál az MQTT-n keresztül. Ez általában egy szolgáltatás SDK vagy egy hasonló könyvtár segítségével történik. Az üzenetek az eszközödről a szolgáltatáshoz érkeznek, ahol az alkalmazásod más komponensei elolvashatják őket, majd üzeneteket küldhetnek vissza az eszközödre.
 
-![Az érvényes titkos kulccsal nem rendelkező eszközök nem tudnak csatlakozni az IoT szolgáltatáshoz](../../../../../translated_images/iot-service-allowed-denied-connection.818b0063ac213fb84204a7229303764d9b467ca430fb822b4ac2fca267d56726.hu.png)
+![Az érvényes titkos kulccsal nem rendelkező eszközök nem tudnak csatlakozni az IoT szolgáltatáshoz](../../../../../translated_images/hu/iot-service-allowed-denied-connection.818b0063ac213fb84204a7229303764d9b467ca430fb822b4ac2fca267d56726.png)
 
 Ezek a szolgáltatások biztonságot valósítanak meg azáltal, hogy ismerik az összes eszközt, amely csatlakozhat és adatokat küldhet, akár úgy, hogy az eszközöket előzetesen regisztrálják a szolgáltatásban, akár úgy, hogy az eszközök titkos kulcsokat vagy tanúsítványokat kapnak, amelyeket az első csatlakozáskor használhatnak a szolgáltatásba való reg
 💁 Az IoT-szolgáltatások további képességeket is megvalósítanak, és a felhőszolgáltatók további szolgáltatásokat és alkalmazásokat kínálnak, amelyek csatlakoztathatók a szolgáltatáshoz. Például, ha az összes eszköz által küldött telemetriai üzeneteket egy adatbázisban szeretné tárolni, általában csak néhány kattintás szükséges a felhőszolgáltató konfigurációs eszközében, hogy a szolgáltatást csatlakoztassa az adatbázishoz, és az adatokat oda továbbítsa.
@@ -129,7 +129,7 @@ Ezek a szolgáltatások biztonságot valósítanak meg azáltal, hogy ismerik az
 
 Most, hogy van Azure-előfizetésed, regisztrálhatsz egy IoT szolgáltatásra. A Microsoft IoT szolgáltatása az Azure IoT Hub.
 
-![Az Azure IoT Hub logója](../../../../../translated_images/azure-iot-hub-logo.28a19de76d0a1932464d858f7558712bcdace3e5ec69c434d482ed7ce41c3a26.hu.png)
+![Az Azure IoT Hub logója](../../../../../translated_images/hu/azure-iot-hub-logo.28a19de76d0a1932464d858f7558712bcdace3e5ec69c434d482ed7ce41c3a26.png)
 
 Az alábbi videó rövid áttekintést nyújt az Azure IoT Hubról:
 
